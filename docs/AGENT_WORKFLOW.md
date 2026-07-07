@@ -57,11 +57,14 @@ El agente debe producir una landing real por negocio:
 
 - copy natural en espanol argentino
 - claim fuerte y orientado al resultado que busca el cliente
+- `conversion_template` elegido de forma deliberada; si parece template, que sea un template de alta conversion bien ejecutado
+- `design_brief` completo: posicionamiento, tesis visual, voz de copy, firma de layout, plan de assets, plan de IA segura, anti-patrones y objetivos de remake
 - estructura comercial completa: hero, confianza, servicios, por que elegir, paquetes editables, galeria/antes-despues, proceso, resenas/contacto y CTA final
 - direcciones visuales diferentes entre negocios
 - recursos alineados al rubro
 - proof points basados en datos reales
-- placeholders editables cuando faltan datos de venta, por ejemplo `[X] vehiculos atendidos`, `[Precio editable]`, `Opiniones reales proximamente`
+- copy, secciones e imagenes genericas seguras generadas por IA cuando faltan datos de venta o las fotos sean pobres
+- campos internos a confirmar en el spec cuando falten datos de venta; la version cliente no debe mostrar corchetes, `placeholder`, `demo`, `editable`, `template`, `landing` ni texto meta de IA
 - CTAs concretos
 - HTML/CSS propio, framework o librerias de frontend, animaciones e iconos cuando aporten calidad real
 - composicion, tipografia, ritmo visual y assets pensados para ese negocio
@@ -85,6 +88,8 @@ Para servicios vehiculares, no alcanza con listar direccion, horario y resenas. 
 
 El bloque `commercial` del `SiteSpec` existe para transportar esa estructura al brief y al renderer fallback. El frontend de agente puede reorganizarlo, pero no deberia bajar la densidad comercial.
 
+El bloque `design_brief` es la barra de calidad visual y de remake. Debe explicar que vende la pagina, que tesis visual sigue, que puede poblar la IA con seguridad y que debe evitar. Si una landing anterior se rehace, `rewrite_targets` tiene que atacar los problemas visibles de esa version, no solo repetir el spec.
+
 ## Gate de cliente
 
 `npm run qa` no significa "listo para vender". Solo significa que el output es coherente tecnicamente.
@@ -96,6 +101,8 @@ npm run qa:client
 ```
 
 Este gate debe ser incomodo. Falla si detecta lenguaje interno, placeholders visibles, copy flojo, falta de secciones comerciales, CTAs insuficientes, problemas basicos de accesibilidad o landings demasiado parecidas entre si. Si falla, el agente debe corregir los sitios, regenerar y volver a correrlo.
+
+Tambien falla si falta `conversion_template`, `design_brief`, plan de IA para copy/imagenes o limites explicitos contra datos inventados.
 
 Despues del comando, el agente debe revisar screenshots desktop/mobile y contestar explicitamente:
 
@@ -170,6 +177,16 @@ Si no hay golden sample aprobado, el agente debe usar `qa:client` y su propio ju
   "notes": "Landing editorial de taller con bitacora de ruta y CTA directo."
 }
 ```
+
+## Rehacer landings existentes
+
+Para una tanda ya generada, crear briefs con contexto de remake:
+
+```powershell
+npm run agent:briefs -- --input data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --out data/agent-briefs/<run> --city "<Ciudad>" --segment "<Rubro>" --remake-from generated/<run> --screenshots output/screenshots/<run>
+```
+
+Cada brief incluye rutas de screenshots y excerpts del HTML/CSS actual si existen. El agente debe empezar criticando la version anterior y luego reemplazarla con una pagina mejor, no parchar cosmeticamente una estructura mediocre.
 
 ```json
 {
