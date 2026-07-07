@@ -1,4 +1,4 @@
-# Site Brief 2: Gomería y auxilio 24 horas Landeyro
+# Site Brief 4: Gomería y auxilio 24 horas Landeyro
 
 ## Goal
 
@@ -25,7 +25,7 @@ Write or refine one `SiteSpec` for this business. Use the agent session context 
 - address: J. M. Dhers 25, B7000 Tandil, Provincia de Buenos Aires, Argentina
 - phone: 0249 463-9850
 - hours summary: Lunes: Abierto 24 horas
-- rating: 4.8 / 5 (175 reseñas)
+- rating: 4.8 / 5 (176 reseñas)
 - service baseline: gomeria
 
 ## Useful Real Signals
@@ -41,9 +41,9 @@ El trabajo EXCELENTE" — Mario Treviño (5/5)
 
 ### Photos
 
-1. other | allowed | https://places.googleapis.com/v1/places/ChIJ9dpiFKcfkZURJST1CIrToxg/photos/AaVGc3nfGNfUynI-ujx9oLWdJBeINX9vZqui4VKSQRGpYGmU2n0-_NxC499x0SmKJrPg5lBRAhy4ceeSXYs2sLp_8lARsr6bd-F9Mq2UOs56xls-Izg_dGL9bSA96wL8rwq7_h6QzAZ_WcWmCEXGFandHlJvQF7NoTeP-PF3BK5cM-hdI0wA3gv4QUEKBsjDBOUzV7mgO6GFO6FV3sjwOgjlxEd5Vs5LvAHO-3RpLtriqibKJmmrScD_s7fFaky35VjZRRJKByXCbRS9RkZOwv8f4KKw12mOJ7M7HYHqHsoj6l2D2B6-i6FFHHLkW3ta6--jcXa1rrduX23GUVzFK3H4zh-21spsHVnNIlZaOec_DcK3uY8svT00q8IEshMronPHS8MtwuRn3yo6ASOzoo9-Fiou3mg6He31uYkvpAc0BXqc5b6_i8HMVsOB9uEPd__w/media?maxWidthPx=1600
-2. other | allowed | https://places.googleapis.com/v1/places/ChIJ9dpiFKcfkZURJST1CIrToxg/photos/AaVGc3nLkY0xEWgdyegwe6VpNQXsUDXM0zyZ1y-zuBrNfwq1vOX-NfWAi7CUr3yuVdYBEPXMR-BoKLhDVliLGCEesBWNkyT0O8H0ZaiU_C2nSZypCPvsumHxAmjEimHGKkXHo968DB22ulOD4EzGwakzBH-IuzHV0-MBA9bAPbHCIjQXuzJG1g74hDv8zmoO6XirnJjRKhFvNGDiTEVHJ2Rme8KZ0QnHIJCcbSNU--BO21XAmjNSZNbsSAm3pPapXTOj4wJFyPdm_Yg-PqP3Np28zICWbvQF4KxeHmj7swZRrYiag-qh9u80bXUTFcVsCqGF0Nvg_9dUFJ6yRbIDZ0lUay9-ZTbvP1HICTJKFzHqGKdwQxdeYO1-CmXKNTeZPCXLAB5otET5HhG7jFR3dwMslUBrBusNtbrLRRNvXU9sWh9vRA/media?maxWidthPx=1600
-3. other | allowed | https://places.googleapis.com/v1/places/ChIJ9dpiFKcfkZURJST1CIrToxg/photos/AaVGc3mWUs0n2miBBrDt16oiBfRA9oAUGG0wVM7BHXWK2Q5OMuxFEFRs2JbBGQjJjvvvFKBlL01IWU95mpHxA9_TZSlWi_OtrQ-zEnQ1AlqsHggqEpHyUzyLVvUiS7FTrGiM3MF2hojXhJ1ChZsG99rKW74HuetsjCLsMwxx3T8Kgi-bZOAyd8dFvCFQqrq4BO0tShZdz06znyoc__8ry8dqZzpgLUoaoOaN8K67l3uctVgrum2_6RwU2p1nF9bSTsntamKFZaxsqGs-v-KnRE_7_eNiQGW7tbl_o5HPZEdG5WipNx0abuNt33f00X7rpsnWwxqZOgaqN3c9pVMMk8FSjSO0R0N7nJ8qfsSwPtBYg6t6i5vKFqu3-pP7lvVefJc7C5rZFLgsnc6Qf71HBPfLKo4kMz-aUt9cMM6l4BW27WqQemhy/media?maxWidthPx=1600
+1. other | allowed | https://places.googleapis.com/v1/places/ChIJ9dpiFKcfkZURJST1CIrToxg/photos/AaVGc3llP_RfL_YjznPRSqmr1ko4WSFosNT9C_mnXLNUGZjvsKGrvRaP3b3Fb_y_Aq5pJgNHOU4IGD4VGJ1-fYQuQn5yjzD3FxRJfa2cVGSpntDAItpk4EaDuVpfFk0g5dztxiDiQ7E-may6HLeHlck7_VdykeV0fpS7EdkWTzaCTnhATYDFd9US3tF940B79AKZH0isD7k8UOd-k1HoaCAk-pB7JN_yVbaIvAUCdYerReNYwjBgY9AMd9fiJAXnwDRb0njP2WFeRFsKA76LxoTFw1pxLhetRbZYrSRQs35dlX9jdCN6E8-tvGINotvE3KhLE7NE71ItHAKUFn34wMJ9Cwz6J-zJ_yjcYGmxG8BhQ0EIGA5OF3EuaJUB6HJ2Z8lBfl20aYHeONj2oEDiYMNm5_4kq-qOSzXVTRM--YDI2I6UKwFm08qDQJeyLT-PJ5ms/media?maxWidthPx=1600
+2. other | allowed | https://places.googleapis.com/v1/places/ChIJ9dpiFKcfkZURJST1CIrToxg/photos/AaVGc3ldFCsnOOHhVn5VRd8BID5dMRWU4dwgZMeBk_RthB1XnIruXdijNXyc_HzGkucPHiAZxtwVaQUMFUv7fhkMHHd6IIg_Eii15qNovvqsTGT1RO4qokCFIGbW4ZygVGubguvI3V5d-YepLcoosWA87xteAWCS9aDI1YTCbeo9tKBzEXVPk3c6a2-QdG4P-reXjWEQr35Q5NU1sP8ZuYBXcAFaL5d1KMpRI5-M-y2gPA4WNRqEtQrWv98rxb8McrvkrPxyUH_RM92x4Xw53yJ_H23HbicHO0YWCxoNk4w0r20Im8LrP7EARhLFW2lkk5bEPj-H_82lW5uQiIgHPgjdbcAMSqUuGjNGIT36twFN4yf0YJJl-6K5s2AI50hNTgmYcXggygbyxfwlrorb7a0fz2Erugfy2AQb_SsI2SRnKYeHLg/media?maxWidthPx=1600
+3. other | allowed | https://places.googleapis.com/v1/places/ChIJ9dpiFKcfkZURJST1CIrToxg/photos/AaVGc3lVJWvhcJHgalsPvR9ZA9rLW7NpoO4M1Y9b9nEGOdymAishxXjfKd4_YtWLULWJg15ymDUGmArXBUROngNTP72IBk-IatIED9nY9qHId17W6HuvBDIAfzy8EkRzAkMWo_o0zmxnFGFBnOTBu_JbusK0BfrPlIoOpbu2Wo50MWBK78VCEtSiIcAbghmLuCtHyLENcF3El3OTgkC0RWmwL6Ldb_0hUmvn6CxDpF_Urm-XDd7-2Z1r2kNmCaY6C0YjJ-P8nSYsss6H6JE6MxcaMaNINHAeUo8o_BDjJzkX4pKsAWlkpKh_LvX2s5iXj0t__tbJ8t1BoFfEt28R--0OcQYUC0yAD6S79xwLm7ZYHXJmK_RySRjNpxLlktUFrvHauvraBd4MaAvtJcgoaQPCKGhEEMb5qrNHAKzHETK4ZUjYtl0O/media?maxWidthPx=1600
 
 ### Sources
 
@@ -66,33 +66,117 @@ El trabajo EXCELENTE" — Mario Treviño (5/5)
   "business_id": "google-ChIJ9dpiFKcfkZURJST1CIrToxg",
   "slug": "gomeria-y-auxilio-24-horas-landeyro",
   "visual_mood": "roadside-urgent",
-  "composition": "poster-bay",
-  "headline": "Gomería y auxilio 24 horas Landeyro",
-  "subheadline": "Gomeria en Tandil con datos concretos para decidir rapido: contacto, horarios, ubicacion y referencias publicas.",
+  "composition": "route-card",
+  "headline": "Landeyro: gomería y auxilio 24 horas",
+  "subheadline": "Gomería en J. M. Dhers 25 con atención 24 horas de lunes a sábado y reseñas que hablan de rapidez.",
   "primary_cta": "Consultar auxilio",
-  "secondary_cta": "Ver datos del local",
+  "secondary_cta": "Ver datos",
   "service_tags": [
-    "Cubiertas",
-    "Pinchaduras",
+    "Gomería",
     "Auxilio",
-    "Atencion 24 horas"
+    "Pinchaduras",
+    "24 horas"
   ],
   "proof_points": [
     "4.8 sobre 5 con 175 reseñas",
-    "Horario: Lunes: Abierto 24 horas",
-    "Direccion: J. M. Dhers 25, B7000 Tandil",
-    "Reseñas que destacan: \"Me atendieron muy rápido y bien. Está las 24 hs abierta. No la conocía, me la recomendaron.\n...\""
+    "24 horas de lunes a sábado",
+    "J. M. Dhers 25, Tandil",
+    "Reseñas mencionan feriados, domingos y reparación rápida"
   ],
-  "resource_title": "Para resolver cubiertas sin perder tiempo",
+  "resource_title": "Datos críticos para una cubierta que no espera",
   "resource_items": [
-    "Direccion visible para llegar directo al local.",
-    "Contacto util para urgencias y auxilios.",
-    "Horario registrado: Lunes: Abierto 24 horas."
+    "Teléfono en primer plano.",
+    "Horario 24 horas destacado con domingo parcial.",
+    "Ubicación exacta para llegar o pedir auxilio."
   ],
-  "review_heading": "Lo que valoran quienes ya fueron",
-  "contact_heading": "Llegar o llamar sin vueltas",
-  "image_prompt": "Escena editorial realista para gomeria en Tandil, fachada de local barrial, herramientas y cubiertas, luz natural, sin texto, sin logos inventados.",
-  "design_notes": "Mood roadside-urgent, composicion poster-bay. Evitar estetica SaaS generica; usar recursos visuales de ruta, taller, cubiertas, direccion y prueba social."
+  "review_heading": "Rapidez y disponibilidad",
+  "contact_heading": "Llamar o llegar al local",
+  "image_prompt": "Escena editorial realista para gomería y auxilio 24 horas en Tandil, cubierta, herramientas y local de ruta, sin texto ni logos inventados.",
+  "design_notes": "Landing de auxilio con estética vial y tarjetas de decisión rápida.",
+  "creative": {
+    "concept": "Puesto de auxilio: una landing que funciona como panel de ruta para llamada y llegada.",
+    "audience": "Conductores que necesitan reparar una cubierta, dejar un neumático o resolver fuera de horario.",
+    "visual_direction": "Contraste vial, tarjetas diagonales, teléfono grande y dirección como coordenada principal.",
+    "layout": "roadside-rescue",
+    "texture": "road-markings",
+    "hero_angle": "La diferencia comercial es disponibilidad: 24 horas de lunes a sábado y reseñas sobre rapidez.",
+    "hero_cards": [
+      {
+        "label": "Horario",
+        "value": "24 hs",
+        "note": "Lunes a sábado"
+      },
+      {
+        "label": "Rating",
+        "value": "4.8",
+        "note": "175 reseñas"
+      },
+      {
+        "label": "Dirección",
+        "value": "J. M. Dhers 25",
+        "note": "Tandil"
+      }
+    ],
+    "sections": [
+      {
+        "type": "quick-actions",
+        "eyebrow": "Auxilio",
+        "title": "La página resuelve el primer minuto de la urgencia.",
+        "body": "Muestra teléfono, dirección y horario antes de cualquier bloque secundario.",
+        "items": [
+          {
+            "label": "Teléfono",
+            "value": "0249 463-9850"
+          },
+          {
+            "label": "Ubicación",
+            "value": "J. M. Dhers 25"
+          },
+          {
+            "label": "Domingo",
+            "value": "8:00 a 14:00"
+          }
+        ]
+      },
+      {
+        "type": "quote-strip",
+        "eyebrow": "Prueba",
+        "title": "“Me atendieron muy rápido y bien.”",
+        "body": "En una gomería de auxilio, rapidez y disponibilidad valen más que un texto largo.",
+        "items": [
+          {
+            "label": "Feriados",
+            "value": "Mencionados en reseñas"
+          },
+          {
+            "label": "Trabajo",
+            "value": "Excelente según cliente"
+          }
+        ],
+        "callout": "La landing empuja a llamar, no a navegar."
+      },
+      {
+        "type": "process",
+        "eyebrow": "Ruta",
+        "title": "Llamar, dejar el neumático, seguir viaje.",
+        "body": "La estructura se apoya en una reseña concreta donde el neumático quedó listo al día siguiente.",
+        "items": [
+          {
+            "label": "1",
+            "value": "Consultar"
+          },
+          {
+            "label": "2",
+            "value": "Coordinar reparación"
+          },
+          {
+            "label": "3",
+            "value": "Retirar o seguir viaje"
+          }
+        ]
+      }
+    ]
+  }
 }
 ```
 
@@ -117,3 +201,23 @@ Return one object with:
 - `contact_heading`
 - `image_prompt`
 - `design_notes`
+- `creative`: object used by the renderer to make the page feel custom:
+  - `concept`: commercial idea for this specific business
+  - `audience`: who is likely to search/contact
+  - `visual_direction`: concrete art direction, not generic adjectives
+  - `layout`: one of `studio-detail`, `wash-flow`, `oil-bay`, `roadside-rescue`, `bodyshop-craft`, `parts-counter`, `mechanic-ledger`
+  - `texture`: one of `polished-glass`, `water-ripple`, `oil-label`, `road-markings`, `primer-dust`, `parts-shelf`, `service-ledger`
+  - `hero_angle`: one strong commercial sentence for the hero
+  - `hero_cards`: 2 to 4 cards with `label`, `value`, optional `note`
+  - `sections`: 3 to 5 blocks. Each block has `type`, `eyebrow`, `title`, `body`, `items`, optional `callout`.
+
+Creative block `type` values:
+
+- `service-board`
+- `process`
+- `quote-strip`
+- `quick-actions`
+- `material-story`
+- `metric-grid`
+
+The `creative` object is the main place where the page stops being a template. Use it to define a sellable landing from the verified signals.

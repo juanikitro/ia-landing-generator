@@ -9,6 +9,8 @@ type SiteRecord = {
   archetype: string;
   dominant_color: string;
   primary_font: string;
+  frontend_mode?: "renderer-fallback" | "agent-static" | "agent-framework";
+  agent_frontend_source?: string | null;
   directory: string;
 };
 
@@ -49,7 +51,7 @@ function stripTags(html: string): string {
   return html.replace(/<script[\s\S]*?<\/script>/giu, "").replace(/<style[\s\S]*?<\/style>/giu, "").replace(/<[^>]+>/gu, " ");
 }
 
-async function validateSites(outDir: string, allowMock: boolean): Promise<ValidationIssue[]> {
+async function validateSites(outDir: string, allowMock: boolean, requireAgentFrontends: boolean): Promise<ValidationIssue[]> {
   const issues: ValidationIssue[] = [];
   const manifest = await readManifest(outDir);
 
@@ -63,6 +65,14 @@ async function validateSites(outDir: string, allowMock: boolean): Promise<Valida
   for (const [index, site] of manifest.sites.entries()) {
     archetypeCounts.set(site.archetype, (archetypeCounts.get(site.archetype) ?? 0) + 1);
     const siteDir = path.join(outDir, site.directory);
+
+    if (requireAgentFrontends && (!site.frontend_mode || site.frontend_mode === "renderer-fallback")) {
+      issues.push({ code: "renderer_fallback", message: `${site.slug}: final QA requires an agent-authored frontend.` });
+    }
+
+    if (site.frontend_mode && site.frontend_mode !== "renderer-fallback" && !site.agent_frontend_source) {
+      issues.push({ code: "agent_frontend_source", message: `${site.slug}: agent-authored frontend is missing source metadata.` });
+    }
 
     if (!(await existsDirectory(siteDir))) {
       issues.push({ code: "missing_site_dir", message: `${site.slug}: directory missing.` });
@@ -142,9 +152,10 @@ async function validateSites(outDir: string, allowMock: boolean): Promise<Valida
 async function main(): Promise<void> {
   const outDir = process.argv[2] ?? "generated";
   const allowMock = process.argv.includes("--allow-mock");
+  const requireAgentFrontends = process.argv.includes("--require-agent-frontends");
 
   try {
-    const issues = await validateSites(outDir, allowMock);
+    const issues = await validateSites(outDir, allowMock, requireAgentFrontends);
     printReport("Generated site validation", issues);
     exitForIssues(issues);
   } catch (error) {

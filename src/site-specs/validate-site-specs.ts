@@ -2,7 +2,8 @@ import { ZodError } from "zod";
 import { approvedBusinesses, loadBusinesses } from "../content/load-businesses.js";
 import { loadSiteSpecs } from "./load-site-specs.js";
 import { siteSpecDatasetSchema, type SiteSpec } from "./schema.js";
-import { readFile } from "node:fs/promises";
+import { readFile, stat } from "node:fs/promises";
+import path from "node:path";
 import { exitForIssues, printReport, type ValidationIssue } from "../validators/report.js";
 
 type Args = {
@@ -26,6 +27,27 @@ const weakCopyPatterns = [
   /mejor opcion/iu,
 ];
 
+function isInsideRoot(root: string, target: string): boolean {
+  const relative = path.relative(root, target);
+  return relative === "" || (!relative.startsWith("..") && !path.isAbsolute(relative));
+}
+
+async function directoryExists(dir: string): Promise<boolean> {
+  try {
+    return (await stat(dir)).isDirectory();
+  } catch {
+    return false;
+  }
+}
+
+async function fileExists(filePath: string): Promise<boolean> {
+  try {
+    return (await stat(filePath)).isFile();
+  } catch {
+    return false;
+  }
+}
+
 function parseArgs(argv: string[]): Args {
   const valueAfter = (flag: string, fallback: string): string => {
     const index = argv.indexOf(flag);
@@ -39,6 +61,23 @@ function parseArgs(argv: string[]): Args {
 }
 
 function visibleSpecText(spec: SiteSpec): string {
+  const creative = spec.creative
+    ? [
+        spec.creative.concept,
+        spec.creative.audience,
+        spec.creative.visual_direction,
+        spec.creative.hero_angle,
+        ...spec.creative.hero_cards.flatMap((card) => [card.label, card.value, card.note ?? ""]),
+        ...spec.creative.sections.flatMap((section) => [
+          section.eyebrow,
+          section.title,
+          section.body,
+          section.callout ?? "",
+          ...section.items.flatMap((item) => [item.label, item.value, item.note ?? ""]),
+        ]),
+      ]
+    : [];
+
   return [
     spec.headline,
     spec.subheadline,
@@ -50,6 +89,7 @@ function visibleSpecText(spec: SiteSpec): string {
     ...spec.resource_items,
     spec.review_heading,
     spec.contact_heading,
+    ...creative,
   ].join("\n");
 }
 
@@ -111,6 +151,22 @@ async function main(): Promise<void> {
 
     seenCompositions.set(spec.composition, (seenCompositions.get(spec.composition) ?? 0) + 1);
     seenMoods.set(spec.visual_mood, (seenMoods.get(spec.visual_mood) ?? 0) + 1);
+
+    if (spec.agent_frontend) {
+      if (spec.agent_frontend.mode === "framework-build" && !spec.agent_frontend.output_dir) {
+        issues.push({ code: "agent_frontend_output", message: `${spec.slug}: framework-build requires output_dir.` });
+      }
+
+      const source = spec.agent_frontend.mode === "framework-build" ? spec.agent_frontend.output_dir ?? spec.agent_frontend.source_dir : spec.agent_frontend.source_dir;
+      const sourceDir = path.resolve(process.cwd(), source);
+      if (!isInsideRoot(process.cwd(), sourceDir)) {
+        issues.push({ code: "agent_frontend_path", message: `${spec.slug}: agent_frontend source must stay inside the repo.` });
+      } else if (!(await directoryExists(sourceDir))) {
+        issues.push({ code: "agent_frontend_missing", message: `${spec.slug}: agent_frontend source directory does not exist: ${source}.` });
+      } else if (!(await fileExists(path.join(sourceDir, "index.html")))) {
+        issues.push({ code: "agent_frontend_index", message: `${spec.slug}: agent_frontend source must contain index.html.` });
+      }
+    }
   }
 
   for (const business of businesses) {

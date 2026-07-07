@@ -1,4 +1,4 @@
-# Site Brief 3: Gomería El Viejo Matias - Auxilio 24 hs
+# Site Brief 8: Gomería El Viejo Matias - Auxilio 24 hs
 
 ## Goal
 
@@ -38,9 +38,9 @@ Write or refine one `SiteSpec` for this business. Use the agent session context 
 
 ### Photos
 
-1. other | allowed | https://places.googleapis.com/v1/places/ChIJAwmJ8ZwfkZURyusZGKQR2fs/photos/AaVGc3lwdtidpZg0Bk5P_Z5m8MUu8pYv7rifIBg1upQZ8LlDW4JYucMikv6AulYKazmaZ18AR3sw8nn-95pjkCF_Epb3HPRlFze5VTk4wPHjwSQHp14jdue_gYP8naJ0zjkalDIKiYnp39ohisow-CEj8xpjrFSo92-judQqNCJi3d9N-MIHGCL5wN2h-qmlshj8pKz7kmqdDSgRko_0r-3fbejhAhSHW8yER_Oc3trlenfkznk7PLITYXlpywyDxI_MeJPUbt_oOYSdcmNM61_RTjifAv23R_YiXsnS9fMqD9bvgp6gJFQZmEdAGsk54fBmsT6fHjMLzMIe6QwVzJiamIjaXUrYIQDvMBXSf7yDD8cexlIc-9G4kHjWAyeha61AwsXZbOTw_RokOv1qXcOeKHwhkX2_K6313UZXpIuM8Os/media?maxWidthPx=1600
-2. other | allowed | https://places.googleapis.com/v1/places/ChIJAwmJ8ZwfkZURyusZGKQR2fs/photos/AaVGc3l_TmJXsGg0XuOmzj5IruKUnlYrjSMKN7hSgqKcJl4wMxAU6zcA0hyicHBV90QtEh8wAyuyRCrVwtiykSdeTRlWYOvjRnkdlemUxMj15wOLlcIElIaIxH6RwjEZU1sU2cO0iiQj4reWWAXiGRzKinZ53KxfY6pb3XwVAVpOFWkD1uhiWLeq7KHyoJ5RR2CenKLpPB56ve_nIWgpyx5IUdIXcU6HgX0A1SrGHNxpgWAaChqj2-KMMfSOEaYDtf8zdnrlGM-IQk-XFSdjK9Iq06rLcEm0Q0zB9RHkIG95_4cEpLzDJL1LaJI05RinjEcMJons4rkQLOzBI3dn5CqgTyhzuXD-LLYXPXRRtKDiuthFDLrKPrPjNG5zKZBXCwGOZ_MZ-8Ch6WAVnPpjJ55HOKgWcFCgCsZD2yxWmusOX4TEQUI/media?maxWidthPx=1600
-3. other | allowed | https://places.googleapis.com/v1/places/ChIJAwmJ8ZwfkZURyusZGKQR2fs/photos/AaVGc3lIem7e3lLzlzIOTl9-wW2iieRB8kIP9ZT7HlpQlRIfcNOK1MP670zDyYta9YwSSu8v2yk8fyN-ZXgVSs7WcQO3sRYNG9HfTX1MV78MtxwCfSIxoLJ6EsiqoK3MCou6AIeUbvB63ZsYul36p3xHUx4Iq60T5S7rLcVhfbWjROtM8wpEuExD3PdcYsgdWk5LSDL3EtVsWkE2Jbuq4hm4ognNGLRJi8smFRTg9m5LSS0YKPIudlxEf-52aFxY5PU1o33bYVVPCd_LlPowlx4h2SUGQkDTPVvoGMDJZ92INvV2nEa_M8k73v7xL3lCFxqDBvs8K6qrQNCBJMq0GWmABRUyDaOcMourguj5iQvwAu4Xp1ZprR98rRiM11OWvpBFr3q3tQh_TWFf9ci-edip5lGP9ReXc6r06QoYFm3WO4dElA/media?maxWidthPx=1600
+1. other | allowed | https://places.googleapis.com/v1/places/ChIJAwmJ8ZwfkZURyusZGKQR2fs/photos/AaVGc3nW2aJbBbGu7tl1UWqbzPTV81pK74Mr-ZCa2ugiWF_b5HwROMBTpDs6VxGynNIj9Amu4srAEMkzBqduDQoXt4h2FkXySTpD_g0OKzjL7sPbKTQhf38A_F5PluP94shxlh4cvk4KjCyTND_4ztkJ4aTwtY5DJtKXmYlYLFR3ZtHb6UVNywYFAlRcGW68nYKfZjiHlof4bKgAjbS69f1Om3GsB0QQ4gj49ZyH_ShZ6BU4jj3sFiBXLGgI5OvYeKpBQM-RcnFNHKH2dJfbzqHhFPPv2Ky7t9DP4PXbnRMFluf2_W64TP-8itu_JE8zyngTLNVKJqA5CobXVEosd7IeR1b-4Cy92U_QvW9dP2pJkgVb0oQpFWASPPdCeHQbhPxpDYF3wf17ylVv6PgfyHwzOQfR-1sKqUXlhd56F8VOiCw/media?maxWidthPx=1600
+2. other | allowed | https://places.googleapis.com/v1/places/ChIJAwmJ8ZwfkZURyusZGKQR2fs/photos/AaVGc3moE22wSCyxfFbmvQEoybSUYwbUyZaervSqkzAZJHIHqGayLRchYqYONFgv4TPJlLw3BpHvqUAghAyKZqlJf7dC3QAUiUWeJISrHuJUXLWreUVJe9uRa0lHyaKWKQSxl27-CAKEniPfCy9aYzD9rqLUDrwz1UhkOp5DUJ4xn-ALGCMg87vrWIl3Z1r_A7MlZHWKWC35ORy8E5Zey2AGyZgtETAZ5EYmnA8vhs3FL3uoEsYS47M7Ru3shjMWAtdawBVmC5ePtzPtgfXkl4kb8PkdFPrlZ-DaqdIaL1WjcdFI5vED1RLqa0yckMdFA5z9kXXAxNl1zOg1aLTQ70EDzES3fa54jbJiJiMhwFTwWv6YtweQfMgXOlClE1UMEJ1sP2EJFl535kx_qv6nxd0-Z16sq9O-OdlCz-WRqtayUBaAJLA/media?maxWidthPx=1600
+3. other | allowed | https://places.googleapis.com/v1/places/ChIJAwmJ8ZwfkZURyusZGKQR2fs/photos/AaVGc3lBzYOoI3_9FT9o82hCgXaxce5LCPCt5e3fewgUxtSePADf5NTkSgNdecKemXvwSZZ8LcNTopBrbNKR702RxG_qk9U9Np39x3xdQlCUqFnO8Ll_ExgNZ_5mQ3t7EE_PNBrsLiwuGB1hjMH9_wOoXm2AqGfTD_7mr4bwhi6mW9KeKZ6IIb2aWAt1cYJ8N35UNB8C3lXNoG43Tg801ARljE3e0kVv_YiNbZpdjRFydoh5eSmYj3VxJkagpxC10Z4UWvOqpae9RDDVrVSutsbjCW2A6D6entHoMPUuQg8eSlpUq49uf4R9iZP-JzGXyXtPYiQc-bGy-r_-ULZlfCy4G3fRA569-vNfSyuwmh0-rWNArqvW7I5upJfugdWKxdYx5Qlcq56XoHyZikkpvBJEYcJwr-9nt8-SoO29JaxDdHhFqQ/media?maxWidthPx=1600
 
 ### Sources
 
@@ -59,38 +59,7 @@ Write or refine one `SiteSpec` for this business. Use the agent session context 
 ## Current Spec, If Any
 
 ```json
-{
-  "business_id": "google-ChIJAwmJ8ZwfkZURyusZGKQR2fs",
-  "slug": "gomeria-el-viejo-matias-auxilio-24-hs",
-  "visual_mood": "roadside-urgent",
-  "composition": "route-card",
-  "headline": "Gomería El Viejo Matias - Auxilio 24 hs",
-  "subheadline": "Gomeria en Tandil con datos concretos para decidir rapido: contacto, horarios, ubicacion y referencias publicas.",
-  "primary_cta": "Consultar auxilio",
-  "secondary_cta": "Ver datos del local",
-  "service_tags": [
-    "Cubiertas",
-    "Pinchaduras",
-    "Auxilio",
-    "Atencion 24 horas"
-  ],
-  "proof_points": [
-    "4.7 sobre 5 con 328 reseñas",
-    "Horario: Lunes a Sabado; Domingo cerrado",
-    "Direccion: Av. Rivadavia 799, B7000 Tandil",
-    "Reseñas que destacan: \"Muy buena atención, y honestos, además, si le gustan los animales, son buena gente, lastima ...\""
-  ],
-  "resource_title": "Para resolver cubiertas sin perder tiempo",
-  "resource_items": [
-    "Direccion visible para llegar directo al local.",
-    "Contacto util para urgencias y auxilios.",
-    "Horario registrado: Lunes a Sabado; Domingo cerrado."
-  ],
-  "review_heading": "Lo que valoran quienes ya fueron",
-  "contact_heading": "Llegar o llamar sin vueltas",
-  "image_prompt": "Escena editorial realista para gomeria en Tandil, fachada de local barrial, herramientas y cubiertas, luz natural, sin texto, sin logos inventados.",
-  "design_notes": "Mood roadside-urgent, composicion route-card. Evitar estetica SaaS generica; usar recursos visuales de ruta, taller, cubiertas, direccion y prueba social."
-}
+null
 ```
 
 
@@ -114,3 +83,23 @@ Return one object with:
 - `contact_heading`
 - `image_prompt`
 - `design_notes`
+- `creative`: object used by the renderer to make the page feel custom:
+  - `concept`: commercial idea for this specific business
+  - `audience`: who is likely to search/contact
+  - `visual_direction`: concrete art direction, not generic adjectives
+  - `layout`: one of `studio-detail`, `wash-flow`, `oil-bay`, `roadside-rescue`, `bodyshop-craft`, `parts-counter`, `mechanic-ledger`
+  - `texture`: one of `polished-glass`, `water-ripple`, `oil-label`, `road-markings`, `primer-dust`, `parts-shelf`, `service-ledger`
+  - `hero_angle`: one strong commercial sentence for the hero
+  - `hero_cards`: 2 to 4 cards with `label`, `value`, optional `note`
+  - `sections`: 3 to 5 blocks. Each block has `type`, `eyebrow`, `title`, `body`, `items`, optional `callout`.
+
+Creative block `type` values:
+
+- `service-board`
+- `process`
+- `quote-strip`
+- `quick-actions`
+- `material-story`
+- `metric-grid`
+
+The `creative` object is the main place where the page stops being a template. Use it to define a sellable landing from the verified signals.

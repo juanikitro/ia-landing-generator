@@ -1,322 +1,1170 @@
 [
   {
-    "business_id": "google-ChIJZS1vo5AhkZURzKZG9i0I7Mw",
-    "slug": "gomeria-y-auxilios-24hs-el-fumii",
-    "visual_mood": "roadside-urgent",
+    "business_id": "google-ChIJJYacq7vhkJURcwnaYFx1g20",
+    "slug": "luxe-detailing",
+    "visual_mood": "precision-service",
     "composition": "split-command",
-    "headline": "Gomeria y auxilios 24hs \"El Fumii\"",
-    "subheadline": "Gomeria en Tandil con datos concretos para decidir rapido: contacto, horarios, ubicacion y referencias publicas.",
-    "primary_cta": "Consultar auxilio",
-    "secondary_cta": "Ver datos del local",
+    "headline": "Luxe Detailing",
+    "subheadline": "Detailing en Tandil para quien quiere ver el auto prolijo antes de moverse: contacto directo, reseñas claras y ubicación a mano.",
+    "primary_cta": "Consultar detailing",
+    "secondary_cta": "Ver ubicación",
     "service_tags": [
-      "Cubiertas",
-      "Pinchaduras",
-      "Auxilio",
-      "Atencion 24 horas"
-    ],
-    "proof_points": [
-      "4.9 sobre 5 con 141 reseñas",
-      "Horario: Abierto 24 horas",
-      "Direccion: Alvarado, B7000 Tandil",
-      "Reseñas que destacan: \"Super agradable y muy bueno en su trabajo, Se nos pincho una rueda un domingo y vino rapidís...\""
-    ],
-    "resource_title": "Para resolver cubiertas sin perder tiempo",
-    "resource_items": [
-      "Direccion visible para llegar directo al local.",
-      "Contacto util para urgencias y auxilios.",
-      "Horario registrado: Abierto 24 horas."
-    ],
-    "review_heading": "Lo que valoran quienes ya fueron",
-    "contact_heading": "Llegar o llamar sin vueltas",
-    "image_prompt": "Escena editorial realista para gomeria en Tandil, fachada de local barrial, herramientas y cubiertas, luz natural, sin texto, sin logos inventados.",
-    "design_notes": "Mood roadside-urgent, composicion split-command. Evitar estetica SaaS generica; usar recursos visuales de ruta, taller, cubiertas, direccion y prueba social."
-  },
-  {
-    "business_id": "google-ChIJ9dpiFKcfkZURJST1CIrToxg",
-    "slug": "gomeria-y-auxilio-24-horas-landeyro",
-    "visual_mood": "roadside-urgent",
-    "composition": "poster-bay",
-    "headline": "Gomería y auxilio 24 horas Landeyro",
-    "subheadline": "Gomeria en Tandil con datos concretos para decidir rapido: contacto, horarios, ubicacion y referencias publicas.",
-    "primary_cta": "Consultar auxilio",
-    "secondary_cta": "Ver datos del local",
-    "service_tags": [
-      "Cubiertas",
-      "Pinchaduras",
-      "Auxilio",
-      "Atencion 24 horas"
-    ],
-    "proof_points": [
-      "4.8 sobre 5 con 175 reseñas",
-      "Horario: Lunes: Abierto 24 horas",
-      "Direccion: J. M. Dhers 25, B7000 Tandil",
-      "Reseñas que destacan: \"Me atendieron muy rápido y bien. Está las 24 hs abierta. No la conocía, me la recomendaron.\n...\""
-    ],
-    "resource_title": "Para resolver cubiertas sin perder tiempo",
-    "resource_items": [
-      "Direccion visible para llegar directo al local.",
-      "Contacto util para urgencias y auxilios.",
-      "Horario registrado: Lunes: Abierto 24 horas."
-    ],
-    "review_heading": "Lo que valoran quienes ya fueron",
-    "contact_heading": "Llegar o llamar sin vueltas",
-    "image_prompt": "Escena editorial realista para gomeria en Tandil, fachada de local barrial, herramientas y cubiertas, luz natural, sin texto, sin logos inventados.",
-    "design_notes": "Mood roadside-urgent, composicion poster-bay. Evitar estetica SaaS generica; usar recursos visuales de ruta, taller, cubiertas, direccion y prueba social."
-  },
-  {
-    "business_id": "google-ChIJAwmJ8ZwfkZURyusZGKQR2fs",
-    "slug": "gomeria-el-viejo-matias-auxilio-24-hs",
-    "visual_mood": "roadside-urgent",
-    "composition": "route-card",
-    "headline": "Gomería El Viejo Matias - Auxilio 24 hs",
-    "subheadline": "Gomeria en Tandil con datos concretos para decidir rapido: contacto, horarios, ubicacion y referencias publicas.",
-    "primary_cta": "Consultar auxilio",
-    "secondary_cta": "Ver datos del local",
-    "service_tags": [
-      "Cubiertas",
-      "Pinchaduras",
-      "Auxilio",
-      "Atencion 24 horas"
-    ],
-    "proof_points": [
-      "4.7 sobre 5 con 328 reseñas",
-      "Horario: Lunes a Sabado; Domingo cerrado",
-      "Direccion: Av. Rivadavia 799, B7000 Tandil",
-      "Reseñas que destacan: \"Muy buena atención, y honestos, además, si le gustan los animales, son buena gente, lastima ...\""
-    ],
-    "resource_title": "Para resolver cubiertas sin perder tiempo",
-    "resource_items": [
-      "Direccion visible para llegar directo al local.",
-      "Contacto util para urgencias y auxilios.",
-      "Horario registrado: Lunes a Sabado; Domingo cerrado."
-    ],
-    "review_heading": "Lo que valoran quienes ya fueron",
-    "contact_heading": "Llegar o llamar sin vueltas",
-    "image_prompt": "Escena editorial realista para gomeria en Tandil, fachada de local barrial, herramientas y cubiertas, luz natural, sin texto, sin logos inventados.",
-    "design_notes": "Mood roadside-urgent, composicion route-card. Evitar estetica SaaS generica; usar recursos visuales de ruta, taller, cubiertas, direccion y prueba social."
-  },
-  {
-    "business_id": "google-ChIJ_7T3RIUfkZURLiDXAheqeg8",
-    "slug": "walter-gomez-servicio-multimarca",
-    "visual_mood": "workshop-trust",
-    "composition": "service-ledger",
-    "headline": "Walter Gomez Servicio Multimarca",
-    "subheadline": "Taller mecanico en Tandil con datos concretos para decidir rapido: contacto, horarios, ubicacion y referencias publicas.",
-    "primary_cta": "Consultar turno",
-    "secondary_cta": "Ver datos del local",
-    "service_tags": [
-      "Mecanica general",
-      "Service",
-      "Diagnostico",
+      "Detailing",
+      "Cuidado exterior",
+      "Interior",
       "Consulta por turno"
     ],
     "proof_points": [
-      "4.7 sobre 5 con 75 reseñas",
-      "Horario: Lunes a Domingo: 8:30 a. m. – 6:00 p. m.",
-      "Direccion: Av. Marconi 1678, B7000 Tandil",
-      "Reseñas que destacan: \"Fui por recomendación. Se aflojó el cubre cárter del auto justo antes de pegar la vuelta a b...\""
+      "4.9 sobre 5 con 13 reseñas",
+      "Lunes a sábado con horario registrado",
+      "Los Aromos 678, Tandil",
+      "Reseñas que hablan de trabajo prolijo y buena atención"
     ],
-    "resource_title": "Informacion util antes de llevar el auto",
+    "resource_title": "Una consulta simple para dejar el auto presentable",
     "resource_items": [
-      "Rubro y direccion destacados desde el primer bloque.",
-      "Reseñas visibles para evaluar la atencion.",
-      "Horario registrado: Lunes a Domingo: 8:30 a. m. – 6:00 p. m.."
+      "Teléfono visible para coordinar turno.",
+      "Foto real del lugar como contexto visual.",
+      "Reseñas breves para evaluar trato y terminación."
     ],
-    "review_heading": "Lo que valoran quienes ya fueron",
-    "contact_heading": "Llegar o llamar sin vueltas",
-    "image_prompt": "Escena editorial realista para taller mecanico en Tandil, fachada de local barrial, herramientas y cubiertas, luz natural, sin texto, sin logos inventados.",
-    "design_notes": "Mood workshop-trust, composicion service-ledger. Evitar estetica SaaS generica; usar recursos visuales de ruta, taller, cubiertas, direccion y prueba social."
+    "review_heading": "Señales de terminación",
+    "contact_heading": "Coordinar el cuidado del auto",
+    "image_prompt": "Escena editorial realista para detailing vehicular en Tandil, auto limpio, reflejos cuidados, luz natural, sin texto ni logos inventados.",
+    "design_notes": "Landing tipo estudio: oscura, precisa, con foco en brillo, terminación y decisión rápida.",
+    "creative": {
+      "concept": "Estudio de detalle: menos urgencia, más terminación visible y confianza por reseñas concretas.",
+      "audience": "Dueños de autos que quieren coordinar cuidado exterior o interior sin perder tiempo preguntando datos básicos.",
+      "visual_direction": "Oscuro pulido, foto protagonista, placas inclinadas de precisión y microcopy corto.",
+      "layout": "studio-detail",
+      "texture": "polished-glass",
+      "hero_angle": "La página vende una primera impresión: ver el trabajo, leer dos señales de confianza y tocar para consultar.",
+      "hero_cards": [
+        {
+          "label": "Valoración",
+          "value": "4.9",
+          "note": "13 reseñas públicas"
+        },
+        {
+          "label": "Señal real",
+          "value": "Trabajo prolijo",
+          "note": "Mencionado en reseñas"
+        },
+        {
+          "label": "Acción",
+          "value": "Turno por teléfono",
+          "note": "0249 420-6233"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Detalle",
+          "title": "No hace falta prometer lujo: alcanza con mostrar prolijidad.",
+          "body": "La landing ordena lo que una persona necesita antes de consultar: rubro, ubicación, teléfono, horarios y reseñas sobre el trabajo.",
+          "items": [
+            {
+              "label": "Servicio",
+              "value": "Detailing"
+            },
+            {
+              "label": "Cuidado",
+              "value": "Exterior e interior"
+            },
+            {
+              "label": "Consulta",
+              "value": "Por turno"
+            }
+          ],
+          "callout": "Ideal para captar consultas de gente que ya sabe que quiere mejorar la presentación del auto."
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Prueba social",
+          "title": "“Trabajo prolijo y bien ejecutado.”",
+          "body": "La reseña destacada no exagera: funciona porque habla de ejecución, no de slogans.",
+          "items": [
+            {
+              "label": "Soledad Larsen",
+              "value": "Totalmente recomendado"
+            },
+            {
+              "label": "Laura Milco",
+              "value": "Amabilidad y responsabilidad"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Consulta",
+          "title": "Del interés al llamado en un solo bloque.",
+          "body": "El CTA aparece con el dato clave: teléfono, ubicación y horario resumido.",
+          "items": [
+            {
+              "label": "Teléfono",
+              "value": "0249 420-6233"
+            },
+            {
+              "label": "Dirección",
+              "value": "Los Aromos 678"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a sábado"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
-    "business_id": "google-ChIJPUsqo-8fkZURoRYh0Tfv-RQ",
-    "slug": "gomeria-san-martin",
-    "visual_mood": "fleet-utility",
-    "composition": "photo-board",
-    "headline": "Gomería San Martin",
-    "subheadline": "Gomeria en Tandil con datos concretos para decidir rapido: contacto, horarios, ubicacion y referencias publicas.",
-    "primary_cta": "Consultar disponibilidad",
-    "secondary_cta": "Ver datos del local",
+    "business_id": "google-ChIJgQWPWu4fkZURxYv2oFi4q3g",
+    "slug": "boxes-centro-de-autolavado",
+    "visual_mood": "neighborhood-direct",
+    "composition": "poster-bay",
+    "headline": "Boxes Centro de Autolavado",
+    "subheadline": "Autolavado en Tandil con alto volumen de reseñas, horarios amplios y datos listos para decidir si acercarse.",
+    "primary_cta": "Consultar lavado",
+    "secondary_cta": "Ver horarios",
     "service_tags": [
-      "Cubiertas",
-      "Pinchaduras",
-      "Balanceo y consulta",
-      "Atencion en local"
+      "Lavado",
+      "Autos",
+      "Motos y camionetas",
+      "Atención todos los días"
     ],
     "proof_points": [
-      "4.9 sobre 5 con 71 reseñas",
-      "Horario: Lunes a Sabado; Domingo cerrado",
-      "Direccion: Venezuela 762, B7000 Tandil",
-      "Reseñas que destacan: \"Nos solucionó la pinchada y pudimos seguir viaje. Un genio Oscar! Trabajador honesto. Gracia...\""
+      "4.4 sobre 5 con 353 reseñas",
+      "Abre de lunes a domingo",
+      "Av. Buzón 632, Tandil",
+      "Reseñas que destacan rapidez y practicidad"
     ],
-    "resource_title": "Para resolver cubiertas sin perder tiempo",
+    "resource_title": "Lavado práctico, datos visibles y decisión rápida",
     "resource_items": [
-      "Direccion visible para llegar directo al local.",
-      "Telefono disponible para consultar antes de ir.",
-      "Horario registrado: Lunes a Sabado; Domingo cerrado."
+      "Horario extendido para planificar la visita.",
+      "Teléfono y dirección en primer plano.",
+      "Reseñas suficientes para evaluar experiencia real."
     ],
-    "review_heading": "Lo que valoran quienes ya fueron",
-    "contact_heading": "Llegar o llamar sin vueltas",
-    "image_prompt": "Escena editorial realista para gomeria en Tandil, fachada de local barrial, herramientas y cubiertas, luz natural, sin texto, sin logos inventados.",
-    "design_notes": "Mood fleet-utility, composicion photo-board. Evitar estetica SaaS generica; usar recursos visuales de ruta, taller, cubiertas, direccion y prueba social."
-  },
-  {
-    "business_id": "google-ChIJL51RDSEfkZURlmL_ISmpXCU",
-    "slug": "gomeria-mario",
-    "visual_mood": "roadside-urgent",
-    "composition": "split-command",
-    "headline": "Gomeria mario",
-    "subheadline": "Gomeria en Tandil con datos concretos para decidir rapido: contacto, horarios, ubicacion y referencias publicas.",
-    "primary_cta": "Consultar disponibilidad",
-    "secondary_cta": "Ver datos del local",
-    "service_tags": [
-      "Cubiertas",
-      "Pinchaduras",
-      "Balanceo y consulta",
-      "Atencion en local"
-    ],
-    "proof_points": [
-      "4.9 sobre 5 con 67 reseñas",
-      "Horario: Lunes a Viernes; Sabado, Domingo cerrado",
-      "Direccion: Sandino 530, B7000 Tandil",
-      "Reseñas que destacan: \"Exelente atención y muy buena onda , Mario un genio\""
-    ],
-    "resource_title": "Para resolver cubiertas sin perder tiempo",
-    "resource_items": [
-      "Direccion visible para llegar directo al local.",
-      "Telefono disponible para consultar antes de ir.",
-      "Horario registrado: Lunes a Viernes; Sabado, Domingo cerrado."
-    ],
-    "review_heading": "Lo que valoran quienes ya fueron",
-    "contact_heading": "Llegar o llamar sin vueltas",
-    "image_prompt": "Escena editorial realista para gomeria en Tandil, fachada de local barrial, herramientas y cubiertas, luz natural, sin texto, sin logos inventados.",
-    "design_notes": "Mood roadside-urgent, composicion split-command. Evitar estetica SaaS generica; usar recursos visuales de ruta, taller, cubiertas, direccion y prueba social."
+    "review_heading": "Lo que pesa en un lavadero",
+    "contact_heading": "Ubicar el box y consultar",
+    "image_prompt": "Escena editorial realista para autolavado en Tandil, box de lavado, agua, auto limpio, luz natural, sin texto ni logos inventados.",
+    "design_notes": "Landing clara y fluida, con sensación de agua, tránsito rápido y servicio barrial.",
+    "creative": {
+      "concept": "Autolavado de paso: una página que reduce fricción y resuelve ubicación, horario y llamado.",
+      "audience": "Personas que quieren lavar el auto sin investigar demasiado y necesitan saber si conviene ir ahora.",
+      "visual_direction": "Superficie clara, ritmo horizontal, acentos de agua y bloques de decisión corta.",
+      "layout": "wash-flow",
+      "texture": "water-ripple",
+      "hero_angle": "La venta es practicidad: está abierto, se ubica fácil y tiene volumen de reseñas.",
+      "hero_cards": [
+        {
+          "label": "Reseñas",
+          "value": "353",
+          "note": "Alto volumen para comparar"
+        },
+        {
+          "label": "Horario",
+          "value": "Todos los días",
+          "note": "Según registro de Places"
+        },
+        {
+          "label": "Zona",
+          "value": "Av. Buzón 632",
+          "note": "Tandil"
+        }
+      ],
+      "sections": [
+        {
+          "type": "metric-grid",
+          "eyebrow": "Decisión",
+          "title": "Un lavadero se elige por cercanía, horario y confianza suficiente.",
+          "body": "Por eso la landing evita relleno y muestra volumen de reseñas, dirección y teléfono antes de cualquier texto largo.",
+          "items": [
+            {
+              "label": "Calificación",
+              "value": "4.4"
+            },
+            {
+              "label": "Reseñas",
+              "value": "353"
+            },
+            {
+              "label": "Servicio",
+              "value": "Lavadero de autos"
+            }
+          ],
+          "callout": "El foco comercial no es adornar: es que la persona sepa si le sirve acercarse."
+        },
+        {
+          "type": "process",
+          "eyebrow": "Flujo",
+          "title": "Mirar horario, llamar si hace falta, ir al box.",
+          "body": "La estructura acompaña el comportamiento real de quien busca un lavado: poco texto, datos concretos y CTA cercano.",
+          "items": [
+            {
+              "label": "1",
+              "value": "Confirmar horario"
+            },
+            {
+              "label": "2",
+              "value": "Guardar dirección"
+            },
+            {
+              "label": "3",
+              "value": "Consultar por teléfono"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseñas",
+          "title": "Rapidez y practicidad aparecen como señales de uso.",
+          "body": "Las opiniones no se maquillan: se usan como referencia concreta de experiencia.",
+          "items": [
+            {
+              "label": "Señal",
+              "value": "Quick way to keep your car clean"
+            },
+            {
+              "label": "Señal",
+              "value": "Buena atención"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "business_id": "google-ChIJzZSnpU4hkZURfE9Ok88wjqc",
     "slug": "lubricentro-y-gomeria-boxes",
     "visual_mood": "precision-service",
-    "composition": "poster-bay",
-    "headline": "Lubricentro y Gomeria BOXES",
-    "subheadline": "Gomeria en Tandil con datos concretos para decidir rapido: contacto, horarios, ubicacion y referencias publicas.",
-    "primary_cta": "Consultar disponibilidad",
-    "secondary_cta": "Ver datos del local",
+    "composition": "route-card",
+    "headline": "BOXES",
+    "subheadline": "Lubricentro y gomería en Ameghino 898: una landing pensada para mantenimiento, disponibilidad y contacto directo.",
+    "primary_cta": "Consultar mantenimiento",
+    "secondary_cta": "Ver dirección",
     "service_tags": [
-      "Cubiertas",
-      "Pinchaduras",
-      "Balanceo y consulta",
-      "Atencion en local"
+      "Lubricentro",
+      "Gomería",
+      "Filtros y aceite",
+      "Consulta en local"
     ],
     "proof_points": [
       "4.7 sobre 5 con 44 reseñas",
-      "Horario: Lunes a Sabado; Domingo cerrado",
-      "Direccion: Ameghino 898, B7000 Tandil",
-      "Reseñas que destacan: \"Espetacular la atención recomendable cien por ciento.\""
+      "Lunes a sábado",
+      "Ameghino 898, Tandil",
+      "Reseñas sobre atención y precios"
     ],
-    "resource_title": "Para resolver cubiertas sin perder tiempo",
+    "resource_title": "Mantenimiento liviano con datos de contacto al frente",
     "resource_items": [
-      "Direccion visible para llegar directo al local.",
-      "Telefono disponible para consultar antes de ir.",
-      "Horario registrado: Lunes a Sabado; Domingo cerrado."
+      "Servicio mixto: lubricentro y gomería.",
+      "Horario partido registrado de lunes a sábado.",
+      "Teléfono disponible para consultar antes de ir."
     ],
-    "review_heading": "Lo que valoran quienes ya fueron",
-    "contact_heading": "Llegar o llamar sin vueltas",
-    "image_prompt": "Escena editorial realista para gomeria en Tandil, fachada de local barrial, herramientas y cubiertas, luz natural, sin texto, sin logos inventados.",
-    "design_notes": "Mood precision-service, composicion poster-bay. Evitar estetica SaaS generica; usar recursos visuales de ruta, taller, cubiertas, direccion y prueba social."
+    "review_heading": "Señales de atención",
+    "contact_heading": "Consultar antes de acercarse",
+    "image_prompt": "Escena editorial realista para lubricentro y gomería en Tandil, aceite, filtros, cubiertas y herramientas ordenadas, sin texto ni logos inventados.",
+    "design_notes": "Landing técnica tipo etiqueta de mantenimiento, con grilla precisa y CTA sobrio.",
+    "creative": {
+      "concept": "Ficha de mantenimiento: la landing debe sentirse como un tablero de servicio, clara y confiable.",
+      "audience": "Conductores que buscan resolver cambio de aceite, filtros, cubiertas o una consulta de mantenimiento.",
+      "visual_direction": "Industrial limpio, líneas de etiqueta, tarjetas tipo checklist y foto con tratamiento técnico.",
+      "layout": "oil-bay",
+      "texture": "oil-label",
+      "hero_angle": "El sitio vende orden: rubro mixto, teléfono, horario y reseñas sin hacer promesas no verificadas.",
+      "hero_cards": [
+        {
+          "label": "Rubro",
+          "value": "Lubricentro + gomería",
+          "note": "Servicio mixto"
+        },
+        {
+          "label": "Rating",
+          "value": "4.7",
+          "note": "44 reseñas"
+        },
+        {
+          "label": "Dirección",
+          "value": "Ameghino 898",
+          "note": "Tandil"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Mantenimiento",
+          "title": "Una página para quien quiere resolver algo del auto, no leer un folleto.",
+          "body": "La propuesta presenta el mix lubricentro/gomería como dato central y deja el contacto listo para confirmar disponibilidad.",
+          "items": [
+            {
+              "label": "Aceite",
+              "value": "Consulta por lubricación"
+            },
+            {
+              "label": "Cubiertas",
+              "value": "Gomería"
+            },
+            {
+              "label": "Antes de ir",
+              "value": "Llamar al 0249 443-7843"
+            }
+          ]
+        },
+        {
+          "type": "process",
+          "eyebrow": "Chequeo",
+          "title": "Horario, rubro y teléfono: el mínimo útil bien presentado.",
+          "body": "El bloque funciona como una orden de trabajo previa: qué se consulta, dónde queda y cuándo abre.",
+          "items": [
+            {
+              "label": "1",
+              "value": "Revisar horario partido"
+            },
+            {
+              "label": "2",
+              "value": "Consultar disponibilidad"
+            },
+            {
+              "label": "3",
+              "value": "Ir a Ameghino 898"
+            }
+          ],
+          "callout": "No se inventan marcas ni stock: se vende claridad."
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Referencia",
+          "title": "“Excelente atención, muy buenos precios.”",
+          "body": "La reseña se usa como indicio de experiencia, no como garantía.",
+          "items": [
+            {
+              "label": "Reseña",
+              "value": "Atención recomendable"
+            },
+            {
+              "label": "Reseña",
+              "value": "Muy buena onda"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
-    "business_id": "google-ChIJhxkNuakfkZURxOr6vp5CQq0",
-    "slug": "gomeria-j-m-n-24-hs",
-    "visual_mood": "roadside-urgent",
-    "composition": "route-card",
-    "headline": "Gomeria J.M.N 24 HS",
-    "subheadline": "Gomeria en Tandil con datos concretos para decidir rapido: contacto, horarios, ubicacion y referencias publicas.",
-    "primary_cta": "Consultar auxilio",
-    "secondary_cta": "Ver datos del local",
+    "business_id": "google-ChIJAwmJ8ZwfkZURyusZGKQR2fs",
+    "slug": "gomeria-el-viejo-matias-auxilio-24-hs",
+    "visual_mood": "neighborhood-direct",
+    "composition": "service-ledger",
+    "headline": "El Viejo Matias",
+    "subheadline": "Gomeria en Av. Rivadavia 799 con muchas reseñas, telefono visible y horario registrado de lunes a sabado.",
+    "primary_cta": "Llamar a la gomeria",
+    "secondary_cta": "Ver horario",
     "service_tags": [
-      "Cubiertas",
-      "Pinchaduras",
-      "Auxilio",
-      "Atencion 24 horas"
+      "Gomeria",
+      "Auxilio en el nombre",
+      "Atencion local",
+      "Consulta por telefono"
     ],
     "proof_points": [
-      "5.0 sobre 5 con 43 reseñas",
-      "Horario: Abierto 24 horas",
-      "Direccion: Pasaje seritti 720 Palacios, C. R. Marzoratti y",
-      "Reseñas que destacan: \"La persona que atiende y trabaja muy atenta. Excelente 👌  servicio. Abierto las 24 hs\""
+      "4.7 sobre 5 con 328 reseñas",
+      "Av. Rivadavia 799, Tandil",
+      "Horario registrado de lunes a sabado",
+      "Reseñas mencionan rapidez, atencion y honestidad"
     ],
-    "resource_title": "Para resolver cubiertas sin perder tiempo",
+    "resource_title": "Una gomeria barrial con datos de contacto sin vueltas",
     "resource_items": [
-      "Direccion visible para llegar directo al local.",
-      "Contacto util para urgencias y auxilios.",
-      "Horario registrado: Abierto 24 horas."
+      "Telefono visible desde el primer bloque.",
+      "Horario real mostrado sin afirmar disponibilidad no verificada.",
+      "Reseñas publicas con foco en atencion y rapidez."
     ],
-    "review_heading": "Lo que valoran quienes ya fueron",
-    "contact_heading": "Llegar o llamar sin vueltas",
-    "image_prompt": "Escena editorial realista para gomeria en Tandil, fachada de local barrial, herramientas y cubiertas, luz natural, sin texto, sin logos inventados.",
-    "design_notes": "Mood roadside-urgent, composicion route-card. Evitar estetica SaaS generica; usar recursos visuales de ruta, taller, cubiertas, direccion y prueba social."
+    "review_heading": "Atencion y rapidez mencionadas",
+    "contact_heading": "Consultar por cubierta o auxilio",
+    "image_prompt": "Escena editorial realista para gomeria local en Tandil, cubiertas, herramientas y frente de taller, sin texto ni logos inventados.",
+    "design_notes": "Landing de gomeria local: directa, con energia de taller de barrio y sin prometer 24 hs como disponibilidad.",
+    "creative": {
+      "concept": "Gomeria de barrio: llamada rapida, direccion clara y prueba social por volumen de reseñas.",
+      "audience": "Conductores que necesitan resolver una cubierta o consultar auxilio durante el horario publicado.",
+      "visual_direction": "Panel de taller barrial, contraste de ruta suave, foto real y telefono como accion principal.",
+      "layout": "roadside-rescue",
+      "texture": "road-markings",
+      "hero_angle": "Aunque el nombre menciona auxilio 24 hs, la landing muestra el horario verificado y empuja a llamar para confirmar.",
+      "hero_cards": [
+        {
+          "label": "Rating",
+          "value": "4.7",
+          "note": "328 reseñas"
+        },
+        {
+          "label": "Direccion",
+          "value": "Av. Rivadavia 799",
+          "note": "Tandil"
+        },
+        {
+          "label": "Horario",
+          "value": "Lunes a sabado",
+          "note": "Domingo cerrado"
+        }
+      ],
+      "sections": [
+        {
+          "type": "quick-actions",
+          "eyebrow": "Consulta",
+          "title": "Si hay una cubierta de por medio, el telefono tiene que estar primero.",
+          "body": "La pagina evita vueltas: llamada, direccion y horario real para confirmar antes de moverse.",
+          "items": [
+            {
+              "label": "Telefono",
+              "value": "0249 424-3685"
+            },
+            {
+              "label": "Direccion",
+              "value": "Av. Rivadavia 799"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a sabado"
+            }
+          ],
+          "callout": "No se afirma disponibilidad 24 hs: se muestra lo verificado y se invita a llamar."
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Resenas",
+          "title": "“Excelente servicio, muy atentos y rapidos para resolver.”",
+          "body": "La cita funciona porque habla del criterio que mas importa en una gomeria: resolver sin demora.",
+          "items": [
+            {
+              "label": "Atencion",
+              "value": "Muy buena segun reseñas"
+            },
+            {
+              "label": "Confianza",
+              "value": "Honestidad mencionada"
+            }
+          ]
+        },
+        {
+          "type": "process",
+          "eyebrow": "Paso a paso",
+          "title": "Llamar, explicar la situacion y coordinar el proximo movimiento.",
+          "body": "La estructura acompaña una decision practica y local, no un recorrido largo de lectura.",
+          "items": [
+            {
+              "label": "1",
+              "value": "Llamar"
+            },
+            {
+              "label": "2",
+              "value": "Contar el problema"
+            },
+            {
+              "label": "3",
+              "value": "Confirmar horario o llegada"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "business_id": "google-ChIJw2Yfye4fkZURKgs9NhpTdAs",
+    "slug": "taller-franco-chapa-y-pintura",
+    "visual_mood": "precision-service",
+    "composition": "photo-board",
+    "headline": "Taller Franco Chapa y Pintura",
+    "subheadline": "Chapa, pintura y reparación de carrocería en Tandil con reseñas que hablan de golpes, pulido y terminación.",
+    "primary_cta": "Consultar reparación",
+    "secondary_cta": "Ver trabajos mencionados",
+    "service_tags": [
+      "Chapa",
+      "Pintura",
+      "Pulido",
+      "Consulta por trabajo"
+    ],
+    "proof_points": [
+      "4.7 sobre 5 con 67 reseñas",
+      "Saavedra 458, Tandil",
+      "Lunes a viernes con horario registrado",
+      "Reseñas mencionan golpes, pulido y auto impecable"
+    ],
+    "resource_title": "Carrocería: antes de pedir presupuesto, mirá señales reales",
+    "resource_items": [
+      "Las reseñas mencionan trabajos concretos.",
+      "El teléfono está visible para consultar el caso.",
+      "La landing evita prometer plazos o resultados no verificados."
+    ],
+    "review_heading": "Terminación mencionada por clientes",
+    "contact_heading": "Consultar el trabajo de carrocería",
+    "image_prompt": "Escena editorial realista para taller de chapa y pintura en Tandil, carrocería, lijado, pulido y luz de taller, sin texto ni logos inventados.",
+    "design_notes": "Landing editorial de oficio: textura de primer, bloques de proceso y reseñas sobre terminación.",
+    "creative": {
+      "concept": "Oficio y terminación: una landing que vende confianza sin mostrar un portfolio inventado.",
+      "audience": "Personas que tienen un golpe, necesitan pintar o quieren consultar un trabajo de carrocería.",
+      "visual_direction": "Fondo claro con acento de taller, foto como evidencia y bloques que parecen fichas de proceso.",
+      "layout": "bodyshop-craft",
+      "texture": "primer-dust",
+      "hero_angle": "El valor está en las señales verificadas: golpes resueltos, pulido mencionado y atención destacada.",
+      "hero_cards": [
+        {
+          "label": "Señal",
+          "value": "Golpes y pulido",
+          "note": "Mencionados en reseñas"
+        },
+        {
+          "label": "Rating",
+          "value": "4.7",
+          "note": "67 reseñas"
+        },
+        {
+          "label": "Dirección",
+          "value": "Saavedra 458",
+          "note": "Tandil"
+        }
+      ],
+      "sections": [
+        {
+          "type": "material-story",
+          "eyebrow": "Oficio",
+          "title": "La página no inventa un portfolio: usa lo que la gente ya dijo.",
+          "body": "Las reseñas hablan de arreglar golpes, pedir pulido y recibir el auto en buen estado. Ese es el eje comercial.",
+          "items": [
+            {
+              "label": "Chapa",
+              "value": "Consulta por reparación"
+            },
+            {
+              "label": "Pintura",
+              "value": "Trabajo de carrocería"
+            },
+            {
+              "label": "Pulido",
+              "value": "Mencionado en reseñas"
+            }
+          ],
+          "callout": "La confianza se construye con señales concretas, no con promesas."
+        },
+        {
+          "type": "process",
+          "eyebrow": "Consulta",
+          "title": "Un caso de chapa necesita contexto antes de cotizar.",
+          "body": "Por eso el CTA invita a consultar el trabajo, sin inventar precios ni tiempos.",
+          "items": [
+            {
+              "label": "1",
+              "value": "Llamar"
+            },
+            {
+              "label": "2",
+              "value": "Describir el golpe"
+            },
+            {
+              "label": "3",
+              "value": "Coordinar revisión"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseña",
+          "title": "“Arreglarle ese golpe... y quedó espectacular.”",
+          "body": "La frase conecta directo con la intención de búsqueda: reparar y recuperar presentación.",
+          "items": [
+            {
+              "label": "Atención",
+              "value": "Excelente atención del equipo"
+            },
+            {
+              "label": "Resultado",
+              "value": "Auto impecable"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "business_id": "google-ChIJn0YZfYcfkZURojKDl1MpvRE",
+    "slug": "iturralde-repuestos",
+    "visual_mood": "fleet-utility",
+    "composition": "split-command",
+    "headline": "Iturralde",
+    "subheadline": "Repuestos para autos en 9 de Julio 1556: telefono, horario y referencias de atencion para consultar antes de acercarte.",
+    "primary_cta": "Consultar repuesto",
+    "secondary_cta": "Ver mostrador",
+    "service_tags": [
+      "Repuestos",
+      "Consulta por pieza",
+      "Atencion en local",
+      "Horario de mostrador"
+    ],
+    "proof_points": [
+      "4.6 sobre 5 con 295 reseñas",
+      "9 de Julio 1556, Tandil",
+      "Lunes a sabado con horario registrado",
+      "Reseñas que mencionan buena atencion"
+    ],
+    "resource_title": "Mostrador digital para preguntar primero y moverse despues",
+    "resource_items": [
+      "Telefono visible para consultar disponibilidad sin prometer stock.",
+      "Direccion y horario ordenados para decidir si acercarse.",
+      "Reseñas publicas enfocadas en atencion y precio."
+    ],
+    "review_heading": "Referencias de mostrador",
+    "contact_heading": "Preguntar por la pieza",
+    "image_prompt": "Escena editorial realista para local de repuestos automotores en Tandil, mostrador, estanterias, piezas y accesorios, sin texto ni logos inventados.",
+    "design_notes": "Landing tipo mostrador: compacta, utilitaria y orientada a llamada o visita sin inventar stock.",
+    "creative": {
+      "concept": "Mostrador de repuestos: convertir una busqueda de pieza en una consulta concreta y verificable.",
+      "audience": "Personas que necesitan consultar por una pieza o accesorio antes de acercarse al local.",
+      "visual_direction": "Catalogo utilitario con foto real del local, etiquetas cortas y CTA de consulta.",
+      "layout": "parts-counter",
+      "texture": "parts-shelf",
+      "hero_angle": "La landing no promete stock: deja claro donde llamar, cuando ir y que referencias publicas existen.",
+      "hero_cards": [
+        {
+          "label": "Rating",
+          "value": "4.6",
+          "note": "295 reseñas"
+        },
+        {
+          "label": "Consulta",
+          "value": "0249 401-7903",
+          "note": "Telefono visible"
+        },
+        {
+          "label": "Direccion",
+          "value": "9 de Julio 1556",
+          "note": "Tandil"
+        }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Mostrador",
+          "title": "Para repuestos, la conversion empieza con una pregunta concreta.",
+          "body": "La pagina muestra contacto, ubicacion y horario sin inventar marcas, precios ni disponibilidad.",
+          "items": [
+            {
+              "label": "Rubro",
+              "value": "Repuestos para autos"
+            },
+            {
+              "label": "Antes de ir",
+              "value": "Consultar por telefono"
+            },
+            {
+              "label": "Local",
+              "value": "9 de Julio 1556"
+            }
+          ],
+          "callout": "El valor comercial es reducir la duda antes de moverse."
+        },
+        {
+          "type": "metric-grid",
+          "eyebrow": "Senales",
+          "title": "Alto volumen de reseñas y datos publicos listos.",
+          "body": "La confianza se apoya en rating, direccion, horario y comentarios sobre atencion.",
+          "items": [
+            {
+              "label": "Valoracion",
+              "value": "4.6"
+            },
+            {
+              "label": "Reseñas",
+              "value": "295"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a sabado"
+            },
+            {
+              "label": "Rubro",
+              "value": "Auto Parts Store"
+            }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Accion",
+          "title": "Preguntar por la pieza, confirmar y recien despues acercarse.",
+          "body": "La llamada tiene mas sentido que un formulario porque cada consulta depende del vehiculo y la pieza.",
+          "items": [
+            {
+              "label": "Telefono",
+              "value": "0249 401-7903"
+            },
+            {
+              "label": "Direccion",
+              "value": "9 de Julio 1556"
+            },
+            {
+              "label": "Domingo",
+              "value": "Cerrado"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "business_id": "google-ChIJ_7T3RIUfkZURLiDXAheqeg8",
+    "slug": "walter-gomez-servicio-multimarca",
+    "visual_mood": "workshop-trust",
+    "composition": "poster-bay",
+    "headline": "Walter Gomez Servicio Multimarca",
+    "subheadline": "Taller mecánico en Av. Marconi con reseñas que destacan atención, honestidad y resolución de problemas del auto.",
+    "primary_cta": "Consultar turno",
+    "secondary_cta": "Ver reseñas",
+    "service_tags": [
+      "Mecánica",
+      "Service",
+      "Reparaciones",
+      "Consulta por turno"
+    ],
+    "proof_points": [
+      "4.7 sobre 5 con 75 reseñas",
+      "Av. Marconi 1678, Tandil",
+      "Horario todos los días según registro",
+      "Reseñas mencionan honestidad y solución efectiva"
+    ],
+    "resource_title": "Un taller se elige por confianza antes que por ruido",
+    "resource_items": [
+      "Reseñas con situaciones concretas.",
+      "Dirección y teléfono visibles.",
+      "Horarios registrados para planificar consulta."
+    ],
+    "review_heading": "Confianza en palabras de clientes",
+    "contact_heading": "Consultar el problema del auto",
+    "image_prompt": "Escena editorial realista para taller mecánico multimarca en Tandil, elevador, herramientas, auto en revisión, luz natural, sin texto ni logos inventados.",
+    "design_notes": "Landing tipo bitácora de taller: ordenada, confiable y apoyada en reseñas de casos reales.",
+    "creative": {
+      "concept": "Bitácora de confianza: convertir reseñas de honestidad y resolución en una página de taller vendible.",
+      "audience": "Conductores que necesitan revisar un problema, hacer service o encontrar un taller confiable.",
+      "visual_direction": "Editorial mecánico, grilla de diagnóstico, bloques sobrios y foco en casos reales.",
+      "layout": "mechanic-ledger",
+      "texture": "service-ledger",
+      "hero_angle": "La landing vende tranquilidad: otros llegaron con un problema y describieron atención concreta.",
+      "hero_cards": [
+        {
+          "label": "Rating",
+          "value": "4.7",
+          "note": "75 reseñas"
+        },
+        {
+          "label": "Señal",
+          "value": "Honestidad",
+          "note": "Mencionada por clientes"
+        },
+        {
+          "label": "Dirección",
+          "value": "Av. Marconi 1678",
+          "note": "Tandil"
+        }
+      ],
+      "sections": [
+        {
+          "type": "material-story",
+          "eyebrow": "Confianza",
+          "title": "La reseña fuerte no dice “somos buenos”: cuenta una situación real.",
+          "body": "Un cliente menciona un cubre cárter flojo antes de viajar y una revisión rápida. Ese caso ordena el relato comercial.",
+          "items": [
+            {
+              "label": "Caso",
+              "value": "Problema antes de salir a ruta"
+            },
+            {
+              "label": "Respuesta",
+              "value": "Revisión en el día"
+            },
+            {
+              "label": "Percepción",
+              "value": "Empatía y honestidad"
+            }
+          ],
+          "callout": "La página usa casos reales como prueba, no frases vacías."
+        },
+        {
+          "type": "process",
+          "eyebrow": "Turno",
+          "title": "Un taller necesita entender el síntoma antes de prometer solución.",
+          "body": "El CTA invita a consultar turno o explicar el problema, sin afirmar diagnósticos no verificados.",
+          "items": [
+            {
+              "label": "1",
+              "value": "Llamar"
+            },
+            {
+              "label": "2",
+              "value": "Explicar el síntoma"
+            },
+            {
+              "label": "3",
+              "value": "Coordinar revisión"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseña",
+          "title": "“Te dice la posta y te da solución efectiva.”",
+          "body": "La frase tiene peso comercial porque habla del miedo principal: llevar el auto y no saber si confiar.",
+          "items": [
+            {
+              "label": "Señal",
+              "value": "Buena atención"
+            },
+            {
+              "label": "Señal",
+              "value": "Distintas reparaciones"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "business_id": "google-ChIJ9dpiFKcfkZURJST1CIrToxg",
+    "slug": "gomeria-y-auxilio-24-horas-landeyro",
+    "visual_mood": "roadside-urgent",
+    "composition": "route-card",
+    "headline": "Landeyro: gomería y auxilio 24 horas",
+    "subheadline": "Gomería en J. M. Dhers 25 con atención 24 horas de lunes a sábado y reseñas que hablan de rapidez.",
+    "primary_cta": "Consultar auxilio",
+    "secondary_cta": "Ver datos",
+    "service_tags": [
+      "Gomería",
+      "Auxilio",
+      "Pinchaduras",
+      "24 horas"
+    ],
+    "proof_points": [
+      "4.8 sobre 5 con 176 reseñas",
+      "24 horas de lunes a sábado",
+      "J. M. Dhers 25, Tandil",
+      "Reseñas mencionan feriados, domingos y reparación rápida"
+    ],
+    "resource_title": "Datos críticos para una cubierta que no espera",
+    "resource_items": [
+      "Teléfono en primer plano.",
+      "Horario 24 horas destacado con domingo parcial.",
+      "Ubicación exacta para llegar o pedir auxilio."
+    ],
+    "review_heading": "Rapidez y disponibilidad",
+    "contact_heading": "Llamar o llegar al local",
+    "image_prompt": "Escena editorial realista para gomería y auxilio 24 horas en Tandil, cubierta, herramientas y local de ruta, sin texto ni logos inventados.",
+    "design_notes": "Landing de auxilio con estética vial y tarjetas de decisión rápida.",
+    "creative": {
+      "concept": "Puesto de auxilio: una landing que funciona como panel de ruta para llamada y llegada.",
+      "audience": "Conductores que necesitan reparar una cubierta, dejar un neumático o resolver fuera de horario.",
+      "visual_direction": "Contraste vial, tarjetas diagonales, teléfono grande y dirección como coordenada principal.",
+      "layout": "roadside-rescue",
+      "texture": "road-markings",
+      "hero_angle": "La diferencia comercial es disponibilidad: 24 horas de lunes a sábado y reseñas sobre rapidez.",
+      "hero_cards": [
+        {
+          "label": "Horario",
+          "value": "24 hs",
+          "note": "Lunes a sábado"
+        },
+        {
+          "label": "Rating",
+          "value": "4.8",
+          "note": "176 reseñas"
+        },
+        {
+          "label": "Dirección",
+          "value": "J. M. Dhers 25",
+          "note": "Tandil"
+        }
+      ],
+      "sections": [
+        {
+          "type": "quick-actions",
+          "eyebrow": "Auxilio",
+          "title": "La página resuelve el primer minuto de la urgencia.",
+          "body": "Muestra teléfono, dirección y horario antes de cualquier bloque secundario.",
+          "items": [
+            {
+              "label": "Teléfono",
+              "value": "0249 463-9850"
+            },
+            {
+              "label": "Ubicación",
+              "value": "J. M. Dhers 25"
+            },
+            {
+              "label": "Domingo",
+              "value": "8:00 a 14:00"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Prueba",
+          "title": "“Me atendieron muy rápido y bien.”",
+          "body": "En una gomería de auxilio, rapidez y disponibilidad valen más que un texto largo.",
+          "items": [
+            {
+              "label": "Feriados",
+              "value": "Mencionados en reseñas"
+            },
+            {
+              "label": "Trabajo",
+              "value": "Excelente según cliente"
+            }
+          ],
+          "callout": "La landing empuja a llamar, no a navegar."
+        },
+        {
+          "type": "process",
+          "eyebrow": "Ruta",
+          "title": "Llamar, dejar el neumático, seguir viaje.",
+          "body": "La estructura se apoya en una reseña concreta donde el neumático quedó listo al día siguiente.",
+          "items": [
+            {
+              "label": "1",
+              "value": "Consultar"
+            },
+            {
+              "label": "2",
+              "value": "Coordinar reparación"
+            },
+            {
+              "label": "3",
+              "value": "Retirar o seguir viaje"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "business_id": "google-ChIJvR7setMhkZURnH2gJ7F19Wc",
+    "slug": "taller-di-sipio-chapa-y-pintura",
+    "visual_mood": "precision-service",
+    "composition": "service-ledger",
+    "headline": "Di Sipio Chapa y Pintura",
+    "subheadline": "Taller de chapa y pintura en Almafuerte 943 con reseñas que destacan rapidez, atención y trabajos cumplidos.",
+    "primary_cta": "Consultar reparación",
+    "secondary_cta": "Ver horarios",
+    "service_tags": [
+      "Chapa",
+      "Pintura",
+      "Reparaciones",
+      "Consulta por trabajo"
+    ],
+    "proof_points": [
+      "4.9 sobre 5 con 35 reseñas",
+      "C. Almafuerte 943, Tandil",
+      "Lunes a sábado",
+      "Reseñas mencionan rapidez y cumplimiento"
+    ],
+    "resource_title": "Una landing para consultar carrocería con expectativas claras",
+    "resource_items": [
+      "No inventa presupuestos ni plazos.",
+      "Usa reseñas reales sobre rapidez y atención.",
+      "Deja teléfono, dirección y horario al alcance."
+    ],
+    "review_heading": "Rapidez y cumplimiento",
+    "contact_heading": "Consultar por el arreglo",
+    "image_prompt": "Escena editorial realista para taller de chapa y pintura en Tandil, carrocería en preparación, herramientas y luz de trabajo, sin texto ni logos inventados.",
+    "design_notes": "Landing de taller de carrocería con estética de ficha de trabajo y reseñas como prueba.",
+    "creative": {
+      "concept": "Ficha de reparación: orientar a quien llega con un problema visual del auto.",
+      "audience": "Personas que necesitan consultar chapa, pintura o reparación y quieren referencias antes de llamar.",
+      "visual_direction": "Editorial de taller, textura de polvo de primer, bloques amplios y citas como prueba de cumplimiento.",
+      "layout": "bodyshop-craft",
+      "texture": "primer-dust",
+      "hero_angle": "La venta está en la confianza: rapidez mencionada, atención y trabajo cumplido.",
+      "hero_cards": [
+        {
+          "label": "Rating",
+          "value": "4.9",
+          "note": "35 reseñas"
+        },
+        {
+          "label": "Señal",
+          "value": "Rapidez",
+          "note": "Mencionada por clientes"
+        },
+        {
+          "label": "Dirección",
+          "value": "Almafuerte 943",
+          "note": "Tandil"
+        }
+      ],
+      "sections": [
+        {
+          "type": "quote-strip",
+          "eyebrow": "Reseña",
+          "title": "“Increíble su trabajo... y la rapidez.”",
+          "body": "La landing abre con una señal que importa: cuando el auto entra a taller, la incertidumbre baja si hay referencias concretas.",
+          "items": [
+            {
+              "label": "Atención",
+              "value": "Excelente según reseñas"
+            },
+            {
+              "label": "Cumplimiento",
+              "value": "Trabajo perfecto y en tiempo"
+            }
+          ]
+        },
+        {
+          "type": "process",
+          "eyebrow": "Consulta",
+          "title": "Un arreglo se conversa con el caso adelante.",
+          "body": "Por eso el sitio empuja a llamar y coordinar, no a cerrar una promesa imposible por web.",
+          "items": [
+            {
+              "label": "1",
+              "value": "Llamar"
+            },
+            {
+              "label": "2",
+              "value": "Contar el trabajo"
+            },
+            {
+              "label": "3",
+              "value": "Coordinar revisión"
+            }
+          ]
+        },
+        {
+          "type": "metric-grid",
+          "eyebrow": "Datos",
+          "title": "Lo verificable queda visible.",
+          "body": "Rating, dirección, teléfono y horario sostienen la conversión sin adornar.",
+          "items": [
+            {
+              "label": "Teléfono",
+              "value": "0249 460-4088"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a sábado"
+            },
+            {
+              "label": "Rubro",
+              "value": "Chapa y pintura"
+            }
+          ],
+          "callout": "Diseñada para vender consulta, no para inventar catálogo."
+        }
+      ]
+    }
   },
   {
     "business_id": "google-ChIJ-5QG4ichkZURyv_V-AdPjS0",
     "slug": "mecanica-maz",
     "visual_mood": "workshop-trust",
-    "composition": "service-ledger",
+    "composition": "photo-board",
     "headline": "Mecanica Maz",
-    "subheadline": "Taller mecanico en Tandil con datos concretos para decidir rapido: contacto, horarios, ubicacion y referencias publicas.",
-    "primary_cta": "Consultar turno",
-    "secondary_cta": "Ver datos del local",
+    "subheadline": "Taller mecánico en Laprida 961 con reseñas de viajeros, problemas resueltos y atención fuera de lo habitual.",
+    "primary_cta": "Consultar taller",
+    "secondary_cta": "Ver referencias",
     "service_tags": [
-      "Mecanica general",
+      "Mecánica",
       "Service",
-      "Diagnostico",
+      "Diagnóstico",
       "Consulta por turno"
     ],
     "proof_points": [
       "4.9 sobre 5 con 31 reseñas",
-      "Horario: Lunes a Sabado; Domingo cerrado",
-      "Direccion: Laprida 961, B7000 Tandil",
-      "Reseñas que destacan: \"La verdad Excelente servicio. Estaba de viaje y un sábado por la tarde tuve un problema mecá...\""
+      "Laprida 961, Tandil",
+      "Lunes a sábado",
+      "Reseñas mencionan viajes y problemas mecánicos"
     ],
-    "resource_title": "Informacion util antes de llevar el auto",
+    "resource_title": "Cuando el auto falla en viaje, la confianza pesa más",
     "resource_items": [
-      "Rubro y direccion destacados desde el primer bloque.",
-      "Reseñas visibles para evaluar la atencion.",
-      "Horario registrado: Lunes a Sabado; Domingo cerrado."
+      "Reseñas con casos de viaje.",
+      "Teléfono visible para explicar el problema.",
+      "Dirección clara dentro de Tandil."
     ],
-    "review_heading": "Lo que valoran quienes ya fueron",
-    "contact_heading": "Llegar o llamar sin vueltas",
-    "image_prompt": "Escena editorial realista para taller mecanico en Tandil, fachada de local barrial, herramientas y cubiertas, luz natural, sin texto, sin logos inventados.",
-    "design_notes": "Mood workshop-trust, composicion service-ledger. Evitar estetica SaaS generica; usar recursos visuales de ruta, taller, cubiertas, direccion y prueba social."
-  },
-  {
-    "business_id": "google-ChIJk0E4QFwfkZUR1qykqg4Z9Zs",
-    "slug": "gomeria-lo-de-pepe",
-    "visual_mood": "fleet-utility",
-    "composition": "photo-board",
-    "headline": "Gomeria lo de Pepe",
-    "subheadline": "Gomeria en Tandil con datos concretos para decidir rapido: contacto, horarios, ubicacion y referencias publicas.",
-    "primary_cta": "Consultar auxilio",
-    "secondary_cta": "Ver datos del local",
-    "service_tags": [
-      "Cubiertas",
-      "Pinchaduras",
-      "Auxilio",
-      "Atencion 24 horas"
-    ],
-    "proof_points": [
-      "4.9 sobre 5 con 30 reseñas",
-      "Horario: Lunes: 8:00 a. m. – 8:00 p. m.",
-      "Direccion: Juan de San Martin casa 26, B7000 Tandil",
-      "Reseñas que destacan: \"Excelente atención la de Pepe! Me salvó un domingo a la tarde!! 100/10\""
-    ],
-    "resource_title": "Para resolver cubiertas sin perder tiempo",
-    "resource_items": [
-      "Direccion visible para llegar directo al local.",
-      "Contacto util para urgencias y auxilios.",
-      "Horario registrado: Lunes: 8:00 a. m. – 8:00 p. m.."
-    ],
-    "review_heading": "Lo que valoran quienes ya fueron",
-    "contact_heading": "Llegar o llamar sin vueltas",
-    "image_prompt": "Escena editorial realista para gomeria en Tandil, fachada de local barrial, herramientas y cubiertas, luz natural, sin texto, sin logos inventados.",
-    "design_notes": "Mood fleet-utility, composicion photo-board. Evitar estetica SaaS generica; usar recursos visuales de ruta, taller, cubiertas, direccion y prueba social."
+    "review_heading": "Casos reales, no slogans",
+    "contact_heading": "Consultar por el problema mecánico",
+    "image_prompt": "Escena editorial realista para taller mecánico en Tandil, auto en revisión, herramientas y luz de taller, sin texto ni logos inventados.",
+    "design_notes": "Landing de taller con relato de rescate en viaje, confianza y datos rápidos.",
+    "creative": {
+      "concept": "Taller de confianza para imprevistos: usar reseñas de viaje como eje comercial.",
+      "audience": "Conductores locales o de paso que necesitan resolver un problema mecánico y buscan referencia rápida.",
+      "visual_direction": "Bitácora de ruta y taller, composición con foto inclinada, bloques de caso y CTA de consulta.",
+      "layout": "mechanic-ledger",
+      "texture": "service-ledger",
+      "hero_angle": "La landing se apoya en una historia fuerte: un problema en viaje, remolque y resolución según reseña.",
+      "hero_cards": [
+        {
+          "label": "Rating",
+          "value": "4.9",
+          "note": "31 reseñas"
+        },
+        {
+          "label": "Caso",
+          "value": "Problema en viaje",
+          "note": "Mencionado por clientes"
+        },
+        {
+          "label": "Dirección",
+          "value": "Laprida 961",
+          "note": "Tandil"
+        }
+      ],
+      "sections": [
+        {
+          "type": "material-story",
+          "eyebrow": "Historia",
+          "title": "La reseña cuenta una escena: sábado, viaje y problema mecánico.",
+          "body": "Ese relato vale más que cualquier frase genérica. La landing lo convierte en confianza para la próxima consulta.",
+          "items": [
+            {
+              "label": "Situación",
+              "value": "Auto con problema en viaje"
+            },
+            {
+              "label": "Respuesta",
+              "value": "Remolque y solución según reseña"
+            },
+            {
+              "label": "Percepción",
+              "value": "Profesionales y rápidos"
+            }
+          ],
+          "callout": "El sitio vende tranquilidad con evidencia pública."
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Consulta",
+          "title": "Explicar el problema es el primer paso.",
+          "body": "La página guía hacia una llamada concreta, con dirección y horario listos.",
+          "items": [
+            {
+              "label": "Teléfono",
+              "value": "0249 464-3419"
+            },
+            {
+              "label": "Dirección",
+              "value": "Laprida 961"
+            },
+            {
+              "label": "Horario",
+              "value": "Lunes a sábado"
+            }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Prueba",
+          "title": "“Me solucionaron el problema... super predispuestos.”",
+          "body": "La página deja que esa señal haga el trabajo comercial.",
+          "items": [
+            {
+              "label": "Atención",
+              "value": "Trato muy agradable"
+            },
+            {
+              "label": "Confianza",
+              "value": "Totalmente recomendado"
+            }
+          ]
+        }
+      ]
+    }
   }
 ]

@@ -32,6 +32,15 @@ function fencedJson(value: unknown): string {
   return `\n\`\`\`json\n${JSON.stringify(value, null, 2)}\n\`\`\`\n`;
 }
 
+function slugPart(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
 async function loadCurrentSpecs(filePath: string): Promise<Map<string, unknown>> {
   try {
     const raw = await readFile(filePath, "utf8");
@@ -66,12 +75,13 @@ function renderBrief(params: {
     : normalizedSegment.includes("vehicul")
       ? "Use automotive/local-service cues: route, workshop, tires, urgency, practical contact, opening hours, location."
       : `Use cues from the ${args.segment} domain and the local retail/service context in ${args.city}.`;
+  const runSlug = `${slugPart(args.city)}-${slugPart(args.segment)}`;
 
   return `# Site Brief ${index + 1}: ${business.name}
 
 ## Goal
 
-Write or refine one \`SiteSpec\` for this business. Use the agent session context and judgement. Do not call the OpenAI API from repo scripts.
+Write or refine one \`SiteSpec\` for this business and create its real frontend artifact. Use the agent session context, judgement, and frontend skill. Do not call the OpenAI API from repo scripts.
 
 ## Hard Rules
 
@@ -81,6 +91,7 @@ Write or refine one \`SiteSpec\` for this business. Use the agent session contex
 - Avoid generic filler like "soluciones integrales", "calidad garantizada", "experiencia unica", "creado con IA".
 - Keep the business name isolated to this one site.
 - Make the page feel designed for "${args.segment}" in ${args.city}, not like a SaaS template.
+- Final generation expects an \`agent_frontend\`. The renderer fallback is only for rough preview.
 
 ## Business Snapshot
 
@@ -120,6 +131,10 @@ ${[...new Set(sourceUrls)].map((url) => `- ${url}`).join("\n")}
 ## Recommended Design Direction
 
 - ${domainDirection}
+- Quality matters more than cheap or fast generation.
+- You may use plain HTML/CSS or a framework/library if it materially improves the final UI.
+- If using a framework, build/export it yourself and point \`agent_frontend.output_dir\` at the static output.
+- Avoid making ten pages share the same hero rhythm, card system, font pairing, spacing scale, or composition.
 - Prefer concrete microcopy based on the signals above.
 - Vary \`visual_mood\` and \`composition\` across the 10 sites.
 - Avoid repeating the same hero rhythm, proof order, and CTA wording from nearby briefs.
@@ -147,6 +162,33 @@ Return one object with:
 - \`contact_heading\`
 - \`image_prompt\`
 - \`design_notes\`
+- \`agent_frontend\`: required for final quality generation:
+  - \`mode\`: \`static-files\` or \`framework-build\`
+  - \`source_dir\`: source folder kept inside this repo, for example \`data/frontends/${runSlug}/${business.slug}\`
+  - \`output_dir\`: required only for \`framework-build\`; points to the static build output copied by the generator
+  - \`build_command\`: optional note, not executed by the generator
+  - \`libraries\`: optional list of real libraries used
+  - \`notes\`: short explanation of the visual direction and why it fits this business
+- \`creative\`: object used by the renderer to make the page feel custom:
+  - \`concept\`: commercial idea for this specific business
+  - \`audience\`: who is likely to search/contact
+  - \`visual_direction\`: concrete art direction, not generic adjectives
+  - \`layout\`: one of \`studio-detail\`, \`wash-flow\`, \`oil-bay\`, \`roadside-rescue\`, \`bodyshop-craft\`, \`parts-counter\`, \`mechanic-ledger\`
+  - \`texture\`: one of \`polished-glass\`, \`water-ripple\`, \`oil-label\`, \`road-markings\`, \`primer-dust\`, \`parts-shelf\`, \`service-ledger\`
+  - \`hero_angle\`: one strong commercial sentence for the hero
+  - \`hero_cards\`: 2 to 4 cards with \`label\`, \`value\`, optional \`note\`
+  - \`sections\`: 3 to 5 blocks. Each block has \`type\`, \`eyebrow\`, \`title\`, \`body\`, \`items\`, optional \`callout\`.
+
+Creative block \`type\` values:
+
+- \`service-board\`
+- \`process\`
+- \`quote-strip\`
+- \`quick-actions\`
+- \`material-story\`
+- \`metric-grid\`
+
+The \`agent_frontend\` artifact is the main place where the page stops being a template. The \`creative\` object remains useful as planning metadata and fallback input, but the final UI must be authored.
 `;
 }
 

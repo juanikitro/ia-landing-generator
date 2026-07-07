@@ -10,6 +10,7 @@ type Args = {
   country: string;
   out: string;
   limit: number;
+  perQueryLimit: number;
   segment: string;
   queries: string[];
   vehicleRelated: boolean;
@@ -64,6 +65,7 @@ function parseArgs(argv: string[]): Args {
     country: valueAfter("--country", "Argentina"),
     out: valueAfter("--out", "data/intake/tandil-candidates.json"),
     limit: Number(valueAfter("--limit", "30")),
+    perQueryLimit: Number(valueAfter("--per-query-limit", "12")),
     segment,
     queries,
     vehicleRelated: !argv.includes("--not-vehicle-related"),
@@ -77,6 +79,15 @@ function publicSource(place: GooglePlaceDetails): string {
 
 function category(place: GooglePlaceDetails): string {
   return place.primaryTypeDisplayName?.text ?? place.primaryType ?? "negocio local";
+}
+
+function serviceFromQuery(query: string): string {
+  return query
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function openingHoursRaw(place: GooglePlaceDetails): string | null {
@@ -173,7 +184,7 @@ function toBusinessCandidate(place: GooglePlaceDetails, query: string, args: Arg
       source_url: source,
     },
     reviews,
-    main_product_or_service: args.segment,
+    main_product_or_service: serviceFromQuery(query),
     photos,
     has_own_website: hasWebsite,
     website_check: {
@@ -211,6 +222,35 @@ function shouldKeep(place: GooglePlaceDetails, minRating: number, minReviews: nu
   return true;
 }
 
+function balancedByQuery(items: Array<{ place: GooglePlaceDetails; query: string }>, queries: string[], limit: number): Array<{ place: GooglePlaceDetails; query: string }> {
+  const groups = new Map<string, Array<{ place: GooglePlaceDetails; query: string }>>();
+  for (const query of queries) {
+    groups.set(query, []);
+  }
+  for (const item of items) {
+    const group = groups.get(item.query) ?? [];
+    group.push(item);
+    groups.set(item.query, group);
+  }
+
+  const output: Array<{ place: GooglePlaceDetails; query: string }> = [];
+  let added = true;
+
+  while (output.length < limit && added) {
+    added = false;
+    for (const query of queries) {
+      const group = groups.get(query) ?? [];
+      const next = group.shift();
+      if (!next) continue;
+      output.push(next);
+      added = true;
+      if (output.length >= limit) break;
+    }
+  }
+
+  return output;
+}
+
 async function main(): Promise<void> {
   const args = parseArgs(process.argv);
   const apiKey = process.env.GOOGLE_PLACES_API_KEY;
@@ -225,18 +265,20 @@ async function main(): Promise<void> {
   for (const query of args.queries) {
     const fullQuery = `${query} en ${args.city}, ${args.country}`;
     const results = await textSearch(fullQuery, apiKey);
+    let acceptedForQuery = 0;
 
     for (const result of results) {
-      if (seen.size >= args.limit) break;
+      if (acceptedForQuery >= args.perQueryLimit) break;
       if (!result.id || seen.has(result.id)) continue;
       const details = await placeDetails(result.id, apiKey);
       if (shouldKeep(details, minRating, minReviews, args.excludeTerms)) {
         seen.set(result.id, { place: details, query });
+        acceptedForQuery += 1;
       }
     }
   }
 
-  const candidates = [...seen.values()].map(({ place, query }) => toBusinessCandidate(place, query, args));
+  const candidates = balancedByQuery([...seen.values()], args.queries, args.limit).map(({ place, query }) => toBusinessCandidate(place, query, args));
   const parsed = businessDatasetSchema.parse(candidates);
 
   await mkdir(path.dirname(args.out), { recursive: true });

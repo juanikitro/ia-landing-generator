@@ -16,7 +16,62 @@ type ScoredBusiness = {
   business: Business;
   score: number;
   reasons: string[];
+  segment: ServiceSegment;
 };
+
+type ServiceSegment =
+  | "detailing"
+  | "lavadero"
+  | "lubricentro"
+  | "taller"
+  | "gomeria"
+  | "chapa-pintura"
+  | "polarizados"
+  | "repuestos-audio"
+  | "otros";
+
+const serviceSegments: Array<{ id: ServiceSegment; label: string; terms: string[] }> = [
+  {
+    id: "detailing",
+    label: "detailing/estetica",
+    terms: ["detailing", "estetica vehicular", "estética vehicular"],
+  },
+  {
+    id: "lavadero",
+    label: "lavadero",
+    terms: ["lavadero", "lavado", "car wash", "limpieza"],
+  },
+  {
+    id: "lubricentro",
+    label: "lubricentro",
+    terms: ["lubricentro", "lubricante", "lubricantes", "aceite", "aceites"],
+  },
+  {
+    id: "gomeria",
+    label: "gomeria",
+    terms: ["gomeria", "gomería", "cubierta", "cubiertas", "tire", "auxilio"],
+  },
+  {
+    id: "chapa-pintura",
+    label: "chapa y pintura",
+    terms: ["chapa", "pintura", "paint", "body"],
+  },
+  {
+    id: "polarizados",
+    label: "polarizados",
+    terms: ["polarizado", "polarizados"],
+  },
+  {
+    id: "repuestos-audio",
+    label: "repuestos/audio",
+    terms: ["repuesto", "repuestos", "audio", "autopart", "parts", "accesorio", "accesorios"],
+  },
+  {
+    id: "taller",
+    label: "taller mecanico",
+    terms: ["taller", "mecanica", "mecánica", "service", "car repair", "maintenance"],
+  },
+];
 
 const strongVehicleTerms = [
   "lavadero",
@@ -73,9 +128,48 @@ function segmentStrength(business: Business, terms: string[]): number {
   return terms.some((term) => haystack.includes(term.toLowerCase())) ? 1 : 0;
 }
 
+function normalize(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+function classifySegment(business: Business): ServiceSegment {
+  const verifiedHaystack = normalize(
+    [
+      business.name,
+      business.category,
+      business.reviews.map((review) => review.text).join(" "),
+    ].join(" "),
+  );
+
+  for (const segment of serviceSegments) {
+    if (segment.terms.some((term) => verifiedHaystack.includes(normalize(term)))) {
+      return segment.id;
+    }
+  }
+
+  const service = normalize(business.main_product_or_service);
+  const querySafeSegments: ServiceSegment[] = ["detailing", "lavadero", "lubricentro", "gomeria", "chapa-pintura", "taller"];
+
+  for (const segment of serviceSegments.filter((item) => querySafeSegments.includes(item.id))) {
+    if (segment.terms.some((term) => service.includes(normalize(term)))) {
+      return segment.id;
+    }
+  }
+
+  return "otros";
+}
+
+function segmentLabel(segmentId: ServiceSegment): string {
+  return serviceSegments.find((segment) => segment.id === segmentId)?.label ?? "otros";
+}
+
 function scoreBusiness(business: Business, terms: string[]): ScoredBusiness {
   const reasons: string[] = [];
   let score = 0;
+  const segment = classifySegment(business);
 
   if (!business.has_own_website) {
     score += 20;
@@ -122,6 +216,7 @@ function scoreBusiness(business: Business, terms: string[]): ScoredBusiness {
     business,
     score: Number(score.toFixed(2)),
     reasons,
+    segment,
   };
 }
 
@@ -150,12 +245,50 @@ function dedupe(scored: ScoredBusiness[]): ScoredBusiness[] {
   return [...bestByKey.values()];
 }
 
+function selectDiverse(scored: ScoredBusiness[], limit: number): ScoredBusiness[] {
+  const selected: ScoredBusiness[] = [];
+  const usedIds = new Set<string>();
+  const segmentCounts = new Map<ServiceSegment, number>();
+  const priority = serviceSegments.map((segment) => segment.id);
+
+  const add = (item: ScoredBusiness): boolean => {
+    if (usedIds.has(item.business.id) || selected.length >= limit) return false;
+    selected.push(item);
+    usedIds.add(item.business.id);
+    segmentCounts.set(item.segment, (segmentCounts.get(item.segment) ?? 0) + 1);
+    return true;
+  };
+
+  for (const segment of priority) {
+    const best = scored.find((item) => item.segment === segment && !usedIds.has(item.business.id));
+    if (best) add(best);
+    if (selected.length >= limit) return selected;
+  }
+
+  for (const maxPerSegment of [2, 3]) {
+    for (const item of scored) {
+      if (item.segment === "otros") continue;
+      if ((segmentCounts.get(item.segment) ?? 0) >= maxPerSegment) continue;
+      add(item);
+      if (selected.length >= limit) return selected;
+    }
+  }
+
+  for (const item of scored) {
+    add(item);
+    if (selected.length >= limit) return selected;
+  }
+
+  return selected;
+}
+
 function renderReport(scored: ScoredBusiness[], title: string): string {
   const lines = [`# ${title}`, "", `Generated at: ${new Date().toISOString()}`, ""];
 
   for (const [index, item] of scored.entries()) {
     lines.push(`${index + 1}. ${item.business.name}`);
     lines.push(`   - Score: ${item.score}`);
+    lines.push(`   - Segment: ${segmentLabel(item.segment)}`);
     lines.push(`   - Rating: ${item.business.rating.value} (${item.business.rating.reviews_count} reseñas)`);
     lines.push(`   - Category: ${item.business.category}`);
     lines.push(`   - Address: ${item.business.address}`);
@@ -174,12 +307,13 @@ async function main(): Promise<void> {
     if (b.business.rating.value !== a.business.rating.value) return b.business.rating.value - a.business.rating.value;
     return b.business.rating.reviews_count - a.business.rating.reviews_count;
   });
+  const selected = selectDiverse(scored, args.limit);
 
-  if (scored.length < args.limit) {
-    throw new Error(`Only ${scored.length} eligible candidate(s), need ${args.limit}. Run search again with a higher limit or lower filters.`);
+  if (selected.length < args.limit) {
+    throw new Error(`Only ${selected.length} eligible candidate(s), need ${args.limit}. Run search again with a higher limit or lower filters.`);
   }
 
-  const shortlist = scored.slice(0, args.limit).map((item) => ({
+  const shortlist = selected.map((item) => ({
     ...item.business,
     approved_for_generation: false,
     missing_data_reason: item.business.missing_data_reason,
@@ -188,7 +322,7 @@ async function main(): Promise<void> {
   const parsed = businessDatasetSchema.parse(shortlist);
   await mkdir(path.dirname(args.out), { recursive: true });
   await writeFile(args.out, `${JSON.stringify(parsed, null, 2)}\n`, "utf8");
-  await writeFile(args.out.replace(/\.json$/i, ".report.md"), renderReport(scored.slice(0, args.limit), args.title), "utf8");
+  await writeFile(args.out.replace(/\.json$/i, ".report.md"), renderReport(selected, args.title), "utf8");
 
   console.log(`Wrote ${parsed.length} shortlisted business(es) to ${args.out}`);
 }

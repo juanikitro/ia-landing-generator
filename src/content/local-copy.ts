@@ -32,6 +32,22 @@ export function buildBusinessProfile(business: Business): BusinessProfile {
   const hours = summarizeOpeningHours(business.opening_hours.raw);
   const placeArea = area(business);
 
+  if (hasAny(text, ["lubricentro", "lubricante", "aceite", "filtro"])) {
+    return {
+      rubro: "Lubricentro",
+      services: ["Cambio de aceite", "Lubricantes", "Filtros", "Consulta por mantenimiento"],
+      resourceTitle: "Mantenimiento simple, datos claros",
+      resourceItems: [
+        "Servicio principal enfocado en lubricacion y mantenimiento.",
+        "Telefono y direccion listos para coordinar la visita.",
+        `Horario registrado: ${hours}.`,
+      ],
+      lead: `${business.name} ofrece una referencia directa para mantenimiento, lubricantes y consultas del auto en ${placeArea}.`,
+      body: "El contenido se centra en los datos que ayudan a coordinar una visita: ubicacion, horario, contacto y opiniones publicas.",
+      cta: "Consultar mantenimiento",
+    };
+  }
+
   if (hasAny(text, ["gomeria", "gomería", "cubierta", "pinchadura", "auxilio", "rueda"])) {
     const hasAuxilio = hasAny(text, ["auxilio", "24 hs", "24 horas"]) || hours.includes("24 horas");
     return {
@@ -51,19 +67,35 @@ export function buildBusinessProfile(business: Business): BusinessProfile {
     };
   }
 
-  if (hasAny(text, ["lubricentro", "lubricante", "aceite", "filtro"])) {
+  if (hasAny(text, ["chapa", "pintura", "golpe", "choque", "pulido"])) {
     return {
-      rubro: "Lubricentro",
-      services: ["Cambio de aceite", "Lubricantes", "Filtros", "Consulta por mantenimiento"],
-      resourceTitle: "Mantenimiento simple, datos claros",
+      rubro: "Chapa y pintura",
+      services: ["Chapa", "Pintura", "Reparaciones", "Consulta por trabajo"],
+      resourceTitle: "Para evaluar una reparacion de carroceria",
       resourceItems: [
-        "Servicio principal enfocado en lubricacion y mantenimiento.",
-        "Telefono y direccion listos para coordinar la visita.",
+        "Direccion y contacto visibles para consultar el trabajo.",
+        "Reseñas publicas para revisar referencias de terminacion y atencion.",
         `Horario registrado: ${hours}.`,
       ],
-      lead: `${business.name} ofrece una referencia directa para mantenimiento, lubricantes y consultas del auto en ${placeArea}.`,
-      body: "El contenido se centra en los datos que ayudan a coordinar una visita: ubicacion, horario, contacto y opiniones publicas.",
-      cta: "Consultar mantenimiento",
+      lead: `${business.name} reúne informacion util para consultar trabajos de chapa, pintura o reparacion de carroceria en ${placeArea}.`,
+      body: "La pagina ordena datos publicos sin prometer presupuestos, plazos ni resultados no verificados.",
+      cta: "Consultar reparacion",
+    };
+  }
+
+  if (hasAny(text, ["repuesto", "repuestos", "autopart", "parts", "accesorio", "accesorios", "auto parts"])) {
+    return {
+      rubro: "Repuestos para autos",
+      services: ["Repuestos", "Accesorios", "Consulta por disponibilidad", "Atencion en local"],
+      resourceTitle: "Para consultar repuestos sin perder datos",
+      resourceItems: [
+        "Nombre, direccion y telefono reunidos para una consulta directa.",
+        "Reseñas visibles para evaluar atencion y disponibilidad.",
+        `Horario registrado: ${hours}.`,
+      ],
+      lead: `${business.name} presenta datos practicos para consultar repuestos, accesorios o disponibilidad en ${placeArea}.`,
+      body: "El sitio evita inventar stock, marcas o precios. Prioriza contacto, ubicacion, horario y referencias publicas.",
+      cta: "Consultar repuesto",
     };
   }
 
@@ -83,10 +115,26 @@ export function buildBusinessProfile(business: Business): BusinessProfile {
     };
   }
 
-  if (hasAny(text, ["lavadero", "detailing", "estetica", "estética"])) {
+  if (hasAny(text, ["detailing", "estetica", "estética"])) {
     return {
-      rubro: "Lavadero y estetica vehicular",
-      services: ["Lavado", "Interior", "Exterior", "Detalle del vehiculo"],
+      rubro: "Detailing y estetica vehicular",
+      services: ["Detailing", "Cuidado exterior", "Interior", "Consulta por turno"],
+      resourceTitle: "Para cuidar la terminacion del auto",
+      resourceItems: [
+        "Servicio principal visible desde el inicio.",
+        "Contacto directo para consultar disponibilidad.",
+        `Horario registrado: ${hours}.`,
+      ],
+      lead: `${business.name} reúne datos utiles para coordinar detailing, estetica o cuidado del vehiculo en ${placeArea}.`,
+      body: "La pagina muestra lo necesario para decidir rapido: servicio, ubicacion, horario, contacto y reseñas.",
+      cta: "Consultar detailing",
+    };
+  }
+
+  if (hasAny(text, ["lavadero", "lavado"])) {
+    return {
+      rubro: "Lavadero de autos",
+      services: ["Lavado", "Interior", "Exterior", "Consulta por disponibilidad"],
       resourceTitle: "Para cuidar la presentacion del auto",
       resourceItems: [
         "Servicio principal visible desde el inicio.",

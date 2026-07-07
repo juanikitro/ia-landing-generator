@@ -18,13 +18,13 @@ npm run qa
 
 Businesses:
 
-1. [Gomeria y auxilios 24hs "El Fumii"](./gomeria-y-auxilios-24hs-el-fumii.md)
-2. [Gomería y auxilio 24 horas Landeyro](./gomeria-y-auxilio-24-horas-landeyro.md)
-3. [Gomería El Viejo Matias - Auxilio 24 hs](./gomeria-el-viejo-matias-auxilio-24-hs.md)
-4. [Walter Gomez Servicio Multimarca](./walter-gomez-servicio-multimarca.md)
-5. [Gomería San Martin](./gomeria-san-martin.md)
-6. [Gomeria mario](./gomeria-mario.md)
-7. [Lubricentro y Gomeria BOXES](./lubricentro-y-gomeria-boxes.md)
-8. [Gomeria J.M.N 24 HS](./gomeria-j-m-n-24-hs.md)
-9. [Mecanica Maz](./mecanica-maz.md)
-10. [Gomeria lo de Pepe](./gomeria-lo-de-pepe.md)
+1. [Luxe Detailing](./luxe-detailing.md)
+2. [Boxes Centro de Autolavado](./boxes-centro-de-autolavado.md)
+3. [Lubricentro y Gomeria BOXES](./lubricentro-y-gomeria-boxes.md)
+4. [Gomería y auxilio 24 horas Landeyro](./gomeria-y-auxilio-24-horas-landeyro.md)
+5. [Taller Franco Chapa y Pintura](./taller-franco-chapa-y-pintura.md)
+6. [Iturralde - Repuestos](./iturralde-repuestos.md)
+7. [Walter Gomez Servicio Multimarca](./walter-gomez-servicio-multimarca.md)
+8. [Gomería El Viejo Matias - Auxilio 24 hs](./gomeria-el-viejo-matias-auxilio-24-hs.md)
+9. ["Taller Di Sipio" Chapa Y Pintura](./taller-di-sipio-chapa-y-pintura.md)
+10. [Mecanica Maz](./mecanica-maz.md)

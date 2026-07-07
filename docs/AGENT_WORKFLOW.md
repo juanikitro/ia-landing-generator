@@ -1,6 +1,8 @@
 # Agent Workflow
 
-Este repositorio esta pensado para que una sesion de Codex o Claude haga el trabajo creativo usando sus propios tokens/contexto. Los comandos npm existen para preparar contexto, validar y generar archivos, no para reemplazar al agente.
+Este repositorio esta pensado para que una sesion de Codex o Claude haga el trabajo creativo usando sus propios tokens/contexto. Los comandos npm existen para preparar contexto, validar y copiar artefactos, no para reemplazar al agente.
+
+La prioridad actual es calidad visual, no costo ni velocidad. El camino final esperado es que el agente escriba el frontend real de cada landing. El renderer interno queda como fallback de preview.
 
 ## Flujo principal
 
@@ -28,11 +30,21 @@ Y escribir:
 data/site-specs/tandil-site-specs.json
 ```
 
+Ademas debe crear el frontend de cada negocio en una carpeta del repo, por ejemplo:
+
+```text
+data/frontends/tandil-servicios-vehiculares/<slug>/index.html
+data/frontends/tandil-servicios-vehiculares/<slug>/styles.css
+```
+
+Si una landing necesita framework o librerias, el agente puede usarlos. En ese caso debe ejecutar el build/export y apuntar `agent_frontend.output_dir` al resultado estatico.
+
 Despues:
 
 ```powershell
 npm run validate:specs:tandil
 npm run generate:preview
+npm run generate
 npm run qa
 ```
 
@@ -40,15 +52,43 @@ Para ciudades/rubros nuevos, usar paths parametrizados en vez de los archivos de
 
 ## Responsabilidad del agente
 
-El agente debe producir specs mejores que un fallback mecanico:
+El agente debe producir una landing real por negocio:
 
 - copy natural en espanol argentino
 - direcciones visuales diferentes entre negocios
 - recursos alineados al rubro
 - proof points basados en datos reales
 - CTAs concretos
+- HTML/CSS propio o framework cuando aporte calidad
+- composicion, tipografia, ritmo visual y assets pensados para ese negocio
+- `agent_frontend` configurado para que el final no use el fallback
 - sin claims inventados
 - sin texto meta sobre IA
+
+## Frontends de agente
+
+`agent_frontend` acepta dos modos:
+
+```json
+{
+  "mode": "static-files",
+  "source_dir": "data/frontends/tandil-servicios-vehiculares/mecanica-maz",
+  "notes": "Landing editorial de taller con bitacora de ruta y CTA directo."
+}
+```
+
+```json
+{
+  "mode": "framework-build",
+  "source_dir": "data/frontends/chivilcoy-ropa/la-tienda",
+  "output_dir": "data/frontends/chivilcoy-ropa/la-tienda/dist",
+  "build_command": "npm run build",
+  "libraries": ["vite", "gsap"],
+  "notes": "Vidriera editorial con transiciones suaves y grilla de temporada."
+}
+```
+
+El generador no ejecuta `build_command`; solo copia `source_dir` u `output_dir`. El agente debe correr el build cuando use framework.
 
 ## Uso de compose
 
@@ -58,7 +98,7 @@ El agente debe producir specs mejores que un fallback mecanico:
 
 ## Build final
 
-`npm run generate` exige fotos reales y requiere `GOOGLE_PLACES_API_KEY`. Para iteracion visual usar:
+`npm run generate` exige fotos reales, `agent_frontend` y requiere `GOOGLE_PLACES_API_KEY`. Para iteracion visual con fallback usar:
 
 ```powershell
 npm run generate:preview

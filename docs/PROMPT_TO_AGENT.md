@@ -9,6 +9,7 @@ Genera 10 landings para negocios reales de venta de ropa en Chivilcoy, Argentina
 Hace desde la busqueda hasta los sitios generados.
 Usa datos verificados, evita cadenas/franquicias y negocios con web propia.
 No uses OpenAI API; usa esta sesion de agente para la composicion.
+Prioriza calidad visual sobre velocidad/costo. Podes usar framework o librerias si mejora la UI final.
 ```
 
 ## Flujo que debe ejecutar el agente
@@ -50,10 +51,45 @@ tsx src/site-specs/compose-site-specs.ts --provider local --input data/chivilcoy
 npm run agent:briefs -- --input data/chivilcoy-ropa-businesses.json --specs data/site-specs/chivilcoy-ropa-site-specs.json --out data/agent-briefs/chivilcoy-ropa --city Chivilcoy --segment "venta de ropa"
 ```
 
-El agente debe leer `data/agent-briefs/chivilcoy-ropa/` y reescribir:
+El agente debe leer `data/agent-briefs/chivilcoy-ropa/`, disenar cada landing y crear sus frontends en:
+
+```text
+data/frontends/chivilcoy-ropa/<slug>/
+```
+
+Puede escribir HTML/CSS directo o usar framework/librerias. Si usa framework, debe ejecutar el build/export y dejar un output estatico.
+
+Luego debe reescribir:
 
 ```text
 data/site-specs/chivilcoy-ropa-site-specs.json
+```
+
+Cada spec final debe incluir `agent_frontend`, por ejemplo:
+
+```json
+{
+  "agent_frontend": {
+    "mode": "static-files",
+    "source_dir": "data/frontends/chivilcoy-ropa/nombre-del-negocio",
+    "notes": "Landing editorial de indumentaria con vidriera, composicion propia y CTA de consulta."
+  }
+}
+```
+
+O, si usa framework:
+
+```json
+{
+  "agent_frontend": {
+    "mode": "framework-build",
+    "source_dir": "data/frontends/chivilcoy-ropa/nombre-del-negocio",
+    "output_dir": "data/frontends/chivilcoy-ropa/nombre-del-negocio/dist",
+    "build_command": "npm run build",
+    "libraries": ["vite", "gsap"],
+    "notes": "Landing con layout editorial y motion suave para vidriera."
+  }
+}
 ```
 
 Validar specs:
@@ -81,5 +117,8 @@ tsx src/validators/validate-generated-sites.ts generated/chivilcoy-ropa
 - Ajustar queries si la busqueda no devuelve 10 candidatos buenos.
 - Revisar el shortlist report antes de promover si el rubro trae falsos positivos.
 - Editar los `site-specs` usando criterio visual y copy natural.
+- Crear frontends authored por negocio; el renderer interno solo sirve como fallback de preview.
+- Usar framework o librerias cuando aporten calidad real.
+- Ejecutar build/export si se usa framework y apuntar `agent_frontend.output_dir` al resultado.
 - No inventar marcas, stock, precios, descuentos, talles ni envios.
 - Reportar si el rubro o ciudad no tiene datos suficientes.

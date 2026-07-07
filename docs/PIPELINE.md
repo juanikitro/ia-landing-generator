@@ -71,13 +71,20 @@ npm run promote:tandil
 npm run validate:data
 ```
 
-Componer direccion visual, estructura y copy por negocio:
+Componer direccion visual y preparar el trabajo del agente:
 
 ```bash
 npm run agent:briefs
 ```
 
-Luego Codex/Claude debe editar `data/site-specs/tandil-site-specs.json` desde la sesion de agente. Validar:
+Luego Codex/Claude debe:
+
+- disenar una landing real por negocio
+- crear HTML/CSS propio o un framework exportado a estatico
+- guardar el resultado dentro de `data/frontends/<run>/<slug>/`
+- agregar `agent_frontend` en `data/site-specs/tandil-site-specs.json`
+
+Validar:
 
 ```bash
 npm run validate:specs
@@ -85,7 +92,7 @@ npm run validate:specs
 
 `npm run compose:local` queda como fallback mecanico. `npm run compose:ai` queda como opcion secundaria con billing de OpenAI API; no usa tokens de Codex Desktop.
 
-El generador usa `data/site-specs/tandil-site-specs.json` para variar mood visual, composicion, CTAs, proof points, recursos y textos por negocio.
+El generador usa `data/site-specs/tandil-site-specs.json` para validar datos, ubicar el frontend de agente y copiar el artefacto final. El renderer interno solo queda como fallback de preview.
 
 Variables opcionales:
 
@@ -94,7 +101,44 @@ $env:LOCAL_WEB_SEARCH_MIN_RATING="4.3"
 $env:LOCAL_WEB_SEARCH_MIN_REVIEWS="10"
 ```
 
-## Fase 4: generacion visual
+## Fase 4: frontend de agente
+
+El agente tiene libertad para crear una UI destacable. Puede usar:
+
+- HTML/CSS estatico dedicado por negocio.
+- Frameworks o librerias cuando aporten calidad real.
+- Builds/export estaticos como salida final.
+
+Ejemplo para una landing escrita a mano:
+
+```json
+{
+  "agent_frontend": {
+    "mode": "static-files",
+    "source_dir": "data/frontends/tandil-servicios-vehiculares/mecanica-maz",
+    "notes": "Landing editorial de taller basada en reseñas de viaje."
+  }
+}
+```
+
+Ejemplo con framework:
+
+```json
+{
+  "agent_frontend": {
+    "mode": "framework-build",
+    "source_dir": "data/frontends/chivilcoy-ropa/la-tienda",
+    "output_dir": "data/frontends/chivilcoy-ropa/la-tienda/dist",
+    "build_command": "npm run build",
+    "libraries": ["vite", "gsap"],
+    "notes": "Vidriera editorial con motion y composicion propia."
+  }
+}
+```
+
+El generador no ejecuta `build_command`. El agente debe correr el build y dejar listo `output_dir`.
+
+## Fase 5: generacion
 
 Probar con fixture mock:
 
@@ -111,21 +155,21 @@ npm run generate
 
 Cada negocio aprobado crea una carpeta `generated/<slug>/` con `index.html`, `styles.css` y `site.json`.
 
-`npm run generate` exige `GOOGLE_PLACES_API_KEY` y descarga la foto principal a `generated/<slug>/assets/`. Si queres revisar UI sin fotos reales, usar:
+`npm run generate` exige `GOOGLE_PLACES_API_KEY`, fotos reales y `agent_frontend`. Si queres revisar UI sin fotos reales o sin frontend final, usar:
 
 ```bash
 npm run generate:preview
 ```
 
-## Fase 5: QA
+## Fase 6: QA
 
 ```bash
 npm run qa
 ```
 
-Controla cantidad de sitios, footer, texto prohibido, datos cruzados, arquetipos, paletas, tipografias y carpetas separadas.
+Controla cantidad de sitios, footer, texto prohibido, datos cruzados, frontends de agente y carpetas separadas. La revision visual con screenshots sigue siendo responsabilidad del agente antes de deploy.
 
-## Fase 6: deploy
+## Fase 7: deploy
 
 ```bash
 npm run deploy:plan

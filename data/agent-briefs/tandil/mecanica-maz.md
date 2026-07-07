@@ -1,4 +1,4 @@
-# Site Brief 9: Mecanica Maz
+# Site Brief 10: Mecanica Maz
 
 ## Goal
 
@@ -41,9 +41,9 @@ Gracias Marcelo" — Bodegón De La Sexta (5/5)
 
 ### Photos
 
-1. other | allowed | https://places.googleapis.com/v1/places/ChIJ-5QG4ichkZURyv_V-AdPjS0/photos/AaVGc3lY3N6AuETWkHz0_rxw5AAdxoHAW6N9FAs0ewQ3Oq-_rjaBE3XPIaxZbMVEtRlZP12cLYyJTdN8O1TlwxLXqIFzN3q_qvTu9cEClvFZ-w1z5UOEdaG0_kUQ_hf-Eg3julHGjh_j2_eQkbwjOIy4ANs8Wxp_JpVYExGNjlgiK7T1jOjuhL87VR2ncPKS5iBF2ZQOJNsNaA1JnhrrWPB5nXRdJXHmNRtJZ_wzKYglr7Brayz3oIu0V1rJDEUs-V8095j7N3TTmPiE2vNnDYsSmPW30LExpJPEbgNx8-8qlAmqe1DXbMNIWWFTLIQnxHd-2AE0d37NCxV34ng5oU0DxPTtcXOIP3lD7qfZ5LPoJY57gTHH1F8YK6Iu6oo1b1PKIg2Gy2TU28jQDUW2uKQuNqIxuDaf1ECf3KFveHtWxVaMFk19/media?maxWidthPx=1600
-2. other | allowed | https://places.googleapis.com/v1/places/ChIJ-5QG4ichkZURyv_V-AdPjS0/photos/AaVGc3kNiuQwJnthYrypY9Bsb7YGOliWWFtwndMZqP4YhWGkDfEQknqDWTakByI9Qi00bUCMJNuy9GbjUIexwtajsWKlI5WsWLy1Yha8pzn7yxuaBchRX16SCBeamiERQLfo7OlcPeHoprW0N9dpb7a16EhSQ8ErghkJrpyfkZoNTxfNTVlbgzQAhBe6S0Er72ODpSWJcfwFshYKiZcKBVLXoKUHVm0-5DtUGenAeFBHKxg6T0mhGWnfDHVXoJ0xMeABvKEuxY4ympx2bqFKOSOSGqqSznjd8piJ5XZ2GYnbtvh81IWUiYOGBrUQXJl0x2_Vl_BfYsX2KLrXKCRXdCXuc6vGmt4Qr9xafIrX6U6o9Qj92s1KPuo-GNYsc6_gKfvMJw2xkiQN3nDVeQSHEfOSJ1UduPXkfqVNWjPERuY1ojM/media?maxWidthPx=1600
-3. other | allowed | https://places.googleapis.com/v1/places/ChIJ-5QG4ichkZURyv_V-AdPjS0/photos/AaVGc3mwYqjeoinHPnfgB_TPB6bzAqakArdvxJt9ISH_BPDhdWgv7lBDIggAiRZc1Ypn2qmpmFDpm1jNsSawHd0ahZ25ydQtoSsTeUDZl-Q4IeVpW9ClCAlcaC6hwqc6JnUzDwymVhZnwgNqpX6rETMRaEn-XnmogUP19inIgsA9l2cn68KnT62Wd0N4x13qmsE-SrwKROZL9kqtmDHGMxbKlc0hVrSlQxIugPl0ZikJOBqKub6cV1O1ZEVue14AKIDvEjZk9mCjMLcyqUr2rmF47Z0xfcPtUaISP8Q5O0jX4-Kz0adB_SaY_6G4R_L2Mo5OLa5NABHLhIPrckp8pNcqHbYhP2i2ymkY03sUYPK4DTTAhcZw2xPcj3xOClOxkhROZorWnC9yCTt-YEbQwoGX3KfRGtP4BFnvQR8qVy4VcgSYGw/media?maxWidthPx=1600
+1. other | allowed | https://places.googleapis.com/v1/places/ChIJ-5QG4ichkZURyv_V-AdPjS0/photos/AaVGc3lNj_nrGV3UVqziVcbs0YsZF4sN6Q3jLeO7cSkQIkqoC7d0d8kI3Q1zT5UZeBFYaGZLF06hHk4Q3gUfZl-smSehUXbm1UqU2M7CcKSwQ-UXMRLKkMqnL-2QhbcudNg_bUkvJenqIIoti2NM1WDP1EXIQO02EH-S-5O_mS_D-SM-SE0pB6Eb9on1uqXkjdVNNd2gTHCTQmjVdTnCdYENK64gJPixaPRlyX3wUzMLMsijxo-qcIuCZbqCk3fQfL_22gjYKTsx4jlbsVty2P3Tp4ceinSXbZ_X3FwoC_62cEWwxHj6SxPLiUN-D6xV7iSd375FRg7rlUSGBOnxw-hoEwqqjO72y4QVpD4Q5zdM14u6D_x9qdwiyyT3x2oFy8zP6z9k5t3py4uEjAl-0ecoqfiovyZJbjqoFbVYHQTnya5IO_nj/media?maxWidthPx=1600
+2. other | allowed | https://places.googleapis.com/v1/places/ChIJ-5QG4ichkZURyv_V-AdPjS0/photos/AaVGc3mWf4nrriaxG91mqDxI1H9YUYZzDGaDjb2rp7QAU5-vzOfwGleiM6aJ_0TqBP_nNCE7qIc97xkmiYktSLP1LboH5jv4rLM_Cf9RP_9zLbH7lZtg0bS-FE15L4KuESq5gBjwXDSr0lrJ5RVGrWqpjV1c13v_2nqzKu4frv7YgCZjEBb1P0xPp_3zA8BRbCdJdfnT5eEv4dPuNTKHolmW0nk37cfz1_x0yxidasR0f7moBz7iYwTQl2rSxbzuIVbd2ND6kg_a139X2kF6mBQe2Tv1xrr1B7FKuv-v0pjq2iXf-Gp6UYE6GVCCbcYo492-leANbT1GrYKB4KpBhidBlwROMAcq3Gb4HdCWxAZ-Y63QffUyahIUgZNb7CI_cFvmMTmKf75B0O0PKv4sD_kh3sGi1LWqFW9c_tDjqZPwadM/media?maxWidthPx=1600
+3. other | allowed | https://places.googleapis.com/v1/places/ChIJ-5QG4ichkZURyv_V-AdPjS0/photos/AaVGc3ne57Ufcw3iradiY5Y44Wso1SjAM4ERxIzxmYB4iU3hxKHm1RjRiD_cuXK9cUZDqPG9c3HmWBBmCt4DId2ltZMymKjwYA0CPiZoqipz281Q-xTDQ5EX-3kgLo2gkt4tahfJiwhA4z9u91TthiQDYzXV4TBzLFmzUOnweI6mZQJUIJV3jcPIdDsYdvYp7xVa3-ySqQJ77uKhKhpkdHUvfJaZHLeO9N7QU-QfRoezYj2tcJKJ6AcfQd1mf_vk5eKrpHHC3zZsoNefqSSIjg4APJhYFL06Kyo4bv0zYdXyD9csXQ_ni1EwEyRu096SxQNz6jpE6VGIJbdPenlRIcFoH0Dur9QajGumxQM__G4GrN4hRbSPQbb28UyzwYcpsNaENuFvCyWY2i8t4ZdSxrDXekQdHdwI9mpilv8CUBr4ZkjAZA/media?maxWidthPx=1600
 
 ### Sources
 
@@ -66,33 +66,117 @@ Gracias Marcelo" — Bodegón De La Sexta (5/5)
   "business_id": "google-ChIJ-5QG4ichkZURyv_V-AdPjS0",
   "slug": "mecanica-maz",
   "visual_mood": "workshop-trust",
-  "composition": "service-ledger",
+  "composition": "photo-board",
   "headline": "Mecanica Maz",
-  "subheadline": "Taller mecanico en Tandil con datos concretos para decidir rapido: contacto, horarios, ubicacion y referencias publicas.",
-  "primary_cta": "Consultar turno",
-  "secondary_cta": "Ver datos del local",
+  "subheadline": "Taller mecánico en Laprida 961 con reseñas de viajeros, problemas resueltos y atención fuera de lo habitual.",
+  "primary_cta": "Consultar taller",
+  "secondary_cta": "Ver referencias",
   "service_tags": [
-    "Mecanica general",
+    "Mecánica",
     "Service",
-    "Diagnostico",
+    "Diagnóstico",
     "Consulta por turno"
   ],
   "proof_points": [
     "4.9 sobre 5 con 31 reseñas",
-    "Horario: Lunes a Sabado; Domingo cerrado",
-    "Direccion: Laprida 961, B7000 Tandil",
-    "Reseñas que destacan: \"La verdad Excelente servicio. Estaba de viaje y un sábado por la tarde tuve un problema mecá...\""
+    "Laprida 961, Tandil",
+    "Lunes a sábado",
+    "Reseñas mencionan viajes y problemas mecánicos"
   ],
-  "resource_title": "Informacion util antes de llevar el auto",
+  "resource_title": "Cuando el auto falla en viaje, la confianza pesa más",
   "resource_items": [
-    "Rubro y direccion destacados desde el primer bloque.",
-    "Reseñas visibles para evaluar la atencion.",
-    "Horario registrado: Lunes a Sabado; Domingo cerrado."
+    "Reseñas con casos de viaje.",
+    "Teléfono visible para explicar el problema.",
+    "Dirección clara dentro de Tandil."
   ],
-  "review_heading": "Lo que valoran quienes ya fueron",
-  "contact_heading": "Llegar o llamar sin vueltas",
-  "image_prompt": "Escena editorial realista para taller mecanico en Tandil, fachada de local barrial, herramientas y cubiertas, luz natural, sin texto, sin logos inventados.",
-  "design_notes": "Mood workshop-trust, composicion service-ledger. Evitar estetica SaaS generica; usar recursos visuales de ruta, taller, cubiertas, direccion y prueba social."
+  "review_heading": "Casos reales, no slogans",
+  "contact_heading": "Consultar por el problema mecánico",
+  "image_prompt": "Escena editorial realista para taller mecánico en Tandil, auto en revisión, herramientas y luz de taller, sin texto ni logos inventados.",
+  "design_notes": "Landing de taller con relato de rescate en viaje, confianza y datos rápidos.",
+  "creative": {
+    "concept": "Taller de confianza para imprevistos: usar reseñas de viaje como eje comercial.",
+    "audience": "Conductores locales o de paso que necesitan resolver un problema mecánico y buscan referencia rápida.",
+    "visual_direction": "Bitácora de ruta y taller, composición con foto inclinada, bloques de caso y CTA de consulta.",
+    "layout": "mechanic-ledger",
+    "texture": "service-ledger",
+    "hero_angle": "La landing se apoya en una historia fuerte: un problema en viaje, remolque y resolución según reseña.",
+    "hero_cards": [
+      {
+        "label": "Rating",
+        "value": "4.9",
+        "note": "31 reseñas"
+      },
+      {
+        "label": "Caso",
+        "value": "Problema en viaje",
+        "note": "Mencionado por clientes"
+      },
+      {
+        "label": "Dirección",
+        "value": "Laprida 961",
+        "note": "Tandil"
+      }
+    ],
+    "sections": [
+      {
+        "type": "material-story",
+        "eyebrow": "Historia",
+        "title": "La reseña cuenta una escena: sábado, viaje y problema mecánico.",
+        "body": "Ese relato vale más que cualquier frase genérica. La landing lo convierte en confianza para la próxima consulta.",
+        "items": [
+          {
+            "label": "Situación",
+            "value": "Auto con problema en viaje"
+          },
+          {
+            "label": "Respuesta",
+            "value": "Remolque y solución según reseña"
+          },
+          {
+            "label": "Percepción",
+            "value": "Profesionales y rápidos"
+          }
+        ],
+        "callout": "El sitio vende tranquilidad con evidencia pública."
+      },
+      {
+        "type": "quick-actions",
+        "eyebrow": "Consulta",
+        "title": "Explicar el problema es el primer paso.",
+        "body": "La página guía hacia una llamada concreta, con dirección y horario listos.",
+        "items": [
+          {
+            "label": "Teléfono",
+            "value": "0249 464-3419"
+          },
+          {
+            "label": "Dirección",
+            "value": "Laprida 961"
+          },
+          {
+            "label": "Horario",
+            "value": "Lunes a sábado"
+          }
+        ]
+      },
+      {
+        "type": "quote-strip",
+        "eyebrow": "Prueba",
+        "title": "“Me solucionaron el problema... super predispuestos.”",
+        "body": "La página deja que esa señal haga el trabajo comercial.",
+        "items": [
+          {
+            "label": "Atención",
+            "value": "Trato muy agradable"
+          },
+          {
+            "label": "Confianza",
+            "value": "Totalmente recomendado"
+          }
+        ]
+      }
+    ]
+  }
 }
 ```
 
@@ -117,3 +201,23 @@ Return one object with:
 - `contact_heading`
 - `image_prompt`
 - `design_notes`
+- `creative`: object used by the renderer to make the page feel custom:
+  - `concept`: commercial idea for this specific business
+  - `audience`: who is likely to search/contact
+  - `visual_direction`: concrete art direction, not generic adjectives
+  - `layout`: one of `studio-detail`, `wash-flow`, `oil-bay`, `roadside-rescue`, `bodyshop-craft`, `parts-counter`, `mechanic-ledger`
+  - `texture`: one of `polished-glass`, `water-ripple`, `oil-label`, `road-markings`, `primer-dust`, `parts-shelf`, `service-ledger`
+  - `hero_angle`: one strong commercial sentence for the hero
+  - `hero_cards`: 2 to 4 cards with `label`, `value`, optional `note`
+  - `sections`: 3 to 5 blocks. Each block has `type`, `eyebrow`, `title`, `body`, `items`, optional `callout`.
+
+Creative block `type` values:
+
+- `service-board`
+- `process`
+- `quote-strip`
+- `quick-actions`
+- `material-story`
+- `metric-grid`
+
+The `creative` object is the main place where the page stops being a template. Use it to define a sellable landing from the verified signals.
