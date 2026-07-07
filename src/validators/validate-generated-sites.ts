@@ -18,6 +18,13 @@ type Manifest = {
   sites: SiteRecord[];
 };
 
+type Args = {
+  outDir: string;
+  allowMock: boolean;
+  requireAgentFrontends: boolean;
+  expectedCount: number;
+};
+
 const forbiddenPatterns = [
   /\bIA\b/u,
   /\bAI\b/u,
@@ -47,16 +54,33 @@ async function readManifest(outDir: string): Promise<Manifest> {
   return JSON.parse(raw) as Manifest;
 }
 
+function parseArgs(argv: string[]): Args {
+  const outDir = argv[2] ?? "generated";
+  const expectedFlag = argv.indexOf("--expected-count");
+  const expectedCount = expectedFlag >= 0 ? Number(argv[expectedFlag + 1]) : 10;
+
+  if (!Number.isInteger(expectedCount) || expectedCount < 1) {
+    throw new Error("--expected-count must be a positive integer.");
+  }
+
+  return {
+    outDir,
+    allowMock: argv.includes("--allow-mock"),
+    requireAgentFrontends: argv.includes("--require-agent-frontends"),
+    expectedCount,
+  };
+}
+
 function stripTags(html: string): string {
   return html.replace(/<script[\s\S]*?<\/script>/giu, "").replace(/<style[\s\S]*?<\/style>/giu, "").replace(/<[^>]+>/gu, " ");
 }
 
-async function validateSites(outDir: string, allowMock: boolean, requireAgentFrontends: boolean): Promise<ValidationIssue[]> {
+async function validateSites(args: Args): Promise<ValidationIssue[]> {
   const issues: ValidationIssue[] = [];
-  const manifest = await readManifest(outDir);
+  const manifest = await readManifest(args.outDir);
 
-  if (!allowMock && manifest.sites.length !== 10) {
-    issues.push({ code: "site_count", message: `Expected 10 generated sites, found ${manifest.sites.length}.` });
+  if (!args.allowMock && manifest.sites.length !== args.expectedCount) {
+    issues.push({ code: "site_count", message: `Expected ${args.expectedCount} generated sites, found ${manifest.sites.length}.` });
   }
 
   const names = manifest.sites.map((site) => site.name);
@@ -64,9 +88,9 @@ async function validateSites(outDir: string, allowMock: boolean, requireAgentFro
 
   for (const [index, site] of manifest.sites.entries()) {
     archetypeCounts.set(site.archetype, (archetypeCounts.get(site.archetype) ?? 0) + 1);
-    const siteDir = path.join(outDir, site.directory);
+    const siteDir = path.join(args.outDir, site.directory);
 
-    if (requireAgentFrontends && (!site.frontend_mode || site.frontend_mode === "renderer-fallback")) {
+    if (args.requireAgentFrontends && (!site.frontend_mode || site.frontend_mode === "renderer-fallback")) {
       issues.push({ code: "renderer_fallback", message: `${site.slug}: final QA requires an agent-authored frontend.` });
     }
 
@@ -140,7 +164,7 @@ async function validateSites(outDir: string, allowMock: boolean, requireAgentFro
     }
   }
 
-  const directories = await readdir(outDir, { withFileTypes: true });
+  const directories = await readdir(args.outDir, { withFileTypes: true });
   const actualSiteDirs = directories.filter((entry) => entry.isDirectory()).map((entry) => entry.name);
   if (actualSiteDirs.length !== manifest.sites.length) {
     issues.push({ code: "directory_count", message: `Manifest has ${manifest.sites.length} sites but output has ${actualSiteDirs.length} directories.` });
@@ -150,12 +174,10 @@ async function validateSites(outDir: string, allowMock: boolean, requireAgentFro
 }
 
 async function main(): Promise<void> {
-  const outDir = process.argv[2] ?? "generated";
-  const allowMock = process.argv.includes("--allow-mock");
-  const requireAgentFrontends = process.argv.includes("--require-agent-frontends");
+  const args = parseArgs(process.argv);
 
   try {
-    const issues = await validateSites(outDir, allowMock, requireAgentFrontends);
+    const issues = await validateSites(args);
     printReport("Generated site validation", issues);
     exitForIssues(issues);
   } catch (error) {
