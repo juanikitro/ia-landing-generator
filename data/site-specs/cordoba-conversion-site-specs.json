@@ -2,10 +2,10 @@
   {
     "business_id": "google-ChIJWVVlan-jMpQRYjdNl9aOKds",
     "slug": "autocentro-cardetail",
-    "visual_mood": "neighborhood-direct",
-    "composition": "split-command",
+    "visual_mood": "precision-service",
+    "composition": "photo-board",
     "headline": "Autocentro CarDetail",
-    "subheadline": "Que el auto vuelva a sentirse cuidado, limpio y listo para mirar de cerca. Detailing y estetica vehicular en Cordoba Capital con contacto, horarios, ubicacion y referencias publicas arriba del pliegue.",
+    "subheadline": "Interior, exterior y terminacion visual para dejar el auto presentable antes de usarlo, venderlo o entregarlo en Cordoba Capital.",
     "primary_cta": "Reservar turno",
     "secondary_cta": "Ver ubicacion",
     "service_tags": [
@@ -20,302 +20,269 @@
       "Direccion: Puvr Olimpia 1851, X5000 Córdoba",
       "Reseñas que destacan: \"Facu y Mauri dejaron mi auto impecable! Lo hicieron en menos tiempo del que me dijeron.  Sie...\""
     ],
-    "resource_title": "Servicios pensados para que el auto se note",
+    "resource_title": "Volver a mirar el auto de cerca",
     "resource_items": [
-      "Hero emocional, servicios claros y CTA de turno.",
-      "Paquetes demo editables para subir el valor percibido sin falsear precios.",
-      "Horario registrado: Lunes a Sabado; Domingo cerrado."
+      "Rating perfecto y 92 reseñas publicas sostienen la confianza.",
+      "La consulta se ordena por estado del auto: interior, exterior o preparacion para entrega.",
+      "Telefono, horario y ubicacion quedan visibles desde el primer scroll."
     ],
     "review_heading": "Lo que valoran quienes ya fueron",
     "contact_heading": "Llegar o llamar sin vueltas",
-    "image_prompt": "Escena editorial realista para lavadero o estudio de detailing en Cordoba Capital, auto limpio, agua, espuma y terminaciones cuidadas, luz natural, sin texto, sin logos inventados.",
-    "design_notes": "Mood neighborhood-direct, composicion split-command, tono comercial premium-detailing. Evitar estetica SaaS generica; usar recursos visuales del rubro detailing y estetica vehicular, direccion, prueba social, paquetes editables y CTA de turno.",
+    "image_prompt": "Escena editorial realista de detailing vehicular premium en Cordoba Capital: auto limpio, interior cuidado, brillo exterior, herramientas y microfibra, luz natural, sin texto, sin logos ni marcas inventadas.",
+    "design_notes": "Golden sample para detailing local: hero fotografico dominante, prueba social arriba del pliegue, servicios como decisiones de cliente, tablero visual de antes/durante/despues y CTA telefonico repetido. No usar copy meta ni grillas genericas.",
     "commercial": {
       "tone": "premium-detailing",
-      "customer_type": "Personas que cuidan el auto, quieren recuperar brillo, proteger terminaciones o reservar un lavado detallado.",
-      "hero_claim": "Que el auto vuelva a sentirse cuidado, limpio y listo para mirar de cerca.",
+      "customer_type": "Personas que quieren dejar el auto presentable antes de usarlo, venderlo o entregarlo.",
+      "hero_claim": "Volver a mirar el auto de cerca.",
       "trust_bar": [
         {
-          "label": "Prueba social",
+          "label": "Rating",
           "title": "5.0 / 5",
-          "body": "92 resenas registradas en las fuentes disponibles.",
-          "meta": "Dato verificado",
-          "is_demo": false
+          "body": "92 reseñas publicas.",
+          "meta": "Dato verificado"
         },
         {
-          "label": "Rubro",
-          "title": "Detailing y estetica vehicular",
-          "body": "La pagina debe vender el servicio principal sin sumar prestaciones no confirmadas.",
-          "meta": "Base verificada"
-        },
-        {
-          "label": "Agenda",
-          "title": "Lunes a Sabado; Domingo cerrado",
-          "body": "Horario publicado para orientar la primera consulta.",
-          "meta": "Dato verificado",
-          "is_demo": false
+          "label": "Horario",
+          "title": "Lunes a sabado",
+          "body": "Domingo cerrado.",
+          "meta": "Dato verificado"
         },
         {
           "label": "Contacto",
           "title": "Telefono directo",
-          "body": "CTA preparado para llamar desde el celular sin buscar el dato en otro lado.",
-          "meta": "0351 15-265-8259"
-        },
-        {
-          "label": "Confianza",
-          "title": "Mas de [X] vehiculos",
-          "body": "Placeholder editable para volumen real, anos o trabajos terminados si el negocio lo confirma.",
-          "meta": "Demo editable",
-          "is_demo": true
+          "body": "0351 15-265-8259.",
+          "meta": "Dato verificado"
         }
       ],
       "service_cards": [
         {
           "label": "Interior",
-          "title": "Habitaculo con sensacion de estreno",
-          "body": "Copy pensado para vender limpieza profunda, orden visual y confort sin inventar tratamientos no verificados."
+          "title": "Habitaculo con sensacion renovada",
+          "body": "Para butacas, alfombras, plasticos y detalles que cambian la experiencia diaria."
         },
         {
           "label": "Exterior",
-          "title": "Brillo y terminacion visible",
-          "body": "Bloque preparado para lavado detallado, descontaminado o correccion si el negocio lo confirma."
+          "title": "Brillo y presencia visibles",
+          "body": "Para mejorar la presentacion general y definir si hace falta un trabajo mas puntual."
         },
         {
-          "label": "Proteccion",
-          "title": "Cuidado despues del lavado",
-          "body": "Espacio editable para ceramicos, selladores o mantenimiento cuando existan datos reales.",
-          "is_demo": true
+          "label": "Entrega",
+          "title": "Listo para fotos o proximo dueño",
+          "body": "Una opcion concreta cuando el auto tiene que verse cuidado antes de mostrarse."
         }
       ],
       "why_choose": [
         {
-          "title": "Resultado fotografiable",
-          "body": "La estructura empuja a mostrar antes/despues, detalles y terminaciones reales."
+          "title": "Prueba social fuerte",
+          "body": "Rating perfecto y 92 reseñas publicas reducen la duda antes de llamar."
         },
         {
-          "title": "Reserva simple",
-          "body": "El CTA lleva a consultar turno, tipo de vehiculo y necesidad concreta."
+          "title": "Consulta ordenada",
+          "body": "El sitio pide estado del auto, foco del trabajo y disponibilidad en lugar de una pregunta vaga."
         },
         {
-          "title": "Prueba social visible",
-          "body": "Rating, resenas y comentarios quedan arriba, no escondidos al final."
+          "title": "Resultado visual",
+          "body": "La estructura reserva espacio para mostrar interior, exterior y entrega con mas fotos propias."
         }
       ],
       "packages": [
         {
-          "name": "Lavado detallado",
+          "name": "Interior",
           "price_label": "Precio a confirmar",
-          "body": "Para exterior e interior con foco en presentacion general.",
+          "body": "Para mejorar habitaculo, superficies y sensacion de uso.",
           "items": [
-            "Exterior",
-            "Interior",
-            "Terminacion visual"
-          ],
-          "is_demo": true
+            "Estado actual",
+            "Fotos si hace falta",
+            "Turno a coordinar"
+          ]
         },
         {
-          "name": "Interior profundo",
-          "price_label": "[Desde editable]",
-          "body": "Paquete editable para butacas, alfombras, plasticos y olor.",
+          "name": "Exterior",
+          "price_label": "Presupuesto por estado",
+          "body": "Para brillo, presencia y terminacion visible.",
           "items": [
-            "Aspirado detallado",
-            "Superficies interiores",
-            "Fotos del estado inicial"
-          ],
-          "is_demo": true
+            "Uso del auto",
+            "Detalle esperado",
+            "Disponibilidad"
+          ]
         },
         {
-          "name": "Proteccion premium",
-          "price_label": "[Presupuesto editable]",
-          "body": "Lugar para ceramico, sellador o proteccion si el negocio lo ofrece.",
+          "name": "Preparacion para entrega",
+          "price_label": "A confirmar",
+          "body": "Para fotos, venta o entrega del vehiculo.",
           "items": [
-            "Evaluacion previa",
-            "Producto a confirmar",
-            "Mantenimiento recomendado"
-          ],
-          "is_demo": true
+            "Fecha objetivo",
+            "Interior/exterior",
+            "Resultado buscado"
+          ]
         }
       ],
       "gallery": [
         {
           "label": "Antes",
-          "title": "Foto real del ingreso",
-          "body": "Espacio para mostrar el estado inicial del vehiculo, pieza o consulta.",
-          "meta": "Placeholder visual",
-          "is_demo": true
+          "title": "Estado de ingreso",
+          "body": "Fotos de manchas, polvo, uso diario o zonas que necesitan atencion."
+        },
+        {
+          "label": "Durante",
+          "title": "Trabajo por zona",
+          "body": "Materiales, interiores, exterior y planos cercanos del proceso."
         },
         {
           "label": "Despues",
-          "title": "Resultado o entrega",
-          "body": "Lugar reservado para una foto propia del negocio, sin usar stock generico.",
-          "meta": "Editable",
-          "is_demo": true
-        },
-        {
-          "label": "Detailing",
-          "title": "Detalle del trabajo",
-          "body": "Plano corto de materiales, herramientas, terminaciones o mostrador segun el rubro.",
-          "meta": "Foto a reemplazar",
-          "is_demo": true
+          "title": "Entrega lista",
+          "body": "Brillo, habitaculo ordenado y referencia clara del resultado."
         }
       ],
       "process": [
         {
           "step": "01",
           "title": "Contar el estado del auto",
-          "body": "El cliente consulta por interior, exterior o detalle puntual."
+          "body": "Interior, exterior, manchas, olor o preparacion para venta."
         },
         {
           "step": "02",
-          "title": "Elegir nivel de trabajo",
-          "body": "La pagina propone paquetes editables y deja claro que el precio se confirma."
+          "title": "Enviar fotos si hace falta",
+          "body": "Sirven para definir alcance antes del turno."
         },
         {
           "step": "03",
-          "title": "Reservar turno",
-          "body": "CTA directo a telefono o WhatsApp cuando esta disponible."
+          "title": "Confirmar disponibilidad",
+          "body": "Horario, duracion estimada y forma de llevar el auto."
         },
         {
           "step": "04",
-          "title": "Registrar resultado",
-          "body": "Bloque de galeria listo para cargar fotos reales del trabajo terminado."
+          "title": "Retirar con referencia visual",
+          "body": "Comparar el resultado y dejar registro del trabajo."
         }
       ],
       "final_cta": {
-        "title": "Autocentro CarDetail: el proximo paso es simple",
-        "body": "Llama, confirma disponibilidad y lleva el auto con el dato clave ya resuelto: detailing y estetica vehicular, direccion y horario.",
-        "primary_label": "Reservar turno",
+        "title": "Llama con el estado del auto y coordinan el siguiente paso.",
+        "body": "Autocentro CarDetail atiende en Puvr Olimpia 1851, Cordoba Capital. Conviene llamar antes y confirmar disponibilidad.",
+        "primary_label": "Llamar y reservar turno",
         "secondary_label": "Ver ubicacion"
       },
-      "editable_note": "Los items marcados como demo son placeholders comerciales editables: reemplazar por datos reales antes de publicar o dejarlos explicitamente como a confirmar."
+      "editable_note": "Los precios, productos y tiempos se confirman segun vehiculo, estado y agenda."
     },
     "creative": {
-      "concept": "Que el auto vuelva a sentirse cuidado, limpio y listo para mirar de cerca. Direccion comercial para Personas que cuidan el auto, quieren recuperar brillo, proteger terminaciones o reservar un lavado detallado.",
-      "audience": "Personas que cuidan el auto, quieren recuperar brillo, proteger terminaciones o reservar un lavado detallado.",
-      "visual_direction": "Automotor premium, textura brillante, espacios amplios, antes/despues y servicios empaquetados.",
+      "concept": "Volver a mirar el auto de cerca: detailing local con prueba social fuerte y consulta simple.",
+      "audience": "Personas que quieren cuidar, vender o entregar el auto con mejor presentacion visual.",
+      "visual_direction": "Estudio de detailing oscuro, premium y local: foto grande, paneles editoriales, acentos lima/mint y textura tecnica sin aspecto SaaS.",
       "layout": "studio-detail",
       "texture": "polished-glass",
-      "hero_angle": "Que el auto vuelva a sentirse cuidado, limpio y listo para mirar de cerca.",
+      "hero_angle": "Volver a mirar el auto de cerca.",
       "hero_cards": [
         {
-          "label": "Prueba social",
-          "value": "5.0 / 5",
-          "note": "Dato verificado"
+          "label": "Rating",
+          "value": "5.0",
+          "note": "92 reseñas publicas"
         },
         {
-          "label": "Rubro",
-          "value": "Detailing y estetica vehicular",
-          "note": "Base verificada"
-        },
-        {
-          "label": "Agenda",
-          "value": "Lunes a Sabado; Domingo cerrado",
-          "note": "Dato verificado"
+          "label": "Horario",
+          "value": "Lun a sab",
+          "note": "Domingo cerrado"
         },
         {
           "label": "Contacto",
-          "value": "Telefono directo",
-          "note": "0351 15-265-8259"
+          "value": "0351 15-265-8259",
+          "note": "Telefono directo"
         }
       ],
       "sections": [
         {
           "type": "service-board",
           "eyebrow": "Servicios",
-          "title": "Servicios pensados para que el auto se note",
-          "body": "La landing debe vender resultado visual y reserva de turno, apoyada en datos reales y placeholders editables.",
+          "title": "Tres entradas claras para pedir presupuesto.",
+          "body": "Interior, exterior o preparacion para entrega. La primera llamada se ordena por estado del auto y resultado esperado.",
           "items": [
             {
               "label": "Interior",
-              "value": "Habitaculo con sensacion de estreno",
-              "note": "Copy pensado para vender limpieza profunda, orden visual y confort sin inventar tratamientos no verificados."
+              "value": "Habitaculo renovado",
+              "note": "Butacas, alfombras, plasticos y detalles de uso."
             },
             {
               "label": "Exterior",
-              "value": "Brillo y terminacion visible",
-              "note": "Bloque preparado para lavado detallado, descontaminado o correccion si el negocio lo confirma."
+              "value": "Brillo visible",
+              "note": "Presentacion general y terminacion."
             },
             {
-              "label": "Proteccion",
-              "value": "Cuidado despues del lavado",
-              "note": "Espacio editable para ceramicos, selladores o mantenimiento cuando existan datos reales."
+              "label": "Entrega",
+              "value": "Listo para mostrar",
+              "note": "Fotos, venta o proximo dueño."
+            }
+          ]
+        },
+        {
+          "type": "material-story",
+          "eyebrow": "Resultado visual",
+          "title": "La prueba entra por los detalles.",
+          "body": "El sitio marca que mirar cuando haya mas fotos propias: estado inicial, trabajo por zona y entrega final.",
+          "items": [
+            {
+              "label": "Antes",
+              "value": "Estado de ingreso",
+              "note": "Zonas que necesitan atencion."
+            },
+            {
+              "label": "Durante",
+              "value": "Trabajo por zona",
+              "note": "Materiales e interiores."
+            },
+            {
+              "label": "Despues",
+              "value": "Entrega lista",
+              "note": "Brillo y habitaculo ordenado."
             }
           ]
         },
         {
           "type": "process",
           "eyebrow": "Proceso",
-          "title": "De consulta a turno sin perder contexto",
-          "body": "El usuario entiende que informacion enviar, que se confirma y como avanzar.",
+          "title": "De la primera llamada al turno sin perder contexto.",
+          "body": "El usuario entiende que contar, cuando mandar fotos y como confirmar disponibilidad.",
           "items": [
             {
               "label": "01",
-              "value": "Contar el estado del auto",
-              "note": "El cliente consulta por interior, exterior o detalle puntual."
+              "value": "Contar estado",
+              "note": "Interior, exterior o venta."
             },
             {
               "label": "02",
-              "value": "Elegir nivel de trabajo",
-              "note": "La pagina propone paquetes editables y deja claro que el precio se confirma."
+              "value": "Enviar fotos",
+              "note": "Si el alcance lo requiere."
             },
             {
               "label": "03",
-              "value": "Reservar turno",
-              "note": "CTA directo a telefono o WhatsApp cuando esta disponible."
+              "value": "Confirmar turno",
+              "note": "Disponibilidad y duracion."
             },
             {
               "label": "04",
-              "value": "Registrar resultado",
-              "note": "Bloque de galeria listo para cargar fotos reales del trabajo terminado."
+              "value": "Retirar",
+              "note": "Con referencia visual."
             }
           ]
         },
         {
-          "type": "metric-grid",
-          "eyebrow": "Confianza",
-          "title": "Datos reales arriba, placeholders editables separados",
-          "body": "La pagina combina fuentes verificadas con bloques demo marcados para completar.",
+          "type": "quote-strip",
+          "eyebrow": "Reseñas",
+          "title": "Autos impecables y trato profesional.",
+          "body": "Las reseñas publicas son el respaldo principal de la pagina.",
           "items": [
             {
-              "label": "Prueba social",
-              "value": "5.0 / 5",
-              "note": "92 resenas registradas en las fuentes disponibles."
+              "label": "Maria",
+              "value": "Mas lindo que nunca",
+              "note": "Listo para su proximo dueño."
             },
             {
-              "label": "Rubro",
-              "value": "Detailing y estetica vehicular",
-              "note": "La pagina debe vender el servicio principal sin sumar prestaciones no confirmadas."
+              "label": "Victor",
+              "value": "Muy conforme",
+              "note": "Excelente atencion."
             },
             {
-              "label": "Agenda",
-              "value": "Lunes a Sabado; Domingo cerrado",
-              "note": "Horario publicado para orientar la primera consulta."
-            },
-            {
-              "label": "Contacto",
-              "value": "Telefono directo",
-              "note": "CTA preparado para llamar desde el celular sin buscar el dato en otro lado."
-            }
-          ]
-        },
-        {
-          "type": "quick-actions",
-          "eyebrow": "Accion",
-          "title": "Autocentro CarDetail: el proximo paso es simple",
-          "body": "Llama, confirma disponibilidad y lleva el auto con el dato clave ya resuelto: detailing y estetica vehicular, direccion y horario.",
-          "items": [
-            {
-              "label": "CTA",
-              "value": "Reservar turno",
-              "note": "0351 15-265-8259"
-            },
-            {
-              "label": "Ubicacion",
-              "value": "Puvr Olimpia 1851, X5000 Córdoba, Argentina"
-            },
-            {
-              "label": "Horario",
-              "value": "Lunes a Sabado; Domingo cerrado"
+              "label": "Francisco",
+              "value": "Tres autos",
+              "note": "Quedaron espectaculares."
             }
           ]
         }
@@ -324,7 +291,47 @@
     "agent_frontend": {
       "mode": "static-files",
       "source_dir": "data/frontends/cordoba-conversion/autocentro-cardetail",
-      "notes": "Frontend estatico premium para detailing, con hero fotografico, prueba social, paquetes de consulta y CTA de turno."
+      "notes": "Golden sample de detailing premium local: hero fotografico dominante, prueba social arriba del pliegue, servicios por decision de cliente, tablero visual y CTA telefonico repetido."
+    },
+    "conversion_template": "hero-proof-offer",
+    "design_brief": {
+      "market_position": "Autocentro CarDetail debe vender una consulta de detailing para personas que quieren dejar el auto presentable antes de usarlo, venderlo o entregarlo.",
+      "visual_thesis": "Landing premium local con foto protagonista, superficies oscuras de estudio, acentos lima/mint y bloques editoriales que hacen sentir cuidado, brillo y terminacion sin parecer dashboard ni template SaaS.",
+      "copy_voice": "Español argentino directo y comercial. Hablarle a quien esta por llamar: estado del auto, turno, interior, exterior, entrega. Evitar frases sobre la pagina, la conversion o el generador.",
+      "layout_signature": "Primer viewport con imagen grande, promesa breve, rating/horario/telefono visibles y CTA. Luego decisiones de consulta, servicios por necesidad, prueba visual antes/durante/despues, proceso, reseñas reales y cierre telefonico.",
+      "asset_plan": "Usar la foto real como ancla. Completar la falta de mas material con texturas de estudio, paneles de detalle, tablero de proceso y escenas genericas seguras de detailing sin afirmar que son fotos del local.",
+      "ai_fill_plan": {
+        "copy": [
+          "Convertir la poca informacion en microcopy de decision: que quiere mejorar, que fotos mandar y como coordinar turno.",
+          "Nombrar secciones con lenguaje de cliente: venderlo, usarlo mejor, recuperarlo, resultado visual.",
+          "Usar reseñas reales como prueba social resumida sin inventar testimonios.",
+          "Presentar opciones de consulta sin precios ni productos no confirmados."
+        ],
+        "imagery": [
+          "Usar escenas genericas de detailing: microfibra, brillo exterior, interior limpio, herramientas y luz de taller.",
+          "Crear tablero visual de antes/durante/despues con texturas y labels honestos cuando no haya fotos suficientes.",
+          "Usar color y superficies oscuras para sostener una sensacion premium aunque haya una sola foto real."
+        ],
+        "boundaries": [
+          "No inventar precios, stock, marcas, años, premios, garantias, servicios ni reseñas.",
+          "No atribuir imagenes genericas al local como si fueran evidencia real.",
+          "No mostrar placeholder, demo, editable, template, landing, creado con IA ni copy sobre conversion."
+        ]
+      },
+      "anti_patterns": [
+        "Titulares que hablan de convertir busquedas locales en vez de hablarle al dueño del auto.",
+        "Foto secundaria chica y cards repetidas con aspecto de dashboard.",
+        "Secciones con placeholders crudos o texto interno visible.",
+        "Mobile como pila interminable sin ritmo visual.",
+        "CTA unico escondido al final."
+      ],
+      "rewrite_targets": [
+        "Convertir el hero en una marca real de detailing en los primeros cinco segundos.",
+        "Hacer que la foto sea protagonista y no decoracion lateral.",
+        "Cambiar grillas genericas por decisiones concretas de consulta.",
+        "Eliminar copy meta sobre oportunidad comercial o conversion.",
+        "Asegurar que mobile conserve jerarquia, imagen y CTA claros."
+      ]
     }
   },
   {
