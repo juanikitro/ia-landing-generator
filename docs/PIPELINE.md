@@ -6,12 +6,12 @@ Estructura, schema, validadores, generador, arquetipos, agentes, skills y docs i
 
 ## Fase 2: dataset schema
 
-`data/tandil-businesses.json` debe contener solo negocios reales. El archivo puede estar vacio mientras no haya datos verificados.
+`data/<run>-businesses.json` debe contener solo negocios reales. El archivo puede estar vacio mientras no haya datos verificados.
 
 Validacion:
 
 ```bash
-npm run validate:data
+npm run validate:data -- data/<run>-businesses.json
 ```
 
 Este comando exige exactamente 10 negocios aprobados y rechaza mocks.
@@ -29,7 +29,7 @@ Fuentes permitidas:
 Importar un export JSON ya verificado:
 
 ```bash
-npm run import:businesses -- --input verified-export.json
+npm run import:businesses -- --input verified-export.json --output data/<run>-businesses.json
 ```
 
 No se incluye scraping agresivo ni scraping que viole terminos de servicio.
@@ -42,39 +42,39 @@ Configurar una API key en la shell:
 $env:GOOGLE_PLACES_API_KEY="..."
 ```
 
-Buscar candidatos vehiculares en Tandil:
+Buscar candidatos para una ciudad/rubro:
 
 ```bash
-npm run search:tandil
-npm run validate:intake
+npm run search -- --city "<Ciudad>" --country Argentina --segment "<Rubro>" --out data/intake/<run>-candidates.json --limit 30
+npm run validate:intake -- data/intake/<run>-candidates.json
 ```
 
-El resultado se guarda en `data/intake/tandil-candidates.json`.
+El resultado se guarda en `data/intake/<run>-candidates.json`.
 
 Esta salida no aprueba negocios para deploy. Marca `approved_for_generation: false`. Por configuracion local, las fotos de Google Places se cargan como `allowed` por defecto. Los candidatos con `websiteUri` informado por Google Places se descartan automaticamente.
 
 Crear shortlist automatico:
 
 ```bash
-npm run shortlist:tandil
+npm run shortlist -- --input data/intake/<run>-candidates.json --out data/intake/<run>-shortlist.json --limit 10
 ```
 
 El comando escribe:
 
-- `data/intake/tandil-shortlist.json`
-- `data/intake/tandil-shortlist.report.md`
+- `data/intake/<run>-shortlist.json`
+- `data/intake/<run>-shortlist.report.md`
 
 Promover los 10 negocios al dataset final:
 
 ```bash
-npm run promote:tandil
-npm run validate:data
+npm run promote -- --input data/intake/<run>-shortlist.json --out data/<run>-businesses.json
+npm run validate:data -- data/<run>-businesses.json
 ```
 
 Componer direccion visual y preparar el trabajo del agente:
 
 ```bash
-npm run agent:briefs
+npm run agent:briefs -- --input data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --out data/agent-briefs/<run> --city "<Ciudad>" --segment "<Rubro>"
 ```
 
 Luego los agentes (Claude disena, Codex implementa) deben:
@@ -86,17 +86,17 @@ Luego los agentes (Claude disena, Codex implementa) deben:
 - usar datos reales cuando existan y completar la pagina con copy, secciones e imagenes genericas seguras generadas por IA cuando los datos/fotos sean pobres
 - crear HTML/CSS propio o un framework/libreria de UI, animaciones o iconos exportado a estatico
 - guardar el resultado dentro de `data/frontends/<run>/<slug>/`
-- agregar `agent_frontend` en `data/site-specs/tandil-site-specs.json`
+- agregar `agent_frontend` en `data/site-specs/<run>-site-specs.json`
 
 Validar:
 
 ```bash
-npm run validate:specs
+npm run validate:specs -- --businesses data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json
 ```
 
 `npm run compose:local` queda como fallback mecanico, pero tambien genera `conversion_template`, `design_brief`, `commercial` y `creative`. `npm run compose:ai` queda como opcion secundaria con billing de OpenAI API; no usa tokens de Codex Desktop.
 
-El generador usa `data/site-specs/tandil-site-specs.json` para validar datos, ubicar el frontend de agente y copiar el artefacto final. El renderer interno solo queda como fallback de preview.
+El generador usa `data/site-specs/<run>-site-specs.json` para validar datos, ubicar el frontend de agente y copiar el artefacto final. El renderer interno solo queda como fallback de preview.
 
 ### Rehacer una tanda floja
 
@@ -130,7 +130,7 @@ Ejemplo para una landing escrita a mano:
 {
   "agent_frontend": {
     "mode": "static-files",
-    "source_dir": "data/frontends/tandil-servicios-vehiculares/mecanica-maz",
+    "source_dir": "data/frontends/<run>/<slug>",
     "notes": "Landing editorial de taller basada en reseñas de viaje."
   }
 }
@@ -165,24 +165,26 @@ npm run generate:mock
 Generar final:
 
 ```bash
-npm run generate
+npm run generate -- data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --session <run>
 ```
 
-Cada corrida crea una carpeta de sesion dentro de `generated/`. Por defecto el nombre sale del dataset (`data/tandil-businesses.json` -> `generated/tandil`; `data/chivilcoy-ropa-businesses.json` -> `generated/chivilcoy-ropa`). Tambien se puede fijar con `--session <slug>`.
+Cada corrida crea una carpeta de sesion dentro de `generated/`. El nombre puede salir del dataset explicito (`data/<run>-businesses.json` -> `generated/<run>`) o fijarse con `--session <slug>`. Si se pasa `--city "<Ciudad>"` al generar y no se pasa `--session`, `--run`, `--out` ni salida posicional, la carpeta se nombra automaticamente como `<ciudad>-<fecha>`; sin `--city`, sigue el comportamiento anterior.
 
 Dentro de `generated/<sesion>/` queda una carpeta por negocio (`<slug>/`) con `index.html`, `styles.css` y `site.json`, mas `manifest.json` e `index.html` de indice de la tanda.
+
+Para navegar todas las tandas generadas localmente, ejecutar `npm run browse` y abrir `http://localhost:4310`.
 
 `npm run generate` exige `GOOGLE_PLACES_API_KEY`, fotos reales y `agent_frontend`. Si queres revisar UI sin fotos reales o sin frontend final, usar:
 
 ```bash
-npm run generate:preview
+npm run generate:preview -- data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --session <run>
 ```
 
 ## Fase 6: QA
 
 ```bash
-npm run qa
-npm run qa:client
+npm run qa -- --session <run> --expected-count <N>
+npm run qa:client -- --session <run>
 ```
 
 `npm run qa` controla cantidad de sitios, footer, texto prohibido, datos cruzados, frontends de agente y carpetas separadas.
@@ -229,11 +231,7 @@ No buscar redes nuevas ni inventar canales. Si no hay Instagram/WhatsApp verific
 
 ## Fase 8: deploy
 
-```bash
-npm run deploy:plan
-```
-
-El comando escribe `generated/<sesion>/deploy-plan.json`. No publica nada. El deploy real debe ejecutarse explicitamente.
+El deploy es automatico: `.github/workflows/deploy-vercel.yml` corre en cada push a `main` que toque `data/*-businesses.json`, `data/site-specs/*.json` o `data/frontends/**`, valida (`qa:design`, `generate`, `qa`, `qa:client`) y publica con `scripts/deploy-generated.mjs`. Ver `docs/DEPLOYMENT.md`. No hay paso manual local para esto.
 
 ## Repetir con otra ciudad
 

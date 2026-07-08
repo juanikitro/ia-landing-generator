@@ -29,36 +29,40 @@ npm run qa:mock
 Cuando existan 10 negocios reales aprobados:
 
 ```bash
-npm run compose:local
-npm run validate:data
-npm run generate
-npm run qa
-npm run deploy:plan
+npm run compose:local -- --input data/<run>-businesses.json --out data/site-specs/<run>-site-specs.json
+npm run validate:data -- data/<run>-businesses.json
+npm run generate -- data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --session <run>
+npm run qa -- --session <run> --expected-count 10
 ```
+
+El deploy es automatico en push a `main` via `.github/workflows/deploy-vercel.yml` (ver `docs/DEPLOYMENT.md`); no hay comando local de deploy.
 
 Para componer la direccion visual/copy con OpenAI:
 
 ```bash
 $env:OPENAI_API_KEY="..."
-npm run compose:ai
+npm run compose:ai -- --input data/<run>-businesses.json --out data/site-specs/<run>-site-specs.json
 ```
 
 El flujo recomendado es agent-first, no API-first:
 
 ```bash
-npm run agent:briefs:tandil
-# Codex/Claude crea data/frontends/<run>/<slug>/ y edita data/site-specs/tandil-site-specs.json
-npm run validate:specs:tandil
-npm run generate:preview
-npm run generate
-npm run qa
-npm run qa:client
-npm run study:final -- --price "[PRECIO]"
+npm run agent:briefs -- --input data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --out data/agent-briefs/<run> --city "<Ciudad>" --segment "<Rubro>"
+# Claude escribe conversion_template + design_brief en data/site-specs/<run>-site-specs.json
+# Codex crea data/frontends/<run>/<slug>/ a partir de ese brief
+npm run validate:specs -- --businesses data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json
+npm run generate:preview -- data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --session <run>
+npm run generate -- data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --session <run>
+npm run qa -- --session <run> --expected-count 10
+npm run qa:client -- --session <run>
+npm run study:final -- --session <run> --businesses data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --briefs data/agent-briefs/<run> --price "[PRECIO]"
 ```
 
 `compose:ai` queda como opcion secundaria para quien quiera usar billing de OpenAI API. `npm run generate` exige fotos reales descargadas desde Google Places y frontends escritos por agente. Para revisar datos/UI sin bloquear por fotos o frontends finales, usar `npm run generate:preview`.
 
 `npm run qa` valida integridad tecnica. `npm run qa:client` es el gate de entrega: falla si la tanda todavia parece demo interna, template repetido, copy con placeholders visibles o landing no vendible.
+
+Para navegar todas las tandas generadas localmente, ejecutar `npm run browse` y abrir `http://localhost:4310`.
 
 Para rehacer una tanda floja:
 
@@ -76,37 +80,37 @@ Con Google Places API:
 
 ```bash
 $env:GOOGLE_PLACES_API_KEY="..."
-npm run search:tandil
-npm run validate:intake
+npm run search -- --city "<Ciudad>" --country Argentina --segment "<Rubro>" --out data/intake/<run>-candidates.json --limit 30
+npm run validate:intake -- data/intake/<run>-candidates.json
 ```
 
-Esto genera `data/intake/tandil-candidates.json` con candidatos no aprobados. Sirve para acelerar investigacion, no para deploy directo.
+Esto genera `data/intake/<run>-candidates.json` con candidatos no aprobados. Sirve para acelerar investigacion, no para deploy directo.
 
 Shortlist automatico y promocion al dataset final:
 
 ```bash
-npm run shortlist:tandil
-npm run promote:tandil
-npm run compose:local
-npm run validate:data
-npm run generate
-npm run qa
+npm run shortlist -- --input data/intake/<run>-candidates.json --out data/intake/<run>-shortlist.json --limit 10
+npm run promote -- --input data/intake/<run>-shortlist.json --out data/<run>-businesses.json
+npm run compose:local -- --input data/<run>-businesses.json --out data/site-specs/<run>-site-specs.json
+npm run validate:data -- data/<run>-businesses.json
+npm run generate -- data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --session <run>
+npm run qa -- --session <run> --expected-count 10
 ```
 
 ## Flujo
 
-1. Buscar candidatos reales con `npm run search:tandil`.
-2. Generar shortlist con `npm run shortlist:tandil`.
-3. Promover 10 negocios con `npm run promote:tandil`.
-4. Preparar briefs con `npm run agent:briefs:tandil`.
+1. Buscar candidatos reales con `npm run search -- --city "<Ciudad>" --out data/intake/<run>-candidates.json`.
+2. Generar shortlist con `npm run shortlist -- --input data/intake/<run>-candidates.json --out data/intake/<run>-shortlist.json`.
+3. Promover 10 negocios con `npm run promote -- --input data/intake/<run>-shortlist.json --out data/<run>-businesses.json`.
+4. Preparar briefs con `npm run agent:briefs -- --input data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --out data/agent-briefs/<run> --city "<Ciudad>" --segment "<Rubro>"`.
 5. Etapa `design-director` (Claude): elige `conversion_template`, completa `design_brief` con `designed_by: "claude-code"` y define la dirección visual de cada landing; Codex implementa el frontend a partir de ese brief.
-6. El agente agrega `agent_frontend` en `data/site-specs/tandil-site-specs.json`.
-7. Validar specs con `npm run validate:specs:tandil` y el gate de diseño con `npm run qa:design`.
+6. El agente agrega `agent_frontend` en `data/site-specs/<run>-site-specs.json`.
+7. Validar specs con `npm run validate:specs -- --businesses data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json` y el gate de diseño con `npm run qa:design -- --businesses data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json`.
 8. Validar que no haya datos inventados ni negocios con sitio propio.
 9. Generar una carpeta de sesion en `generated/<sesion>/`; adentro queda una carpeta por negocio (`generated/<sesion>/<slug>/`) con todo su codigo.
 10. Ejecutar QA de contenido, datos y frontends authored.
 11. Ejecutar `npm run qa:client` y revisar screenshots desktop/mobile.
-12. Generar el estudio final con `npm run study:final -- --price "[PRECIO]"`; el Markdown queda en `generated/<sesion>/final-study.md`.
+12. Generar el estudio final con `npm run study:final -- --session <run> --businesses data/<run>-businesses.json --price "[PRECIO]"`; el Markdown queda en `generated/<sesion>/final-study.md`.
 13. Crear plan de deploy para 10 URLs separadas.
 
 Ver detalles en `docs/PIPELINE.md`, `docs/DATA_RULES.md`, `docs/DESIGN_STANDARDS.md`, `docs/CLIENT_READINESS_QA.md` y `docs/DEPLOYMENT.md`.

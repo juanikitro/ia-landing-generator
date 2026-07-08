@@ -13,47 +13,47 @@ La prioridad actual es calidad visual, no costo ni velocidad. El camino final es
 ## Flujo principal
 
 ```powershell
-npm run validate:data
-npm run agent:briefs:tandil
+npm run validate:data -- data/<run>-businesses.json
+npm run agent:briefs -- --input data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --out data/agent-briefs/<run> --city "<Ciudad>" --segment "<Rubro>"
 ```
 
 El comando escribe briefs en:
 
 ```text
-data/agent-briefs/tandil/
+data/agent-briefs/<run>/
 ```
 
 Luego el agente debe leer:
 
-- `data/tandil-businesses.json`
-- `data/agent-briefs/tandil/README.md`
+- `data/<run>-businesses.json`
+- `data/agent-briefs/<run>/README.md`
 - los briefs individuales relevantes
-- `data/site-specs/tandil-site-specs.json` si ya existe
+- `data/site-specs/<run>-site-specs.json` si ya existe
 
-Y escribir (etapa `design-director`, ver `agents/design-director.md`): por cada landing, `conversion_template` y un `design_brief` completo con `designed_by: "claude-code"` en
-
-```text
-data/site-specs/tandil-site-specs.json
-```
-
-Ademas debe crear el frontend de cada negocio en una carpeta del repo, por ejemplo:
+Claude (etapa `design-director`, ver `agents/design-director.md`) escribe, por cada landing, `conversion_template` y un `design_brief` completo con `designed_by: "claude-code"` en
 
 ```text
-data/frontends/tandil-servicios-vehiculares/<slug>/index.html
-data/frontends/tandil-servicios-vehiculares/<slug>/styles.css
+data/site-specs/<run>-site-specs.json
 ```
 
-Si una landing necesita framework o librerias, el agente puede usarlos con bastante libertad para subir la calidad final. Esto incluye librerias de UI/frontend, animaciones e iconos como Aceternity UI (https://ui.aceternity.com/components), shadcn/ui (https://ui.shadcn.com/docs/components), Magic UI (https://magicui.design/), Framer Motion, GSAP, Motion One, lucide-react o React Icons. En ese caso debe ejecutar el build/export y apuntar `agent_frontend.output_dir` al resultado estatico.
+**El design-director no escribe HTML/CSS/JS.** A partir de ese `design_brief`, Codex crea el frontend de cada negocio en una carpeta del repo, por ejemplo:
+
+```text
+data/frontends/<run>/<slug>/index.html
+data/frontends/<run>/<slug>/styles.css
+```
+
+Si una landing necesita framework o librerias, Codex puede usarlos con bastante libertad para subir la calidad final. Esto incluye librerias de UI/frontend, animaciones e iconos como Aceternity UI (https://ui.aceternity.com/components), shadcn/ui (https://ui.shadcn.com/docs/components), Magic UI (https://magicui.design/), Framer Motion, GSAP, Motion One, lucide-react o React Icons. En ese caso debe ejecutar el build/export y apuntar `agent_frontend.output_dir` al resultado estatico.
 
 Despues:
 
 ```powershell
-npm run validate:specs:tandil
-npm run qa:design
-npm run generate:preview
-npm run generate
-npm run qa
-npm run qa:client
+npm run validate:specs -- --businesses data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json
+npm run qa:design -- --businesses data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json
+npm run generate:preview -- data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --session <run>
+npm run generate -- data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --session <run>
+npm run qa -- --session <run> --expected-count <N>
+npm run qa:client -- --session <run>
 ```
 
 `npm run qa:design` es el gate de la etapa `design-director`: falla si algun spec no tiene `conversion_template`, `design_brief` completo o `designed_by: "claude-code"`. Para corridas nuevas, generar con `--require-design-brief` para que el propio `generate` rechace landings sin brief de diseno firmado.
@@ -106,7 +106,7 @@ El bloque `design_brief` es la barra de calidad visual y de remake. Debe explica
 Antes de entregar, correr:
 
 ```powershell
-npm run qa:client
+npm run qa:client -- --session <run>
 ```
 
 Este gate debe ser incomodo. Falla si detecta lenguaje interno, placeholders visibles, copy flojo, falta de secciones comerciales, CTAs insuficientes, problemas basicos de accesibilidad o landings demasiado parecidas entre si. Si falla, el agente debe corregir los sitios, regenerar y volver a correrlo.
@@ -128,7 +128,7 @@ No declarar una tanda como entregable si el juicio humano es `NOT_READY`, aunque
 Cuando la tanda queda `CLIENT_READY`, el agente debe preparar la entrega comercial:
 
 ```powershell
-npm run study:final -- --price "[PRECIO]"
+npm run study:final -- --session <run> --businesses data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --briefs data/agent-briefs/<run> --price "[PRECIO]"
 ```
 
 El comando escribe:
@@ -182,7 +182,7 @@ En futuras tandas, usar los golden samples como referencia de densidad, pulido, 
 ```json
 {
   "mode": "static-files",
-  "source_dir": "data/frontends/tandil-servicios-vehiculares/mecanica-maz",
+  "source_dir": "data/frontends/<run>/<slug>",
   "notes": "Landing editorial de taller con bitacora de ruta y CTA directo."
 }
 ```
@@ -214,12 +214,12 @@ El generador no ejecuta `build_command`; solo copia `source_dir` u `output_dir`.
 
 `npm run compose:local` existe como fallback mecanico para arrancar el archivo de specs.
 
-`npm run compose:ai` existe como opcion secundaria, pero usa `OPENAI_API_KEY` y billing de OpenAI API. No usa los tokens de Codex Desktop. Para usar tokens/contexto de la sesion, el camino correcto es que Codex/Claude edite `data/site-specs/tandil-site-specs.json` directamente.
+`npm run compose:ai` existe como opcion secundaria, pero usa `OPENAI_API_KEY` y billing de OpenAI API. No usa los tokens de Codex Desktop. Para usar tokens/contexto de la sesion, el camino correcto es que Codex/Claude edite `data/site-specs/<run>-site-specs.json` directamente.
 
 ## Build final
 
 `npm run generate` exige fotos reales, `agent_frontend` y requiere `GOOGLE_PLACES_API_KEY`. Para iteracion visual con fallback usar:
 
 ```powershell
-npm run generate:preview
+npm run generate:preview -- data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --session <run>
 ```
