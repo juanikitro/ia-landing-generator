@@ -1,656 +1,128 @@
 [
   {
-    "business_id": "google-ChIJWVVlan-jMpQRYjdNl9aOKds",
-    "slug": "autocentro-cardetail",
-    "visual_mood": "precision-service",
-    "composition": "photo-board",
-    "headline": "Autocentro CarDetail",
-    "subheadline": "Interior, exterior y terminacion visual para dejar el auto presentable antes de usarlo, venderlo o entregarlo en Cordoba Capital.",
-    "primary_cta": "Reservar turno",
-    "secondary_cta": "Ver ubicacion",
+    "business_id": "google-ChIJCURt-D6YMpQRtFgR9fQuZXY",
+    "slug": "taller-sr-chapa-y-pintura",
+    "visual_mood": "workshop-trust",
+    "composition": "poster-bay",
+    "headline": "El taller que arregla autos en Córdoba desde 1975",
+    "subheadline": "Taller SR. Chapa y pintura trabaja en el mismo barrio desde 1975, con 4.8 sobre 5 en 188 reseñas y una cabina de pintura que se ve en cada trabajo terminado.",
+    "primary_cta": "Consultar mi reparación",
+    "secondary_cta": "Ver cómo llegar",
     "service_tags": [
-      "Detailing",
-      "Interior",
-      "Exterior",
-      "Proteccion o consulta"
+      "Chapa y reparación de golpes",
+      "Pintura y terminación",
+      "Pulido y abrillantado",
+      "Evaluación con fotos"
     ],
     "proof_points": [
-      "5.0 sobre 5 con 92 reseñas",
-      "Horario: Lunes a Sabado; Domingo cerrado",
-      "Direccion: Puvr Olimpia 1851, X5000 Córdoba",
-      "Reseñas que destacan: \"Facu y Mauri dejaron mi auto impecable! Lo hicieron en menos tiempo del que me dijeron.  Sie...\""
+      "4.8 sobre 5 con 188 reseñas en Google",
+      "En el mismo barrio desde 1975, según el letrero del taller",
+      "Lunes a viernes de 8:00 a 18:00, sábado y domingo cerrado",
+      "\"César was fantastic—professional, helpful, and honest... the job was completed within the promised timeframe\" — Saurabh Khanvilkar"
     ],
-    "resource_title": "Volver a mirar el auto de cerca",
+    "resource_title": "Antes de llevar el auto al taller",
     "resource_items": [
-      "Rating perfecto y 92 reseñas publicas sostienen la confianza.",
-      "La consulta se ordena por estado del auto: interior, exterior o preparacion para entrega.",
-      "Telefono, horario y ubicacion quedan visibles desde el primer scroll."
+      "Trayectoria verificable: el propio letrero del taller marca 1975 como año de origen.",
+      "188 reseñas públicas, incluida una en inglés que destaca la honestidad del trato aun con la barrera del idioma.",
+      "Horario fijo de lunes a viernes para coordinar sin sorpresas."
     ],
-    "review_heading": "Lo que valoran quienes ya fueron",
-    "contact_heading": "Llegar o llamar sin vueltas",
-    "image_prompt": "Escena editorial realista de detailing vehicular premium en Cordoba Capital: auto limpio, interior cuidado, brillo exterior, herramientas y microfibra, luz natural, sin texto, sin logos ni marcas inventadas.",
-    "design_notes": "Golden sample para detailing local: hero fotografico dominante, prueba social arriba del pliegue, servicios como decisiones de cliente, tablero visual de antes/durante/despues y CTA telefonico repetido. No usar copy meta ni grillas genericas.",
-    "commercial": {
-      "tone": "premium-detailing",
-      "customer_type": "Personas que quieren dejar el auto presentable antes de usarlo, venderlo o entregarlo.",
-      "hero_claim": "Volver a mirar el auto de cerca.",
-      "trust_bar": [
-        {
-          "label": "Rating",
-          "title": "5.0 / 5",
-          "body": "92 reseñas publicas.",
-          "meta": "Dato verificado"
-        },
-        {
-          "label": "Horario",
-          "title": "Lunes a sabado",
-          "body": "Domingo cerrado.",
-          "meta": "Dato verificado"
-        },
-        {
-          "label": "Contacto",
-          "title": "Telefono directo",
-          "body": "0351 15-265-8259.",
-          "meta": "Dato verificado"
-        }
-      ],
-      "service_cards": [
-        {
-          "label": "Interior",
-          "title": "Habitaculo con sensacion renovada",
-          "body": "Para butacas, alfombras, plasticos y detalles que cambian la experiencia diaria."
-        },
-        {
-          "label": "Exterior",
-          "title": "Brillo y presencia visibles",
-          "body": "Para mejorar la presentacion general y definir si hace falta un trabajo mas puntual."
-        },
-        {
-          "label": "Entrega",
-          "title": "Listo para fotos o proximo dueño",
-          "body": "Una opcion concreta cuando el auto tiene que verse cuidado antes de mostrarse."
-        }
-      ],
-      "why_choose": [
-        {
-          "title": "Prueba social fuerte",
-          "body": "Rating perfecto y 92 reseñas publicas reducen la duda antes de llamar."
-        },
-        {
-          "title": "Consulta ordenada",
-          "body": "El sitio pide estado del auto, foco del trabajo y disponibilidad en lugar de una pregunta vaga."
-        },
-        {
-          "title": "Resultado visual",
-          "body": "La estructura reserva espacio para mostrar interior, exterior y entrega con mas fotos propias."
-        }
-      ],
-      "packages": [
-        {
-          "name": "Interior",
-          "price_label": "Precio a confirmar",
-          "body": "Para mejorar habitaculo, superficies y sensacion de uso.",
-          "items": [
-            "Estado actual",
-            "Fotos si hace falta",
-            "Turno a coordinar"
-          ]
-        },
-        {
-          "name": "Exterior",
-          "price_label": "Presupuesto por estado",
-          "body": "Para brillo, presencia y terminacion visible.",
-          "items": [
-            "Uso del auto",
-            "Detalle esperado",
-            "Disponibilidad"
-          ]
-        },
-        {
-          "name": "Preparacion para entrega",
-          "price_label": "A confirmar",
-          "body": "Para fotos, venta o entrega del vehiculo.",
-          "items": [
-            "Fecha objetivo",
-            "Interior/exterior",
-            "Resultado buscado"
-          ]
-        }
-      ],
-      "gallery": [
-        {
-          "label": "Antes",
-          "title": "Estado de ingreso",
-          "body": "Fotos de manchas, polvo, uso diario o zonas que necesitan atencion."
-        },
-        {
-          "label": "Durante",
-          "title": "Trabajo por zona",
-          "body": "Materiales, interiores, exterior y planos cercanos del proceso."
-        },
-        {
-          "label": "Despues",
-          "title": "Entrega lista",
-          "body": "Brillo, habitaculo ordenado y referencia clara del resultado."
-        }
-      ],
-      "process": [
-        {
-          "step": "01",
-          "title": "Contar el estado del auto",
-          "body": "Interior, exterior, manchas, olor o preparacion para venta."
-        },
-        {
-          "step": "02",
-          "title": "Enviar fotos si hace falta",
-          "body": "Sirven para definir alcance antes del turno."
-        },
-        {
-          "step": "03",
-          "title": "Confirmar disponibilidad",
-          "body": "Horario, duracion estimada y forma de llevar el auto."
-        },
-        {
-          "step": "04",
-          "title": "Retirar con referencia visual",
-          "body": "Comparar el resultado y dejar registro del trabajo."
-        }
-      ],
-      "final_cta": {
-        "title": "Llama con el estado del auto y coordinan el siguiente paso.",
-        "body": "Autocentro CarDetail atiende en Puvr Olimpia 1851, Cordoba Capital. Conviene llamar antes y confirmar disponibilidad.",
-        "primary_label": "Llamar y reservar turno",
-        "secondary_label": "Ver ubicacion"
+    "review_heading": "Lo que cuentan, en cualquier idioma",
+    "contact_heading": "Consultá con fotos del golpe",
+    "image_prompt": "Foto real de cabina de pintura blanca con autos cubiertos en film protector, luces fluorescentes de taller, emblema rojo y negro de pistolas cruzadas en la pared, Córdoba Capital, luz de trabajo.",
+    "design_notes": "Placa de taller desde 1975: cabina blanca de baldosas, emblema rojo y negro de pistolas cruzadas, Libre Caslon Display + Public Sans, paleta porcelana / granate / negro tinta.",
+    "conversion_template": "editorial-local-story",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Taller SR. Chapa y pintura vende una consulta de reparación de carrocería para dueños de auto en Córdoba Capital que buscan un taller con trayectoria comprobada desde 1975 y 4.8 sobre 5 en 188 reseñas, antes de dejar el vehículo.",
+      "visual_thesis": "Placa de taller desde 1975: la cabina de pintura blanca y el emblema rojo y negro de las pistolas cruzadas se llevan a una landing con aire de chapa esmaltada de taller histórico. Display serif Libre Caslon Display en versalitas grandes, cuerpo Public Sans; paleta porcelana, granate del emblema y negro tinta, con gris de baldosa cerámica como textura de fondo.",
+      "copy_voice": "Español argentino directo y sobrio, de mecánico que no promete de más: fotos, alcance y turno, sin relleno.",
+      "layout_signature": "Template editorial-local-story: hero tipo placa esmaltada con el emblema de pistolas cruzadas recreado en SVG de línea, titular serif grande, rating 4.8★ y la reseña de Saurabh Khanvilkar como prueba de confianza que cruza el idioma; después cómo se evalúa un golpe en pasos, las tres fotos reales de la cabina como banda de autoridad, reseñas como fichas de taller y cierre de consulta con fotos arriba y abajo del pliegue.",
+      "asset_plan": "Las tres fotos reales de la cabina de pintura (auto plateado cubierto en preparación, camioneta azul en pintura, pickup blanca en pulverizado con la pistola en primer plano) como banda de autoridad y fondo parcial del hero; grid de baldosas cerámicas blancas en CSS; pistolas de pintura cruzadas recreadas en SVG de línea propio como motivo de sección, sin copiar el logo original pixel por pixel.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de los pasos de evaluación con fotos (qué mandar, qué se confirma, cómo se coordina)",
+          "Encabezados tipo ficha de taller sin inventar plazos ni garantías de resultado"
+        ],
+        "imagery": [
+          "Grid de baldosas cerámicas en CSS como textura de fondo del hero y separadores",
+          "Pistolas de pintura cruzadas en SVG de línea como motivo de sección, inspirado en el emblema real sin reproducirlo"
+        ],
+        "boundaries": [
+          "No inventar precios, marcas de pintura, plazos de entrega ni garantías",
+          "\"Desde 1975\" se apoya solo en el letrero visible del propio taller en las fotos reales, sin agregar historia inventada",
+          "No prometer resultado idéntico al original: solo evaluación, alcance y criterio de terminación"
+        ]
       },
-      "editable_note": "Los precios, productos y tiempos se confirman segun vehiculo, estado y agenda."
+      "anti_patterns": [
+        "Fuentes genéricas como Arial, Roboto o Inter",
+        "Gradiente violeta de SaaS sobre fondo blanco",
+        "Placeholders crudos tipo \"[Presupuesto editable]\" o \"Foto a reemplazar\" visibles, como tenía la versión anterior",
+        "Foto de stock de chapista genérico en vez de la cabina real del taller"
+      ],
+      "rewrite_targets": [
+        "Sacar todos los placeholders demo/editable que tenía la versión anterior (paquetes con precios entre corchetes, galería \"foto a reemplazar\")",
+        "Usar las tres fotos reales de la cabina de pintura como prueba visual en vez de bloques genéricos de antes/después",
+        "Subir el dato \"desde 1975\" y la reseña en inglés de Saurabh Khanvilkar como prueba de confianza arriba del pliegue",
+        "Cambiar el tono de placeholder comercial de la versión anterior por una narrativa editorial de taller con oficio real"
+      ]
     },
     "creative": {
-      "concept": "Volver a mirar el auto de cerca: detailing local con prueba social fuerte y consulta simple.",
-      "audience": "Personas que quieren cuidar, vender o entregar el auto con mejor presentacion visual.",
-      "visual_direction": "Estudio de detailing oscuro, premium y local: foto grande, paneles editoriales, acentos lima/mint y textura tecnica sin aspecto SaaS.",
-      "layout": "studio-detail",
-      "texture": "polished-glass",
-      "hero_angle": "Volver a mirar el auto de cerca.",
+      "concept": "Un taller que no necesita prometer nada porque lo viene demostrando desde 1975.",
+      "audience": "Dueños de auto en Córdoba Capital que necesitan evaluar un golpe, pintura o terminación antes de dejar el vehículo.",
+      "visual_direction": "Placa esmaltada de taller: porcelana, granate y negro tinta, baldosa cerámica real como textura, emblema de pistolas cruzadas como motivo gráfico.",
+      "layout": "bodyshop-craft",
+      "texture": "primer-dust",
+      "hero_angle": "Chapa y pintura con oficio desde 1975 en Córdoba Capital, 4.8 sobre 5 en 188 reseñas.",
       "hero_cards": [
-        {
-          "label": "Rating",
-          "value": "5.0",
-          "note": "92 reseñas publicas"
-        },
-        {
-          "label": "Horario",
-          "value": "Lun a sab",
-          "note": "Domingo cerrado"
-        },
-        {
-          "label": "Contacto",
-          "value": "0351 15-265-8259",
-          "note": "Telefono directo"
-        }
+        { "label": "Reseñas", "value": "4.8★ en 188 opiniones", "note": "Perfil público de Google" },
+        { "label": "Trayectoria", "value": "En el barrio desde 1975", "note": "Letrero del propio taller" },
+        { "label": "Horario", "value": "Lunes a viernes, 8 a 18" }
       ],
       "sections": [
         {
           "type": "service-board",
-          "eyebrow": "Servicios",
-          "title": "Tres entradas claras para pedir presupuesto.",
-          "body": "Interior, exterior o preparacion para entrega. La primera llamada se ordena por estado del auto y resultado esperado.",
+          "eyebrow": "Cómo se evalúa un golpe",
+          "title": "Chapa, pintura y un criterio de terminación",
+          "body": "La consulta se ordena por lo que muestran las fotos del daño, no por una lista de precios inventada.",
           "items": [
-            {
-              "label": "Interior",
-              "value": "Habitaculo renovado",
-              "note": "Butacas, alfombras, plasticos y detalles de uso."
-            },
-            {
-              "label": "Exterior",
-              "value": "Brillo visible",
-              "note": "Presentacion general y terminacion."
-            },
-            {
-              "label": "Entrega",
-              "value": "Listo para mostrar",
-              "note": "Fotos, venta o proximo dueño."
-            }
-          ]
-        },
-        {
-          "type": "material-story",
-          "eyebrow": "Resultado visual",
-          "title": "La prueba entra por los detalles.",
-          "body": "El sitio marca que mirar cuando haya mas fotos propias: estado inicial, trabajo por zona y entrega final.",
-          "items": [
-            {
-              "label": "Antes",
-              "value": "Estado de ingreso",
-              "note": "Zonas que necesitan atencion."
-            },
-            {
-              "label": "Durante",
-              "value": "Trabajo por zona",
-              "note": "Materiales e interiores."
-            },
-            {
-              "label": "Despues",
-              "value": "Entrega lista",
-              "note": "Brillo y habitaculo ordenado."
-            }
-          ]
-        },
-        {
-          "type": "process",
-          "eyebrow": "Proceso",
-          "title": "De la primera llamada al turno sin perder contexto.",
-          "body": "El usuario entiende que contar, cuando mandar fotos y como confirmar disponibilidad.",
-          "items": [
-            {
-              "label": "01",
-              "value": "Contar estado",
-              "note": "Interior, exterior o venta."
-            },
-            {
-              "label": "02",
-              "value": "Enviar fotos",
-              "note": "Si el alcance lo requiere."
-            },
-            {
-              "label": "03",
-              "value": "Confirmar turno",
-              "note": "Disponibilidad y duracion."
-            },
-            {
-              "label": "04",
-              "value": "Retirar",
-              "note": "Con referencia visual."
-            }
+            { "label": "Chapa", "value": "Evaluación del daño", "note": "Zona afectada y alcance real" },
+            { "label": "Pintura", "value": "Terminación y color", "note": "Ajuste sobre el vehículo real" },
+            { "label": "Pulido", "value": "Abrillantado final", "note": "Mencionado en reseñas de clientes" },
+            { "label": "Consulta", "value": "Con fotos del golpe", "note": "Primer paso antes de coordinar turno" }
           ]
         },
         {
           "type": "quote-strip",
-          "eyebrow": "Reseñas",
-          "title": "Autos impecables y trato profesional.",
-          "body": "Las reseñas publicas son el respaldo principal de la pagina.",
+          "eyebrow": "Clientes reales",
+          "title": "La confianza cruza el idioma",
+          "body": "Tres reseñas públicas, una de ellas en inglés, coinciden en lo mismo: trabajo prolijo y trato honesto.",
           "items": [
-            {
-              "label": "Maria",
-              "value": "Mas lindo que nunca",
-              "note": "Listo para su proximo dueño."
-            },
-            {
-              "label": "Victor",
-              "value": "Muy conforme",
-              "note": "Excelente atencion."
-            },
-            {
-              "label": "Francisco",
-              "value": "Tres autos",
-              "note": "Quedaron espectaculares."
-            }
+            { "label": "Saurabh Khanvilkar", "value": "César was fantastic—professional, helpful, and honest. The job was completed within the promised timeframe." },
+            { "label": "Jeziel Ruani", "value": "Me dejaron como nuevo el parachoques y hasta una limpieza incluida que parece un espejo del brillo." },
+            { "label": "Maximiliano Ocampo", "value": "Realizaron un trabajo excelente, quedó prácticamente imperceptible." }
           ]
-        }
-      ]
-    },
-    "agent_frontend": {
-      "mode": "static-files",
-      "source_dir": "data/frontends/cordoba-conversion/autocentro-cardetail",
-      "notes": "Golden sample de detailing premium local: hero fotografico dominante, prueba social arriba del pliegue, servicios por decision de cliente, tablero visual y CTA telefonico repetido."
-    },
-    "conversion_template": "hero-proof-offer",
-    "design_brief": {
-      "market_position": "Autocentro CarDetail debe vender una consulta de detailing para personas que quieren dejar el auto presentable antes de usarlo, venderlo o entregarlo.",
-      "visual_thesis": "Landing premium local con foto protagonista, superficies oscuras de estudio, acentos lima/mint y bloques editoriales que hacen sentir cuidado, brillo y terminacion sin parecer dashboard ni template SaaS.",
-      "copy_voice": "Español argentino directo y comercial. Hablarle a quien esta por llamar: estado del auto, turno, interior, exterior, entrega. Evitar frases sobre la pagina, la conversion o el generador.",
-      "layout_signature": "Primer viewport con imagen grande, promesa breve, rating/horario/telefono visibles y CTA. Luego decisiones de consulta, servicios por necesidad, prueba visual antes/durante/despues, proceso, reseñas reales y cierre telefonico.",
-      "asset_plan": "Usar la foto real como ancla. Completar la falta de mas material con texturas de estudio, paneles de detalle, tablero de proceso y escenas genericas seguras de detailing sin afirmar que son fotos del local.",
-      "ai_fill_plan": {
-        "copy": [
-          "Convertir la poca informacion en microcopy de decision: que quiere mejorar, que fotos mandar y como coordinar turno.",
-          "Nombrar secciones con lenguaje de cliente: venderlo, usarlo mejor, recuperarlo, resultado visual.",
-          "Usar reseñas reales como prueba social resumida sin inventar testimonios.",
-          "Presentar opciones de consulta sin precios ni productos no confirmados."
-        ],
-        "imagery": [
-          "Usar escenas genericas de detailing: microfibra, brillo exterior, interior limpio, herramientas y luz de taller.",
-          "Crear tablero visual de antes/durante/despues con texturas y labels honestos cuando no haya fotos suficientes.",
-          "Usar color y superficies oscuras para sostener una sensacion premium aunque haya una sola foto real."
-        ],
-        "boundaries": [
-          "No inventar precios, stock, marcas, años, premios, garantias, servicios ni reseñas.",
-          "No atribuir imagenes genericas al local como si fueran evidencia real.",
-          "No mostrar placeholder, demo, editable, template, landing, creado con IA ni copy sobre conversion."
-        ]
-      },
-      "anti_patterns": [
-        "Titulares que hablan de convertir busquedas locales en vez de hablarle al dueño del auto.",
-        "Foto secundaria chica y cards repetidas con aspecto de dashboard.",
-        "Secciones con placeholders crudos o texto interno visible.",
-        "Mobile como pila interminable sin ritmo visual.",
-        "CTA unico escondido al final."
-      ],
-      "rewrite_targets": [
-        "Convertir el hero en una marca real de detailing en los primeros cinco segundos.",
-        "Hacer que la foto sea protagonista y no decoracion lateral.",
-        "Cambiar grillas genericas por decisiones concretas de consulta.",
-        "Eliminar copy meta sobre oportunidad comercial o conversion.",
-        "Asegurar que mobile conserve jerarquia, imagen y CTA claros."
-      ]
-    }
-  },
-  {
-    "business_id": "google-ChIJCURt-D6YMpQRtFgR9fQuZXY",
-    "slug": "taller-sr-chapa-y-pintura",
-    "visual_mood": "precision-service",
-    "composition": "poster-bay",
-    "headline": "Taller SR. Chapa y pintura",
-    "subheadline": "El golpe se consulta con fotos, alcance claro y criterio de terminacion. Chapa y pintura en Cordoba Capital con contacto, horarios, ubicacion y referencias publicas arriba del pliegue.",
-    "primary_cta": "Consultar reparacion",
-    "secondary_cta": "Ver ubicacion",
-    "service_tags": [
-      "Chapa",
-      "Pintura",
-      "Reparaciones",
-      "Consulta con fotos"
-    ],
-    "proof_points": [
-      "4.8 sobre 5 con 188 reseñas",
-      "Horario: Lunes a Viernes; Sabado, Domingo cerrado",
-      "Direccion: Juan de Santiso y Moscoso 760, X5000 Córdoba",
-      "Reseñas que destacan: \"I found this place through Google reviews and, as someone from India who doesn’t speak great...\""
-    ],
-    "resource_title": "Para evaluar una reparacion de carroceria",
-    "resource_items": [
-      "Direccion y contacto visibles para consultar el trabajo.",
-      "Resenas publicas para revisar referencias de terminacion y atencion.",
-      "Horario registrado: Lunes a Viernes; Sabado, Domingo cerrado."
-    ],
-    "review_heading": "Lo que valoran quienes ya fueron",
-    "contact_heading": "Llegar o llamar sin vueltas",
-    "image_prompt": "Escena editorial realista para taller de chapa y pintura en Cordoba Capital, carroceria en reparacion, herramientas y luz de trabajo, luz natural, sin texto, sin logos inventados.",
-    "design_notes": "Mood precision-service, composicion poster-bay, tono comercial bodyshop-craft. Evitar estetica SaaS generica; usar recursos visuales del rubro chapa y pintura, direccion, prueba social, paquetes editables y CTA de turno.",
-    "commercial": {
-      "tone": "bodyshop-craft",
-      "customer_type": "Dueños de autos que necesitan evaluar un golpe, pintura o terminacion antes de dejar el vehiculo.",
-      "hero_claim": "El golpe se consulta con fotos, alcance claro y criterio de terminacion.",
-      "trust_bar": [
-        {
-          "label": "Prueba social",
-          "title": "4.8 / 5",
-          "body": "188 resenas registradas en las fuentes disponibles.",
-          "meta": "Dato verificado",
-          "is_demo": false
         },
         {
-          "label": "Rubro",
-          "title": "Chapa y pintura",
-          "body": "La pagina debe vender el servicio principal sin sumar prestaciones no confirmadas.",
-          "meta": "Base verificada"
-        },
-        {
-          "label": "Agenda",
-          "title": "Lunes a Viernes; Sabado, Domingo cerrado",
-          "body": "Horario publicado para orientar la primera consulta.",
-          "meta": "Dato verificado",
-          "is_demo": false
-        },
-        {
-          "label": "Contacto",
-          "title": "Telefono directo",
-          "body": "CTA preparado para llamar desde el celular sin buscar el dato en otro lado.",
-          "meta": "0351 549-1346"
-        },
-        {
-          "label": "Confianza",
-          "title": "Mas de [X] vehiculos",
-          "body": "Placeholder editable para volumen real, anos o trabajos terminados si el negocio lo confirma.",
-          "meta": "Demo editable",
-          "is_demo": true
-        }
-      ],
-      "service_cards": [
-        {
-          "label": "Chapa",
-          "title": "Evaluacion del dano",
-          "body": "Pide fotos y zona afectada antes de prometer plazos o presupuestos."
-        },
-        {
-          "label": "Pintura",
-          "title": "Terminacion visible",
-          "body": "La landing deja lugar para mostrar trabajos reales de color, brillo y ajuste."
-        },
-        {
-          "label": "Consulta",
-          "title": "Primer diagnostico",
-          "body": "CTA para enviar imagenes y coordinar una visita al taller."
-        }
-      ],
-      "why_choose": [
-        {
-          "title": "Oficio, no plantilla",
-          "body": "Visual editorial de taller, superficies, marcas de trabajo y proceso."
-        },
-        {
-          "title": "Antes/despues necesario",
-          "body": "La pagina obliga a mostrar evidencia visual cuando el negocio la tenga."
-        },
-        {
-          "title": "Sin plazos inventados",
-          "body": "Tiempo, garantia y presupuesto quedan a confirmar con el caso real."
-        }
-      ],
-      "packages": [
-        {
-          "name": "Evaluacion con fotos",
-          "price_label": "Sin precio publicado",
-          "body": "Para entender dano, zona y necesidad antes de presupuestar.",
+          "type": "material-story",
+          "eyebrow": "La cabina, no el catálogo",
+          "title": "Tres autos, tres etapas del mismo oficio",
+          "body": "Preparación, pintura y pulverizado: el trabajo real dentro de la cabina blanca del taller.",
           "items": [
-            "Fotos del golpe",
-            "Zona afectada",
-            "Direccion del taller"
-          ],
-          "is_demo": true
-        },
-        {
-          "name": "Reparacion puntual",
-          "price_label": "[Presupuesto editable]",
-          "body": "Bloque demo para trabajos chicos cuando el taller lo confirme.",
-          "items": [
-            "Alcance a definir",
-            "Materiales a confirmar",
-            "Turno"
-          ],
-          "is_demo": true
-        },
-        {
-          "name": "Pintura / terminacion",
-          "price_label": "[A cotizar]",
-          "body": "Espacio para trabajos de pintura verificados por el negocio.",
-          "items": [
-            "Color",
-            "Paneles afectados",
-            "Revision presencial"
-          ],
-          "is_demo": true
-        }
-      ],
-      "gallery": [
-        {
-          "label": "Antes",
-          "title": "Foto real del ingreso",
-          "body": "Espacio para mostrar el estado inicial del vehiculo, pieza o consulta.",
-          "meta": "Placeholder visual",
-          "is_demo": true
-        },
-        {
-          "label": "Despues",
-          "title": "Resultado o entrega",
-          "body": "Lugar reservado para una foto propia del negocio, sin usar stock generico.",
-          "meta": "Editable",
-          "is_demo": true
-        },
-        {
-          "label": "Chapa y pintura",
-          "title": "Detalle del trabajo",
-          "body": "Plano corto de materiales, herramientas, terminaciones o mostrador segun el rubro.",
-          "meta": "Foto a reemplazar",
-          "is_demo": true
-        }
-      ],
-      "process": [
-        {
-          "step": "01",
-          "title": "Enviar fotos",
-          "body": "Golpe, lateral afectado, detalle de pintura o pieza."
-        },
-        {
-          "step": "02",
-          "title": "Separar alcance",
-          "body": "Se define si requiere visita, repuesto o presupuesto formal."
-        },
-        {
-          "step": "03",
-          "title": "Coordinar taller",
-          "body": "Contacto, horario y direccion se muestran sin friccion."
-        },
-        {
-          "step": "04",
-          "title": "Cargar antes/despues",
-          "body": "La galeria queda lista para trabajos reales terminados."
-        }
-      ],
-      "final_cta": {
-        "title": "Taller SR. Chapa y pintura: el proximo paso es simple",
-        "body": "Llama, confirma disponibilidad y lleva el auto con el dato clave ya resuelto: chapa y pintura, direccion y horario.",
-        "primary_label": "Consultar reparacion",
-        "secondary_label": "Ver ubicacion"
-      },
-      "editable_note": "Los items marcados como demo son placeholders comerciales editables: reemplazar por datos reales antes de publicar o dejarlos explicitamente como a confirmar."
-    },
-    "creative": {
-      "concept": "El golpe se consulta con fotos, alcance claro y criterio de terminacion. Direccion comercial para Dueños de autos que necesitan evaluar un golpe, pintura o terminacion antes de dejar el vehiculo.",
-      "audience": "Dueños de autos que necesitan evaluar un golpe, pintura o terminacion antes de dejar el vehiculo.",
-      "visual_direction": "Servicio local con jerarquia fuerte, datos arriba, pasos claros y tarjetas de accion.",
-      "layout": "bodyshop-craft",
-      "texture": "primer-dust",
-      "hero_angle": "El golpe se consulta con fotos, alcance claro y criterio de terminacion.",
-      "hero_cards": [
-        {
-          "label": "Prueba social",
-          "value": "4.8 / 5",
-          "note": "Dato verificado"
-        },
-        {
-          "label": "Rubro",
-          "value": "Chapa y pintura",
-          "note": "Base verificada"
-        },
-        {
-          "label": "Agenda",
-          "value": "Lunes a Viernes; Sabado, Domingo cerrado",
-          "note": "Dato verificado"
-        },
-        {
-          "label": "Contacto",
-          "value": "Telefono directo",
-          "note": "0351 549-1346"
-        }
-      ],
-      "sections": [
-        {
-          "type": "service-board",
-          "eyebrow": "Servicios",
-          "title": "Para evaluar una reparacion de carroceria",
-          "body": "La pagina ordena la consulta sin prometer presupuesto, plazo ni resultado no verificado.",
-          "items": [
-            {
-              "label": "Chapa",
-              "value": "Evaluacion del dano",
-              "note": "Pide fotos y zona afectada antes de prometer plazos o presupuestos."
-            },
-            {
-              "label": "Pintura",
-              "value": "Terminacion visible",
-              "note": "La landing deja lugar para mostrar trabajos reales de color, brillo y ajuste."
-            },
-            {
-              "label": "Consulta",
-              "value": "Primer diagnostico",
-              "note": "CTA para enviar imagenes y coordinar una visita al taller."
-            }
+            { "label": "Preparación", "value": "Auto cubierto y listo", "note": "Film protector antes de pintar" },
+            { "label": "Pintura", "value": "Cabina en uso", "note": "Camioneta en proceso de repintado" },
+            { "label": "Pulverizado", "value": "Terminación pareja", "note": "Pistola de pintura en primer plano" }
           ]
         },
         {
           "type": "process",
-          "eyebrow": "Proceso",
-          "title": "De consulta a turno sin perder contexto",
-          "body": "El usuario entiende que informacion enviar, que se confirma y como avanzar.",
+          "eyebrow": "De la consulta al turno",
+          "title": "Cuatro pasos, sin vueltas",
+          "body": "El usuario sabe qué mandar, qué se confirma y cómo sigue el proceso.",
           "items": [
-            {
-              "label": "01",
-              "value": "Enviar fotos",
-              "note": "Golpe, lateral afectado, detalle de pintura o pieza."
-            },
-            {
-              "label": "02",
-              "value": "Separar alcance",
-              "note": "Se define si requiere visita, repuesto o presupuesto formal."
-            },
-            {
-              "label": "03",
-              "value": "Coordinar taller",
-              "note": "Contacto, horario y direccion se muestran sin friccion."
-            },
-            {
-              "label": "04",
-              "value": "Cargar antes/despues",
-              "note": "La galeria queda lista para trabajos reales terminados."
-            }
-          ]
-        },
-        {
-          "type": "metric-grid",
-          "eyebrow": "Confianza",
-          "title": "Datos reales arriba, placeholders editables separados",
-          "body": "La pagina combina fuentes verificadas con bloques demo marcados para completar.",
-          "items": [
-            {
-              "label": "Prueba social",
-              "value": "4.8 / 5",
-              "note": "188 resenas registradas en las fuentes disponibles."
-            },
-            {
-              "label": "Rubro",
-              "value": "Chapa y pintura",
-              "note": "La pagina debe vender el servicio principal sin sumar prestaciones no confirmadas."
-            },
-            {
-              "label": "Agenda",
-              "value": "Lunes a Viernes; Sabado, Domingo cerrado",
-              "note": "Horario publicado para orientar la primera consulta."
-            },
-            {
-              "label": "Contacto",
-              "value": "Telefono directo",
-              "note": "CTA preparado para llamar desde el celular sin buscar el dato en otro lado."
-            }
-          ]
-        },
-        {
-          "type": "quick-actions",
-          "eyebrow": "Accion",
-          "title": "Taller SR. Chapa y pintura: el proximo paso es simple",
-          "body": "Llama, confirma disponibilidad y lleva el auto con el dato clave ya resuelto: chapa y pintura, direccion y horario.",
-          "items": [
-            {
-              "label": "CTA",
-              "value": "Consultar reparacion",
-              "note": "0351 549-1346"
-            },
-            {
-              "label": "Ubicacion",
-              "value": "Juan de Santiso y Moscoso 760, X5000 Córdoba, Argentina"
-            },
-            {
-              "label": "Horario",
-              "value": "Lunes a Viernes; Sabado, Domingo cerrado"
-            }
+            { "label": "01", "value": "Enviar fotos", "note": "Golpe, lateral afectado o detalle de pintura" },
+            { "label": "02", "value": "Separar alcance", "note": "Se define si requiere visita o presupuesto" },
+            { "label": "03", "value": "Coordinar turno", "note": "Lunes a viernes, 8 a 18" },
+            { "label": "04", "value": "Retirar con criterio", "note": "Terminación evaluada antes de entregar" }
           ]
         }
       ]
@@ -658,327 +130,266 @@
     "agent_frontend": {
       "mode": "static-files",
       "source_dir": "data/frontends/cordoba-conversion/taller-sr-chapa-y-pintura",
-      "notes": "Frontend estatico editorial de chapa y pintura, con consulta por fotos, proceso y CTA telefonico."
+      "notes": "Placa de taller desde 1975: porcelana, granate y negro tinta, Libre Caslon Display + Public Sans, emblema de pistolas cruzadas en SVG, tres fotos reales de la cabina de pintura."
+    }
+  },
+  {
+    "business_id": "google-ChIJWVVlan-jMpQRYjdNl9aOKds",
+    "slug": "autocentro-cardetail",
+    "visual_mood": "precision-service",
+    "composition": "photo-board",
+    "headline": "Cada detalle de tu auto, bajo la luz que no perdona",
+    "subheadline": "Auto Centro CarDetail atiende en Puvr Olimpia 1851, Córdoba Capital, con 5.0 sobre 5 en 92 reseñas y un box donde cada trabajo queda a la vista.",
+    "primary_cta": "Llamar y reservar turno",
+    "secondary_cta": "Ver ubicación en Maps",
+    "service_tags": [
+      "Detailing interior",
+      "Detailing y pulido exterior",
+      "Protección de pintura (PPF)",
+      "Preparación para entrega o venta"
+    ],
+    "proof_points": [
+      "5.0 sobre 5 con 92 reseñas en Google",
+      "Lunes a viernes de 9:00 a 18:30, sábados de 9:00 a 13:00",
+      "Puvr Olimpia 1851, Córdoba Capital",
+      "\"Facu y Mauri dejaron mi auto impecable... mi auto está más lindo que nunca\" — Maria del Rosario Castro Tomassini"
+    ],
+    "resource_title": "Antes de llevar el auto",
+    "resource_items": [
+      "Rating perfecto: 5.0 sobre 5 en 92 reseñas públicas de Google.",
+      "El box real se ve en fotos: piso ajedrezado, luces de trabajo y logo propio en la pared.",
+      "Turno telefónico directo, sin formularios ni vueltas."
+    ],
+    "review_heading": "Lo que dicen los que ya llevaron el auto",
+    "contact_heading": "Llamá y coordiná tu turno",
+    "image_prompt": "Foto real de box de detailing en Córdoba Capital con auto bajo luces de trabajo, piso ajedrezado y logo dorado de gota en la pared, de noche.",
+    "design_notes": "Bóveda de detailing nocturna: grafito profundo, gota dorada del logo real, piso ajedrezado, Bricolage Grotesque + Instrument Sans.",
+    "conversion_template": "hero-proof-offer",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Auto Centro CarDetail vende un turno de detailing premium para dueños de auto en Córdoba Capital que quieren ver el auto como recién salido de fábrica antes de venderlo, entregarlo o disfrutarlo, apoyado en un rating perfecto de 92 reseñas.",
+      "visual_thesis": "Bóveda de detailing nocturna: el box real, con piso ajedrezado, luces de trabajo y el logo dorado de la gota retroiluminado, se lleva a una landing oscura y pulida. Display Bricolage Grotesque en mayúsculas compactas, cuerpo Instrument Sans; paleta de grafito profundo, amarillo gota y blanco hueso, con un destello acero de los reflejos como acento frío.",
+      "copy_voice": "Español argentino directo y cuidado, hablándole a quien va a dejar el auto: estado, expectativa de resultado, turno. Sin tono de spa ni de dashboard.",
+      "layout_signature": "Template hero-proof-offer: hero de foto real bajo luces de box con overlay de grafito, rating 5.0★ y teléfono arriba del pliegue; después tablero de servicios evidenciados por las fotos reales (detailing, protección de pintura), banda de reseñas citadas, mosaico de resultado con las tres fotos reales del box y CTA de llamada repetido antes del cierre.",
+      "asset_plan": "Las tres fotos reales del box (Peugeot bajo luces de trabajo, Audi con film de protección recién aplicado, Jeep terminado en el box) como protagonistas del hero y del mosaico de resultado; el piso ajedrezado y la gota del logo se llevan a textura CSS/SVG de fondo; sin stock ni fotos genéricas de detailing.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy de la sección de servicios y CTAs basado en lo que muestran las fotos y dicen las reseñas reales",
+          "Encabezados de bloque en tono de mostrador de box, sin inventar productos ni marcas"
+        ],
+        "imagery": [
+          "Patrón de piso ajedrezado en CSS como textura de fondo del hero",
+          "Gota dorada en SVG de línea como separador de sección, inspirada en el logo real"
+        ],
+        "boundaries": [
+          "No inventar precios, marcas de productos, tiempos de entrega ni garantías",
+          "No afirmar servicios no evidenciados por las fotos, como polarizado o mecánica general",
+          "Los autos de las fotos (Peugeot, Audi, Jeep) se muestran como trabajos reales del box, sin nombrar a sus dueños"
+        ]
+      },
+      "anti_patterns": [
+        "Fuentes genéricas como Inter, Roboto o Arial",
+        "Gradiente violeta de SaaS",
+        "Cards genéricas de detailing sin relación con el box real",
+        "Piso o pared genéricos en vez del ajedrezado y el logo reales del local"
+      ],
+      "rewrite_targets": [
+        "Reemplazar el layout de cards estilo dashboard de la versión anterior por un hero fotográfico dominante",
+        "Sacar el copy meta sobre \"conversión\" y \"oportunidad comercial\" que tenía la versión anterior",
+        "Subir el 5.0 con 92 reseñas arriba del pliegue como prueba social inmediata",
+        "Usar las tres fotos reales del box en vez de los bloques de antes/durante/después genéricos que tenía la versión anterior"
+      ]
+    },
+    "creative": {
+      "concept": "El box real de Auto Centro, de noche, bajo las luces que no dejan pasar ni un detalle.",
+      "audience": "Dueños de auto de Córdoba Capital que quieren detailing premium antes de usar, vender o entregar el vehículo.",
+      "visual_direction": "Grafito profundo, piso ajedrezado, gota dorada retroiluminada y las tres fotos reales del box como protagonistas.",
+      "layout": "studio-detail",
+      "texture": "polished-glass",
+      "hero_angle": "Detailing premium en Córdoba Capital con 5.0 sobre 5 en 92 reseñas, foto real del box bajo luces de noche.",
+      "hero_cards": [
+        { "label": "Reseñas", "value": "5.0★ en 92 opiniones", "note": "Perfil público de Google" },
+        { "label": "Horario", "value": "Lun a vie, 9 a 18:30", "note": "Sáb 9 a 13, dom cerrado" },
+        { "label": "Ubicación", "value": "Puvr Olimpia 1851" }
+      ],
+      "sections": [
+        {
+          "type": "service-board",
+          "eyebrow": "Servicios del box",
+          "title": "Lo que se ve en las fotos reales",
+          "body": "Interior, exterior y protección: cada servicio evidenciado por un trabajo real dentro del box.",
+          "items": [
+            { "label": "Interior", "value": "Detailing de habitáculo", "note": "Butacas, alfombras y plásticos" },
+            { "label": "Exterior", "value": "Pulido y brillo", "note": "Terminación visible en las fotos" },
+            { "label": "Protección", "value": "Film de protección (PPF)", "note": "Instalación real registrada en fotos" },
+            { "label": "Entrega", "value": "Listo para mostrar", "note": "Venta o próximo dueño" }
+          ]
+        },
+        {
+          "type": "material-story",
+          "eyebrow": "Resultado real",
+          "title": "Tres autos, tres resultados",
+          "body": "Las fotos del propio box muestran el trabajo terminado, sin necesidad de stock genérico.",
+          "items": [
+            { "label": "Peugeot 208", "value": "Bajo luces de trabajo", "note": "Detailing exterior terminado" },
+            { "label": "Audi", "value": "Film recién instalado", "note": "Protección de pintura en proceso" },
+            { "label": "Jeep Wrangler", "value": "Terminado en el box", "note": "Detailing completo" }
+          ]
+        },
+        {
+          "type": "quote-strip",
+          "eyebrow": "Clientes reales",
+          "title": "Autos impecables, trato profesional",
+          "body": "Las reseñas públicas son el respaldo principal de la página.",
+          "items": [
+            { "label": "Maria del Rosario Castro Tomassini", "value": "Facu y Mauri dejaron mi auto impecable! Siempre atentos y profesionales." },
+            { "label": "Victor Hugo Ponce", "value": "Excelente atención, muy bien el trabajo, muy conforme, gracias!!" },
+            { "label": "Francisco Achaval", "value": "Lleve 3 autos y quedaron espectaculares. Super recomendable." }
+          ]
+        },
+        {
+          "type": "quick-actions",
+          "eyebrow": "Contacto directo",
+          "title": "Llamá, escribí o pasá por el box",
+          "body": "Teléfono, dirección y horario sin vueltas.",
+          "items": [
+            { "label": "Llamar", "value": "0351 15-265-8259" },
+            { "label": "Ir al box", "value": "Puvr Olimpia 1851, Córdoba" },
+            { "label": "Horario", "value": "Lun a vie 9 a 18:30, sáb 9 a 13" }
+          ]
+        }
+      ]
+    },
+    "agent_frontend": {
+      "mode": "static-files",
+      "source_dir": "data/frontends/cordoba-conversion/autocentro-cardetail",
+      "notes": "Bóveda de detailing nocturna: grafito, gota dorada real, piso ajedrezado, Bricolage Grotesque + Instrument Sans, tres fotos reales del box."
     }
   },
   {
     "business_id": "google-ChIJqyfxNjmZMpQRdiRnTRv5uXY",
     "slug": "lubricentro-power-ful-ii",
-    "visual_mood": "precision-service",
+    "visual_mood": "fleet-utility",
     "composition": "route-card",
-    "headline": "Lubricentro Power Ful II",
-    "subheadline": "Mantenimiento del auto sin vueltas: dato, consulta y turno. Lubricentro en Cordoba Capital con contacto, horarios, ubicacion y referencias publicas arriba del pliegue.",
-    "primary_cta": "Consultar mantenimiento",
-    "secondary_cta": "Ver ubicacion",
+    "headline": "Entrás con el aceite vencido, salís con el auto al día",
+    "subheadline": "Lubricentro Power Ful II atiende de lunes a sábado en Manuel Cardeñosa 3875, con 4.8 sobre 5 en 119 reseñas y las marcas que ves en su propia fachada: YPF, Shell, Castrol y Motul.",
+    "primary_cta": "Llamar y consultar turno",
+    "secondary_cta": "Ver ubicación",
     "service_tags": [
       "Cambio de aceite",
-      "Lubricantes",
-      "Filtros",
-      "Consulta por mantenimiento"
+      "Filtros de aceite y aire",
+      "Chequeo rápido de mantenimiento",
+      "Aceites YPF, Shell, Castrol y Motul"
     ],
     "proof_points": [
-      "4.8 sobre 5 con 119 reseñas",
-      "Horario: Lunes a Sabado; Domingo cerrado",
-      "Direccion: Manuel Cardeñosa 3875, X5009EXU Córdoba",
-      "Reseñas que destacan: \"Excelente atención. Muy amables y muy buenos precios.  100% recomendables.!\""
+      "4.8 sobre 5 con 119 reseñas en Google",
+      "Lunes a viernes de 8:30 a 20:00, sábados de 9:00 a 17:00",
+      "Manuel Cardeñosa 3875, Córdoba Capital",
+      "\"Excelente atención. Muy amables y muy buenos precios. 100% recomendables.!\" — Marina Cervera"
     ],
-    "resource_title": "Mantenimiento simple, sin promesas de stock",
+    "resource_title": "Antes de pasar por el lubricentro",
     "resource_items": [
-      "La consulta pide modelo, kilometraje y necesidad.",
-      "No se inventan marcas, stock, garantia ni precios.",
-      "Horario registrado: Lunes a Sabado; Domingo cerrado."
+      "Horario extendido de lunes a sábado para parar sin reorganizar el día.",
+      "Marcas visibles en la propia fachada: YPF, Shell, Castrol y Motul.",
+      "119 reseñas públicas que destacan la atención y la rapidez."
     ],
-    "review_heading": "Lo que valoran quienes ya fueron",
-    "contact_heading": "Llegar o llamar sin vueltas",
-    "image_prompt": "Escena editorial realista para lubricentro en Cordoba Capital, area de mantenimiento, bidones de aceite, filtros y herramientas ordenadas, luz natural, sin texto, sin logos inventados.",
-    "design_notes": "Mood precision-service, composicion route-card, tono comercial practical-workshop. Evitar estetica SaaS generica; usar recursos visuales del rubro lubricentro, direccion, prueba social, paquetes editables y CTA de turno.",
-    "commercial": {
-      "tone": "practical-workshop",
-      "customer_type": "Conductores que necesitan mantenimiento simple, filtros o cambio de aceite con datos claros.",
-      "hero_claim": "Mantenimiento del auto sin vueltas: dato, consulta y turno.",
-      "trust_bar": [
-        {
-          "label": "Prueba social",
-          "title": "4.8 / 5",
-          "body": "119 resenas registradas en las fuentes disponibles.",
-          "meta": "Dato verificado",
-          "is_demo": false
-        },
-        {
-          "label": "Rubro",
-          "title": "Lubricentro",
-          "body": "La pagina debe vender el servicio principal sin sumar prestaciones no confirmadas.",
-          "meta": "Base verificada"
-        },
-        {
-          "label": "Agenda",
-          "title": "Lunes a Sabado; Domingo cerrado",
-          "body": "Horario publicado para orientar la primera consulta.",
-          "meta": "Dato verificado",
-          "is_demo": false
-        },
-        {
-          "label": "Contacto",
-          "title": "Telefono directo",
-          "body": "CTA preparado para llamar desde el celular sin buscar el dato en otro lado.",
-          "meta": "0351 351-7691"
-        },
-        {
-          "label": "Confianza",
-          "title": "Mas de [X] vehiculos",
-          "body": "Placeholder editable para volumen real, anos o trabajos terminados si el negocio lo confirma.",
-          "meta": "Demo editable",
-          "is_demo": true
-        }
-      ],
-      "service_cards": [
-        {
-          "label": "Aceite",
-          "title": "Cambio con datos del vehiculo",
-          "body": "Pide modelo, kilometraje y uso del auto antes de prometer producto o precio."
-        },
-        {
-          "label": "Filtros",
-          "title": "Chequeo de consumibles",
-          "body": "Bloque editable para filtros y repuestos de mantenimiento cuando haya disponibilidad real.",
-          "is_demo": true
-        },
-        {
-          "label": "Agenda",
-          "title": "Consulta de paso",
-          "body": "CTA directo para confirmar horario y evitar ir sin datos."
-        }
-      ],
-      "why_choose": [
-        {
-          "title": "Menos friccion",
-          "body": "La pagina dice que informacion llevar para que la consulta sea util."
-        },
-        {
-          "title": "Sin inventar marcas",
-          "body": "Marcas, stock y precios quedan fuera hasta que el negocio los confirme."
-        },
-        {
-          "title": "Mantenimiento ordenado",
-          "body": "Servicios, proceso y contacto aparecen en un flujo logico."
-        }
-      ],
-      "packages": [
-        {
-          "name": "Cambio de aceite",
-          "price_label": "Precio a confirmar",
-          "body": "Paquete demo para publicar cuando se definan productos y mano de obra.",
-          "items": [
-            "Aceite a confirmar",
-            "Filtro si corresponde",
-            "Datos del vehiculo"
-          ],
-          "is_demo": true
-        },
-        {
-          "name": "Chequeo rapido",
-          "price_label": "[Editable]",
-          "body": "Bloque para mantenimiento preventivo si el negocio lo ofrece.",
-          "items": [
-            "Kilometraje",
-            "Uso del auto",
-            "Consulta de consumibles"
-          ],
-          "is_demo": true
-        },
-        {
-          "name": "Kit mantenimiento",
-          "price_label": "[Presupuesto editable]",
-          "body": "Espacio para combos reales de filtros o lubricantes.",
-          "items": [
-            "Stock a confirmar",
-            "Marca no inventada",
-            "Turno sujeto a agenda"
-          ],
-          "is_demo": true
-        }
-      ],
-      "gallery": [
-        {
-          "label": "Antes",
-          "title": "Foto real del ingreso",
-          "body": "Espacio para mostrar el estado inicial del vehiculo, pieza o consulta.",
-          "meta": "Placeholder visual",
-          "is_demo": true
-        },
-        {
-          "label": "Despues",
-          "title": "Resultado o entrega",
-          "body": "Lugar reservado para una foto propia del negocio, sin usar stock generico.",
-          "meta": "Editable",
-          "is_demo": true
-        },
-        {
-          "label": "Lubricentro",
-          "title": "Detalle del trabajo",
-          "body": "Plano corto de materiales, herramientas, terminaciones o mostrador segun el rubro.",
-          "meta": "Foto a reemplazar",
-          "is_demo": true
-        }
-      ],
-      "process": [
-        {
-          "step": "01",
-          "title": "Enviar datos del auto",
-          "body": "Modelo, motor si se conoce y kilometraje."
-        },
-        {
-          "step": "02",
-          "title": "Confirmar producto",
-          "body": "El negocio valida lubricante, filtro y disponibilidad real."
-        },
-        {
-          "step": "03",
-          "title": "Coordinar visita",
-          "body": "Horario, direccion y telefono quedan visibles."
-        },
-        {
-          "step": "04",
-          "title": "Registrar proximo cambio",
-          "body": "Campo editable para recomendaciones reales del local."
-        }
-      ],
-      "final_cta": {
-        "title": "Lubricentro Power Ful II: el proximo paso es simple",
-        "body": "Llama, confirma disponibilidad y lleva el auto con el dato clave ya resuelto: lubricentro, direccion y horario.",
-        "primary_label": "Consultar mantenimiento",
-        "secondary_label": "Ver ubicacion"
+    "review_heading": "Lo que dicen en la ruta",
+    "contact_heading": "Parás, consultás y seguís viaje",
+    "image_prompt": "Foto real de fachada de lubricentro amarilla y negra en Córdoba Capital con tambores de aceite azul y rojo, mural pintado de auto deportivo, cartel de marcas YPF Shell Castrol Motul, luz de día.",
+    "design_notes": "Ruta de tambores de aceite: amarillo tambor, negro petróleo, rojo-naranja solo en el CTA, Staatliches + Jost.",
+    "conversion_template": "service-diagnostic",
+    "design_brief": {
+      "designed_by": "claude-code",
+      "market_position": "Lubricentro Power Ful II vende una parada rápida de mantenimiento (cambio de aceite, filtros, chequeo) para conductores de Córdoba Capital que pasan sobre la marcha, apoyado en 4.8 sobre 5 en 119 reseñas y las marcas de aceite visibles en su propia fachada.",
+      "visual_thesis": "Ruta de tambores de aceite: la fachada amarilla y negra, los tambores azules y rojos y el mural pintado del auto deportivo se llevan a una landing tipo cartel de ruta. Display condensado Staatliches en mayúsculas, cuerpo geométrico Jost; paleta de amarillo tambor, negro petróleo y rojo-naranja de alerta reservado solo para el CTA, con azul de las marcas de la fachada como acento de fondo.",
+      "copy_voice": "Español argentino directo, de conductor a conductor: modelo, kilometraje, turno, sin vueltas.",
+      "layout_signature": "Template service-diagnostic: hero con la fachada real como fondo, franja de marcas (YPF, Shell, Castrol, Motul) como sello de confianza y teléfono arriba del pliegue; después el diagnóstico rápido en pasos (modelo, kilometraje, producto), foto real del auto en elevador como prueba de trabajo, reseñas como paradas de ruta y contacto final con horario extendido.",
+      "asset_plan": "Las tres fotos reales (fachada con tambores y mural, auto en elevador dentro del taller, cartel de marcas en la fachada) como hero, banda de autoridad y prueba de trabajo; los tambores de aceite y la franja de marcas se llevan a motivos SVG/CSS; ninguna marca de aceite se menciona salvo las visibles en la fachada real.",
+      "ai_fill_plan": {
+        "copy": [
+          "Microcopy del diagnóstico rápido (modelo, kilometraje, producto) sin inventar catálogo",
+          "Encabezados de ruta y parada rápida sin inventar stock ni precios"
+        ],
+        "imagery": [
+          "Silueta de tambor de aceite en SVG como separador visual de sección",
+          "Textura de franja diagonal amarilla y negra en CSS inspirada en la fachada real"
+        ],
+        "boundaries": [
+          "No inventar precios, promociones ni stock específico más allá de las marcas visibles en la fachada real",
+          "No prometer tiempo de espera ni turno inmediato sin evidencia",
+          "Las marcas YPF, Shell, Castrol y Motul se citan solo porque aparecen en el cartel real de la fachada"
+        ]
       },
-      "editable_note": "Los items marcados como demo son placeholders comerciales editables: reemplazar por datos reales antes de publicar o dejarlos explicitamente como a confirmar."
+      "anti_patterns": [
+        "Fuentes genéricas como Roboto, Arial o Space Grotesk",
+        "Gradiente violeta de SaaS",
+        "Bloques demo con precios entre corchetes, como tenía la versión anterior",
+        "Ilustración genérica de auto en vez de la fachada y el mural reales"
+      ],
+      "rewrite_targets": [
+        "Sacar los paquetes demo con precios editables entre corchetes que tenía la versión anterior",
+        "Usar la fachada real (tambores, mural, cartel de marcas) como hero en vez del layout genérico de tres cards",
+        "Subir el horario extendido (hasta las 20) y las marcas reales de la fachada como diferenciales",
+        "Simplificar el proceso a algo que se lee parado frente al mostrador, sin la densidad de placeholders de la versión anterior"
+      ]
     },
     "creative": {
-      "concept": "Mantenimiento del auto sin vueltas: dato, consulta y turno. Direccion comercial para Conductores que necesitan mantenimiento simple, filtros o cambio de aceite con datos claros.",
-      "audience": "Conductores que necesitan mantenimiento simple, filtros o cambio de aceite con datos claros.",
-      "visual_direction": "Servicio local con jerarquia fuerte, datos arriba, pasos claros y tarjetas de accion.",
+      "concept": "La parada de ruta que resuelve el mantenimiento sin bajarte del día.",
+      "audience": "Conductores de Córdoba Capital que necesitan cambio de aceite, filtros o un chequeo rápido con datos claros.",
+      "visual_direction": "Amarillo tambor, negro petróleo y rojo-naranja de alerta solo en el CTA, con la fachada real y sus marcas como protagonistas.",
       "layout": "oil-bay",
       "texture": "oil-label",
-      "hero_angle": "Mantenimiento del auto sin vueltas: dato, consulta y turno.",
+      "hero_angle": "Cambio de aceite y mantenimiento rápido en Córdoba Capital, 4.8 sobre 5 en 119 reseñas, con las marcas YPF, Shell, Castrol y Motul.",
       "hero_cards": [
-        {
-          "label": "Prueba social",
-          "value": "4.8 / 5",
-          "note": "Dato verificado"
-        },
-        {
-          "label": "Rubro",
-          "value": "Lubricentro",
-          "note": "Base verificada"
-        },
-        {
-          "label": "Agenda",
-          "value": "Lunes a Sabado; Domingo cerrado",
-          "note": "Dato verificado"
-        },
-        {
-          "label": "Contacto",
-          "value": "Telefono directo",
-          "note": "0351 351-7691"
-        }
+        { "label": "Reseñas", "value": "4.8★ en 119 opiniones", "note": "Perfil público de Google" },
+        { "label": "Horario", "value": "Lun a sáb", "note": "Hasta las 20, sáb hasta las 17" },
+        { "label": "Marcas", "value": "YPF · Shell · Castrol · Motul", "note": "Cartel real de la fachada" }
       ],
       "sections": [
         {
           "type": "service-board",
-          "eyebrow": "Servicios",
-          "title": "Mantenimiento simple, sin promesas de stock",
-          "body": "El contenido se centra en convertir la primera consulta en algo concreto: datos del vehiculo, horario, direccion y telefono.",
+          "eyebrow": "Servicios de parada rápida",
+          "title": "Lo que resolvés en una visita",
+          "body": "Aceite, filtros y chequeo, con las marcas que se ven en la propia fachada.",
           "items": [
-            {
-              "label": "Aceite",
-              "value": "Cambio con datos del vehiculo",
-              "note": "Pide modelo, kilometraje y uso del auto antes de prometer producto o precio."
-            },
-            {
-              "label": "Filtros",
-              "value": "Chequeo de consumibles",
-              "note": "Bloque editable para filtros y repuestos de mantenimiento cuando haya disponibilidad real."
-            },
-            {
-              "label": "Agenda",
-              "value": "Consulta de paso",
-              "note": "CTA directo para confirmar horario y evitar ir sin datos."
-            }
+            { "label": "Aceite", "value": "Cambio con datos del auto", "note": "Modelo y kilometraje primero" },
+            { "label": "Filtros", "value": "Aceite y aire", "note": "Chequeo de consumibles" },
+            { "label": "Chequeo", "value": "Mantenimiento rápido", "note": "Sin bajarte del día" },
+            { "label": "Marcas", "value": "YPF, Shell, Castrol, Motul", "note": "Visibles en la fachada real" }
           ]
         },
         {
           "type": "process",
-          "eyebrow": "Proceso",
-          "title": "De consulta a turno sin perder contexto",
-          "body": "El usuario entiende que informacion enviar, que se confirma y como avanzar.",
+          "eyebrow": "Diagnóstico rápido",
+          "title": "De la llamada a la ruta de nuevo",
+          "body": "Cuatro pasos que se resuelven parado frente al mostrador.",
           "items": [
-            {
-              "label": "01",
-              "value": "Enviar datos del auto",
-              "note": "Modelo, motor si se conoce y kilometraje."
-            },
-            {
-              "label": "02",
-              "value": "Confirmar producto",
-              "note": "El negocio valida lubricante, filtro y disponibilidad real."
-            },
-            {
-              "label": "03",
-              "value": "Coordinar visita",
-              "note": "Horario, direccion y telefono quedan visibles."
-            },
-            {
-              "label": "04",
-              "value": "Registrar proximo cambio",
-              "note": "Campo editable para recomendaciones reales del local."
-            }
+            { "label": "01", "value": "Contar modelo y km", "note": "Datos básicos del auto" },
+            { "label": "02", "value": "Confirmar producto", "note": "Según marca disponible" },
+            { "label": "03", "value": "Coordinar turno", "note": "Lunes a sábado" },
+            { "label": "04", "value": "Salir al día", "note": "Mantenimiento resuelto" }
           ]
         },
         {
-          "type": "metric-grid",
-          "eyebrow": "Confianza",
-          "title": "Datos reales arriba, placeholders editables separados",
-          "body": "La pagina combina fuentes verificadas con bloques demo marcados para completar.",
+          "type": "quote-strip",
+          "eyebrow": "Reseñas de ruta",
+          "title": "Atención rápida, sin vueltas",
+          "body": "Tres reseñas públicas coinciden en la misma experiencia.",
           "items": [
-            {
-              "label": "Prueba social",
-              "value": "4.8 / 5",
-              "note": "119 resenas registradas en las fuentes disponibles."
-            },
-            {
-              "label": "Rubro",
-              "value": "Lubricentro",
-              "note": "La pagina debe vender el servicio principal sin sumar prestaciones no confirmadas."
-            },
-            {
-              "label": "Agenda",
-              "value": "Lunes a Sabado; Domingo cerrado",
-              "note": "Horario publicado para orientar la primera consulta."
-            },
-            {
-              "label": "Contacto",
-              "value": "Telefono directo",
-              "note": "CTA preparado para llamar desde el celular sin buscar el dato en otro lado."
-            }
+            { "label": "Marina Cervera", "value": "Excelente atención. Muy amables y muy buenos precios. 100% recomendables.!" },
+            { "label": "Natali Quipildor", "value": "Excelente atención de Seba, lo recomiendo." },
+            { "label": "Juan Brandalise", "value": "Exelente atención, muy buenos precios, recomendables 100%." }
           ]
         },
         {
           "type": "quick-actions",
-          "eyebrow": "Accion",
-          "title": "Lubricentro Power Ful II: el proximo paso es simple",
-          "body": "Llama, confirma disponibilidad y lleva el auto con el dato clave ya resuelto: lubricentro, direccion y horario.",
+          "eyebrow": "Contacto directo",
+          "title": "Llamá o pasá por el lubricentro",
+          "body": "Teléfono, dirección y horario extendido sin vueltas.",
           "items": [
-            {
-              "label": "CTA",
-              "value": "Consultar mantenimiento",
-              "note": "0351 351-7691"
-            },
-            {
-              "label": "Ubicacion",
-              "value": "Manuel Cardeñosa 3875, X5009EXU Córdoba, Argentina"
-            },
-            {
-              "label": "Horario",
-              "value": "Lunes a Sabado; Domingo cerrado"
-            }
+            { "label": "Llamar", "value": "0351 351-7691" },
+            { "label": "Dirección", "value": "Manuel Cardeñosa 3875, Córdoba" },
+            { "label": "Horario", "value": "Lun a vie 8:30 a 20, sáb 9 a 17" }
           ]
         }
       ]
@@ -986,7 +397,7 @@
     "agent_frontend": {
       "mode": "static-files",
       "source_dir": "data/frontends/cordoba-conversion/lubricentro-power-ful-ii",
-      "notes": "Frontend estatico utilitario para lubricentro, con datos de vehiculo, mantenimiento, proceso y CTA directo."
+      "notes": "Ruta de tambores de aceite: amarillo, negro y rojo-naranja de CTA, Staatliches + Jost, fachada real con tambores, mural y cartel de marcas."
     }
   }
 ]

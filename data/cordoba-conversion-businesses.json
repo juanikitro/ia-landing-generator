@@ -155,8 +155,8 @@
     },
     "site_plan": {
       "archetype": "automotive-premium-dark",
-      "position": 1,
-      "rationale": "Automatic rotation to keep no more than two sites per archetype and avoid consecutive repeats."
+      "position": 2,
+      "rationale": "design-director: bóveda de detailing nocturna (grafito + gota dorada), entre la placa blanca de Taller SR y el amarillo de Lubricentro Power Ful II para que ninguna landing contigua repita paleta ni composición de hero."
     }
   },
   {
@@ -315,8 +315,8 @@
     },
     "site_plan": {
       "archetype": "local-clean-service",
-      "position": 2,
-      "rationale": "Automatic rotation to keep no more than two sites per archetype and avoid consecutive repeats."
+      "position": 1,
+      "rationale": "design-director: placa de taller esmaltada desde 1975 (porcelana + granate), abre la tanda antes del box oscuro de Autocentro y del amarillo de ruta de Lubricentro."
     }
   },
   {
@@ -476,7 +476,7 @@
     "site_plan": {
       "archetype": "industrial-garage",
       "position": 3,
-      "rationale": "Automatic rotation to keep no more than two sites per archetype and avoid consecutive repeats."
+      "rationale": "design-director: ruta de tambores de aceite (amarillo/negro con CTA rojo-naranja), cierra la tanda sin repetir la paleta oscura de Autocentro ni la porcelana de Taller SR."
     }
   }
 ]
