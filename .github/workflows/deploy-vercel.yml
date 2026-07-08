@@ -74,6 +74,8 @@ jobs:
             --specs "data/site-specs/${RUN_NAME}-site-specs.json"
 
       - name: Generate sites
+        env:
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
         run: |
           npx tsx src/generator/generate-sites.ts \
             "data/${RUN_NAME}-businesses.json" \
