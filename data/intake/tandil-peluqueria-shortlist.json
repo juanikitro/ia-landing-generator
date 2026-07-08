@@ -1,0 +1,141 @@
+[
+  {
+    "id": "google-ChIJ6XJGlusfkZURy1XJPcng-yM",
+    "name": "María y Sol Peluquería",
+    "slug": "maria-y-sol-peluqueria",
+    "category": "Hair Salon",
+    "is_vehicle_related": false,
+    "address": "11 de Septiembre 388, B7000BHH Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 454-4542",
+    "opening_hours": {
+      "raw": "Monday: Closed | Tuesday: 9:00 AM – 6:00 PM | Wednesday: 9:00 AM – 6:00 PM | Thursday: 9:00 AM – 6:00 PM | Friday: 9:00 AM – 6:00 PM | Saturday: 9:00 AM – 6:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 149,
+      "source_url": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "lleve a mi nena de 7 años corte de punta y lavado, súper amorosas y una atención excelente ❤️",
+        "author": "Ta",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103503376075778202265/reviews"
+      },
+      {
+        "text": "Muy amable y profesional.",
+        "author": "Laura Darder",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/114521171529249489969/reviews"
+      },
+      {
+        "text": "Muy muy buena onda y atención personalizada de lujo",
+        "author": "jorgelina terni",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/102267401875533124621/reviews"
+      }
+    ],
+    "main_product_or_service": "peluqueria",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ6XJGlusfkZURy1XJPcng-yM/photos/AaVGc3nja0XZp1yeRgtDzapKIif-7wfX1LyrPaJAWcw1Pq5y-qWs1gRkUa0CJQOGsd5r_cphtyfZmKgr5garJUqobA3IpPnk-_jY2YA3KhULvDL53rdzw01_fPzTThTbqBka1alkcBcWTvdDzvYbba1-tuMbx5bArK15DRBnPToppq_ePFy0KS9QtiOCgMaMyWsGpd7g09szNx3NGdCkaV2demBuGVhZF0QWhSWfxvaQV7W_4ufSG6ZzGkVVKAqtgs5A4A5LidTPCCKlSaTnbHnSRmEJe6-aQuZbCoaD5we4N64ISJ0huYt71O9_G1pynvATuq-aLMYJJOvacZx0G8Xqos55HW09vQcSXKOxyW6VVLlkIlfJtySNR8P1LwBBE6XLro9sSoaAqIhHMvOq-CH4N6IKKFs6AlNEP2Vw_Lc0e45ljg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ6XJGlusfkZURy1XJPcng-yM/photos/AaVGc3lHOwR_sRwdP3FZod0nvTzHcS-sWC1DgMcLps164i26F6paVIjQtj-aVI9092wHIR5pBT2EDexh-KI4gJ5uQ167JEJZoCe-B7KX1JASnnwwg1UmeYphNderqyhnrLfL7H6y5IPowzHBHVTMzI_mgCKzggdFEtTcFWb9pjOA-9jz5kpKksVHHBxYR4FZsoLAvjDuGCGb_v6RJxvrA4yRtnDZfQozeoa3rlYzODK6QHPquhtfKlCNX9_fCesx3udGsZf4wVQN2ZPIIKvRixa4L700SgHd3S6WEQvXYgYrKZL0dC546dTXMSD5o2mM-DchQWdWPmSe9uo8pQNLl6-ma4Bn_Z5y-TCqQyq4u85-YcwiBE4246i1ZumMre8j8TO_Pb1-W0n8RmLGXTSHXv4k3NZPFIKkuReGTCSWMKKTBuFF-Q/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ6XJGlusfkZURy1XJPcng-yM/photos/AaVGc3nDW25cnc_lelNp004Bh9Hu6tr9L90pzJMYEIg-QKlCktoTmfSdU-UHNm4pRW1d78yKtOpZ5zUjKHaTGogeGycwqI_tVT7kqYICDwuRV1LKl4CedoVd9Iwme5YaBc_Zs6jjYnax2tddAk38ppOWMTm1bnXvvd1OZMOTu1cTAnM3dxDsX0V1hqK2GG3y4nBgTEBIkFlH-vjsBJw0BF1f_zl6hdLYg1sjOkz0GWArfg6BDaRE9OTheojbKStcU70wzfbNCoMDKiIwQjkBcsa0wcptguqSKh8q8GmD0JVtJodNt8BA3wLrvvr1ovuXopPNE7-UgliN-71XWRIM-8KmTU9MCubp_uDQ4IIg5jzh8j4IdqinN3hkxwOGESdFVwTQiMkoOHGEeG_s_O8zkPyRNWwr3utc7h-_9SfQ-H3AIlARBHI/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:37:49.517Z",
+          "notes": "Resultado automatico para \"peluqueria\" en Tandil. Segmento: peluqueria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=2592913165411505611&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,754 @@
+[
+  {
+    "id": "google-ChIJW9gKxJAfkZURxtYWIHmt7dA",
+    "name": "Óptica Cristal (Gral. Ródriguez)",
+    "slug": "optica-cristal-gral-rodriguez",
+    "category": "Store",
+    "is_vehicle_related": false,
+    "address": "Gral. Rodríguez 593, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 444-5798",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 1:00 PM, 4:30 – 8:30 PM | Tuesday: 9:00 AM – 1:00 PM, 4:30 – 8:30 PM | Wednesday: 9:00 AM – 1:00 PM, 4:30 – 8:30 PM | Thursday: 9:00 AM – 1:00 PM, 4:30 – 8:00 PM | Friday: 9:00 AM – 1:00 PM, 4:30 – 8:30 PM | Saturday: 9:00 AM – 1:00 PM, 5:00 – 8:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 25,
+      "source_url": "https://maps.google.com/?cid=15054879865110451910&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente atención y productos. Quiero destacar la amabilidad y simpatía de Teresa, sin dudas te dan ganas de volver a comprar siempre!!!",
+        "author": "Valeria Ari",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/104861106800073934521/reviews"
+      },
+      {
+        "text": "Excelente la atención;estuve el sábado a la tarde y me solucionaron el problema de los marcos de los lentes,recomiendo a esta óptica",
+        "author": "Adrian Peñalba",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/105958156346206541074/reviews"
+      },
+      {
+        "text": "Quiero destacar la atención de Trinidad. Un amor, se tomó el trabajo de explicarme todo lo que necesitaba. Muy linda atención :) gracias!!",
+        "author": "Rocío a",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101636228486419585297/reviews"
+      }
+    ],
+    "main_product_or_service": "optica",
+    "photos": [],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=15054879865110451910&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.95,
+    "missing_data_reason": "fotos",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=15054879865110451910&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:39:14.904Z",
+          "notes": "Resultado automatico para \"optica\" en Tandil. Segmento: optica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=15054879865110451910&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=15054879865110451910&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=15054879865110451910&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=15054879865110451910&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=15054879865110451910&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=15054879865110451910&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=15054879865110451910&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=15054879865110451910&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=15054879865110451910&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJ0-eLFpIfkZUR0DSh8n1UEoY",
+    "name": "Ilusión Óptica",
+    "slug": "ilusion-optica",
+    "category": "Store",
+    "is_vehicle_related": false,
+    "address": "Av. Santamarina 762, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 449-5596",
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 7:30 PM | Tuesday: 8:00 AM – 7:30 PM | Wednesday: 8:00 AM – 7:30 PM | Thursday: 8:00 AM – 7:30 PM | Friday: 8:00 AM – 7:30 PM | Saturday: 8:00 AM – 7:30 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.3,
+      "reviews_count": 19,
+      "source_url": "https://maps.google.com/?cid=9660877050581431504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Lamentablemente, la obra social me cubre esta óptica y son estupendamente, desastrosas, no vayan son irrespetuosas, maleducadas, desubicadas, inhumanas y cero. profesionalismo. un desastre no tienen ganas de trabajar, nunca ni siquiera te dicen hola no vayan. Hágame caso. Besos",
+        "author": "Mayra Agustina Cien",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/105870835769356809670/reviews"
+      },
+      {
+        "text": "Buenísima la calidad tanto de los vidrios como los marcos. Muchas gracias por la atención, fueron súper amables",
+        "author": "Julia Castell",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/110329481449571964763/reviews"
+      },
+      {
+        "text": "Excelente atención, se tomaron el tiempo para atenderme y recomendarme.",
+        "author": "Catalina Chevallier-Boutell",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/116832409006194573711/reviews"
+      }
+    ],
+    "main_product_or_service": "optica",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ0-eLFpIfkZUR0DSh8n1UEoY/photos/AaVGc3lwKbmfF7QNsWTvxfwaQhOX_Hrau-irWwNpHqTmGj8RvB40MjhNMA5YcMHhJIM5qYGMFv2F0Yly1VI3Ci9bJ6a1AWSCxV792BHTBQ5H25GrkN_83S7b_URSYeMEHZpU0izApQTKH9AIlKnxKukRCuE08VBFeeSsZ2_qtf6ktVnW_8_mKfC0-8vrVRHHL-vm8CZnRrH57CNat2ZlcNJbSrByjDf1H5bttBHNHBnBoP9T1Qz4xCww8wkSQBi6jh5czk7PSkXRyUiLfCqnjQ7_e684tM95gUFy1zz2g8NAUTQBJ7m4w-cHyOBeOncW61ZMK0ZjC2pL5iJtdUgxT287YgKMaODQX1fafK1xzD3HfxRKwHqpd0A8r2-UTkMqdEWNpqgnzRS9QkZobvSjRd79e-6e4DIZ3vMF2ZO3NSI_rfRnOw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=9660877050581431504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ0-eLFpIfkZUR0DSh8n1UEoY/photos/AaVGc3n13Q1uKajuk6IxaOFCdPTS4iMbEnUATOME86fcKMbJEJxo3sLQTAZ-3gSUp8-Vf2wJPMJhqMdQzxpNB-mXsKAV54mbv4LTnNpQvU87Piaq4zYsC9y711YKA3tdSAltdEHJaP4rmI-h0phWwvuoEvd33eF-_X5mHHsOVnFfT5uORvFrhyOr05PXfA6DoP4yHvBZrL--VKERVW44s7RAQlM8Hqi9I60pRJCPbyalyswnmH-K6NDyJEwA9UEGa8NQzjL3XpAIe_8hnfPJh37ldc0LhlIDjDn5y3MEx48i6UjEPFe3XpbXT-Pku2NHNVnCRyG1HU4MOcHoEPVkbnc6whKhuVXLnRvxqO3gx3Ot0jLBIlEtD-jlyPYX8S9yGEg8uIpDy79_vuqIK93pT9qOcz6Z-9eY0D_EVwAENFQ_m2Z8iUppnoGBTVd10NxRLQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=9660877050581431504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=9660877050581431504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=9660877050581431504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:39:14.905Z",
+          "notes": "Resultado automatico para \"optica\" en Tandil. Segmento: optica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=9660877050581431504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=9660877050581431504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=9660877050581431504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=9660877050581431504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=9660877050581431504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=9660877050581431504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=9660877050581431504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=9660877050581431504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=9660877050581431504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=9660877050581431504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJP_WJVpAfkZURgYtstEBnkmA",
+    "name": "Óptica France",
+    "slug": "optica-france",
+    "category": "Store",
+    "is_vehicle_related": false,
+    "address": "9 de Julio 700, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 444-9297",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 1:00 PM, 4:30 – 8:30 PM | Tuesday: 9:00 AM – 1:00 PM, 4:30 – 8:30 PM | Wednesday: 9:00 AM – 1:00 PM, 4:30 – 8:30 PM | Thursday: 9:00 AM – 1:00 PM, 4:30 – 8:30 PM | Friday: 9:00 AM – 1:00 PM, 4:30 – 8:30 PM | Saturday: 9:00 AM – 1:00 PM, 5:00 – 8:30 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.6,
+      "reviews_count": 19,
+      "source_url": "https://maps.google.com/?cid=6958737901843417985&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Muy buena atención. Super cálidos y amables.\nTienen una gran variedad de productos y a buen precio.\nTienen diferentes formas de pago y financiación.\nLa ubicación es buena, pleno centro de la ciudad.",
+        "author": "David Rodriguez",
+        "rating": 4,
+        "source_url": "https://www.google.com/maps/contrib/111804770403538939851/reviews"
+      },
+      {
+        "text": "Muy buena atención y precios",
+        "author": "Julieta Beguiristain",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/102784732223771947725/reviews"
+      },
+      {
+        "text": "Excelente atenciòn, calidez y empatía con los clientes.Fuimos a elegir unos lentes y nos atendieron tan bien, con mucha paciencia.Super recomendable",
+        "author": "celeste silvan",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106627991245933921357/reviews"
+      }
+    ],
+    "main_product_or_service": "optica",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJP_WJVpAfkZURgYtstEBnkmA/photos/AaVGc3kmT7-y9AsClv-pqed3rO6ZEGD_5hjn1-8TAv6voKuzPQfJ3Y4YAQKxbmC1swJup7YMZiUxuCc9LvY7zyXzj1xtf5SkP5YD2-1Sk8xoo9xr3enLmEFag-ejSxLNkN7IKNKjuOPWZq5608WrnKlda44PKRY2OSZSn2z2NNaX8oUlzXUE3F2OhC3-4KIlePsdkuh18YzLdpFiEC_I4Qp6hgrH2atYgssV4-1YTvi4tSYgLeIeTVqdnQabVosW-UPY3QCJhE1H6zRrmZ0L15GHiPcFO5p3b-fMmyPL5Dp7-tlDPMpPqPbWHJTjU0rpSnM04unNZiY4fSb0zomA3jhZk8dZMvNzJzDHGdFOanFbGweJvGcUu_bfPubW_LvYo0q_eEwv9LcW3kC37FEf5PLStklf-HIkdEN3wo_WzRxPAcHaIg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6958737901843417985&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJP_WJVpAfkZURgYtstEBnkmA/photos/AaVGc3nD-uKbMydjMLZ_D9tc_ClKFx_64AdjXebmhl8rhQ9uCCzExhv6zYAc_A1_kF-L77XU6R77AkcEWg3_iY1MKRv1Rv_2eTLt4HY82AMBJHeiko-Oz78BsySPxnOorz5RMENT0B6mBYsFk1WN2PYXuMEFHCdw_1v5F4EJYXg7Hfd-Y3J2Zy-GvSbbvrG6OAzyPGavwssw9PVmyVU3A4g6DrIoIBwJ5dmzArcfLAbDAGGtiAbe_UVhDH8TyQDk1Bx8dLmzWUJwdj8yAI2nX7JrPwIFGDeN2bBGeC63ePD7QsNBkQXzWbPPtDEtrqmTzo3ICJ9Albif_OB5FSYyoBWInCVIrqftGW4pav8IBiwORrpaNgijeWRSKI_q1yGYXta0cYWg0-7InXiEwtOowvNnR2a6BgQizY34lYlRD7yo4bXJ0X5p/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6958737901843417985&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJP_WJVpAfkZURgYtstEBnkmA/photos/AaVGc3mfhldiz6q-RoSalzyUVvNRXChy_MrzxsfJbEaqkl575otz03gkZxGvJWfRsAwWpT4HQsEqsCLXuTPyzfiVo0dBNS4KJLlBmjqQJwuf3rzDg_gBeDFMxtlp6ppwGFgVKRU-DKLtnjzMt5hSYLYVMbuL5-85BXEfNCRyY3BhBVcujnpCRTkWQKekN44thDVkuH056VLcJ5JG6WI4IXghF1UMDbSgflxryi41g7-P5v5oECkvhinBEl4De2PRJM7_6IzdmGH82fFl8p8K4JBhPXfHl-_GB92BYAL-Epqxr96bAjpRvHxrK7aYTMcUzysN4fLimeiUFpmmwQjOF724Cj9DgrKnApjxCUVooL1a3uPKMgf5ybvS3q2SLPMOywgQ1sGQqSGN7ghy0kbSAlueM2KZr9A9mKQ99md6rfc0RLtb5P4/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6958737901843417985&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=6958737901843417985&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=6958737901843417985&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:39:14.905Z",
+          "notes": "Resultado automatico para \"optica\" en Tandil. Segmento: optica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=6958737901843417985&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=6958737901843417985&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=6958737901843417985&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=6958737901843417985&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=6958737901843417985&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=6958737901843417985&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=6958737901843417985&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=6958737901843417985&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=6958737901843417985&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=6958737901843417985&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJb-Elw5AfkZURRtLMhNcYHZM",
+    "name": "Optica La Perla",
+    "slug": "optica-la-perla",
+    "category": "Store",
+    "is_vehicle_related": false,
+    "address": "San Martín 621, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 442-5838",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 1:00 PM, 4:30 – 8:00 PM | Tuesday: 9:00 AM – 1:00 PM, 4:30 – 8:00 PM | Wednesday: 9:00 AM – 1:00 PM, 4:30 – 8:00 PM | Thursday: 9:00 AM – 1:00 PM, 4:30 – 8:00 PM | Friday: 9:00 AM – 1:00 PM, 4:30 – 8:00 PM | Saturday: 9:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.5,
+      "reviews_count": 21,
+      "source_url": "https://maps.google.com/?cid=10600656411825066566&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente atención.\nBuenos precios",
+        "author": "Liliana Uranga",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/102990313916237941819/reviews"
+      },
+      {
+        "text": "Pésima atención, la mujer que atiende de tarde es un desastre",
+        "author": "Aldi Arrebengoa",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/104251873785641598231/reviews"
+      },
+      {
+        "text": "Excelente atención!!",
+        "author": "Valentina Borda moreno",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106074277503948960683/reviews"
+      }
+    ],
+    "main_product_or_service": "optica",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJb-Elw5AfkZURRtLMhNcYHZM/photos/AaVGc3m7apAHx5z7PACsXB8vzfIa7mPTGISpnEqnr9No_p9puOX9dATtqTiUmB0uhjAPCXbmJcGxqIQGGeeVMgh2vBccLHizX0tuhOu37G-y2w9ktQMiPKqVxoK6UKknd99cuO4ovi6Go79HwiSkUYUOx8Iyal_Km6R70Q7IOMP890FhZvSHH3UdaQNITW9nw8nZktRm0cnyk9Jp740sN4brReh2pByik2cxs-O-KMYAb1d7jirDHUIoajyfI-paS2SG9nGOvEvbyP32Wfi0m5N0NEIjfR2k2Cpidbe072rY-3ZS6RXTA_gHyGKcc0pAmREQdxRQAHhKA39FtBkX5ty3VaqBp7LXmKkjAp4tWs3ztxXM11TubrVpVvfCZ0EnJhnQSS-FQUiBIJPhg3aejNmmzg9xExf96-CzrhsWgzKix3Edc1c8iDgZfFzBcUe01ogp/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=10600656411825066566&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJb-Elw5AfkZURRtLMhNcYHZM/photos/AaVGc3mlnZddMOZHu5YkBdGVSjnYRUu-0a39M7kHkKnNtwK5Dla5bXDc5Q2dognctZgUwiZ2D-49ZlQyGkefP_VT5djJf9TOQUi83Av-rD0Hu5nWSlfbxDoBpjdLW1Q4RMnrlkNAQ_R5kVNgSpIEHCZAk5T2Jnfp_Zo1lGIQTsQX1gdl2ySybJlSnBWewNuF4j8vEWRWoJ49DxOvD8vNPBlQH2OsYwaFMo_uU7WxO558CtWY3CUGGZw6HoUJUUcTohpQGs575cHDuibzr1tW9orJ3tQ4m7ntVx3VLB7owUzuFI0j4VrJ4bswklmgELKGj9Z5-nJocPI-0UB-orpHysqnOm2apdSisjkb7Ht9wwqgOrO6l-CMnC5CUwipjBRI6tyugT8-VjPnrSq4PsB_ImMpJnSNsrUtKdehw5N57_9SZs3ZEoG0PaIWX91guYjvvQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=10600656411825066566&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=10600656411825066566&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=10600656411825066566&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:39:14.905Z",
+          "notes": "Resultado automatico para \"optica\" en Tandil. Segmento: optica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=10600656411825066566&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=10600656411825066566&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=10600656411825066566&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=10600656411825066566&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=10600656411825066566&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=10600656411825066566&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=10600656411825066566&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=10600656411825066566&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=10600656411825066566&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=10600656411825066566&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJh544QpEfkZURzu2PdaVj7E8",
+    "name": "Optica Boro",
+    "slug": "optica-boro",
+    "category": "Shopping Mall",
+    "is_vehicle_related": false,
+    "address": "Leandro Alem 589, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 442-3933",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 1:00 PM, 4:00 – 7:00 PM | Tuesday: 9:00 AM – 1:00 PM, 4:00 – 7:00 PM | Wednesday: 9:00 AM – 1:00 PM, 4:00 – 7:00 PM | Thursday: 9:00 AM – 1:00 PM, 4:00 – 7:00 PM | Friday: 9:00 AM – 1:00 PM, 4:00 – 7:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 14,
+      "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente óptica, muy buena atención de Mariano. Volveré sin duda",
+        "author": "ariel estevez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109017184158255032172/reviews"
+      },
+      {
+        "text": "Ojalá todos los rubros cuales sean para la venta ya sea para atención y  asesoramiento fueran como Mariano  Paciencia atención  y sobretodo respeto y dedicación al cliente.",
+        "author": "mariano durante",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/116967288157322897021/reviews"
+      },
+      {
+        "text": "Mariano tiene una paciencia infinita para atender y los precios son muy buenos.",
+        "author": "Agustin Cetratelli",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109124301802501765328/reviews"
+      }
+    ],
+    "main_product_or_service": "optica",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJh544QpEfkZURzu2PdaVj7E8/photos/AaVGc3kdBTui5nGcIZZPfKgnGcgJXIwUmTQB4NJCnqnf4JXjtePgaQTfb4wPtxTj3E5Ut5RdPr5cHIVo5WnE-7Asue6lQjk_GPkUwUC7sGjLnOBOroEX_IIRExwOKTVAUb7oMpR5SVA5NqyIj2lJNQ-SobGHD2dwl-AeAWWCunL72ukzcpHjitd6ay4OVCUYgZY4F8mr82efvuheS_iQnTlIctgL7iX_hKP32p0Nzai0_F8poDoIsAfGDXEcXJJYSqbr7X0Cljn6j7M9n1yVHwk0hHFYzfd4m7Se5HJQwS4tVkv86dhAYSXOOVnLbFvyVNmKfWW0WLNaV-984nVhJ9Rc_YJxnkyM3y8EOWpNkIto4ESl40ijP1QCcs5bYOnvsCZiTt1QJ4yW-FFlLs1zRvZw6u5njQtuKnTcB8r0F4fEj6GuXrHy/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:39:14.905Z",
+          "notes": "Resultado automatico para \"optica\" en Tandil. Segmento: optica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJm470jJAfkZURkNamVLdlbq8",
+    "name": "Optical St. Lucia",
+    "slug": "optical-st-lucia",
+    "category": "Store",
+    "is_vehicle_related": false,
+    "address": "AON, Gral. Rodríguez 674, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 442-4453",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 1:00 PM, 4:00 – 8:30 PM | Tuesday: 9:00 AM – 1:00 PM, 4:00 – 8:30 PM | Wednesday: 9:00 AM – 1:00 PM, 4:00 – 8:30 PM | Thursday: 9:00 AM – 1:00 PM, 4:00 – 8:30 PM | Friday: 9:00 AM – 1:00 PM, 4:00 – 8:30 PM | Saturday: 9:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.7,
+      "reviews_count": 16,
+      "source_url": "https://maps.google.com/?cid=12641153042149201552&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Siempre que voy a  renovar mis lentes  me atienden de 10puntos, tienen una buena vibra increíble, te asesoran excelente, le tienen a uno una paciencia infinita. La verdad son super recomendables y la calidad de los productos al💯 los mejores lejos. Sergio y la flaca que me atendió  son un amor de personas.",
+        "author": "Natalia Romano Gallardo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/114433067861551457646/reviews"
+      },
+      {
+        "text": "Muy buena atención, son todos muy amables y hay muchos modelos de lentes.\nFui a hacerme unos anteojos que había perdido y hasta que me los hicieran el óptico me ofreció la posibilidad de probarme unos lentes de contacto sin cargo a ver cómo me sentía.\nCosas que hacen la diferencia. Hoy por hoy yo valoro mucho la buena atención y está lugar la tiene. Si buscan lentes y están Tandil vayan a esta óptica.\nLos recomiendo.",
+        "author": "Ezequiel Avant",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/105338384126330589684/reviews"
+      },
+      {
+        "text": "Me querían hacer esperar una hora para poner solo un tornillo. Y la señora muy mal genio. Una pena porque por ahí la óptica es buenísimo pero por esa persona me lleve una mala experiencia",
+        "author": "Marianela Zuccarelli",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/100723035312790521282/reviews"
+      }
+    ],
+    "main_product_or_service": "optica",
+    "photos": [],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=12641153042149201552&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.95,
+    "missing_data_reason": "fotos",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=12641153042149201552&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:39:14.905Z",
+          "notes": "Resultado automatico para \"optica\" en Tandil. Segmento: optica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=12641153042149201552&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=12641153042149201552&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=12641153042149201552&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=12641153042149201552&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=12641153042149201552&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=12641153042149201552&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=12641153042149201552&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=12641153042149201552&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=12641153042149201552&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

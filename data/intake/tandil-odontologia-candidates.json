@@ -1,0 +1,499 @@
+[
+  {
+    "id": "google-ChIJk0IRn78fkZURghQvHQdy2-g",
+    "name": "COA Consultorios Odontológicos",
+    "slug": "coa-consultorios-odontologicos",
+    "category": "Dental Clinic",
+    "is_vehicle_related": false,
+    "address": "Av. Colón 1195, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 460-4243",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 7:00 PM | Tuesday: 9:00 AM – 7:00 PM | Wednesday: 9:00 AM – 7:00 PM | Thursday: 9:00 AM – 7:00 PM | Friday: 9:00 AM – 7:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.5,
+      "reviews_count": 24,
+      "source_url": "https://maps.google.com/?cid=16779130211578877058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente atención. Todos los profesionales son muy capacitados y la secretaria es muy amable y atenta. Un agradecimiento especial a la Dra. Silvina Andueza por su profesionalismo y dedicación. ¡Muy recomendable!",
+        "author": "Natalia Evstafyeva",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/112055605354582303401/reviews"
+      },
+      {
+        "text": "Un desastre. Nunca tienen turno y te mandan a lista de espera interminable para no llamarte. El año pasado fui por una urgencia en Junio y todavía estoy esperando. 3 veces en un mes pedí por favor que me atienda porque no aguantaba el dolor y nada, la llamada nunca llegó. Gracias igual.",
+        "author": "Charly Baez",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/117414734831270269860/reviews"
+      },
+      {
+        "text": "Muy buena atención y profesionales",
+        "author": "Constanza Vottero",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/105316029608636280599/reviews"
+      }
+    ],
+    "main_product_or_service": "clinica odontologica",
+    "photos": [],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=16779130211578877058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.95,
+    "missing_data_reason": "fotos",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=16779130211578877058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:28.309Z",
+          "notes": "Resultado automatico para \"clinica odontologica\" en Tandil. Segmento: odontologia."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=16779130211578877058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=16779130211578877058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=16779130211578877058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=16779130211578877058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=16779130211578877058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=16779130211578877058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=16779130211578877058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=16779130211578877058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=16779130211578877058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJh06kg48fkZURpVeEpey55tw",
+    "name": "Clínica Odontológica Giovannetti",
+    "slug": "clinica-odontologica-giovannetti",
+    "category": "Dental Clinic",
+    "is_vehicle_related": false,
+    "address": "9 de Julio 1039, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 443-1093",
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 4:00 PM | Tuesday: 8:00 AM – 4:00 PM | Wednesday: 8:00 AM – 4:00 PM | Thursday: 8:00 AM – 4:00 PM | Friday: 8:00 AM – 3:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.4,
+      "reviews_count": 10,
+      "source_url": "https://maps.google.com/?cid=15917614359027931045&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Fui hoy  por urgencia y  para posterior tratamiento\nYa conocía el lugar Como siempre excelente atención profesional y administrativa",
+        "author": "jorge rodriguez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106171905101523087848/reviews"
+      },
+      {
+        "text": "Si tengo que opinar por cuando fui por primera vez, me atendió el Dr Giovannetti, un caso delicado, venía de una mala atención de otro profesional.  Es una pena que el Dr Ricardo  ya no atienda algunas cosas,.como extracciones o endodoncia.  Si bien me he atendido co el doctor Lisandro y me ha ido bien.\nEs una lástima que ya no haya un teléfono para urgencias odontológicas:\nAtender ciertas  urgencias, a veces derivadas de una atención previa fuera de horario, aunque sea programando que se junten un día y hora según sea el caso.  Los turnos son tremendamente lejanos.",
+        "author": "VeroMac",
+        "rating": 4,
+        "source_url": "https://www.google.com/maps/contrib/114307755814312602473/reviews"
+      },
+      {
+        "text": "Hola fui muy bien atendida el 2/1/2025 por una urgencia y me solucionaron el problema con rapidez y eficiencia",
+        "author": "mirta mabel Audicio",
+        "rating": 4,
+        "source_url": "https://www.google.com/maps/contrib/111169202462826695696/reviews"
+      }
+    ],
+    "main_product_or_service": "dentista",
+    "photos": [],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=15917614359027931045&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.95,
+    "missing_data_reason": "fotos",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=15917614359027931045&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:28.310Z",
+          "notes": "Resultado automatico para \"dentista\" en Tandil. Segmento: odontologia."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=15917614359027931045&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=15917614359027931045&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=15917614359027931045&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=15917614359027931045&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=15917614359027931045&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=15917614359027931045&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=15917614359027931045&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=15917614359027931045&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=15917614359027931045&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJJcTyYAAfkZURhaa710LAnkU",
+    "name": "Odontología Tandil urgencias endodoncia implantes odontólogo dentista",
+    "slug": "odontologia-tandil-urgencias-endodoncia-implantes-odontologo-dentista",
+    "category": "Dentist",
+    "is_vehicle_related": false,
+    "address": "Pinto 1690, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0221 318-3710",
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 12:00 PM, 2:00 – 8:00 PM | Tuesday: 8:00 AM – 12:00 PM, 2:00 – 8:00 PM | Wednesday: 8:00 AM – 12:00 PM, 2:00 – 8:00 PM | Thursday: 8:00 AM – 12:00 PM, 2:00 – 8:00 PM | Friday: 8:00 AM – 12:00 PM, 2:00 – 8:00 PM | Saturday: 9:00 AM – 12:00 PM | Sunday: 9:00 AM – 12:00 PM",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 40,
+      "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Exclente atencion por parte de Nicolas en Tandil\nFue muy atento me explico todo lo que necesitaba antes y despues de mi tratamiento.\nTuve Resiltados en 7 dias, ya vi cambios en la salud de mis encias .\nTiene mucha tecnologia que no conocia y no me hizo doler.\nRecomiendo",
+        "author": "Guillermo Prata Dias",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/118234650633502530021/reviews"
+      },
+      {
+        "text": "Un Diez Nico!! Atendió a mi nena que había tenido muy mala experiencia con otra profesional la cual no pudo sacarle la muela y el con toda la paciencia del mundo hizo que tomara confianza de nuevo! Realmente para recomendar a niños miedosos! Es un GENIO!!!!",
+        "author": "Celeste Vasquez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/107685167444224621574/reviews"
+      },
+      {
+        "text": "mi pareja fue a hacerse un chequeo después de que le sacaron una muela del juicio, tenían que ver si había que sacarle los puntos nomas. Sin avisarle le hicieron una limpieza de sarro completa (que obviamente no pidió) y le cobraron mas de 200 lucas a la salida, cuidado que donde pueden te arrancan la cabeza.",
+        "author": "Estanislao Marugo",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/108650329317424238460/reviews"
+      }
+    ],
+    "main_product_or_service": "clinica odontologica",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJJcTyYAAfkZURhaa710LAnkU/photos/AaVGc3ljdBqb34sIZZetVvHzUcZQsrUE2t4EDCsfc4mCTCslcVp-hdaiQ09IHhCSSPK6kKZ_v1beC8O2X2PgxIuiO5K9p48bUO6Pzo41gF69n5X4u9Q_bFHIOsstQ7fCDJHx58DBQgcS-RMAKDILS2cbnenOxMdEeyxpj6oVjWSkcsJ8oE8D4WJbzqgKhmxmU-MRCSBHuZylEEiOAYGcc2J-_6Yqw5192-d2FfLYGFHz4okc1qXAi0avMZvXIoplsTD69O8UmJJ93wd2Kr0Bo1Z9dEElXY6EyiSilllfTn4wbwG4GM9o3Adb9JiTTLa23sR40OEQW6tB7M7JSHcA03NX-wdqL2spL_E6qPoLoV5ho5RKd8xWlqPMmk0JTHyHGXv0hKLLpv4RIXc7xIV4nz9MHia5a_i-jHaGr9Ut2Sz8hQ3e4AIDuQHAWD_LsWMAnxNz/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJJcTyYAAfkZURhaa710LAnkU/photos/AaVGc3k7FmJ_2jWEjX0yg4o8Wmv7RTfAqjmZ_s2E3lPUJf3a5YTEkhQWfUiPuhREyariQzeUXWMx37KtbFztArXJPp17LQXVxZKBl4T0A5lTg3Xzw3AqclrsrDHAKyEyY2a_yP5YA9-eIHozSI0bt9i6AK6PzHbe-I1FuyjcRmOKpa-mWn-ZzLDty8HiDcEXMYOr-1NYchW_5tNeSSS_ufApo9oQSYCNWb0tZ24WffCsXw3cQwx3n_p7p_XQSAlJRjfABQBvRAvrbQ5qC7v--o4PCf1x5RpPmOl0O7G8Xsjb3bE69b6YxFN5DFiTfMPCM__RGAc-sHgCHjc1u2EsxDuxUwiMv6Oa55O_eenLRRa9WixEE6EHXvG5ZieMf81kmLKiJDY9Emrq67-J0y75AA-Z3KI0Ni1TRSYWMa4J8nWdP-VKnKEJi3_hPjg1ukHkCdeX/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJJcTyYAAfkZURhaa710LAnkU/photos/AaVGc3ltWuk63G_Rwv5pQb2DuyhQiqoCpOBqGRAsDpXBhM7VUmiJTdrQzhpWsWi9btYMgCFHAYMQ3TpbZJixGBuTVaa7pA9TAACgFQfFLluc9MtdZn7T9u3t33WOLwe47XY2vu9BstOO_zv9uF4eoBMyl21JKYx4O9Itly2JHEOzeGbQOTmkhdCChBuhk37TM38EJmWjCOzbcbrSZa9Nh0XLzWsHLQoIx78kuVoOVKI7isQ9n6P5ORC0fAYW4d-GRS6P37s6_c5U_eTpGHWg3dRcsviDmbxa0MDknjMpIYumbB6114zVcHC0zgaCFJ8XyidP4za3H_ZLMF21Kh1c1ABY3VF-uNB0_1qBuOlbbAqsUT3h8_ugsBH9cmD7d7aSHWP_1Lr_NX7X4wzM5UTiGAZB5nXhOHSq16qYwZSb-zu55eP4yw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:28.310Z",
+          "notes": "Resultado automatico para \"clinica odontologica\" en Tandil. Segmento: odontologia."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJu415AgAfkZURQtF3szbPeLA",
+    "name": "Biodent Odontologia Tandil - Dra Valeria Guzzanti",
+    "slug": "biodent-odontologia-tandil-dra-valeria-guzzanti",
+    "category": "Dental Clinic",
+    "is_vehicle_related": false,
+    "address": "Montevideo 1475, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 436-9999",
+    "opening_hours": {
+      "raw": null,
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 39,
+      "source_url": "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "I was travelling in Argentina and a filling fell out and was causing me grief. I called this local dentist in Tandil and was surprised by the excellent treatment that I received there. The clinic is modern and the dentist was very gentle. The costs were very reasonable and I didn't even need to use my travel insurance. Would recommend them 👌",
+        "author": "Nick Quinlan",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111580749122159953939/reviews"
+      },
+      {
+        "text": "Excellent professional service! The most beautiful and peaceful experience I ever had in a dental clinic!",
+        "author": "Paula Guzzanti",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/107365400846454853888/reviews"
+      },
+      {
+        "text": "El profesionalismo de la doc Valeria es inigualable, atención muy cálida, además el consultorio es hermoso y luminoso, gracias Doc Guzzanti!!!!",
+        "author": "Andrea Guadagnini",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101128796207170941717/reviews"
+      }
+    ],
+    "main_product_or_service": "clinica odontologica",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJu415AgAfkZURQtF3szbPeLA/photos/AaVGc3mSUcqtieIlc5W47EFhKOVVFPAfD9tGvSv4_zonkj7sbeoq2obrnUot6U93sH1b67zDgDQ9M8R4OFG_sWE2qaQdb3RKuE_vJnC5t9atr8x_SR5oSS35plGB6m33EPnzc2iLMAaj4NUQePuDhwJIUu5FiEp2qNQaobI0VTiTdLZwuWVWhfsdE_DBqD2kKydRLVP4PRMqd3sFRNrycluByCXQQlGU_y-mLf7iTgnEraDE1spHdNh0HJ4LyMrzzLcNO1znCCLv3QK9HZ7sOtwupelsdv3JwwanZnR8mMQCn3PCfhtgzMDbu3XaKD-8sEBWt_ovjWqDDgkqwEvzVKSTCGCYf37a96XyBO1n_UL6u2FnRfmfGV33ak5ygD4e9iOHMwzgCTFy20q98HEEajXgK7nfeEx2h9eLcqyIch1TZmptmJbVQRsoZMORHDalgzHm/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJu415AgAfkZURQtF3szbPeLA/photos/AaVGc3lbPOA1SGU5EPNQWmdpz78fRWgTHQkpH0_TmE2p70Ra3PUm_PE336riWSUFeaFIcaA5ZyaeviWnl0tesjE3OEt8KVCHbB9k2qcFClvaknVLmD7n-6FLOVviJgNFNVIAa06CzuTqsTTYIEE0SwIfmDA1ZulmhuC9e-mAquVYBKMFVBe_tnAq5pw48hENpOBZZJy0w4uEJzLUskb7RAgReGa3t3kdxB_k1Zu-bxEXGa47xIEtSWZ68nwA9aLkMfG6c44ah5z2tH7Lix8xpqVB-ORbX2f5ba2LF1671Jcpkm3kb5fk95C6mvTEhUPhuePjt3RFvARTk0dc4PqW0OmAeefMKSpOiNnfjtr61bIjxQVQW7IAPWT4kN6uhOKGBDgnKdZVzYVWHvzp31RdE4ZehtL3uReEdoIxZrTyACNxnFXM-jjEvCR4tZuNCQilZ_6u/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJu415AgAfkZURQtF3szbPeLA/photos/AaVGc3k1Yti6GWf24dLEIJDBMpinQuRN945IbeKJOft9SXg4tjmE1cEiWyC3DEk94-n2kPcAsyK6HcEdj1oYOTy0DUnYHax1gJTVOSfrTW5E3xO09OlnvES8PWVo3tHsJzemP_MTyX0mv2jA9PsTHa4ci08SK5Cf27JYb8BJB-eCMDt37-IniOqznhr_59CUCxeB0piyF27lvD-P91b9AReDTEwRRlKdcybZ96GcvTf11VAMTW_83-MOawa71sw6F3fK_PPTPf5nqQCk1ox7_U2zz6hAyXUDLzKeCcWOn7cAt7uigIk46Z_oQMicgv3bZ7uCjpTxb2GvZTP3lzOp8ocx2dwrR8GH-ssqEjJ1qDNuaXLV3KZC6220vy_DTXUftIKk1_GfF8QabKwMATyZD_lCrsjADxYBNwKV2WS73_nLdBjrrk8xfFFvgRR7UohFmdar/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.9,
+    "missing_data_reason": "horarios",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:28.311Z",
+          "notes": "Resultado automatico para \"clinica odontologica\" en Tandil. Segmento: odontologia."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=12716141381726753090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

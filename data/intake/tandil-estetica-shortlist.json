@@ -1,0 +1,141 @@
+[
+  {
+    "id": "google-ChIJ051rgrMfkZURB9mCyLm1iKI",
+    "name": "Etienne Centro de belleza",
+    "slug": "etienne-centro-de-belleza",
+    "category": "Beauty Salon",
+    "is_vehicle_related": false,
+    "address": "San Martín 154, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 454-1310",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 6:00 PM | Tuesday: 9:00 AM – 6:00 PM | Wednesday: 9:00 AM – 6:00 PM | Thursday: 9:00 AM – 6:00 PM | Friday: 9:00 AM – 6:00 PM | Saturday: 9:00 AM – 2:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 10,
+      "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Muy buena atención! Las chicas una divina, en especial Pamela que me hizo una limpieza facial. 10/10 super amorosas y delicadas. Un lugar perfecto para hacerse un mimo o regalar un vale",
+        "author": "Rocio Juaristi",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111667470396624529388/reviews"
+      },
+      {
+        "text": "Muy buena atención, las uñas me quedan perfectas, no se me saltan, me duran hasta que vuelvo a hacermelas. Muy buena predisposición con los turnos, las chicas excelentes!!! Super recomendado!",
+        "author": "Karina Cont",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/118313077333034323714/reviews"
+      },
+      {
+        "text": "Son muy buenas profesionales y muy amorosas todas!!!\nSuper recomendables",
+        "author": "Sara Peralta",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106402540499591228464/reviews"
+      }
+    ],
+    "main_product_or_service": "centro de estetica",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ051rgrMfkZURB9mCyLm1iKI/photos/AaVGc3m_S7LPFxP-pA6q1pTMWlJW34oGck5cpaXLim8pBKDbIGCmFAEhDwNHio3B0cv9eQeNQ2-w9OXUT-v1QRF5wHC-9n4ef9f8knVavAasy2DH6r6CqjX2cJ8zByd4npHV3yZEn4VyFJA5DYRyzyGuZpoYpQ3Pq4b_6_n--q-35WGDAvo_M4DdPyNRUMDDN0qVz4J30RK4jlhC7j-NDaIBkeJHmgnQflwnxQQ2rXAep8NySm0rxjd-UT0-wLLocRuI6fewUaRUfEQ_jkzd2GmxGM625RqngCa43MT5smL_72ADQyZFzvuGjfiM4gqCPkrJiJEsjVryt6rr_iHzR4gKOgMrWviJkoubUtHgnGHIm9xljBO4xMkXayuGKpjb6ULImf8lqIGAGXqMiLWanZC6w5DJSNduY5R8Pa2L6L4R8wJtQQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ051rgrMfkZURB9mCyLm1iKI/photos/AaVGc3nislkUmMTdrJCMERZK6F1sxeKo-1ptAFV2skaDQlIjHcA20CMFkkuqWdB4RwIH05vlI7GuMQ5oopLO-KmzkRHaM5-NoNBlsMXPwbs8ITLttEdlslB0poGzkav-X6UgU_Q37ghqsGHNCZ4r7xGZz42gfaSjB2f7iwaOThfeDnbge6wZbo3zvxGBWBOl9tz92faujyjbO87cKY9EEjm1RUu0yONoPhU02QB_qv2LeoQiDEfFkO6Dcw-SrYGRsNc_K2ZH5h1FyOrbo2MuqXwnYjiZiandlOmikDnA6fMTmHEQoObK3DzZQEQB_vWcAG55YODuTVU1Yi0eReB9EUjeW7kmGs1oiwa26As4TDXcCShYLBIicMPqHvriZs1u2KmO2Yd7YikyQf2Le8FfBYpSQlsXNrAay44qGpYRkOf3TxQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ051rgrMfkZURB9mCyLm1iKI/photos/AaVGc3mrMH9Xail9Wol3nCqwTmWm6e5cgrWYLwdTIc4AO9N6SMh4lPJe5k5L4u4OCnNIxTznHHn3INDEGk97dd0Cg0KOx8ZEnVk4JmFTsH5Rx596QisngisCRuFQk5ZRveiRLZwlMFYr57VZftN3X6Q1eY2fxucILtX2rKswhtQnRSndhmMGBAsLHhNHvsc6IpvtnlE4h1i39FyVTYWNqKCyfKK3vTT4ALgvUnN3BSIPPW1l9mVIuSwi-EcE-ETI_YtoGhhzFQsxZrEQv4vcRLM5PPk1WFnrjk_VUBc99a66ueOukov-OO9khLhtu3c6s3wRx73kqUuLGWaMs8YVOJSIqEOpj4TToRywyETWkhuKwQgIBTIotCo9A5WCrfzCIa9scUNTs-kOhiwx9gJ42V0Ui5Lw_3vzYjFBSSa34OgL1du_1p2Q/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:10.094Z",
+          "notes": "Resultado automatico para \"centro de estetica\" en Tandil. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

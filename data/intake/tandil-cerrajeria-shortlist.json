@@ -1,0 +1,141 @@
+[
+  {
+    "id": "google-ChIJkftE_pgfkZUR1ceDCua7tUI",
+    "name": "Cerrajeria Zuzulich",
+    "slug": "cerrajeria-zuzulich",
+    "category": "Locksmith",
+    "is_vehicle_related": false,
+    "address": "Belgrano 129, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 449-8213",
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 12:00 PM, 3:00 – 6:00 PM | Tuesday: 8:00 AM – 12:00 PM, 3:00 – 6:00 PM | Wednesday: 8:00 AM – 12:00 PM, 3:00 – 6:00 PM | Thursday: 8:00 AM – 12:00 PM, 3:00 – 6:00 PM | Friday: 8:00 AM – 12:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 117,
+      "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente atención , super profesional . Muy buen servicio , totalmente recomendable !!!! Regresaría sin dudarlo !",
+        "author": "JORGE ALBERTO SALINAS",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/113023742438733511052/reviews"
+      },
+      {
+        "text": "Excelente atención como siempre. Solucionan los problemas en el momento. Muy recomendable!",
+        "author": "Paula Charlone",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/105030690502700355660/reviews"
+      },
+      {
+        "text": "Excelente atención y servicio.",
+        "author": "Roxana Martinez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/116020148198044582052/reviews"
+      }
+    ],
+    "main_product_or_service": "cerrajero urgencias",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJkftE_pgfkZUR1ceDCua7tUI/photos/AaVGc3llJ2choVHgUHBpW8qSWgduvNznUoSCNyUDwAqwqYpthR_djwqNABS0h12yjBEeZOEk1ypIcrsv5elwO5MSfKqokH6gZJy4bllGrgiLo-Jq_CTcVnOpYLpMSa7tYO4qeIh_3n2K7PPDrofTnCKKtdrRqPKhbjDFwYFSvwZh93wEMInP_U3aamY1gJE0MGMqZ_lpMJM9DnWtOX7K5CNwZmpLm8Lr1Xo5F3Xoh3CliL_8isZkSHXQh0LsMt3nM0A5PBdCWwx_rbUxyvqWeSJJb-xJYxyZx_l7NmMdMfyXwJ28ErbObNwiJYvD6LT1p--oiJWI46JeuluXxhVyVtp2RLhEKVR-0C7snGlqWkTMXl_QZsH7C4Ssa-Elosw-lYlCzIprYkHZbyayUR8JHgMHc1n7uOFerep-h6Ar_OL9sb0/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJkftE_pgfkZUR1ceDCua7tUI/photos/AaVGc3n2uaspJDpkFq_ZEdLbg8Ly31We-rvFUxrNSmjz86EB_3MA3k4U38-U5pXvTlW6g_Iy1DNFDSeGP_zUBAqPv-_PBrdXAOH8m5fnoKcgBT5jzC3JkHxlvcvphFZ-AIGJfUm7mmL7F6WXOvt6Vgvx03vYnG_cnTQEbRPkSY9IyMAqYLIK8s_mqyEH2eRC2N--CoyLjrK8Om-Qck4v40lo2xkyUUxDq0-uIDJAv-bEAuU-13f5WbjZwXbqhlb-p6BmxPW32m_ToumDgOeXzz-MGIQq1CC-EFd27TK78prb3WUzHk57Ivfq0S4yprd_xiy2oflgx5WrwnrSqfEJ4VGWZHfd5EwMZbPQA15sIGyii7aALm6LI2UoF4H3Nu09shNrW58TtO4HfWduauq62GmWSj_S6Tx5jTwdoXLGH6ufGmlP3pcj/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJkftE_pgfkZUR1ceDCua7tUI/photos/AaVGc3lf2ApAudpB1-eCVf2sva6-EHwo6CNlHYdgEAz9e2nHvBULiBQ360NgMYuznXlB_ARn6u_BpfjdKE9BBXY_CA2toMG3aVpf9rRulP2vs3LisgixSA-co33uOZwU-DeXN_mqFr2JCicKOlVMIJlSET8g-i7eESCTE0V3wWdnH1tvBcgO-zD91Mg0zRIAko3T0aBbvZnqALzMlAgRIldIW5jbryIW4hqrKY5NB06dGohrobnCoq7Hb3JViaLxLliqzxjDz0aRVFAL671FGUrjDXM_1c-GgRn1mx_L1Y0tO17-LA0vYMlQAHfWge18o2Mm-iWICU0kOubsGcG8FgnSG6_JsjTrlnKAj3jOl_S1HXFhmcaXH7Sbg40pTEt1nEZh_mRtMkMx_e_fyFp4z0pYuCzyC0mWXmWaJGxv8B66v55W7cnx/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:36:25.827Z",
+          "notes": "Resultado automatico para \"cerrajero urgencias\" en Tandil. Segmento: cerrajeria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

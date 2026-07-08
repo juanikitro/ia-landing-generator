@@ -1,0 +1,1041 @@
+[
+  {
+    "id": "google-ChIJGYowNMrhkJUR5PhtKWqTlpo",
+    "name": "Full Gym",
+    "slug": "full-gym",
+    "category": "Gym",
+    "is_vehicle_related": false,
+    "address": "Av. Monseñor Actis 2269, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0345 407-9197",
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 10:00 PM | Tuesday: 8:00 AM – 10:00 PM | Wednesday: 8:00 AM – 10:00 PM | Thursday: 8:00 AM – 10:00 PM | Friday: 8:00 AM – 10:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 21,
+      "source_url": "https://maps.google.com/?cid=11139252812518389988&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "❤️",
+        "author": "Silvana Rusconi",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101627689481600890662/reviews"
+      },
+      {
+        "text": "Es un gimnasio hermoso. Las profes son lo más, el ambiente también! Las clases super recomendables, las profes acompañan en todo. Muy atentas y amorosas!",
+        "author": "ROCIO ALONSO",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/108798274242038601980/reviews"
+      },
+      {
+        "text": "Muy lindo lugar y muy buena atención. Se pueden hacer muchas actividades y es muy bueno para personas con hijos",
+        "author": "Leandro Rafael Ramírez marconi",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109324256244146691463/reviews"
+      }
+    ],
+    "main_product_or_service": "gimnasio funcional",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJGYowNMrhkJUR5PhtKWqTlpo/photos/AaVGc3lr6rvS38YdX9AlTBFB_UrOJgNDBNZmxBwkvOReKW7T8qm1HlgtAmT1HEKlRD4utBKUwYkT5Uys6Hv5JTNJyISpgekHUR0TXKcZ6R50MyPANxcE9noilYG9CznAYmV28LLNjIXUQA0oVa4TSgTSru-OuOzmCdHAKqKZL6hnHdVQz8Ib8V_BaLWzFDstYr0vYoAJCjvVbpBVvI0-6Q3ajQg-Zp6coNwm2-tpnSlTSAqsDmNaIh1s-r5v8Nh08bXlSsemmnD2ueXNd1pzZB0F0k0z6E3SiaNigt3yfe2PODZwIHnphAKYa0LiUC1DXf1QvJatk6F04wTPBpzqYVi3h4_m18s-jsumko4C3wPzXJVe_l9TygGUXhy3hCALQWi1tVK5__nzBGlAo6jGdVAXc9Mf9cv2SYB5Wgu3_3Fm_bdk0Q/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11139252812518389988&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=11139252812518389988&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=11139252812518389988&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:43.941Z",
+          "notes": "Resultado automatico para \"gimnasio funcional\" en Tandil. Segmento: gimnasio."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=11139252812518389988&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=11139252812518389988&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=11139252812518389988&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=11139252812518389988&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=11139252812518389988&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=11139252812518389988&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=11139252812518389988&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=11139252812518389988&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=11139252812518389988&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=11139252812518389988&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJKUPo9cofkZURV0tMUatDoOU",
+    "name": "FP GMNASIO ENTRENAMIENTO",
+    "slug": "fp-gmnasio-entrenamiento",
+    "category": "Gym",
+    "is_vehicle_related": false,
+    "address": "Av. Alvear 522, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 460-2740",
+    "opening_hours": {
+      "raw": "Monday: 7:00 AM – 9:00 PM | Tuesday: 7:00 AM – 9:00 PM | Wednesday: 7:00 AM – 9:00 PM | Thursday: 7:00 AM – 9:00 PM | Friday: 7:00 AM – 9:00 PM | Saturday: 8:00 AM – 12:00 PM | Sunday: 7:00 AM – 9:00 PM",
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 20,
+      "source_url": "https://maps.google.com/?cid=16546299434041625431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente lugar para realizar entrenamiento personalizados! Buena calidad humana!",
+        "author": "Computacion Tandil",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101726714457994556326/reviews"
+      },
+      {
+        "text": "Muy buen lugar para entrenar.\nMuy buenos profesores",
+        "author": "Alejandro Ernesto Gagey",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101688050487997829917/reviews"
+      },
+      {
+        "text": "Excelente atención y excelente profesional !",
+        "author": "Fermin Merlo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/112897548217453769242/reviews"
+      }
+    ],
+    "main_product_or_service": "entrenamiento personal",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJKUPo9cofkZURV0tMUatDoOU/photos/AaVGc3niTQw_V4zkwhH0MjVGliek2LI3uQ_hBj0FnVSfafqiJD6crJwlMJk9OnAZIzlikd5EgN0ghxmaHCwHi_7KoLIVXR9GcviXFWExBYchvZPK_mDrLc_DGOfN1Ebq2_ddPUfpEfWrZFpW3IaRAfnFkxqow9g4faCfCBSqiRq065VX6lg_-sLZ_qIlSyrbMf2aY-IH-JB0bJzmHbpicRlC3ScwKePwKEbygmlM8kCrXPdgkDBdBmeblmqJDYz5j065Eo8yVtUw22zv6MYzpN9nhbi27bRu02ERGea3Au3lXj85NrLm7HMMsOkb7NvQJEkteYjVQFlZtHQ0_avTfwPka7mYQq1cKAEmDR6wL9tYOXbmRPP-cOWPl9v1lvHyaHOfaQUlyb-CVkQE35xYz4EdNwopIVe4_8Ni_X-IdPkR4PQzrr_5/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=16546299434041625431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJKUPo9cofkZURV0tMUatDoOU/photos/AaVGc3nXntNgD1Ulz63uWdkkpsaYywGRTMS4s4OxjTX47PfrPq1_vzrVIsE-dwToyoJy4UviGqssCJ1EuzAf9rtVVpv3VBpyM6dc5GQG3ftvBYUbMHM3XjZEwyoxPNRiZPXc0_ZauEajEPMgjMSIvpzR98r8sb0mZuTfGal_bQnyZdVwdvMY6jGsOg0CzA9K0vfhHHD0_6s7RjAI5fZVCTs7zQIvIjhI_zNUa0ec6osb96JTN5R-NgWJnGJEw93090ozOHLkPApnObv0L5aa-2xtq7_tgMnmbz_6G2rpE8AWOBPJBVojGuSwt94d00luFg6GbEwUfgh1nRdg5oJ_UUaTT4FUgB2DzLz5aGSVbkkmJH_prK-agNpJcrHBurtPXey-rtqwT2XH3nUQlxLZ-SI0186KAESojhkMfeNAaz3oJW13seG7/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=16546299434041625431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJKUPo9cofkZURV0tMUatDoOU/photos/AaVGc3mV9hWiRLeqYBCdJxuY2-1aB_0LobqnCQjumhiSa1uk4MwqihmujmtqCcGQwc3QrOenf3P30VTtY91GIcrJdoaQXfDT8LcyqFHZAuy1qYFcQ6F2-IDSFGv-v9-TNzAZuNN6bJRtt9JkAOunhs8oyKVFQQdsEBCkwXtHYNu0g4O4RQ00U4hvCZuMqsav6F0xnBQ59m3CpayQgfMAaGWTANNtcpswM4RrCaLKZCrOeaF0Gb3DtaZSLi_kf0pPWR4Omv9ZdadJGTwte1AbH-Yh6uXRAJd7SJeFbLMpCpkicWWPBE8qfKNhlqIIPUDeJVx8_LeSCM_Vu0Z5ApZxKBfS0Dr_NnpJ3EL2DjIUqHvV_GwHaNSZHFbnNtylIX8lYZDF4mugCKj-Kxb5c-1OjA5avjKhNSPvRhrcHeaxwb6eAK3Bossw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=16546299434041625431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=16546299434041625431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=16546299434041625431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:43.942Z",
+          "notes": "Resultado automatico para \"entrenamiento personal\" en Tandil. Segmento: gimnasio."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=16546299434041625431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=16546299434041625431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=16546299434041625431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=16546299434041625431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=16546299434041625431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=16546299434041625431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=16546299434041625431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=16546299434041625431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=16546299434041625431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=16546299434041625431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJp1ZYJMMfkZURGQPDSBIz8Jk",
+    "name": "Belu Fitness",
+    "slug": "belu-fitness",
+    "category": "Gym",
+    "is_vehicle_related": false,
+    "address": "Sarmiento 783, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": null,
+    "opening_hours": {
+      "raw": "Monday: 6:30 AM – 9:00 PM | Tuesday: 7:30 AM – 9:00 PM | Wednesday: 6:30 AM – 9:00 PM | Thursday: 7:30 AM – 9:00 PM | Friday: 6:30 AM – 9:00 PM | Saturday: 11:00 AM – 6:30 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 30,
+      "source_url": "https://maps.google.com/?cid=11092422035836699417&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Amo el mejor lugar para entrenar y sentirse como en casa  !!! Siempre adecuándose a cada cuerpo y cada nesecidad súper profecíonales los profes 100% dedicados y comprometidos con su trabajo",
+        "author": "LUCIA CREGO",
+        "rating": 4,
+        "source_url": "https://www.google.com/maps/contrib/115361216957479597450/reviews"
+      },
+      {
+        "text": "Nunca Antes había entrenado ! ningún lugar me convencía  , hasta que los encontré a ustedes Grosos con súper paciencia !! super recomendable !!",
+        "author": "Ignacio Poupeau",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103609014832248764401/reviews"
+      },
+      {
+        "text": "Excelente lugar, buena energía, excelente trato, muchas actividades y horarios. 100% recomendable.",
+        "author": "Laura Calderon",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/108890629036224596418/reviews"
+      }
+    ],
+    "main_product_or_service": "gimnasio funcional",
+    "photos": [],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=11092422035836699417&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.85,
+    "missing_data_reason": "telefono; fotos",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=11092422035836699417&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:43.942Z",
+          "notes": "Resultado automatico para \"gimnasio funcional\" en Tandil. Segmento: gimnasio."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=11092422035836699417&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=11092422035836699417&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=11092422035836699417&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=11092422035836699417&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=11092422035836699417&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=11092422035836699417&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=11092422035836699417&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=11092422035836699417&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJSSyMxdwfkZURkprClxrND7c",
+    "name": "Kalű",
+    "slug": "kalu",
+    "category": "Gym",
+    "is_vehicle_related": false,
+    "address": "Carriego 140, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 430-9103",
+    "opening_hours": {
+      "raw": "Monday: 7:00 AM – 9:30 PM | Tuesday: 7:00 AM – 9:30 PM | Wednesday: 7:00 AM – 9:30 PM | Thursday: 7:00 AM – 9:30 PM | Friday: 7:00 AM – 9:30 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 95,
+      "source_url": "https://maps.google.com/?cid=13190987347690429074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Top.",
+        "author": "Nicolino Ayerdi",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/108134881692730692933/reviews"
+      },
+      {
+        "text": "Bien equipado, ventilado y con profes atentos",
+        "author": "Trinidad Achterberg Barros",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/112143332223576377207/reviews"
+      },
+      {
+        "text": "Profesionales  de primera. Atentos a nuestras necesidades y a cómo realizamos las técnicas. Ambiente amigable. !",
+        "author": "Claudia Ferreti",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106909188643630235606/reviews"
+      }
+    ],
+    "main_product_or_service": "entrenamiento personal",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJSSyMxdwfkZURkprClxrND7c/photos/AaVGc3knRaa7v-ZQtZuAKNl-VNyuq39E3FLyGpiZX-sgsAB7WPQEm8twEfQ8zIRaysna4lMm4Fcb4ENP3ZaAy2tLL21SM2etBfs9e-vAIQns9Cl7k6GDTkCyaAGgNGgMv9dihbFJabdgeDqKXBuXbKNsj3i6VRjJsaFE3kc6aFKSqT_K_wN1daTR297tIOSgY_AUd0dixryjShWz6wo2VF7ouIX6QwnX8dtW0ecy_5aYdh4LQ3ACOZEWYiU8W5m4Mu4FhhTvYEh8QbVeYA50rxyStqNP08vS6ngiotoDG28GvZFjbb0en9BiLhhy4NcA-eO6foQxx1HfjPIjLqTKuI8kk6arKj8a-DzfihDvyRuNqvbOy0nUDuigyU1PkPZwLZONeoRMcHCEvWH0fQVeYrPYZL2e1SrTK3j_2aObRpgMC4w/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=13190987347690429074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJSSyMxdwfkZURkprClxrND7c/photos/AaVGc3mBbm0j37TvftcFKweAZwiaTOQxcbuhq-EcJwL9I1GNex2VxmcMoadF19pc5t369g7jnFRORhxdmoZsU9XjA_ZFoC47rUTg6k9oVG2Xbxi4Qn-NeZCZJhnhkrB1yVtYPyqrbaWomb9xefwDxKgBPq-Nt-WNXm832IpbM4cK1khku6Y5cmt4DyqvBGRltQ7QePh-hNHD1lrhX0p1WfyYvbl7W-nl6JyBl-QmS_KNbxX5e-LIKAQumeMjZC4-7ALRghSVdRucwDq72ubF-ODrlIqcKnThHPyXowjegFG7s3WmmKlO87c34vAxb1-jjQknQm_m1yg898ZjO1Qrr8iLNxmg1zvDGPGEoe5IShbCgNwZl6erYobbRagy-gNIHMWvhRB85ACD3p_XxRz0g0Owvrwyct_JbLmK8iznQSAxbdvIsg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=13190987347690429074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJSSyMxdwfkZURkprClxrND7c/photos/AaVGc3kzLJ3HSqju_SP5VHGACY6Ry-UtdyFhK6ANlzuMgdwrjOB-lPjDffhtNMJnlAMuXzCHN2GymrhNjY_xmrdRvKS4NxuW1zOLv0SUdgpbHjIAlnfUSMoP6nnwC8Du3-piBpq38uS0cwPKuvYflLKtyIFGiUbkELUtYSFuxoPSHidTZBByejKU61wpiPXFG3Jh_vhuBX5jC8ybU9UFiEMoTFwKms6GI8BIVBCIG832zl7qOZIhN5sKuOwj7EugpW2MHZjSg7fFAiR8v-moiO6hBSf_FmzNzMiyyxx4ucToZ6VXIGFdwuGRPU-kfrYU3QGHPdR1soHSofDagQZm0HekxsP-7OXHUBb0etwQx7Ndr9X4n3kJY2iN-SXojqJww70BiJUAHWXlEc0mx0fHMw0Cp27iO92HF7TGP6BVwNxhg6dGmA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=13190987347690429074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=13190987347690429074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=13190987347690429074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:43.943Z",
+          "notes": "Resultado automatico para \"entrenamiento personal\" en Tandil. Segmento: gimnasio."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=13190987347690429074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=13190987347690429074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=13190987347690429074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=13190987347690429074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=13190987347690429074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=13190987347690429074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=13190987347690429074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=13190987347690429074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=13190987347690429074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=13190987347690429074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJEUoP4oUfkZURVVuRw0YS0jA",
+    "name": "Gimnasio FMC Gym",
+    "slug": "gimnasio-fmc-gym",
+    "category": "Gym",
+    "is_vehicle_related": false,
+    "address": "9 de Julio 1208, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 401-9959",
+    "opening_hours": {
+      "raw": "Monday: 7:00 AM – 11:00 PM | Tuesday: 7:00 AM – 11:00 PM | Wednesday: 7:00 AM – 11:00 PM | Thursday: 7:00 AM – 11:00 PM | Friday: 7:00 AM – 11:00 PM | Saturday: 9:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 131,
+      "source_url": "https://maps.google.com/?cid=3517894354067872597&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Ok.",
+        "author": "Juan Manuel Martinez",
+        "rating": 4,
+        "source_url": "https://www.google.com/maps/contrib/109239827882923775443/reviews"
+      },
+      {
+        "text": "Excelente atención, se entrena con profesionales, rutinas personalizadas",
+        "author": "marisa barraza",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/107770942875195491387/reviews"
+      },
+      {
+        "text": "Es un gym bastante completo, no soy profesional, pero me gusta... Asiq para empezar y mantener una rutina supongo no está mal. El precio por ahí un poquito exagerado pero nada del otro mundo hoy por hoy.",
+        "author": "LeeMoon",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101174557491569430398/reviews"
+      }
+    ],
+    "main_product_or_service": "gimnasio funcional",
+    "photos": [],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=3517894354067872597&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.95,
+    "missing_data_reason": "fotos",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=3517894354067872597&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:43.943Z",
+          "notes": "Resultado automatico para \"gimnasio funcional\" en Tandil. Segmento: gimnasio."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=3517894354067872597&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=3517894354067872597&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=3517894354067872597&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=3517894354067872597&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=3517894354067872597&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=3517894354067872597&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=3517894354067872597&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=3517894354067872597&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=3517894354067872597&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJUU2JcPwhkZURtjC3M7AJU7s",
+    "name": "OX Sports",
+    "slug": "ox-sports",
+    "category": "Gym",
+    "is_vehicle_related": false,
+    "address": "Gral. Rodríguez 1649, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 437-3891",
+    "opening_hours": {
+      "raw": "Monday: 7:30 AM – 10:00 PM | Tuesday: 7:30 AM – 10:00 PM | Wednesday: 7:30 AM – 10:00 PM | Thursday: 7:30 AM – 10:00 PM | Friday: 7:30 AM – 10:00 PM | Saturday: 10:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 120,
+      "source_url": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "expectacular",
+        "author": "Cristian Castillo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111311087812232062728/reviews"
+      },
+      {
+        "text": "Hago running y comencé para fortalecer luego de una lesión que requirió kinesiología. Divinos todos y muy buen ambiente, más allá del profesionalismo y la vasta y amplia cantidad de máquinas –algunas que ni conocía– 🥺😅😂 Pese a que amo el running, el gym siempre me fue un reto; y OX logró romper esa barrera y de a poco, como un gatito asustado 😂 me encanta... 5/5 ⭐⭐⭐⭐⭐🥺❤️😍🤗❤️",
+        "author": "Federico Algañaraz",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/118435177808864762260/reviews"
+      },
+      {
+        "text": "Es un excelente gimnasio, lleno de mancuernas y máquinas bien adaptadas y en excelentes condiciones. No solo eso, la atención es total, los instructores son pacientes, amables y súper capaces y atentos a la hora de corregir o explicar técnica y ejecución. Las rutinas que elaboran son siempre orientadas a los objetivos que uno tiene, jamás son a mano alzada o “estándares” como para cumplir así nomas. Realmente es un lugar donde uno se siente a gusto, donde se desarrolla una experiencia de familiaridad súper cómoda y donde uno puede explotar sus objetivos fisicos a gusto y al máximo. Siempre recomendables.",
+        "author": "Nazareno Barraza",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109508428278561200460/reviews"
+      }
+    ],
+    "main_product_or_service": "entrenamiento personal",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJUU2JcPwhkZURtjC3M7AJU7s/photos/AaVGc3mT7LHDyX6uDXeHDNWoyE2Zg294-ZpGl6P2ewAqwpLo9LMHY5s7XJH85swVDckHFsGBanuIorzIAADbrgbEjEDi9edOznj7_eLU0lrDNHwwaRqCF6xflxBECB2EhWIH7ZfzC3IyvTcU5vpd0C8fx4ailojnEwbikRBemRvfdZrI4hdWc54K-PYMLJ8Q2qmPkotVl_YfWlhFyddKX2o4ENcRtQaHQYGOvmbDo33YbyzwTWmJwlwOUXpRdfCvIfc7q5YrGYJiV0zLt6MXNWxmpSwKpCiOXXstkzGR4zJVY7PInBIHjJixfSt8xaypkG56O3GhetpJKGD8mLZ3tH5AifvbKnLjoyNZDz1MEsRkZ4Oa_WESz7X7jbBUsPi5zVZPxXM75zK_tsRcQMcElrPEuaoeuCx2AP-ZxxT3Eik1LaI/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJUU2JcPwhkZURtjC3M7AJU7s/photos/AaVGc3kEui1IT2TQfcndCuV9dphyd1FM-_YbysQQ-5ScbBs-aIwMEDcXaHsIY5pSIYVrbYyk-OoQ5XkhVQI3pLr37sUCFOXsimuvrxHQ1wB9g0P17c7V1O-FJaVf1Z6R29GuFPdKlfvWTJNWOpLMVAwL3Wyaf7IkKtMqc-ESIZrbIRxZNY6cfdkdAEt7a3Khe1zbS5TItWHuU-D9AKKW5SoWf0qmcggzSUCm5REdQ6i7QlBe9aZanCf31E7ch3zQ2BUCN8F0KTbgZDjJ4UsbJKzKmAFffmAjpDuMk3ySyMx2wWR42MLDSUuajM8JJRTE1Tp0m_FDPmVweokSrXp6RHk0GSRLqy9jb5XAriHL1Bh3tSD6v7G_yFAOXlO5cMe2woYIj040Xy-Sgm-8eGeae4NcHu-fmiMLW-RNXauLtLEYndE/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJUU2JcPwhkZURtjC3M7AJU7s/photos/AaVGc3lxgVsz0FkkEa6TybPCq4rEeUiMznzodH9dWgA5fVqbWv7HCcV5WuMgdiDjBzRdDHIM4yANNK0rPudo4EDwkFxilVA6OBJB6L26ZrIy0VIl0ycih3z8__MsRikruFFpUDCdqlESlL7Elg5utN1epeaHrUeyshNjv317PUpI6bJ_KY473OG2HCqXCceWwP31IUE649ZAdLrgqmZ01jtHRTCrbQHWax2UALl4PXGITn56jwxsSXePg99z6UPF_44GeGp5Bv1-D2wXhPGk5gIrMqQUB_H-ninkJ1E-E7UnGWxp7MC8YcOWCy2AUXL-qyZko_cLlWsrgaF0t-Y5EhZBGXiWPnjnH_u445Nz6fPWb5-A-qTqN_u-pk3XCAj0Vx_I4GSWn7mlEvo2JNKvHEs5phOyWeQAX3Tz2wvpQSY_IFT4Ow/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:43.943Z",
+          "notes": "Resultado automatico para \"entrenamiento personal\" en Tandil. Segmento: gimnasio."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=13498143160546046134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJ1YL9VwYhkZURNDMxwV1Bpl4",
+    "name": "Station Gym",
+    "slug": "station-gym",
+    "category": "Gym",
+    "is_vehicle_related": false,
+    "address": "Figueroa 852, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 420-8560",
+    "opening_hours": {
+      "raw": "Monday: 7:00 AM – 10:00 PM | Tuesday: 7:00 AM – 10:00 PM | Wednesday: 7:00 AM – 10:00 PM | Thursday: 7:00 AM – 10:00 PM | Friday: 7:00 AM – 10:00 PM | Saturday: 9:00 AM – 12:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 85,
+      "source_url": "https://maps.google.com/?cid=6820210556628185908&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Hola. Este gym es muy muy bueno, mi papá empezó ahí luego de una caída que tuvo y dónde estuvo sin poder salir de su casa 3 meses. Su brazo había perdido casi toda su movilidad y había perdido mucha masa muscular. Averiguamos y nos dijeron de este lugar. Los profes jóvenes todos lo tratan muy muy bien, le hacen hacer los ejercicios que el necesita y siempre le van agregando algo nuevo acordé a su edad 89 años, dos veces por semana va y no se pierde por nada las clases ama ir. Además los chicos siempre le acomodan las clases si no puedo ir por lluvia o alguna otra cosa. El me cuenta que hay gente de todas las edades y todos son muy muy amables con el y las demás personas.",
+        "author": "Sandra Schwerdt",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/113433549133215784699/reviews"
+      },
+      {
+        "text": "Muy buen ambiente! los profes le ponen toda la onda para acompañar en cada objetivo.\nIdeal para todos los miembros de la familia. Cuenta con amplia variedad de horarios (abren el sábado !!!) y buena cantidad de materiales y máquinas para entrenar.",
+        "author": "Mailen Tandil",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106183154360376012784/reviews"
+      },
+      {
+        "text": "Un gimnasio donde se entrena muy bien!..el ambiente es super tranquilo y cómodo!..un lugar increíble para entrenar💪",
+        "author": "Jose Risso",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103756098999426057686/reviews"
+      }
+    ],
+    "main_product_or_service": "gimnasio funcional",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ1YL9VwYhkZURNDMxwV1Bpl4/photos/AaVGc3mPjJkqz8almjO6vlQfNuGn74gbnNtR9q3qtD1gLj44QQo5_jkiVtTdBBPdkYU-qJtkHc8SogBIw9PmMlzov8JsVaUSE04ba5j3a0Ep0oT88a8mtnh1FHlpcEcyurldqbfWlXLV-6NUcmUhiLpf_WcMz-s91Bp8jZapjSGV4uCxskPYh8yR3J1avbOJlhI51B_oJ5vI3b42wk9s27FXhxXKTdj6aLwdUWk04U-DYYebv-ki03-oGmXP8orXICiWmnEufYwYRhNvlQ5s2P_xpTLtyELCHaNMkauauqZglcgscbHUuQCL0Reyvk5oSRz7RKbF6WXq1dRSE3hrx4aZdPAfQmJwL6RUlZJCQIHvISPOhhczxieG3kqVJiQY9rveDWJn_7CU9FzZGldb_yK5EVSLMoUU6A6GRa23FubxoGNKF78/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6820210556628185908&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ1YL9VwYhkZURNDMxwV1Bpl4/photos/AaVGc3lyztcc0FSa68LNnZ7ljrtfqHUSXNVsg7oJBCc5vNAvWT6qU1AK6mFMRX2w3dI91ezCMx7ciZnurWFEe3y582xonLyN-5XYRKHaTAJSEJ1FHl-B37-SuA7QFW41HaP2uhvhM7YetzgZ0OEUp7PGFGLs5TswvhCNldLjefFld42Pg7h4ZE8RtH0Qh5EFY9rqe9PplWHL00jilEoZrVVMoIm8BL4Y6go_uuy5v7PVJfuffp7l4Jv8R8WyIZWkNYA8e-yRoPbyZ9OajH_Il4GKlaZRIwIuNBkBNMuGIBEbx63RSNe5V3TiUWsogx83fOlDURX5c43AGsTPry_EBZ5ZmQpTnUeRzS0gCVU_AhxR30VgVViBCD8DQur09OikanXzW28tXOusCcg4VV1eFskvgtyEze7BQPsF_IfNcghOZkaE9ODi/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6820210556628185908&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ1YL9VwYhkZURNDMxwV1Bpl4/photos/AaVGc3m1N31gHk4s0LteqmQQ6OeXE-4Ecr5un4HaBKBGyXDpa11nyU6qaKK4DXR0YoNh9Kz-nr5Z98-GwX3s2OGao_yKRP-zfbCd8Ild_9lxZXJzGPAVFXHrsk3zx4oy3AAX6ZJf8-ZzZmCgDY1QsXml2-1KqO3qffWKoaOMFqJ0SGrinfBvpytpK4zvEfUZCWzLikqMRVVpgxXzclre_m7sNX60IalT-xfliVPiwEUVDnkOCS4yqW9ZQ3q6up4Gvehzu0JfwMeE2Gs3Te4Fo8LYAu5_DRKrgCBpr3c4FQHjkYR1VmIKlhlDvY9QXmbjK0ocPAMH0C9CIVmxPEqSvq2iGPMP6zg-dY7pos0jXJ4RY0VZlVwhli2Z8bb6jPYGkoHD4-CfoWb_ux_Cd_puSxNRozT7ktdmcIbu2TXkOz1-IlY9jTHR/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=6820210556628185908&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=6820210556628185908&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=6820210556628185908&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:43.943Z",
+          "notes": "Resultado automatico para \"gimnasio funcional\" en Tandil. Segmento: gimnasio."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=6820210556628185908&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=6820210556628185908&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=6820210556628185908&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=6820210556628185908&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=6820210556628185908&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=6820210556628185908&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=6820210556628185908&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=6820210556628185908&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=6820210556628185908&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=6820210556628185908&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJy_2SeZIfkZUR0azjJnSM-m0",
+    "name": "Kallpa gym",
+    "slug": "kallpa-gym",
+    "category": "Gym",
+    "is_vehicle_related": false,
+    "address": "11 de Septiembre 913, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 460-9305",
+    "opening_hours": {
+      "raw": "Monday: 7:00 – 11:00 AM, 2:00 – 9:00 PM | Tuesday: 7:00 AM – 11:00 PM | Wednesday: 7:00 – 11:00 AM, 2:00 – 9:00 PM | Thursday: 7:00 – 11:00 AM, 2:00 – 9:00 PM | Friday: 7:00 – 11:00 AM, 2:00 – 9:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 26,
+      "source_url": "https://maps.google.com/?cid=7924800924808359121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente ambiente para ir a entrenar! El profesor es super dedicado, está atento a cada ejercicio que uno hace y el entrenamiento es súper personalizado, lo cual se distingue de otros gimnasios dónde por la cantidad de gente que asiste muchas veces no se logra estar atentos a cada persona! Super recomendable",
+        "author": "Victoria Perversi",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103197899231227103955/reviews"
+      },
+      {
+        "text": "El mejor lugar para ir a entrenar sin dudas, buen ambiente, grupos reducidos y un profe de 10, siempre atento a todo, pendiente que se logren los ejercicios, que se mejore la técnica y siempre acompañando a los objetivos/ necesidades de cada uno.",
+        "author": "Jorgelina Gardino (Lina)",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/105005048219243112406/reviews"
+      },
+      {
+        "text": "Entreno con Bruno, el dueño de Kallpa, desde hace 2 años y fue un antes y un después en mi forma de tomarme el entrenamiento. Kallpa es un espacio donde me siento súper cómoda y segura, y me dan muchas ganas de ir (cosa que no me había pasado antes)\nEstoy muy agradecida por el profesionalismo y la dedicación de Bruno y por el hermoso grupo humano que se formó. Así realmente da gusto entrenar!",
+        "author": "Ivana Nigro",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111170518858058859067/reviews"
+      }
+    ],
+    "main_product_or_service": "entrenamiento personal",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJy_2SeZIfkZUR0azjJnSM-m0/photos/AaVGc3n-XLy7-sOlP0IVreRYg6hqQR6EAeVrdaw7kXDlwL1Abb4Psj9wIh2z10uBMDXKpuLOWly2iz7AIa9CH_Qd0U66xeYA4r5du9ThG9YhazMDwt0Jsp1Y0cqZV8LH6Ala_sCkJ1MKRPZMGVT6EvMBiFdB0EP3qRHBuxBHMIrPPZWPV5asrtJGmFxj5h2mnzVKADvijCBA5yNEKqTgDF8HVoTyKDx_eM0g1cUHnwXNjnFMCE7l5Y5mXvtEgLRWd07BeMBA7vYd9kMGN6klJ36UD5TMDRGu0DTwgzvlMbhbnHdFQ7jinpjt_LBSfB0DqCUukcU63xkmRlIDZ0rek1Mt_BjdwdDFlR33M0jpx09scLL7MDfYsWnnbA9h5ntjlEhDGnrFkRHbbJc3uXeCox-yg6djk4fkiOgwzBCNuEs-vPfkdg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=7924800924808359121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJy_2SeZIfkZUR0azjJnSM-m0/photos/AaVGc3nJzEnUhXIMn4zDUM1Qy-C6YYoZ-95oz_m-ZI4H9Wcnz1ByIZVPiRH_yD7Co4MyXfIU-XyfEuybM7H7i-N-dgF7DSuj3-v3b-2JP-I7FZeU7DlclfqOHVCt-XUQSROmRlfo3YqkEh8PefbTW4_f7-CbXpHk9XSmBAGHbFJyBxE04B6qssvEi5ItxW-iFeBPEE7475DmHwAafD8lFr61YWmwswGXZ2PmcY-pdJ745ZvAhYMD1zzuU2Bj2cc_RBHeyI5JMAyQq4qgeOTHm21MI5jCHgb5-V9DhBwLa8mDC6ahZw8lhWh1vBidBD21sTdqMcNz5w8z39yW40J8ooUT6Omabr3wSU7pP2JlE_1saCmjRd6TEX-WwYld_xzO9akGfhJAA6_rhXBVAKWN8S8Sctv3CXSx6QbMHTFi0avWW6CiOw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=7924800924808359121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJy_2SeZIfkZUR0azjJnSM-m0/photos/AaVGc3k5aM6773cFnNm9mpdiuesnqY1hsl6mX5-l2dKaWHO5QV9XAg8wAPg1ZZtxj-68Cj37L9--ZEo6clE5y5_urgxLnXy-Ww51rlT8sbuf40Dv2rD5JkDHDLtCNcspVbHV3mmIq3izzqVyM6nweUvo-fUvzP-lGujeatLT8zF_z43OTanB2h-tr0BLY5BG-8Lklm-tfaDYO5qSHW4QvmRo89piiVJIDJGVfBwsn7P4__SxsKwSKdvv73R5FDZD4624zYaZG8zGyTHsHkaCsGYX1OvvqUw2FShPkw-i7WZmqvTB_03RUnY_acOfQpNXKh9f6lN9yCSnulTgD9Q0MqK9TPcP-x7qepZdsHFabKudIrH225Nqd8Hyb-ycfFqLcH3nGq1SKov8DI77PScZbUlUnPkDlma1pdxpaW8NNTwVkOriFg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=7924800924808359121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=7924800924808359121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=7924800924808359121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:43.943Z",
+          "notes": "Resultado automatico para \"entrenamiento personal\" en Tandil. Segmento: gimnasio."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=7924800924808359121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=7924800924808359121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=7924800924808359121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=7924800924808359121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=7924800924808359121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=7924800924808359121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=7924800924808359121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=7924800924808359121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=7924800924808359121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=7924800924808359121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

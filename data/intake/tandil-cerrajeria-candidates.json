@@ -1,0 +1,740 @@
+[
+  {
+    "id": "google-ChIJd32xn80hkZURP5VOQArP4k0",
+    "name": "Cerrajería Don Quijote - Tandil - automotor Llaves Codificadas. Urgencias hogar",
+    "slug": "cerrajeria-don-quijote-tandil-automotor-llaves-codificadas-urgencias-hogar",
+    "category": "Locksmith",
+    "is_vehicle_related": false,
+    "address": "Lisandro de la Torre 430, C7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 453-3040",
+    "opening_hours": {
+      "raw": "Monday: Open 24 hours | Tuesday: Open 24 hours | Wednesday: Open 24 hours | Thursday: Open 24 hours | Friday: Open 24 hours | Saturday: Open 24 hours | Sunday: Open 24 hours",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.7,
+      "reviews_count": 116,
+      "source_url": "https://maps.google.com/?cid=5612275728592573759&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Atención rápida y eficiente, no solucione el problema, pero muy predispuestos me dijeron que vuelva para buscarle la vuelta. Confiables.",
+        "author": "Franco D’Agostino",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101251194043419667960/reviews"
+      },
+      {
+        "text": "Excelente predisposición y buenísima onda para resolver mi problema. Unos genios !! SUPER RECOMENDABLE.",
+        "author": "Marcos Barrionuevo Barrionuevo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103279614837924410446/reviews"
+      },
+      {
+        "text": "Muy buena atención,  siempre me explicaron todo y fueron hasta donde yo estaba. Solucionan todo y son muy atentos. Muchas gracias",
+        "author": "German Lopez Alvarez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/114176383877001962901/reviews"
+      }
+    ],
+    "main_product_or_service": "cerrajero urgencias",
+    "photos": [],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=5612275728592573759&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.95,
+    "missing_data_reason": "fotos",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=5612275728592573759&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:36:25.826Z",
+          "notes": "Resultado automatico para \"cerrajero urgencias\" en Tandil. Segmento: cerrajeria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=5612275728592573759&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=5612275728592573759&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=5612275728592573759&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=5612275728592573759&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=5612275728592573759&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=5612275728592573759&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=5612275728592573759&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=5612275728592573759&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=5612275728592573759&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJ0YSU8SwgkZURomjO-Xeldw8",
+    "name": "CERRAJERIA BRINGAS",
+    "slug": "cerrajeria-bringas",
+    "category": "Locksmith",
+    "is_vehicle_related": false,
+    "address": "Laprida 546, B7000GQP Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 15-448-4518",
+    "opening_hours": {
+      "raw": "Monday: Open 24 hours | Tuesday: Open 24 hours | Wednesday: Open 24 hours | Thursday: Open 24 hours | Friday: Open 24 hours | Saturday: Open 24 hours | Sunday: Open 24 hours",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.5,
+      "reviews_count": 39,
+      "source_url": "https://maps.google.com/?cid=1114541367508232354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Exelente servicio, atención y gran persona es mi segunda visita y nada por reprochar, un genio.",
+        "author": "Omar Vallejos",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/105917776983737177739/reviews"
+      },
+      {
+        "text": "La verdad  que la atención  excelente.  hoy  sábado a tarde me atendió  y solucionó  el problema  que tenía con la llave  del auto  .bien  predispuesto siendo  que era tarde en tandil  no hay quien  te pueda ayudarte  menos  un sábado\n.para recomendar  gracias 🙂",
+        "author": "Andrea Garcia",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/116073570520909470845/reviews"
+      },
+      {
+        "text": "Un genio, llame al teléfono y en menos de 15 minutos vino y lo solucionó! Y con la mejor onda, súper expeditivo. Por suerte nos re salvaron",
+        "author": "S B",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/105459006248827464525/reviews"
+      }
+    ],
+    "main_product_or_service": "cerrajero urgencias",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ0YSU8SwgkZURomjO-Xeldw8/photos/AaVGc3mdGEVzNZv-FqK891SIetsi1Sl6X2uKA4OCE7AQjw8-C0ceE4zDtsoe8qftBNDJa4fn7_8J7ic3r55RSrYyGQSgOUX4ogIsoFtIVft0oGSBkGT_J1OG2cRzPfQpoVUPXgn8K6oaciP1WKSTPSdI-Hms56zqB1-eZX-5zzOM3JF4tJgCGQ0Yc6jPRcq4iiSbUfuHg0jGxxzvmKtFlZpuy_vUOIaO5FtbDSyqArARizGuxKC4fNpRU-Z0SQy4jSSu5g26hzmFOKTlm-DMzyixdIDe1QbUNgXNUL5X7Lu1zMe54eVAb2XrKeNcCtCw5-GDnxKtRGjQvC693KPQwrl5NeMJBoPYWv1Gc7ZsEdOqdy8p47FDbGfuIiuSmkmOvVC8UeeXhphtZeHIp5aVvsZFY5TTOEhZtCK8kKZyyumeEr-oHfUR/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1114541367508232354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ0YSU8SwgkZURomjO-Xeldw8/photos/AaVGc3mYNn8WEx8jy9-bS5CVHHiuiL2xUfDw4oKFCcUCu8bIGc_q-LtxmUU2xhSIn3ckK1if7EZgb1QrHRvP5y4DYImdmoi8AjKGOWalD0L_nZ8edjD9DxlwATCQrulnRdwS0QRdDJuMWcAdKR9xCmE-5mQwbkcWRvQoW7Yqv4tIaL4k3ujlRt8tKYgpARaDI8nIcr5MVjbYfMJsRzcNcK4bPHkEMzDZDFL-G0Obi3IR_gXcL0CfIqU-eNapFqPpaT4MWG1ntbih9E1-MLSkMiTVsTXHxlxFv3Z3llvNuBOkoilMOyXBMV-W1EdTfWDpdRuSWKvejRJ5nFuZUXTO1w1izAILZyypg2NXjkfKfWDRPZsIyZOlHPCPp7pu6TlrInGg_8E3EdqbfVVAlFneEZH2A-ODqaxAhJhQpqsXeSoEG3kmXBP8/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1114541367508232354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ0YSU8SwgkZURomjO-Xeldw8/photos/AaVGc3kRTFdOqOQlV-pQhRADIXiVYLOdCWmHEBZ1A2zvIKtbusVjaKutklzVviMh6lxM766f2zFxTFHKsQHxlSbBmR7OfTPiAODFhqoRlKhjlb1T2PzJgGKIyzYelv0xTIvlCrpdB_pefU16U5cHnRdZ07OEPuljUIo_3VyMvMd0klIVefKlHBmNqT24hLHmYnzdJkdFsuL6236N5s78_vhbmF-_Z0daBkW8s469JX57_yq0bnnWHdfxkghmuuopmz15s5B06456swx2C5Mhivw5N-Y2ykdjzth0_XiwYT7sHx9dYNjDqNaFJunDQkyn3TFyRe26Gmu4tYHeMQt4jqA_ixukB1fk-GVZ3jUtKUK4ZJxLAdyXa5JjjBBn4YNjrWZlxmPt8qmVLA0Cn-CUebAWqbxNySjWANBWdcfFQOnnyYK97EM/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1114541367508232354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=1114541367508232354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=1114541367508232354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:36:25.827Z",
+          "notes": "Resultado automatico para \"cerrajero urgencias\" en Tandil. Segmento: cerrajeria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=1114541367508232354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=1114541367508232354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=1114541367508232354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=1114541367508232354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=1114541367508232354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=1114541367508232354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=1114541367508232354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=1114541367508232354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=1114541367508232354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=1114541367508232354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJKeFL1ZofkZURYwkivgPJ1wk",
+    "name": "Cerrajeria el Cerrajero",
+    "slug": "cerrajeria-el-cerrajero",
+    "category": "Locksmith",
+    "is_vehicle_related": false,
+    "address": "Chacabuco 888, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": null,
+    "opening_hours": {
+      "raw": null,
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.5,
+      "reviews_count": 19,
+      "source_url": "https://maps.google.com/?cid=709256484246128995&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Le pongo un 1 porque iba a ir y leí todos comentarios de como atienden. Así que me ayudaron para no ir. Ahora tengo que ir a otra más lejos. Gracias gente.",
+        "author": "Arman",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/101237193976462030419/reviews"
+      },
+      {
+        "text": "Solucionaron en tiempo y forma un trabajo que ninguna otra cerrajeria me habia podido resolver.",
+        "author": "manuel lorenzo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/104849808307054998553/reviews"
+      },
+      {
+        "text": "Las llaves que pedí estaban muy bien hechas. Dicho esto, cobran muy caro, no tienen crédito ni débito. Me hicieron una llave de más que no pedí. Mala atención.",
+        "author": "Pablo",
+        "rating": 3,
+        "source_url": "https://www.google.com/maps/contrib/112019292530443887789/reviews"
+      }
+    ],
+    "main_product_or_service": "cerrajero urgencias",
+    "photos": [],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=709256484246128995&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.75,
+    "missing_data_reason": "telefono; horarios; fotos",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=709256484246128995&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:36:25.827Z",
+          "notes": "Resultado automatico para \"cerrajero urgencias\" en Tandil. Segmento: cerrajeria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=709256484246128995&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=709256484246128995&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=709256484246128995&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=709256484246128995&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=709256484246128995&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=709256484246128995&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=709256484246128995&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJT1NbPu0fkZUR9fUFj_qY3YY",
+    "name": "Cerrajería Cerratan",
+    "slug": "cerrajeria-cerratan",
+    "category": "Locksmith",
+    "is_vehicle_related": false,
+    "address": "Hipólito Yrigoyen 1030, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 450-3538",
+    "opening_hours": {
+      "raw": "Monday: 8:30 AM – 11:00 PM | Tuesday: 8:30 AM – 11:00 PM | Wednesday: 8:30 AM – 11:00 PM | Thursday: 8:30 AM – 11:00 PM | Friday: 8:30 AM – 11:00 PM | Saturday: 8:30 AM – 11:00 PM | Sunday: 9:00 AM – 4:00 PM",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.7,
+      "reviews_count": 55,
+      "source_url": "https://maps.google.com/?cid=9718091772844176885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Mmm",
+        "author": "MARIA VIRGINIA MADRID ISLAS",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/115276151132362406790/reviews"
+      },
+      {
+        "text": "Muy buena atencion",
+        "author": "Moni Balma",
+        "rating": 4,
+        "source_url": "https://www.google.com/maps/contrib/116974551353948381865/reviews"
+      },
+      {
+        "text": "Impecable Gustavo. Tardó menos de 10 minutos en llegar y menos de 5 minutos en solucionar el problema.",
+        "author": "Sacha Vedov",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106179976532472227361/reviews"
+      }
+    ],
+    "main_product_or_service": "cerrajero urgencias",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJT1NbPu0fkZUR9fUFj_qY3YY/photos/AaVGc3lNiqpHkLFLnVGIIV7Qdw1gzoyLVkcCE-sM6PIw2nhjQd7XzwM4iKR4yHXaYew7BJH_cv9IsvvMMxZOXKQ5MncxbXHtKB4GU4d4ZoJlOAbg5JXTQdsXma3UvAY__GxRjRBxZC7fAiC3JvUbd8SE5BuJ48sZUsNUhtbXFu_rBej3B-oQDMUzXNLkRVSb_USqYLuZsK1cth9e2jm6EN5N1RRcY0ILzH1wZXYtRtmRjeo3OuqF83LA8zJg1KJjtzzvEZp-_RA6_1x-9FZo-znLDK7HL_1EnUvdMwzswES13A2tVq6Hjj_72781qC-CdiYa8606_acoZXnYzxntSxTwfBdOni_MxUwcHJu_4cfTfQZU7YBiXY28nfbRYk7nqgXnQUCo95s20n6AMmFJK18xrPLiR2ivUj1qVLjLVzvuY_M2hA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=9718091772844176885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJT1NbPu0fkZUR9fUFj_qY3YY/photos/AaVGc3kR_4YCCoaE5UBuXB7KMslhTMVNRJb6H5Uf81ETtKXOOXUrcpaVSJmLBl4Gg94fglVW4Ei8tSKlC9Vu4DrrjBGktRJ6ZpRJ00AHcrLZ893SYIPNFt5w--O-2_hiu0f-ySZ6UjNNFiza0zy5_yhjiQbt_3IwFohVEtxOqbUAhqH5TeaAgoEhtvjWGuiGVVmGujNLfXYTJtZtXvzM-fYVAvr-x4I99CO6d-VFlHn33bY3Bp-T0BQ3T7hyutCsKSFL7n6oXDyrxDqalKnJ-Wac1R_JU0iXWqB9JIAvgf0CywU02hQKel6Sy-doj2q-j6a3rKn43wJsmE-tfEfE6AEvzooBwe7Hq9I9VvuOzPcQekjxkIPDrnLWH5fhscNFsIDXmhm7MFU-2G_1sf3DZMGblccEztLL-7BI3rfXMlt6nNDc0A/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=9718091772844176885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJT1NbPu0fkZUR9fUFj_qY3YY/photos/AaVGc3mbWhmIaLXArpa7SWPwiE4moZmmwKyhiF5ykyfDaJTZfD7jCTLWRENiJzv4MI8mCYlWqzpqCUmli8Kcy9IY80gZ7Cs1NkNNXaDD8E1M1weInqqC9jU2KIkUxYun1cXYphXoWiYDKiflkAR_tEeu4wXEPCms0u_gbBOmpsBnrOsikMt_7LRjry5iRGDEKYBsUzxnZv_d1vCuisbpxz1PmcnvvceHOCUOxDftUIv5EcJn39Cmyy1TFI4dmn5urVQIrUWDmwr1uXpjyqvub9l60pnn4ofA-P-xCVNwcZzmrDTTrPx0JQs4cmf9wtu5NDiDrQ-ow6RJrjI91guocITE0fCfwmMtdVAY8E1ym9ZF_PQkweLaeFKIJogKrR9P6FYDyL9Vf7LmuK83z7gGVKjuNF-KAdsCKi9OZ1J38NoGT1HuSA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=9718091772844176885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=9718091772844176885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=9718091772844176885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:36:25.827Z",
+          "notes": "Resultado automatico para \"cerrajero urgencias\" en Tandil. Segmento: cerrajeria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=9718091772844176885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=9718091772844176885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=9718091772844176885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=9718091772844176885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=9718091772844176885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=9718091772844176885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=9718091772844176885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=9718091772844176885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=9718091772844176885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=9718091772844176885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJv8wxp44fkZURH6EfSjUeXs8",
+    "name": "La Traba",
+    "slug": "la-traba",
+    "category": "Locksmith",
+    "is_vehicle_related": false,
+    "address": "4 de Abril 1112, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 444-3835",
+    "opening_hours": {
+      "raw": null,
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 10,
+      "source_url": "https://maps.google.com/?cid=14942413827887571231&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Exelente atención y buen precio 👍",
+        "author": "Freddy Leonardo Iragola",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/100531419947959557793/reviews"
+      },
+      {
+        "text": "Muy buen servicio. Saludos a la Pauli",
+        "author": "Maian Dalffaro",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/104223211049656490425/reviews"
+      },
+      {
+        "text": "Es un excelente cerrajero y mejor persona. Muy buena atención y buenos precios. Lo recomiendo",
+        "author": "claudia franco",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/107837318262230664383/reviews"
+      }
+    ],
+    "main_product_or_service": "cerrajero urgencias",
+    "photos": [],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=14942413827887571231&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.85,
+    "missing_data_reason": "horarios; fotos",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=14942413827887571231&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:36:25.827Z",
+          "notes": "Resultado automatico para \"cerrajero urgencias\" en Tandil. Segmento: cerrajeria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=14942413827887571231&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=14942413827887571231&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=14942413827887571231&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=14942413827887571231&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=14942413827887571231&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=14942413827887571231&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=14942413827887571231&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=14942413827887571231&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJkftE_pgfkZUR1ceDCua7tUI",
+    "name": "Cerrajeria Zuzulich",
+    "slug": "cerrajeria-zuzulich",
+    "category": "Locksmith",
+    "is_vehicle_related": false,
+    "address": "Belgrano 129, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 449-8213",
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 12:00 PM, 3:00 – 6:00 PM | Tuesday: 8:00 AM – 12:00 PM, 3:00 – 6:00 PM | Wednesday: 8:00 AM – 12:00 PM, 3:00 – 6:00 PM | Thursday: 8:00 AM – 12:00 PM, 3:00 – 6:00 PM | Friday: 8:00 AM – 12:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 117,
+      "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente atención , super profesional . Muy buen servicio , totalmente recomendable !!!! Regresaría sin dudarlo !",
+        "author": "JORGE ALBERTO SALINAS",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/113023742438733511052/reviews"
+      },
+      {
+        "text": "Excelente atención como siempre. Solucionan los problemas en el momento. Muy recomendable!",
+        "author": "Paula Charlone",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/105030690502700355660/reviews"
+      },
+      {
+        "text": "Excelente atención y servicio.",
+        "author": "Roxana Martinez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/116020148198044582052/reviews"
+      }
+    ],
+    "main_product_or_service": "cerrajero urgencias",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJkftE_pgfkZUR1ceDCua7tUI/photos/AaVGc3llJ2choVHgUHBpW8qSWgduvNznUoSCNyUDwAqwqYpthR_djwqNABS0h12yjBEeZOEk1ypIcrsv5elwO5MSfKqokH6gZJy4bllGrgiLo-Jq_CTcVnOpYLpMSa7tYO4qeIh_3n2K7PPDrofTnCKKtdrRqPKhbjDFwYFSvwZh93wEMInP_U3aamY1gJE0MGMqZ_lpMJM9DnWtOX7K5CNwZmpLm8Lr1Xo5F3Xoh3CliL_8isZkSHXQh0LsMt3nM0A5PBdCWwx_rbUxyvqWeSJJb-xJYxyZx_l7NmMdMfyXwJ28ErbObNwiJYvD6LT1p--oiJWI46JeuluXxhVyVtp2RLhEKVR-0C7snGlqWkTMXl_QZsH7C4Ssa-Elosw-lYlCzIprYkHZbyayUR8JHgMHc1n7uOFerep-h6Ar_OL9sb0/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJkftE_pgfkZUR1ceDCua7tUI/photos/AaVGc3n2uaspJDpkFq_ZEdLbg8Ly31We-rvFUxrNSmjz86EB_3MA3k4U38-U5pXvTlW6g_Iy1DNFDSeGP_zUBAqPv-_PBrdXAOH8m5fnoKcgBT5jzC3JkHxlvcvphFZ-AIGJfUm7mmL7F6WXOvt6Vgvx03vYnG_cnTQEbRPkSY9IyMAqYLIK8s_mqyEH2eRC2N--CoyLjrK8Om-Qck4v40lo2xkyUUxDq0-uIDJAv-bEAuU-13f5WbjZwXbqhlb-p6BmxPW32m_ToumDgOeXzz-MGIQq1CC-EFd27TK78prb3WUzHk57Ivfq0S4yprd_xiy2oflgx5WrwnrSqfEJ4VGWZHfd5EwMZbPQA15sIGyii7aALm6LI2UoF4H3Nu09shNrW58TtO4HfWduauq62GmWSj_S6Tx5jTwdoXLGH6ufGmlP3pcj/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJkftE_pgfkZUR1ceDCua7tUI/photos/AaVGc3lf2ApAudpB1-eCVf2sva6-EHwo6CNlHYdgEAz9e2nHvBULiBQ360NgMYuznXlB_ARn6u_BpfjdKE9BBXY_CA2toMG3aVpf9rRulP2vs3LisgixSA-co33uOZwU-DeXN_mqFr2JCicKOlVMIJlSET8g-i7eESCTE0V3wWdnH1tvBcgO-zD91Mg0zRIAko3T0aBbvZnqALzMlAgRIldIW5jbryIW4hqrKY5NB06dGohrobnCoq7Hb3JViaLxLliqzxjDz0aRVFAL671FGUrjDXM_1c-GgRn1mx_L1Y0tO17-LA0vYMlQAHfWge18o2Mm-iWICU0kOubsGcG8FgnSG6_JsjTrlnKAj3jOl_S1HXFhmcaXH7Sbg40pTEt1nEZh_mRtMkMx_e_fyFp4z0pYuCzyC0mWXmWaJGxv8B66v55W7cnx/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:36:25.827Z",
+          "notes": "Resultado automatico para \"cerrajero urgencias\" en Tandil. Segmento: cerrajeria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=4806954773981153237&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,141 @@
+[
+  {
+    "id": "google-ChIJR6-N6fIfkZUR2gsP7c3xnCE",
+    "name": "Elecxon electrical materials",
+    "slug": "elecxon-electrical-materials",
+    "category": "Home Improvement Store",
+    "is_vehicle_related": false,
+    "address": "Av. Marconi 1501, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 428-8840",
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 6:00 PM | Tuesday: 8:00 AM – 6:00 PM | Wednesday: 8:00 AM – 6:00 PM | Thursday: 8:00 AM – 6:00 PM | Friday: 8:00 AM – 6:00 PM | Saturday: 9:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.5,
+      "reviews_count": 348,
+      "source_url": "https://maps.google.com/?cid=2422076566366260186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Petacular!!!",
+        "author": "miguel peralta",
+        "rating": 3,
+        "source_url": "https://www.google.com/maps/contrib/111092233926390011072/reviews"
+      },
+      {
+        "text": "Muy buena atención",
+        "author": "Guillermo Velázquez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/115448546006024691371/reviews"
+      },
+      {
+        "text": "Fuimos por un foco particular llamado \"ufo\". Afortunadamente fue acertada la recomendación que nos dieron dos de sus colegas competidores. Nos atendieron amablemente y hasta nos ampliaron la perspectiva ya que contamos con ese lugar para cualquier repuesto que necesitemos que tenga que ver con estos focos. Recomiendo su cálida atención. Su ubicación es en la esquina de una de las principales avenidas de Tandil.",
+        "author": "Emmanuel Alcala Preli",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/107450126109972758943/reviews"
+      }
+    ],
+    "main_product_or_service": "instalaciones electricas",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJR6-N6fIfkZUR2gsP7c3xnCE/photos/AaVGc3npe9Vhlf3Va7Scm4_GX9qfQfGDOoGp-_dqCJBVBuJ1OFc5vq-yTRGfqsduY_4CEnIXCpRn180pjnOz9xWHfDjGYeCUWHdVoFNi8i7Z_OqwQ-eBg_m_M1Yc6fzPU0nq2_-_3IVGbyruxIDWnjoHFq1j6hLCFWFiSK7I_ZW6Kj35GXVH1e0jlRdOcBELuojkJsyIcs1zM7kSkIE7wo1z5ErsDvPAiFL8UYtb380Ssq56r0kHzWO-AJMyKohw78EXCgpyTd02saHwuwYgjyAzm1DlBKzF8lBipkvDy-u5yuVt4pliO14cZ46xJnODKnrVIjGNAUR8gcWtznjIkR4i4Wo9FL3fvZ1tCSlSn5LMUbAJCwZTSF63iDPhqlF42IpACDXhCja1blA7mXn8upOV2YJqrv71TGLUiH65G5jO1YPw9BY/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2422076566366260186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJR6-N6fIfkZUR2gsP7c3xnCE/photos/AaVGc3kGasMooJSU10sVWjY6OW-w3MC7E1kJB-mVT1-nOMteXdqM5G5TJt_f16-7XtIfquPPezH7K3rrcgbT0UJD3CKyP6gcam5AOv4zjikMNpHt-tBqS8Zw9FZ1NYj6rnOxvf4vXjkc2vD8ac0uFmDidPfOfTeqYkTVYhjBjMYyHHYDdWJ1KboBCHgxmRzJA3qxjJos9x6LAYGq-7fG2odrKnxKwslv_4-rIBe278GTZAIwVLBdkMQmKln1u7qTyqT1gbBjCjazFnzftirHC8gi3LSwTlJfD55z9Nh6TC1XfPW-GdI2o_zgd0CYEgQnfC0m2PRwBEUi-u2lkYTqc8HgBwb8vQpuQ92-jnwsd_2E4mj_54Aywz0teYFH9p7go3c_s-uRp9fcEAIv0qrMmxxcJ7RCiDOcAgX0HtwvAKtBZD7uu-q8/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2422076566366260186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJR6-N6fIfkZUR2gsP7c3xnCE/photos/AaVGc3myUJojEvn2TjJJrTMoWTPhGddFvPBnekXBHUPzQWj8aWunQTnQqd2PYo4Gfz7daOX2gYW0UsIP5kKmEPmU1LrqTSTKXfFUp_IsXMlcC_1YX2al7OMaJ5iNlNZTg8MUfB_ubkrg3emD4mz79TmD6-QQwysfFfQhwNFArRsZCRr4m8goveKa-hqo8BjH-SKmOut-YZHRouCSIsaNjSU-vdnbMGbtvC-GDiu-UdF-JFFmjMAiZSIe0MpufFthfIB63fUWB2zyMWjAOPfGNJ6vK_4ord9kfjy8rU9V188vqNEiCZLqrrIlikjrQ4KJ8HlSo0y__sP0fzourNWN449GikH6cbpE2-11WWCgK6_2xSzdhBDxGrTOKwYTjcN5_jPWV-tWYZ8WVZVeZXlBMGUgqPTniCnoN02_J13EbCQYjxc/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2422076566366260186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=2422076566366260186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=2422076566366260186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:37:06.614Z",
+          "notes": "Resultado automatico para \"instalaciones electricas\" en Tandil. Segmento: electricista."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=2422076566366260186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=2422076566366260186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=2422076566366260186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=2422076566366260186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=2422076566366260186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=2422076566366260186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=2422076566366260186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=2422076566366260186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=2422076566366260186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=2422076566366260186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

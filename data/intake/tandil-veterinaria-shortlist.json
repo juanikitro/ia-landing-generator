@@ -1,0 +1,141 @@
+[
+  {
+    "id": "google-ChIJk1ED8JMfkZUR4cft0k-WAYU",
+    "name": "Consultorio Veterinario Fernandez",
+    "slug": "consultorio-veterinario-fernandez",
+    "category": "Veterinary Care",
+    "is_vehicle_related": false,
+    "address": "Gral. Paz 542, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 444-4777",
+    "opening_hours": {
+      "raw": "Monday: 10:30 AM – 12:30 PM, 5:00 – 8:30 PM | Tuesday: 10:30 AM – 12:30 PM, 5:00 – 8:30 PM | Wednesday: 10:30 AM – 12:30 PM, 5:00 – 8:30 PM | Thursday: 10:30 AM – 12:30 PM, 5:00 – 8:30 PM | Friday: 10:30 AM – 12:30 PM, 5:00 – 8:30 PM | Saturday: 10:30 AM – 2:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 165,
+      "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Siempre fuimos a esa veterinaria. Los conocemos hace años desde que estaban en Santamarina y Pinto. Me llamo la atención hoy, al comprar desparasitarlo para perro y gato, cobraron 30 mil cada uno. Ante la duda por el incremento, decidí verificar costos y su precio no supera los 10 mil en otros lugares. No les compro más, perdieron nuestra confianza 😞",
+        "author": "Lourdes Corrales",
+        "rating": 2,
+        "source_url": "https://www.google.com/maps/contrib/102376861759291273948/reviews"
+      },
+      {
+        "text": "La atención de Tati y Gisela es simplemente excelente. Siempre están ahí para resolver nuestras dudas y acompañarnos en los momentos más difíciles de ser tutores de nuestras mascotas. Se nota la pasión que ponen en su trabajo, su compromiso y la verdadera vocación que tienen por cuidar a nuestros peluditos.",
+        "author": "Simon Salagoity",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/112010736878632819337/reviews"
+      },
+      {
+        "text": "Son gente increible, mucha humanidad!!!\nExcelente atención de todo el grupo que alli trabaja... Mi gatita ya recuperandose y feliz de que ellos la tengan como paciente de ahora en mas!!! Super recomendable!!! Gracias infinitas!!!",
+        "author": "Lore Bértolo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106476604989495046452/reviews"
+      }
+    ],
+    "main_product_or_service": "veterinaria",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJk1ED8JMfkZUR4cft0k-WAYU/photos/AaVGc3nJNJkka6ylh0XtCB_9yCOLCW-zS5HrVA6Uj4Ie47ME7kh4qHksVPLeroV1kZdZgJ8WYm5fNoefic8QHYwSldJ4JmSj5znccjKnysliXVWaNSqwgyImqzODQjIehKvt5BRRdV6SP-c7c1U9z0j5OGl5Eb8QbB57xdCoIrCJARHV_5dsKkwzR74HTHX5tTrXoVKBtVebuoWwT6IuWNfJsyMiFF8MLsxA8eAwO_CYRfRzlaYLLJlcesc1J94IAF9H0zYDajC-WqTCjlSTl7gFZBL4Hfetu-tN2aAmTGA5Q47YW4UpkhsX-4qSYiSGEP2gwu0ghT9Q-VZ7sTOh5_rovep-OqWNcY-ALRre592hcskyB7b_h7ngxpDcFEJiue8ULhHLQwRZo1ejuFGmtDQfWQFsxbrv32bUuCJxPWaiaCpqHS0f/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJk1ED8JMfkZUR4cft0k-WAYU/photos/AaVGc3mGzqJau0mZDrbJBlgyPGqK7le6Xwp5xPKyqC3xJYrkLlY2RKdEkxkAmE9yWTGV3OkT5DXUdIqxv1ew6HCDqxJv-LhRni0kz6H8EYusF3wIqMOFI7tLjN3ol0ojwCMsdQJ03NILCNO7EsRe3YjXefetzj_IczQYMOsIqTVjvM2iwTIHwbFLXjI8Dx1bJ9QTdXZ9wteiCah9uvczZkfinJM2Q0B-g4O3JdCIeaiSmBu5q0L0zTXvAikHE0J3OPojWbcl8b8n6-shrjkTiNTy7ynfY8rR-R8sJqfuZtewQv1hEHdEZ9J2cdEIVfHdHgH3PGYIXiumf1hCyaENXh5iGIiEN86pUzYisJD5-TL4COuQlBucoPrUxSEGmeX88ZWKSzYJQSR9RPq930C362SmayfKIP3iqJpKiXGW47kIkWWVyaCzUHHL9ef2586hTeWj/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJk1ED8JMfkZUR4cft0k-WAYU/photos/AaVGc3mFnaZcLLjjfHjtLRFsP3gdnNA7ypCpe1hNM99M5jFV0qir_8VMPpO3mgu7yS-65cQowL4TRU--cT99_Z_plF3AwbEis-quhWyAvAart4PEddKvc1fg1WysoqgFzpDqxGsVvas3VmVqJE9hwJCi002FbAq2DYRgs2ZYWEcewVL3Mi2VsQXheMM4ug5SGCaVEZtfls7YN67YS0xLbypqWbQF7MJfih-CSUSmF8cDZNC6noGkMsOsEXoc0tZI6pEvC7MoHAHfikJZSu_Ayz4rcBWmu981OGdWP0SbaKdidZyqm2ubjrK0VsQw7Ow7IOCj_BkKVGh_BXAj1sscdPx9UL4mrGe7P2xL_oqWW51FfhbLw_IgLsUVoFO_lz-N7SQP1-VeuhsR2SD2_a6Y6uieDgcy-98ecrlR5H9fzOFEppQHSJkq/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:37:31.882Z",
+          "notes": "Resultado automatico para \"veterinaria\" en Tandil. Segmento: veterinaria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

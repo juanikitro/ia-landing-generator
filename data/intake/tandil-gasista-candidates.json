@@ -1,0 +1,826 @@
+[
+  {
+    "id": "google-ChIJu-M1JiwfkZURnNgTvQiDxog",
+    "name": "Plomero Gasista Mauro Veron",
+    "slug": "plomero-gasista-mauro-veron",
+    "category": "Plumber",
+    "is_vehicle_related": false,
+    "address": "Primera Junta 1507, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 451-4325",
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 6:00 PM | Tuesday: 8:00 AM – 6:00 PM | Wednesday: 8:00 AM – 6:00 PM | Thursday: Open 24 hours | Friday: 8:00 AM – 6:00 PM | Saturday: 8:30 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 24,
+      "source_url": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente servicio, quedan agendados para futuros trabajos. Los llame y en el mismo día vinieron, me explicaron el problema y lo arreglaron en el acto. Puntuales y eficientes 10/10.",
+        "author": "Aaron Lauda",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101400967188653260108/reviews"
+      },
+      {
+        "text": "Llegué a Mauro por sus reseñas en Google. Muy buena atención. Resolutivo y profesional. 100% recomendable, de ahora en más sabemos a quién llamar.",
+        "author": "Camila Burgos",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106534774809233799956/reviews"
+      },
+      {
+        "text": "Groso total, trabajan muy buen y rapido\nMe\nArreglaron el tanque de agua y las canillas que perdian",
+        "author": "Emilio Ibarra",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/115262452057517536791/reviews"
+      }
+    ],
+    "main_product_or_service": "gasista matriculado",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJu-M1JiwfkZURnNgTvQiDxog/photos/AaVGc3lzn2soSXVz_neqxZss_Fmo1lXcCtsHC6U82oo2K9yCC35uSU4HOdNXMpUN71otdesJoqxPN6Ewy4vi_XzH8JaLZLEZyfOQYKIb2MgQSTVb3Cxg8H0SWcFZ3jiZOMDIQZGMM7xOhOFW-WhBsvQduHKGSVaLAQn_mtK2oNejxUqh9bfcexy96ZWJRv2_jvIZLkYsOsPBKA8uGJUhSquOngLAhWYcS8fFG6jydQun2blZBLjXprnyOnDp1-PLcVEDty5AdCHVME-ZBQfps4VdyT9BmdfUsdGQiC7qx2zUH43u4_ZR5q1k0mvs9TCUSrTT64RoIcoLfryT2bekKYC_OKgM6OA7X0Nem__J9Oyoh86rdkYtPetFAg3C70LuV8lNP8C9jKCMVYaWCR58xKzwY1sCtTRk_-dtZtyCFk6wHpZUlg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJu-M1JiwfkZURnNgTvQiDxog/photos/AaVGc3lmD0KuVZyXFbzhmYx5lbF_KikP1uAQezOxXibI-td73knhkMSmJbhYu_GBZ2Uo_k3HnCngHfPWErQQQUJ65KxlBuNCOmFLL8FQsNrXtqWY9f8JgEwjRGQGxWGb1bikQK81fxwP0RaK6DTCTlFhlkTJZRQe1kbwVBiTVgQcI2ER0lU4idaAYORNc9dyf8KS21tiN27GqS6dJ-vlQLhFhp3NintQQpzl-3Y1R5pACAQXHmN62j5KIhQl9nwgNWJPvMVl1N4V2FCCT-z8K9zu5Zye3IVjzdqzjAypdNQtEDX6WvQ7gNMjO7khGk_SnP7kvWUMcfchAl50YiTLkw6gfVwc0Wnz_pReb2SeSuU1vWfvjzYiskj-8v18pC9SvYO90XIbdnrS-zVadmLp_zBq5QAEFIz7gmtP9qCquMvUSrsnYQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJu-M1JiwfkZURnNgTvQiDxog/photos/AaVGc3lIIn6BejI7Ij06mS22YhjBIMead5iM8BtyVI9cW9nYjzhPzXBWDpIa7QmDmvsGA-EdK4QL_XuT0fgGIDN-FZrNmENRqdLDjKraW0PWL-F8E102T_gs2B8EmfqHKGFVp0YFFIci9hZK92ToshNJAzBDvN3-JdKEs1GMkXBZSxSNn3NLNHnx34-WYi4F1YuZcKIlgQ1Z317ocI8G7qJYGWAMULC_ILqsL7RY103pJ1I1rRwTpmTPEM1LlIw0g5_q0iTr2ceNJMnJqg50lA8jyYI0ym8xYtfi7ka6C_eLS34l5KlMkWyIXK2dwGte7I1Fx3lj_Y9RNhe69dqcm0QUBEg2bnplDOMi71oY8byUQ6CqSMTWs7arX-TvXr1qAwdTVHnIMvry4ZS4w-nCE243Rxse5FoHZM64iCGwWC_v4KyPoifq/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:36:41.033Z",
+          "notes": "Resultado automatico para \"gasista matriculado\" en Tandil. Segmento: gasista."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=9855708908102080668&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJJxVwIvsfkZURLdbl6BbEd1E",
+    "name": "Petrogas Glp",
+    "slug": "petrogas-glp",
+    "category": "Manufacturer",
+    "is_vehicle_related": false,
+    "address": "Tierra del Fuego 1355, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 449-4068",
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 4:00 PM | Tuesday: 8:00 AM – 4:00 PM | Wednesday: 8:00 AM – 4:00 PM | Thursday: 8:00 AM – 4:00 PM | Friday: 8:00 AM – 4:00 PM | Saturday: 8:00 AM – 12:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.7,
+      "reviews_count": 112,
+      "source_url": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "●HOLA. QUE LAMENTABLE es que, al precio que está cada GARRAFA de 10 kg. ($30.000), haya que pedir, POR FAVOR, que te la traigan con el ENVASE LIMPIO, porque de lo contrario, te la traen al domicilio, tan sucia, que realmente DA ASCO.\n\nMUCHAS GRACIAS. Bendiciones.",
+        "author": "PAPÁ NOEL TV OFICIAL",
+        "rating": 2,
+        "source_url": "https://www.google.com/maps/contrib/114485179081464100665/reviews"
+      },
+      {
+        "text": "Excelente servicio de atención, muy buena calidad de el producto.",
+        "author": "Fertilizantes Petrotandil",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/107101447238866444709/reviews"
+      },
+      {
+        "text": "Muy serviciales los repartidores, cumplen en tiempo y forma con la entrega y te ayudan a colocar la nueva garrafa.",
+        "author": "facundo zuasnabal",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103756132883251485456/reviews"
+      }
+    ],
+    "main_product_or_service": "instalaciones de gas",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJJxVwIvsfkZURLdbl6BbEd1E/photos/AaVGc3nA7GuLQX1I_7LFttwJy183MBwDRsa5lPZBM20FHWjx3tPCjPWf3zL5yZ7ZX06u6I5a2CWqcrgnTlW1CLYK3bTJyszTb0uTiYnrW5xLhcLnJlPsSWlPq5dcFBdCsF8Yz0-CEta32--Mddjvg5Hyy-DlkQk52wUQAV6gRh68gxdLKvgYXgde6lLcnSd5aIixzSMjJhzQCeT544GBZMpv23vunom4a2Lib1jZoGqIWDvPYWA6TCW2ATRwCEhv8VB-T_jpxVsRU9IDgP0o4S15XgntrWQ358U9IcNO2M2eMm3iB1MOU4iio6tYisYmdApjooibrWxBJSyeJPytexiv3N-GkbXnwPynRUjEq-w9DFL24ioXIzZK1KsXBPw4F7DjRwVF0lq51G1NGXn56nvjit3SQa2n9L3enVvW6wT0xwT2zg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJJxVwIvsfkZURLdbl6BbEd1E/photos/AaVGc3lKK93wWKGjC-1DoI_qH2dFpK-eM98_e5wfY001CfMjZPWRZ_DcipU3bXKVoYVTh6u6lB2QAXBAsa3LFreEyer4MgxCjW9Un1jbQ63TRI6VmKBt1Qhc1CkAp-l-1aNqyfzR6j5HN5lpH8MlV0793mT7TGe0bR534sFxDP_DJFN5MjfkgEFU_JWKfnCx85IBqxZjUa0dQJutV337SZwKvSsBoFxuRrK0iYOunS4luvcRBYdH-FfNj1nPOme6AKCRbe80vfXnf5HxFJFKLU9txv-WWWCjQF22W6UOMhGJplWdEk7KGmK12-OH5PswaEaaDLbqeNgvvS9BpVkJYbp47scAI-EgBTNfrCZWYlJbSNGX-SPQ89xu9DT6e3Ib_9kUV7pyQfjYd7eNPKtcZJjGW64YWnsCWiAQRYfrt58d9iafwZs/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJJxVwIvsfkZURLdbl6BbEd1E/photos/AaVGc3m9BaFx5jEIJ-N0Q6gUFklR7b2JlNBopER-eyVkYawRzxxNEn4x7C1pRFtHvrHlf1EEF5H4KCcBZ0EH9rPA8VUJ_n145xrkvmP3RvXTM9yB0m5F98TqErE0gm15pZUH4PJ1w5cisW80vYKWbZJzqn-FFC4oktij10yO94BrTBgfAW0xbt9h-LhgCQQGx3wVZizcSfaHXknBM-jS4pkOQ9luq74g6fF5Ft0Ra83v2lZC59w8Q31R3wnqt2VfL3O9NsZbkENeHny-MtpajmXfcDBwP5ZPfvaVC_DzXdY618jlnHu3HKnAtoCj-onC2d272nQq-GliRn-b8EePv_IMSaQPEaGal1DbDJ58ss1yXzX_mvbtKyNLgxAaRZdFSfdzrHphxKaMWTPe_ZQl_-IPKimrtgUKOS6y18E9GQK-up3G2g/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:36:41.034Z",
+          "notes": "Resultado automatico para \"instalaciones de gas\" en Tandil. Segmento: gasista."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=5870376241976432173&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJFw_JCQAfkZURdPQnZQiIRdw",
+    "name": "Plomero Gasista, Federico Sánchez",
+    "slug": "plomero-gasista-federico-sanchez",
+    "category": "Plumber",
+    "is_vehicle_related": false,
+    "address": "9 de Julio 500, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 458-6725",
+    "opening_hours": {
+      "raw": "Monday: Open 24 hours | Tuesday: Open 24 hours | Wednesday: Open 24 hours | Thursday: Open 24 hours | Friday: Open 24 hours | Saturday: Open 24 hours | Sunday: Open 24 hours",
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 13,
+      "source_url": "https://maps.google.com/?cid=15872242031375414388&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Super Recomendable! Vino al horario pactado, Compro los materiales que se habian dañado , entregandome las facturas por lo que habia gastado. Saco y coloco un termotanque nuevo a la perfección, realizando el trabajo en el mismo día, de forma eficaz y prolija. No duden en contactarlo si necesitan un plomero y gasista de confianza !",
+        "author": "Sebastian S",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/104715193901175432385/reviews"
+      },
+      {
+        "text": "Excelente! Contesto en seguida el mensaje, así como su puntualidad,  prolijidad y profesionalismo. Muy recomendable y dispuesto a solucionar los problemas",
+        "author": "María Belén Tillet",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/102093119063915336090/reviews"
+      },
+      {
+        "text": "Recomendable!!! Llego puntual el día y horario pactado. Realizó el trabajo de firma eficaz y rápido!!! No duden en contactarlo si necesitan un plomero!!!",
+        "author": "Carla Bogliolo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/115238475628536825957/reviews"
+      }
+    ],
+    "main_product_or_service": "gasista matriculado",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJFw_JCQAfkZURdPQnZQiIRdw/photos/AaVGc3lKqwNf-h1kx1DJ9u8R1SWibtbccpAjMr5_5dNNo3mXMdxiWMuohHmHVrNEf8Ms0oPLuUKDM3BNLUTxV8MKCm9J5GUGwmLgNPLbwkigJeZcusR-axDPPqt2AJ0tKCg7CkIauAikhziGVZ_l956PH3mj1u6d-cd92Vm3tOBngEbB4vH1ITRsu3OEoFW5ccS5lwMJhiEO_uXcISfAO5qai9qPlkWkzfvGdzksBK9n00P098BeQVahoq0rM8o_tEgWC9Us0FDnqOq7OHFMGJ0KoXH0F7i5l2Wy9J7o1mstFtoCYo2NqMGbgHO9G2h7rV8eUSMViFk8jXuS6UAjlsFM1ptdB2CEWvntg6224bcuGrJH0qdG6tzGfN-APtOcwCek0yDxRuGmac2VP__-sabGp-tDn9WpYvx8gEASJozalvhYy_s/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=15872242031375414388&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJFw_JCQAfkZURdPQnZQiIRdw/photos/AaVGc3kA0P5xUcVWQdaBN-1TkgMMnDdXb6zST7l5B9QLsOpe4H7twR2b9ENvUXsll89Ei9loY60c31rPFN57CArj3QzroNGPCRnsglnTJommLAACfGtPT1IHKxlmsay1iERP-nsgUwwLSFEq3IBbdFINKEq8VuEe3qEKAcJZOGwGy75q71u7FBN1ulcJlQf-SICsWmbQaFOHSHtOMaVSx_rlR_t9JnX-ZB5VzWoMaeL2NZjYQZoRmsd70zrPw8HTy-BUXRU2nag5nyiQzdugZxXFobvV55Vn-rDbE0IdUCAzBIH3sZ4ep5pGIWOWwHYWlVfpDdVfcbJitHp85zNhPMLwq3NXNWxTFpr3szdk2-gy0NzC5rK0Ia_wLRE7QKA4NNUceEotzG8YnGdUjXDsf3cWWkGllj0hAnUyay_d5RhomugaDWEk/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=15872242031375414388&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJFw_JCQAfkZURdPQnZQiIRdw/photos/AaVGc3mgERNHl_ixThGNzQx9uwd6Us9AHjJJcEpwFdKT-TilSYsI34HcBkF5-TuYIeRd-KUgVg5woi0ZgmjmxFKGJVwbQeeT42Z33uu20K1dFXRxU6q8Beu9pGTxFTyg5SeOJiFXSoz2AMD_Y5QOeNbJhv7auzfHLmpsWVW0lcjkd1ZfbG0NGa99fL3Kh8Ylbzx9jVnHO9O4yghFlysBUtDzNqD4fRfjyPJM6aJEYJvYzRxFT_-m0nYBXOm2x0jboy3mpjI2GCYAMDXHi-o06fccXGH79zDeIBqB_Tb3dR9QeryeqqKjGINqq8h3gVBmKfXYyzUdtTAFH0L-PeJAvQ3uzyuPUJKJ_vH0yWGLpmV_AHtyCH66dEJB2ADt8tsKD9AkU1_YJ7koSZdl27iezmY_2wX0FWgtz02N-uuI5-8s4G48iw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=15872242031375414388&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=15872242031375414388&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=15872242031375414388&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:36:41.034Z",
+          "notes": "Resultado automatico para \"gasista matriculado\" en Tandil. Segmento: gasista."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=15872242031375414388&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=15872242031375414388&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=15872242031375414388&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=15872242031375414388&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=15872242031375414388&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=15872242031375414388&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=15872242031375414388&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=15872242031375414388&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=15872242031375414388&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=15872242031375414388&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJE55xHgwfkZURkD165FZKNp4",
+    "name": "Kain Sanitarios Repuestos Agua Gas Cloacas",
+    "slug": "kain-sanitarios-repuestos-agua-gas-cloacas",
+    "category": "Store",
+    "is_vehicle_related": false,
+    "address": "Leandro Alem 1217, C7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 449-8600",
+    "opening_hours": {
+      "raw": "Monday: 8:30 AM – 6:30 PM | Tuesday: 8:30 AM – 6:30 PM | Wednesday: 8:30 AM – 6:30 PM | Thursday: 8:30 AM – 6:30 PM | Friday: 8:30 AM – 6:30 PM | Saturday: 9:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 11,
+      "source_url": "https://maps.google.com/?cid=11400381243795848592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "El mejor lugar de Tandil. Muy bien atendido. Gran variedad de productos.  Los mejores precios. Gracias!",
+        "author": "Dario Svirnovsky",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109078538621275195193/reviews"
+      },
+      {
+        "text": "Muy buena atención y precio",
+        "author": "vanina dayan",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/115670065140102288199/reviews"
+      },
+      {
+        "text": "Excelente atención, precio y variedad de productos y repuestos de agua y gas. Conseguís lo que necesites para plomería",
+        "author": "Facundo Melillo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/104997740983018509496/reviews"
+      }
+    ],
+    "main_product_or_service": "instalaciones de gas",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJE55xHgwfkZURkD165FZKNp4/photos/AaVGc3l8W3Or_kVp0vliKcDPUVTlR1MK81WOPVQqrllQjYOg9aBu57-nf1ap4v7wRsiN0xC2cALZ7XnQrerFg0Q77i1lagpbx11K42HoYwf6LmecStKUunxwYp78u-2aHxKK28I9Wao5Bm-4bSQwgB5lHYvSth0kMEJn2MgbC4giaELR5XpxfOFVoVif7uZ_vPRYd-3rmbaNkahrMyP94TvvpuCuVfrYr11Lz2tsH8rKAcuIdZdw7SQT91qJj74a6ywdoB7QBuSx5iMcAwnXUhUZEY_tYc24ke2fKWIQEFQiGU9nxbIoQG8HaancRQ0ti35x94cfohCNejKhujbpezyaptGhFmrQbyIHqFfCufTdUAOg2PWv1QaT6XLnpdnOUCR7tG92s2mjMWFUENEwuBiyIXB-FVMXqls4u5SsVKB74uR9hX6ASRuh3sHzwpGAyrry/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11400381243795848592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJE55xHgwfkZURkD165FZKNp4/photos/AaVGc3lrsa_X9s_tBBFonQ3Rao8R4aaShT8FLkTKY0IE1vkjzOx8Xrt5shFLXbgjGRksE0dtIxzQ0hrF3ZXX_pwgy-_9XYQ6ePRB4r9eRUtd4LDpqJLZDspk2gmB_wcJ-tv5PXnCMlbYiBHZvCneeYVw4OZ-wNvGSuKMyIsRNdrY1G9PYP0xy19h4nrEc7A9rmDNsrEkZznfjM5aaSrF3oBYz0SxO_cY-6DFKbwBAqKfZefy5B28MeW67ekyGS7eeD528KfO1k8-TeHnI4FxOWuzR_6wQQ230mEVxhDPgvy7E0Pd5zX-mwNJgP5AKqcS8aw63arFC_aMWyVgXk9QdKrAyoK5-1znGmaCkImUsfzsLIhb7HAx4o5lZ5N0SHxfId1_kxy3QBp9oDCu9Bi1pGWBinMr9dniCvRy2_JznYbGZYueRnJn/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11400381243795848592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJE55xHgwfkZURkD165FZKNp4/photos/AaVGc3lTouNIc0VBNkVDhu6SKjC7S8_JP4EJmUc3-EiSu1hpGICW9EEjv-fK8XLhYhPp1l2ESK1Ka3pbeLsqre4dz1BEIUxy4wAmSY-zuecwEIqc_1SNuj3ZYfUGOKc0sJczp6t7j7ozGEkd4Oogba-rzzFSZUtP9MNrNtjO8Xv23BTzxTOki2X0yxgWrlKoN3eMCp-TF8IfbpoOyciZjMsBxuirg3pAXBMx6dyAuCQ9wfsAVC2Cv1hqJUqiiWK77BdMXCF0R1xAe02Fy56UoyXe5XKE68bTPMK4r78-KmNLuIk9OLTFaryEBBCUBV-JNvuSGgKw4WZE9kHKdwhqDswI7H8HNowveB9Hvfley8X_3mhwdqivIH-xApJHRJfznXZK3nIevKRXOLQwGhiuxC_NBJF9kbHqOo4RfKhxwg6DVvxGQQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11400381243795848592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=11400381243795848592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=11400381243795848592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:36:41.034Z",
+          "notes": "Resultado automatico para \"instalaciones de gas\" en Tandil. Segmento: gasista."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=11400381243795848592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=11400381243795848592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=11400381243795848592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=11400381243795848592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=11400381243795848592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=11400381243795848592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=11400381243795848592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=11400381243795848592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=11400381243795848592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=11400381243795848592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJa-8zU44fkZURuHYsvsvKapc",
+    "name": "Centro de Formación Profesional 401",
+    "slug": "centro-de-formacion-profesional-401",
+    "category": "Educational Institution",
+    "is_vehicle_related": false,
+    "address": "Garibaldi 853, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 443-3735",
+    "opening_hours": {
+      "raw": null,
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 16,
+      "source_url": "https://maps.google.com/?cid=10910756023676204728&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Me encanta estudiar el comienzo de las prácticas de enfermería aquí ♥️",
+        "author": "Carolina Irrutia",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/108799971950210619591/reviews"
+      },
+      {
+        "text": "Hermoso cursos!!",
+        "author": "Isabel Britos",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/100870711801256827358/reviews"
+      },
+      {
+        "text": "Divina la Directora y todo el personal, cursadas responsables y hermosas jornadas !!",
+        "author": "Pilar L",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/100776441564768836918/reviews"
+      }
+    ],
+    "main_product_or_service": "gasista matriculado",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJa-8zU44fkZURuHYsvsvKapc/photos/AaVGc3mFX15aSMnD3usAxaAHr7h76rL_N2xQXKlX9N1wagqkI-jif5VTSzqbcuIPrf3vTHUgBBpB4jkH56VSMZb3u3T87GUyVbvOk-9cqu9X98DCQwH4umji60NBXSKSNd_kNX-UjZXi9Ig7MGxcASWf7POfhyNZ8sgaGKEdDlCGmijxguz-LBaGsX8E2HOxa7FZ9d1WlUjywlYlIdd9ErQDLwdi7Uf3hgdN5ffm9n12PgZJetrlDPePST4pCwpanuRBbhLbrc7zyrlTbc2bN7TXcWn2e_EOk-zznEfibKxpnzVhOC6kmM4k3VWZfLQKBbmOrkPOZeYPUNM0BngIyLwUI4eDFWYkPRyLXdC4bd8MT-IrpmAl3U7mmikcr3B1t0i5E_Ah56P1aHbAg-72QfaLHMtovgdxYRyQGrXp78RQYdDFLEPCresTVVd6IRXN3A/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=10910756023676204728&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJa-8zU44fkZURuHYsvsvKapc/photos/AaVGc3k3RVY_9MM4FE3aYjC3kMSrCXXHwFqEkTNBJJN3hgzkwTnS1PDChuYM9f1xflPZK2EDPDrBvtdskyLagYhHEr-7Yr3gVU2xlvYb_BlPuhz6gYzjB6tkHeSaKcHQnYymx5yalNQ7hn-6BHu_Oxe0gzowAhuNTxrTZrwxKT55MgOFRpxzpH2ZNgrDfho1ABTQPHNuPH1Q0wp26gAJ-Jt6MoIdWBrSFjQpYKKn_lf8l-RdWCIphRACTdtnZ3d2ZBb5CZohDTNPv1ep07hS5H82ljDkjpDSwG01fYFhwvgQem_fwB1nM3JxFi01jvNceiZzfIw-C1GDx2NWeOJIQym0oZNmf7LmkascU2JiIZBbq_8YZKPRREkCGBFZh45qYScCQ_XhpX_is1lsgEXkedrIRALdYDoU4PpSFEx-uEJrz28/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=10910756023676204728&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJa-8zU44fkZURuHYsvsvKapc/photos/AaVGc3lM-68kC6Uhls6STZ9gUS1BbPLk5q0jaUDl34e_rd5IT1Wiu4p5ZMId_P8CwsgU1BAvLqmAx_m8JOa5uHmCy4cMEg7pGJwbWiujTDRh8Pp3XlmvFX5aCouxXtsKppHPNdtOExgF62ccrMSLdbOed_M-Ly_AFPyfOJzLLYvoLmUbDmC0yn6_-wSa6h7RLltbdHy260xaxsogBwwW2g7S94QzR4p_EGYS3DisVqFESn0qLMhrA9Io3GDrvakZKA_yaJ55PiK8gFwpOig_yiOQrqhFE-S50VI-540VHB7a7XodBw9fEqXEEJxK0Ef4lbIC8XfLIOYdIekjVLoreuNJzxRv954q-35b9m9CkosZORk0gBA-3dkY9IgFCvD_BNiKUNDTKX48JtFLrzbpLNTniIjE5fI9nm2Gr_-C5B-POek2XA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=10910756023676204728&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=10910756023676204728&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.9,
+    "missing_data_reason": "horarios",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=10910756023676204728&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:36:41.034Z",
+          "notes": "Resultado automatico para \"gasista matriculado\" en Tandil. Segmento: gasista."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=10910756023676204728&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=10910756023676204728&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=10910756023676204728&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=10910756023676204728&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=10910756023676204728&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=10910756023676204728&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=10910756023676204728&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=10910756023676204728&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=10910756023676204728&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJOcNh9H8fkZURun7I4DgAJLY",
+    "name": "Alpamar • Estaciones de Servicio",
+    "slug": "alpamar-estaciones-de-servicio",
+    "category": "Gas Station",
+    "is_vehicle_related": false,
+    "address": "y, Av. Avellaneda & Av. Brasil, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": null,
+    "opening_hours": {
+      "raw": "Monday: Open 24 hours | Tuesday: Open 24 hours | Wednesday: Open 24 hours | Thursday: Open 24 hours | Friday: Open 24 hours | Saturday: Open 24 hours | Sunday: Open 24 hours",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.3,
+      "reviews_count": 174,
+      "source_url": "https://maps.google.com/?cid=13124615458353872570&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Todo bien. Buen servicio. Amplios surtidores. Tienen mesitas para",
+        "author": "Nico Fox",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/102542159055193039734/reviews"
+      },
+      {
+        "text": "Siempre voy y me atienden muy bien, lo único que puedo reclamar es que no tienen las promociones de descuentos que te da cualquier otra Shell",
+        "author": "Marcos Blanco",
+        "rating": 3,
+        "source_url": "https://www.google.com/maps/contrib/102853566769556224701/reviews"
+      },
+      {
+        "text": "Estamos de paso. El trato fue super amable, atención rapida.",
+        "author": "Miriam Rodriguez",
+        "rating": 4,
+        "source_url": "https://www.google.com/maps/contrib/115040134747473917846/reviews"
+      }
+    ],
+    "main_product_or_service": "instalaciones de gas",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJOcNh9H8fkZURun7I4DgAJLY/photos/AaVGc3l5HP9vCvqU8hGH0CKmlsI-URJuidOeDnjrMBDKZg2wi6FXM1OtnbphZcCEXsaYZ5_69sjRzct4g-qTpOZV2LCRUuDTAvMpfxO_XLbvb-YXTNrLsIKoGT5jyTzby7t2lY5ADSoK66qn1qJAIG2LVLiEY7F_6tBBetUrVEH7Kftgmx_9LQ4Ck0KpkW1SbHbDCyE3aVTqlK_s_3S-8OmJ8EQlLFJumSyyLvARb6IEphUDioQDoSa15F6sLkM2Kuhdnkuj0v6laXnWA_-2-MIoocMasgQa9zvZuvuBjFdTkCyFf93dQGDM-Ov-Ob3x-GppFXDyBt_LHzNZB-7Qcr3huRZykPTrgUi6Z5OCaNPxJJTyQUa0r8QOKIhqwC4bZIrbcRuM7o-cTeiKGK9xZ9mhDfC59EDFQAiz1RhV2-6yW0yr3ALO/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=13124615458353872570&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJOcNh9H8fkZURun7I4DgAJLY/photos/AaVGc3lBzMrQeYlEybhONS03A7_q4UWnOBSeQw3pxsJZcZE7ysqUQIFl1A_kmeU30BtGGydnAZbcMad9UK8QzGWtQkinnKFM2pAjM3O-DmLrhpd6KV0gTERi_AFYajf7ZNTw0JjWEnQ48qBo8LSMe0uGzX5H38nefR7epl7jQsHpFhfs6UaAL3WwpVSQKv_WrONPErGpi5mmnJFtMyCIExGDVfbfJ7JxDm4zQy2HeylP588fHRIhk67VsogYa7GAIyOqhTyx47nrNKhhDxUDYhU0sh616zyNGCopdY5Hb817dKDTMZW-j5eS4IU73gdPtjBQhogCxR4AqAJg8M2d_SoTKkv9lj6pYmWtPAJ_GC3TY_s8CCbtd00ejAeJdBCGtq0zsGXXoysoqjC-sv6xsdK-bYkytF0uS86epurQLs2Xf6I_Yr5E/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=13124615458353872570&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJOcNh9H8fkZURun7I4DgAJLY/photos/AaVGc3l_r0Byz4nzZTW_RD07VBwioUMsu0adAg8BwBVeOYqA0HvtrUwt0ofFNYvj-4RtHZTLokZP5Fe66NH7_Ur008hpt15uPxJ1ndEVIMFEWQyRGvCfbaFki1YGn5pq-wzaDa8NmXl-e8O7Urw81WWyx2qhYIv7_q9yd0YtPf7FIrEnOVrSCW5qHX3CGCaEGKCPcqBOtXS_Wubqyt5xZDPxwvvBJYM4W1C1t1nTNKE7XFPCkkNRceh51XQOdEZcL9e4l01QzWnxDD74xpeH4AGiJF6YnBqd5_8M2Q37jiLqR33cvVIEqbX9WSzlLYBzuah0nVKt7SO3Pa7-Vagk5PO_Zs9b40ZXkgT17MLazCWHMjm1f5q0H0CBb7XkYmcrm6rODYIKOgJMTK5ukluuBEV7jqOQkzK1s7Q7fcNFVWyNnNhy-A/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=13124615458353872570&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=13124615458353872570&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.9,
+    "missing_data_reason": "telefono",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=13124615458353872570&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:36:41.034Z",
+          "notes": "Resultado automatico para \"instalaciones de gas\" en Tandil. Segmento: gasista."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=13124615458353872570&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=13124615458353872570&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=13124615458353872570&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=13124615458353872570&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=13124615458353872570&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=13124615458353872570&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=13124615458353872570&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=13124615458353872570&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=13124615458353872570&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "id": "google-ChIJh544QpEfkZURzu2PdaVj7E8",
+    "name": "Optica Boro",
+    "slug": "optica-boro",
+    "category": "Shopping Mall",
+    "is_vehicle_related": false,
+    "address": "Leandro Alem 589, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 442-3933",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 1:00 PM, 4:00 – 7:00 PM | Tuesday: 9:00 AM – 1:00 PM, 4:00 – 7:00 PM | Wednesday: 9:00 AM – 1:00 PM, 4:00 – 7:00 PM | Thursday: 9:00 AM – 1:00 PM, 4:00 – 7:00 PM | Friday: 9:00 AM – 1:00 PM, 4:00 – 7:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 14,
+      "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente óptica, muy buena atención de Mariano. Volveré sin duda",
+        "author": "ariel estevez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109017184158255032172/reviews"
+      },
+      {
+        "text": "Ojalá todos los rubros cuales sean para la venta ya sea para atención y  asesoramiento fueran como Mariano  Paciencia atención  y sobretodo respeto y dedicación al cliente.",
+        "author": "mariano durante",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/116967288157322897021/reviews"
+      },
+      {
+        "text": "Mariano tiene una paciencia infinita para atender y los precios son muy buenos.",
+        "author": "Agustin Cetratelli",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109124301802501765328/reviews"
+      }
+    ],
+    "main_product_or_service": "optica",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJh544QpEfkZURzu2PdaVj7E8/photos/AaVGc3kdBTui5nGcIZZPfKgnGcgJXIwUmTQB4NJCnqnf4JXjtePgaQTfb4wPtxTj3E5Ut5RdPr5cHIVo5WnE-7Asue6lQjk_GPkUwUC7sGjLnOBOroEX_IIRExwOKTVAUb7oMpR5SVA5NqyIj2lJNQ-SobGHD2dwl-AeAWWCunL72ukzcpHjitd6ay4OVCUYgZY4F8mr82efvuheS_iQnTlIctgL7iX_hKP32p0Nzai0_F8poDoIsAfGDXEcXJJYSqbr7X0Cljn6j7M9n1yVHwk0hHFYzfd4m7Se5HJQwS4tVkv86dhAYSXOOVnLbFvyVNmKfWW0WLNaV-984nVhJ9Rc_YJxnkyM3y8EOWpNkIto4ESl40ijP1QCcs5bYOnvsCZiTt1QJ4yW-FFlLs1zRvZw6u5njQtuKnTcB8r0F4fEj6GuXrHy/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:39:14.905Z",
+          "notes": "Resultado automatico para \"optica\" en Tandil. Segmento: optica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=5759087585793142222&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

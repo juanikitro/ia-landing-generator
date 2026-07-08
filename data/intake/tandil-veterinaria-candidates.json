@@ -1,0 +1,1114 @@
+[
+  {
+    "id": "google-ChIJNVjGapgfkZURdULRj_lYuT8",
+    "name": "Medicina Animal Tandil",
+    "slug": "medicina-animal-tandil",
+    "category": "Veterinary Care",
+    "is_vehicle_related": false,
+    "address": "San Lorenzo 380, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 448-4800",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 12:30 PM, 4:30 – 8:00 PM | Tuesday: 9:00 AM – 12:30 PM, 4:30 – 8:00 PM | Wednesday: 9:00 AM – 12:30 PM, 4:30 – 8:00 PM | Thursday: 9:00 AM – 12:30 PM, 4:30 – 8:00 PM | Friday: 9:00 AM – 12:30 PM, 4:30 – 8:00 PM | Saturday: 9:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 205,
+      "source_url": "https://maps.google.com/?cid=4591799123963888245&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Toto si hablara con sus 13 añitos!! seguro estaría eternamente agradecido con ustedes por estirparle por lo menos 2 Kg de tumores en su cuerpito!!muchas, muchas gracias a Yesi,Willy, Vicky, Martín y el buenísimo equipo por la calidad y calidez humana para con nosotros y sobre todo con nuestro Toto!!! Recomendables 100%",
+        "author": "ultimo sueño",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/116951621853707778006/reviews"
+      },
+      {
+        "text": "Todos super atentos y amorosos. Tuve la desgracia de tener que ir con mi perrita con un problema grave y todos nos atendieron súper bien, explicando todo y haciendo todo x mi gorda. Lamentablemente a pesar de todos los esfuerzos tuve que dormirla, y Jessi fue a casa para que estuviera lo más cómoda posible en el último momento. A pesar que no pude pagar la totalidad de todo, atendieron a mi gorda y nos acompañaron en todo momento.",
+        "author": "pollie garcia",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/117760192148545218461/reviews"
+      },
+      {
+        "text": "Son excelentes. Muy profesionales y muy linda calidad de personas. Atiendo con ellos a todos mis animalitos y siempre recibieron el mejor tratamiento. Los recomiendo sin dudas.",
+        "author": "Carolina Marsollier",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101704000804449353286/reviews"
+      }
+    ],
+    "main_product_or_service": "veterinaria",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJNVjGapgfkZURdULRj_lYuT8/photos/AaVGc3mSNvlUEV433cAigoqAzUmU_rbToUbd3QtCXde3IvS6-0zGuG2n4gCZdax2aeYYDu4vGL2YpEQzqk4jzN_exGRFFRtkyqyO9dlWW8OQI-u41etDt5GlpMUuJR9tWAeG1ZVZuB0Ge4Q-nf4YjgiZCd_QocACDIwyuu3xjisp5z4t4e5uHR6mSKd8kV-__6At1M_MqKnYoLDFqTC2mA-VROFuEKFD6PPM0SJ6kgkLytVy_C_mcW9KnZyj4hAmUXb8DhNmGDaAEy7FDmxtceu7sHFk5HyJZUGiTEyhco5z5Y_U7gzH8CLNwmS0Jcwb7AqJakC_PvTR3THHUW6davb59yItq7TCKGeP4ccaGMc4HjxD24u5amyCS_5Ji7BISTRKV3DkrfCjsZWhP9_RhLF_9CSYlZa-AkOCy8gzKP2MjiXGnl49/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4591799123963888245&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJNVjGapgfkZURdULRj_lYuT8/photos/AaVGc3np1HASiiTJt00-LfhyDVZzXr1ZCof8gsI0c3QLb894T_XXgF1d3azZh82dsagTN-MmU7fOyUwFSno4wReWYxH0oE77CmNDGI5zh4QyQM7v_XT3DVFMiHER7KsskPvMFlobLoEb8lqclyAoisHjM72u2SK9aHMzMlx_zO1AHyo0902EvZ78hwOjiML_Ii4-DzmywNXUTVKkXZOoyo4gRqfl9Y5cv2QzW-gdFFgxdf_V1M3T6ew4dka49wbNYx_wh8TVxi9Ux33iHADv1Tyv7_15OeXX-i6JtqFJ0v_zDCoRw_VI9Si1eqk_DOxs7lfY7SsTtbN66g9Hs8yIJ3L9x91VGyKUStbXVTTrmIPocNVyrls9am-JKV6EXxEC_G0rl3PuCoGDmoKDka35OZouSbhUrnDiRm_Ub-CSddXMQiZzjSU/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4591799123963888245&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJNVjGapgfkZURdULRj_lYuT8/photos/AaVGc3kr6VsmX5u-RHuaLD_CCnqVc3o6dzmr_35DGSHVdMJXDAh2WwttIN9c9JTmq0CWgqQwNfCAZX06hqlnTDKPFZ-NerAzyoJLFXfI37zRYTv2r0f5a7KpAU3NpwI5VrEnB2LeF6BAoGjoFDAS_GI4F8TuLy-SqMCxEWGop9HD_I3Air6vHM5zv7vg7QtXp3TcwcfPIf_59ZMU8-7TEuarQ-NfCUveGDRS-XR4lE6h7Irbs_5eRokTnGItcliBI-9LA_IC0piwJYTdWtFZmU9T5ApwtOOT_RHQmTFs7b4TGbqQwqLrEw_bAWTOAgHajQLck73WjyyrjXc_UqdfaqIB605P5jd-9D_pTywlXkdNoOp2gwP-2Wx2eRjHwWji-onIB_xcWuq7lTY34YTBPMaqD1oZPfDcRTaphU13K7OZtWCwMQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=4591799123963888245&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=4591799123963888245&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=4591799123963888245&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:37:31.881Z",
+          "notes": "Resultado automatico para \"veterinaria\" en Tandil. Segmento: veterinaria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=4591799123963888245&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=4591799123963888245&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=4591799123963888245&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=4591799123963888245&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=4591799123963888245&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=4591799123963888245&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=4591799123963888245&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=4591799123963888245&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=4591799123963888245&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=4591799123963888245&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJxzvBWvIfkZURcLeCQITyH9w",
+    "name": "Centro Canino",
+    "slug": "centro-canino",
+    "category": "Veterinary Care",
+    "is_vehicle_related": false,
+    "address": "Mayor M. Novoa 809 PB, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 424-0364",
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 12:00 PM, 4:00 – 8:00 PM | Tuesday: 8:00 AM – 12:00 PM, 4:00 – 8:00 PM | Wednesday: 8:00 AM – 12:00 PM, 4:00 – 8:00 PM | Thursday: 8:00 AM – 12:00 PM, 4:00 – 8:00 PM | Friday: 8:00 AM – 12:00 PM, 4:00 – 8:00 PM | Saturday: 9:00 AM – 12:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.7,
+      "reviews_count": 85,
+      "source_url": "https://maps.google.com/?cid=15861663062454089584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Son un amor, llevamos a Limon nuestro gatito y la atención es súper agradable♥️",
+        "author": "Eri Olea",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/110026432277424414271/reviews"
+      },
+      {
+        "text": "Muy buena atención, súper recomendables y de confianza",
+        "author": "Yanella Domé",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/107561960279737157052/reviews"
+      },
+      {
+        "text": "Excelente atención, muy responsables. Recomiendo",
+        "author": "Sebastián Pérez",
+        "rating": 4,
+        "source_url": "https://www.google.com/maps/contrib/113917649157626082524/reviews"
+      }
+    ],
+    "main_product_or_service": "clinica veterinaria",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJxzvBWvIfkZURcLeCQITyH9w/photos/AaVGc3mOqPlQ5eo7HEk7UCDEJxWN9hbHiUPwG3FslDQOF1Any0OFtWS19iD9AfaGuk44sGsiEjTMiCR3-QfsP2obk1d4vUbvsIEimFT71u7yXEnexzwl9ac9hvTPW_Al7f_8gR8JaIMb8E7aPVKS8VsVqATgPp05GxJB4k5SeYfXfH3sy9LfYGihhHDIvNcsNM8Puowlhg3Ln6_ptm2aUAq52WSb_zatLQutnVKs2at2jHeaFfKyw8VtIGTOeF4UOiC8ArBUwdBXxKBBMLZ2XgR23MJDGGXBygXoi1J7VkQCoEtl2cGIpBZ7Jfxrsy7KrvKxV-gRl-44uJVM4Da-rZT0PaxJhyFVocNuOlLC072do4ULSZWNVcXwFT1s6S1RPMy-p2mWrWmsIVX0dkQKH2PhjEPN4AytXU6fIhDWrXCStVNY-CZ0/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=15861663062454089584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJxzvBWvIfkZURcLeCQITyH9w/photos/AaVGc3nYFVf3xsueZcE4UJ52Tvfvj8M3LydLwetmnZuhsAsMxBpjaLowIp4PC8aycc1rfgBL3es-fp4TSe6DVnYpwdUI0JxlbNj1h9Z0RC85OMgUieYb5eMlvEu3KUrDiC8Y6qL9uSv-azB9Wc92mZtNxv_YBrJ-mXU0wx6C37LjWXDZkQMtOHZIfv4r5IOKZs9jhc1v30x2k3B2tcYxCSSc8qceV_6wVxuEV9NT5wzAJkRGonqqTOYfzOsfdSSejZ8V68K5K09KPFDNoJmhbxqTK_-8Tdfe4Rco39qfGsrp5F9chOs4hlzIh2GJrdGmy17IazXmCxEm7GLvUWouVQSXjABiKX0HaYhQNf1vS_9JRqcpwQkFiA8VEh9dHLo_BEr7A4wBMlCrHamuPrp3cs0AdJ37QoH3CNPf1lBZ16vmZ8I/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=15861663062454089584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJxzvBWvIfkZURcLeCQITyH9w/photos/AaVGc3leuZYE0pv9efkd0e6PrNdl_IrsFPb2hXzIatFJqP07zy7NqGRxpxXnxHB1D0YFCT-dyDjkJ5eW-ZWhP32E0UE_iQQjp-OZMGYN8WdSw4467RNF7Wkx9S_JhtbWAj9HCUCSQW6h3FIXcOOn_I6AIYwv_o-VrfXHW_gg6lxAliBrt6nv1vge0IeZuo3q9CNUgXC2ycpikEC_eZBR5M_SvqMEyCRS31W89FQ6QrTJlJRVeBVj7erxfNwJE4D6LdBy52psenNSTzzz11Fn4FL9IqbPDCump91DSSLy9-IsyhpudVrTu7bAqWtY8jct6N4YnR5MfbhdGR4iCKUFd-ZbbOsLg8rMIGswJGJoDAZuGilVblmuZAMK9Y8VLIkXqEd5vz7lvdaIaLIuMSsiQ65R-Op5hSaw8yH6nfa3mk_AsevVwg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=15861663062454089584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=15861663062454089584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=15861663062454089584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:37:31.882Z",
+          "notes": "Resultado automatico para \"clinica veterinaria\" en Tandil. Segmento: veterinaria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=15861663062454089584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=15861663062454089584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=15861663062454089584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=15861663062454089584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=15861663062454089584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=15861663062454089584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=15861663062454089584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=15861663062454089584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=15861663062454089584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=15861663062454089584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJ4125JJQfkZURnF72-FxAyTY",
+    "name": "Clínica Veterinaria Colonial",
+    "slug": "clinica-veterinaria-colonial",
+    "category": "Veterinary Care",
+    "is_vehicle_related": false,
+    "address": "11 de Septiembre 1030, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 452-4806",
+    "opening_hours": {
+      "raw": "Monday: Open 24 hours | Tuesday: Open 24 hours | Wednesday: Open 24 hours | Thursday: Open 24 hours | Friday: Open 24 hours | Saturday: Open 24 hours | Sunday: Open 24 hours",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.7,
+      "reviews_count": 71,
+      "source_url": "https://maps.google.com/?cid=3947757316425014940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Gracias somos de Pigüé y fuimos el domingo ala mañana con nuestro perrijo caniche que pensamos que era infección urinaria otra ves y la verdad muy linda atención del doc enseguida le hizo los análisis de orina ecografía y medicación gracias por la buena disposición al atendernos",
+        "author": "Diego fernando Dore",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/117811484458020555679/reviews"
+      },
+      {
+        "text": "Muy buena atención. Y el Dr. Q nos atendió lo reviso y tenía gastroenteritis. Así que le dio unos remedios y dieta. Y mí perrito se mejoro. Gracias Dr. !!!",
+        "author": "Martha Arce",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/112397738319674005327/reviews"
+      },
+      {
+        "text": "Una atención súper cálida, muy atentos y con gran predisposición a la hora de atender. Siempre dispuestos a ayudar, me generaron mucha confianza 😊",
+        "author": "Jorge",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/108288834079923499237/reviews"
+      }
+    ],
+    "main_product_or_service": "veterinaria",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ4125JJQfkZURnF72-FxAyTY/photos/AaVGc3nJChmlcVXwo6_6bBpMHUMklEmGZbPncSzvY-QD4ge_f9aA7Nje1F104h-N0eE7gBUj53ebolQLuXoTBeWJps6oCJudDhklKgxkjGsmGadlIxZNxVEhS9cq7VHWoQ3JTTcmsa7Y0YQUlWw0fNOXcF5exbK69b4O2_C4BfhqRQu-JrUJgKJ7i3S11Zmw9lVNa0uXKCGWA9V-zXmhJAn9OjZBBW7hLGAcpXbwmxrH-pD6zODsSzbGZQ_ygbHkJanu_CiwI3XVwfbmc15XpPPJa4-ddyGWMBlydMMAVqsR4sux925_nOpW4vauWqbZTbMy7W4KtfgiTqHp7LZnFmSNCCi5qoETNbzEEGQj2FZCSz28bQxeKJK96IuIJtHsgvDGvHn_9806l1j-y2FPFMcK7vDtJphDSglt4gZV8eniPjUgSsnyfmEmbsUc44wPmA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=3947757316425014940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ4125JJQfkZURnF72-FxAyTY/photos/AaVGc3nPBx0suQaY2X9xV2dh-N81h6LhNjY8BC8lMp9RfC5LmMvmVvpWr0ITr6fy8Xl1FjaoSHRCIPHVI83DbXV6MR1EojcqPDutRyJ91Zx2cdSPFgRSYu7MdhMGVLpau5cpy9br54pgo0lKTLZuXbRn_zmKHaWWbPNmY-f5Mi79QH8lhAREVjzHqSQeVfQBbEYtkQ5Mm7aT1gm1W2AB8pjwZGm4wrNNRECuua_JHbsD2KEVVKzvc9nQ2msQNR7mc5hzROa6XgPHaKhrTZMGgHK6GKifAyEsyBnfwnDXzJp6T8QwOnyf_2VjmuCNwmeex3-p9gMjO8kASRqQ0HP69c9ZCfAMtANQ5Y5vM0miOP7GB5HFnLIhVhBPotO8T_ruVpBOjXw76HKoJo5m8MW1UAXTPeFOhtyhPHehYDAwdplTyXheCX0sEEJJH3IN2tt6hh3h/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=3947757316425014940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ4125JJQfkZURnF72-FxAyTY/photos/AaVGc3mcP7mh5DBtvSSim4ZSTdXSvyk1mGrDo9PZgB2bCJOIhguWLhqQvr3YfMD-RoJyPyyQLbL-3xxbn5ZZlGWCMveOopS3TT3o4MLmF-cjGAw1ACbO7Ui7O5fQbd8ytNnynnzhybi7-efy8VpYkT1YnZDTZZSITQq8bVumwH6D14uAJjkCFT-epgpEa6UHxF82Clov7stNMjCW7TjrbbW-QvIdqjo27zw1hyv8mBm33P_28KEZt9BWLGie1bxb1hteg2p6BdtcxzLr6t15NMqRFVgl36NaoT5oRDj2c863fr1Wz3AaCl5j-_IFXw0w63dwIXQBCpND4_i8DTRFY7-1xrMgRDeH6EWQ2U9VCjCJ-36W9LVbdbvfTxzDjbDqgI9-B3Au0CKykFR8Rq52C8-H-qnNSxNWAhrWqakf0S7btZLJaXbQLcJKqtNlSoKvPQZO/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=3947757316425014940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=3947757316425014940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=3947757316425014940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:37:31.882Z",
+          "notes": "Resultado automatico para \"veterinaria\" en Tandil. Segmento: veterinaria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=3947757316425014940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=3947757316425014940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=3947757316425014940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=3947757316425014940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=3947757316425014940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=3947757316425014940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=3947757316425014940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=3947757316425014940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=3947757316425014940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=3947757316425014940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJZ-kapYEfkZUR2FcuL8PaLJ8",
+    "name": "Veterinary My Pets",
+    "slug": "veterinary-my-pets",
+    "category": "Veterinary Care",
+    "is_vehicle_related": false,
+    "address": "San Lorenzo 1382, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 447-8457",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 12:00 PM, 4:30 – 7:30 PM | Tuesday: 9:00 AM – 12:00 PM, 4:30 – 7:30 PM | Wednesday: 9:00 AM – 12:00 PM, 4:30 – 7:30 PM | Thursday: 9:00 AM – 12:00 PM, 4:30 – 7:30 PM | Friday: 9:00 AM – 12:00 PM, 4:30 – 7:30 PM | Saturday: 9:30 AM – 12:30 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 196,
+      "source_url": "https://maps.google.com/?cid=11469782882850854872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente atención ! y Rafael es super responsable y muy profesional 🙂\nSuper recomendable sin dudas 😉",
+        "author": "adriano adriano",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/117976782621139883741/reviews"
+      },
+      {
+        "text": "La mejor atención! Trato súper cálido con los animalitos y sus humanos, y precios más que razonables! Además de buen ojo clínico!",
+        "author": "Carolina Domínguez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/114085267939238063894/reviews"
+      },
+      {
+        "text": "Excelente atención, recomiendo, y tienen variedad de productos",
+        "author": "Yamila Melgarejo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/118174361352327439962/reviews"
+      }
+    ],
+    "main_product_or_service": "clinica veterinaria",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJZ-kapYEfkZUR2FcuL8PaLJ8/photos/AaVGc3lV6hBKGTdlWUqDN_bV34n9bTAI6jWJ1Kp6gHdx_3KAOaxLkAAao6eE-ZJ2cx197MbUbbqkeBLxqfDRM2oU6OlO30fjvqYUhc7Op8dM86NRPSq5f2pYbLjrTRzRHYreHX1ycXguiWcd3uSPBt3tWBAjJEMGj3CAsNtsDdk4E_ga0lPTAzOvzvPS-PbEKiS2jdjdqREfj72kAeJ4z8DZAbe7Fz1Y4AzZFb2orDNeZGV1r2ZJFDmtOmUnNsNeHIZ7XPp_nMwVaBI_67HJBDSlHV2UmEvofJSKRUhtaCoCx_m1xmCDgZJeBJ64r2rT94rkHptWmw5lPhK0Z7RpFZ2Eno8wrWC9OJiyWLk5i2V6UyFi2_a-Iu4N89y0pjHy0s3CYHKqmK4ruoGWIe1qO5Msz7iI0mINBPzjsNEjN2o_e2RGAA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11469782882850854872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJZ-kapYEfkZUR2FcuL8PaLJ8/photos/AaVGc3kd4_lnRuwfhNnpfR0WgLgL6TviH3pV4vaVshqRNhYoQHznlDeeKB9r5-tnUK5PRe8cRdsu-IRpQXPBLRKUYpJyyLEl7pyxIqfu9WRO7cxElXdmNG93MouSqD_4mpw4otva18EqLsE0_fL9mfXE3cBvLYmc_DqbJbddrJIZXvAI08IxFeTah4ailH5GY3eC2t_R1AUjJeRg9fnil2oMem6wljV0aQ3oIg9CGR3Oz8y1G6Z3QbZ5HSzKC_lhempISOH-IOeP-_YGRdQbEulFthaR5e464Eq3jieSglJbtSM-yY0fuKdhrzqVLMPuE0kx5AkvHyV9Z1c64Avr79gyXogXYSLnSr6K9ylc36HpQjE2ODrGkrUzjaEJUpilR3_U9zf2KQ2jZ1DOAgg_XgA8LDyXosO6VruTcgVXS8kBYHQCjA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11469782882850854872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJZ-kapYEfkZUR2FcuL8PaLJ8/photos/AaVGc3nHtqQ2n51uxLzDa8M6Vo1oQnqmP1OrrA0fp_l2DrVM5oMqClFrSFb9qzIbDfgq9-DMfyRWqIMIzOi09CID0YrI74T-dL_mTw1L3O008jKzcWBj917cs7FS0hg2SOd0Xaa0tn4vye46Hh-wywya9jLMArKjx5hbPmvRrVjBRaQI1W3ZG_bW4_OUkBdxf5Bd3DoJVz7_Cu-uaCbqXbloYTc2vVh2mv2KqzB0RQwQlyGR4YZ140gtpNoASFbY7dm653wT8lsjtBW6Y1QCKyGewJzxTLYi5se7sQaMx7psrvd0eRPMXtqEF5EkAOtSs9FaXDVF-5C2dEwwsXOUiQD063UUPArDUcLhfu4A5JlZyuFAz9C18p7M7encLXRG82o7QKUMFezomv9FUsMFB-qYbFteoNFvIM-JXegaJyPjnmw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11469782882850854872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=11469782882850854872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=11469782882850854872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:37:31.882Z",
+          "notes": "Resultado automatico para \"clinica veterinaria\" en Tandil. Segmento: veterinaria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=11469782882850854872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=11469782882850854872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=11469782882850854872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=11469782882850854872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=11469782882850854872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=11469782882850854872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=11469782882850854872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=11469782882850854872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=11469782882850854872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=11469782882850854872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJR-64yJYfkZURZQFBgWhOxJk",
+    "name": "\"Sanavis\" Hospital Veterinario",
+    "slug": "sanavis-hospital-veterinario",
+    "category": "Veterinary Care",
+    "is_vehicle_related": false,
+    "address": "Primera Junta 907, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 442-2277",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 12:30 PM, 4:30 – 8:30 PM | Tuesday: 9:00 AM – 12:30 PM, 4:30 – 8:30 PM | Wednesday: 9:00 AM – 12:30 PM, 4:30 – 8:30 PM | Thursday: 9:00 AM – 12:30 PM, 4:30 – 8:30 PM | Friday: 9:00 AM – 12:30 PM, 4:30 – 8:30 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 392,
+      "source_url": "https://maps.google.com/?cid=11080067193990349157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "SIEMPRE la excelente atención para todas mis longevas mascotas, que un par ya no las tengo por longevas, pero con excepcional calidad de vida hasta el final de sus días gracias a estos excelentes especialistas…..mis mayores elogios de gratitud a todos ellos. Sobretodo al gran profesional Fernando FOGEL.",
+        "author": "Doris Udrizar",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/102462773509793093287/reviews"
+      },
+      {
+        "text": "Todo muy bien, muy humanos, la atención  super buena",
+        "author": "Delia Imbert",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/114873102708735701722/reviews"
+      },
+      {
+        "text": "Exelentes profesionales y muy buena atención",
+        "author": "Fernando Sc",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111756818524035837580/reviews"
+      }
+    ],
+    "main_product_or_service": "veterinaria",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJR-64yJYfkZURZQFBgWhOxJk/photos/AaVGc3mA_c_IGAAubwyIfVh7rtJODoQXRT5Zn0x-0ymwtuc7_aGw4-KXycQabAmHfhebx7XBN3DSw_vjPt-0-kT1yVgExDBgtfe11reVTPX9ZoBsTT0kNgYBdvxZ87FMF3du9bQHoB3z2AlTzYwQ8yvNScQqXzi3yDf8URhVmtkC5mKPa_mdfCnSWX6FTtHDGBb_FbcU8AiSkEsitYR09os-mG6BoPKiNDIm7oC2UQ1i7MtWHqt55I2ddv66EIywq8ATgVCSPa4G6tODKpge_3VoU6t01KewWjogrlEZ71jPYVEI4EkNQqXojvVOp5o6xHSlC75VS799zrKlnXumU-YiNfdmJ9dkjqFGyrJqnQ_d-65QskKTayRCJH-JtJHPQVZp3MvTP8OaSkOBNQvttk1N1pVBr4XtYvLGMnSQaMWHN6CdOQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11080067193990349157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJR-64yJYfkZURZQFBgWhOxJk/photos/AaVGc3nYlD87snszz-yHZ05kD2dwXBTCdm7gqhOWtI5vvE4Dc7bsBDzPYb5aQXU7xwvC0hI2BOlY3y8lHprUBZ3oFuaBu30d1gv59iyFXsONmKI3df7LUHeDhtW8eL0ubETVYInrfv4RCM3GpzdpC-gWXvU32A5PEQWIkXx2p05LxLT2Y98YhxO35aeyn-2tTo2pYFcPOUa1pwhc7yzLRfxT6tr2nQdIyS2xDXMOaf4D--BnxDqqBErf6yc2hIoBR3m2wLUZxrA2yUh8-9N8WQvC-ROqmPvy6ZxyE6NemDEXHb-a9f0_azeqEPggiCJgYHunWD6G1DJr7aoQ3zYX3N1XjNyYmIjorc-fLeYViS5udqHrH5xYnX5nbNKqCtcRGVuc6RIAxQIV9_L70N-Km_8bkLPBtMi4gkpp174-yvA78nk/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11080067193990349157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJR-64yJYfkZURZQFBgWhOxJk/photos/AaVGc3n77s5czXWHUO5w6vURcQtyF-ucD5R-IBYY1cbmZRYgkeXEDXR9pW4ErRtYIjUzdWXcb9AUbYT7RytpCaX2K6z5xHs7Nd7a4peOORc91tGW-p1i8EGehfHIYWyHLOgPI9GciO9uEQqM8ZU3V_c2b88A0u8wSuMpdNHjfy2LXW051xzH7K0H7jT_oalP8GSKq5nRqMabp2lUpprjP1KDvRqxhiFvKSBlF8tXm1ba8bwAsbsallsliPegaf1rBLejo2mWfR1cXhU9pzuZqlaecnGJcra39JjilNOgKj6UBipjA5d6mXDiXG31vJwP5vTfqYcaLR58-zxUXiZ8Tg7yylGnOBX2M9xCptUT1IvihfPVbYHeWXcbJctSE1gu9aCLdw8PLeYQdKo8vXISQKKAB1pl0yexhA_hbXXenWHYg8XnXQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11080067193990349157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=11080067193990349157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=11080067193990349157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:37:31.882Z",
+          "notes": "Resultado automatico para \"veterinaria\" en Tandil. Segmento: veterinaria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=11080067193990349157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=11080067193990349157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=11080067193990349157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=11080067193990349157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=11080067193990349157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=11080067193990349157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=11080067193990349157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=11080067193990349157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=11080067193990349157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=11080067193990349157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJB4SDZrgfkZURnGPOxqgUXEs",
+    "name": "Clínica Veterinaria Paula Ribas",
+    "slug": "clinica-veterinaria-paula-ribas",
+    "category": "Veterinary Care",
+    "is_vehicle_related": false,
+    "address": "Azcuénaga 171, C7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 447-6615",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 8:00 PM | Tuesday: 9:00 AM – 8:00 PM | Wednesday: 9:00 AM – 8:00 PM | Thursday: 9:00 AM – 8:00 PM | Friday: 9:00 AM – 8:00 PM | Saturday: 9:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 110,
+      "source_url": "https://maps.google.com/?cid=5430237965824451484&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Vinimos por un finde largo, ni bien llegamos a Tandil fuimos a que nos revistas a nuestro peludo que presentó un problema en el ojo (que no estaba antes de arrancar el viaje).\n\nEstaban bajando la persiana pero nos atendieron igual, la doctora Florencia tuvo una amabilidad con el perro que nos encantó. Nos recetó unas gotas después de hacer un análisis exhaustivo y nos dio recomendaciones para curarlo",
+        "author": "Wido Giardullo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/102575242178746656980/reviews"
+      },
+      {
+        "text": "Excelente atención, muy buena predisposición, profesionales de primera, a mi perrita la atendió la doctora Florencia Britos, muy buena profesional, y su calides humana, lo mismo que su ayudante, muy recomendable y muchas gracias por todo.",
+        "author": "arnaldo koladesky",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106298968640499437596/reviews"
+      },
+      {
+        "text": "Cuando se sabe lo que hace y además se hace con amor a los animales se nota. Nos atendió en feriado por un prequirúrgico que en Bahía Blanca no conseguíamos turno.\nSabía nuestra urgencia y no se aprovechó de ello a la hora de cobrar. Ojalá hubiera profesionales de esta calidad en Bahía!",
+        "author": "Mariana",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/107686299723745294043/reviews"
+      }
+    ],
+    "main_product_or_service": "veterinaria",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJB4SDZrgfkZURnGPOxqgUXEs/photos/AaVGc3nuLtAWFMBwSbfxyyB5yGdJcN9NOItIZPH1Ky5SiWwCv2yxlKIa8CCilQtsnFJPoN8Y-vB5_QYOe3hxbdZTXlZ9tWFzNAGInxne2HI1XUepnx6ie3QE8CkizbL1nh10iKD8qD4OQMguwMGXTqFlmQCBc9KsmdUOwvcuSbq9gNh32opL-u28nWaX2HCg7_3CnDCRa5SaXXx__Y3cGTcdfRloqMgU6txT32HcII0DkSUmGssu6qC4XbwzzXFdzRje2tlE-qKGf65p-tPSUQYl9WRMBUwx33HFUZcAJA5IwfmapxFDgVxTJnVrup-quF2AF5L1DuA14yRBSjJyWq8UbsTp2py9XTogf8DWx3tP9GMpCrixYtQwAVvUg5BwkSaWQAZz3MZXc7Sb26WnNBDwEIG1_7hUmCZIoVUGY41mEGDMnm1j0KXkoVN5WdSFXWGV/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5430237965824451484&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJB4SDZrgfkZURnGPOxqgUXEs/photos/AaVGc3mXa3WaqRITHqqNzNtn19VGn0D2uSisaypwB35jfbc0pKloP164qtbbVRDICk9nI4r4GUHAsVjWutNJ_NnLrmUdhPqDPm0uU6-4T7iLKJo9GRj6X6z6Yt5AnzxElJgVmbcwrWmST2IADhZYAafUU9JhBLxcU0fYcxBVYrb8-5shD5wQyxr8iHWwrdIMmytRGZ_M03YglWLfSdvh-J9ohBuh3qA-kOKWBfHEb322h6yg69dKMBN0IkHBkJMp26wng23EQ2kSNQtt_Dr17iZE3SydAePH5NhdDp97pRCkXlzW_QbQQJ2ysjBnymUefC-ruhJuBQxZawDnLEg5FwOpA_RKkT3ufK2J4qMYDI6FJNSz39-NxTv238igk1vsLWRFEAVDBOESUy09f5RMgEosRb6F56E5wkoEGfMeyb2V6pZTWd7L/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5430237965824451484&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJB4SDZrgfkZURnGPOxqgUXEs/photos/AaVGc3kuiRQErd33t-FHtY3jQSR7hrSHQSTYTJUbz7c_Qz8m5ENPv6YadL4bh2f9VtaST2YMVWK5wU9qGre2HsXCRqu2Dmr8hyk0dbBUF4-ixXzos3zYHhpYgBwdljJzTO_AT29zkH8okl75OgFxpMYvVkKRHtic1wVfhGA726BYzw_kD1XDczgccqo_jjkW7nKnwBVeHFOtIQ-oy2Nze7wlka59FZPjdZcB2As8Erpx9_Gesd_HhbOl_3QcZBsoT1fscXUgY2gwGFkxCA2LnYdSpq9q2PBjeMY17E8xr5TONQDhnT_BSdJWopVe7FiCixyGhi5iMa250KCjI26ANdu_4ZqjDFykEEup_uqr1pznI1fT1Yc9vtkKvNSGXsWMmz3nvLb6F9fNqnt6oc9vQn_6jy9BIsmdtUGj7kV8YLBSVDF3gG3JThxHQUcP1E3fIw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5430237965824451484&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=5430237965824451484&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=5430237965824451484&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:37:31.882Z",
+          "notes": "Resultado automatico para \"veterinaria\" en Tandil. Segmento: veterinaria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=5430237965824451484&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=5430237965824451484&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=5430237965824451484&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=5430237965824451484&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=5430237965824451484&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=5430237965824451484&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=5430237965824451484&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=5430237965824451484&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=5430237965824451484&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=5430237965824451484&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJDXgz04UfkZURXP28shso2Cc",
+    "name": "Veterinaria Tandil",
+    "slug": "veterinaria-tandil",
+    "category": "Pharmacy",
+    "is_vehicle_related": false,
+    "address": "Montevideo 562, C7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 444-8235",
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 6:30 PM | Tuesday: 8:00 AM – 6:30 PM | Wednesday: 8:00 AM – 6:30 PM | Thursday: 8:00 AM – 6:30 PM | Friday: 8:00 AM – 6:30 PM | Saturday: 8:30 AM – 12:30 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.7,
+      "reviews_count": 88,
+      "source_url": "https://maps.google.com/?cid=2871088861876649308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente atención muy buenos precios , super recomendable",
+        "author": "Jorge Durand",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/108293637909320409770/reviews"
+      },
+      {
+        "text": "Variedad de productos veterinarios para mascotas y muy buenos precios, la atención es muy buena 😊",
+        "author": "Claudia Llanos",
+        "rating": 4,
+        "source_url": "https://www.google.com/maps/contrib/110010112472789038528/reviews"
+      },
+      {
+        "text": "Excelente calidad en la atención....ganas de trabajar,  aún fuera de hora....UNA GRAN SONRISA Y TOTAL DISPOSICION!!",
+        "author": "Doris Udrizar",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/102462773509793093287/reviews"
+      }
+    ],
+    "main_product_or_service": "veterinaria",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJDXgz04UfkZURXP28shso2Cc/photos/AaVGc3na9XbJkY8H_DmAaOGaB2YBeuNkPeJCKk91qR86G4Yu6BDqYY_G9cPXLPAMVUEaDCyZVf89Ge-jk7pAfnffYnUTFjIW9q5JtEYxksDAb5kPkqdRiJL0FtBSwx45onzAn18ePpj8JBvv90_I39Zz9WaHs4PlXdCBp9EpHvVmp23CH_XKROkKIPMq3rZc2lAfFTe7aGi6Z9Kk9d-xEIZQzLvghX-MR4TesjEBb54qF_KvN7R8Hh45F5jogVFbjCBbdHwYQzXj_7UEEoZiSQbCTl-mxYuBySeeR2pJ0AN4gZt-wFVhx5YbibdVeglMEnzyvkxG7_sHgXL4Qou5oRhmnUX8UNJYM3t_oFlIlcuyxuN6DTNrCxp01VRYHpOpXT3y3Yp1YoddYH6aO6XR-btw8j3WzB0aA8SOBWjjmJ1wAADXlcKe/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2871088861876649308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJDXgz04UfkZURXP28shso2Cc/photos/AaVGc3lZY0G_99FLL-vEdhAFTzbQ9dZw5Jotz2nGVFw6Ktao6yvHJRhy_qF0RK89zK7P7t9PRxZs-hbbbbSS-yMjwTUDeeGssOcW-oB8rs0WR0eRW6tflSnBFzjo1E07o37nd-NtHJ0-N7KrImDUu8NxNkNomkEGuYw_uTkg5iMphDlnLPibV_BjcSKW-6xP3JXelbbuQ5uRemg73khMJTKuTuNCUDaq_po_NEhIdnIgXF-yeBM3fwR-FaN-OHgKZsGB9S7oJxxkg_Xps9DMdjJ7jJkuwSxVATXhSLMDSrU7OQwevSgONSRcOpxPG6o86grElbqBrTd3SPQKzTmJ_YoOf2rfW2V-7knC-8bJ2BgnMzILI_XHbne5YvTyWHH3jn6EpfIul9Dt9n6NF8m8QPQpZQPvMNkDMF7ldxo4-XFrBGW-v9E/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2871088861876649308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJDXgz04UfkZURXP28shso2Cc/photos/AaVGc3nDGW8mIYubL3R_3ElSP2n8nBnI_TE7GhDIeKLLTjdWxq9GxhmXIlIByuTNQd46cRA0nj2SkxUxkLDvzd8677I2EoQ3-tbQEeEmKsZhQzzwyunvDv5ynf-nYTIxSHWChDYOS8Gqds0o1imjyM3rL8-f1a8Qm_LqC4eplCe5vFcGn-nTjBg8etOyIwp9Sc5uhyN6HCARyS-ja-6gk1rtXwhWsczqsq7XUYlu5RwYJR0HGvHCOrgxxkqAMNY9LqsFBYwcAycn_fZslSSulNUT51ww10g_tIYlNVf3b_e_IOb-hDjmatcxQfPmYuLpFoV8GUARzHOfmNSE8UglXyYtBqc-q2_B1SWMeHKq2qLVqu1U6tsuk87CGlBp0H2SL8yO04C0hVejGMPO-Rsmaoiywr4k-XDZkYvKeQM/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=2871088861876649308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=2871088861876649308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=2871088861876649308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:37:31.882Z",
+          "notes": "Resultado automatico para \"veterinaria\" en Tandil. Segmento: veterinaria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=2871088861876649308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=2871088861876649308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=2871088861876649308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=2871088861876649308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=2871088861876649308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=2871088861876649308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=2871088861876649308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=2871088861876649308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=2871088861876649308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=2871088861876649308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJk1ED8JMfkZUR4cft0k-WAYU",
+    "name": "Consultorio Veterinario Fernandez",
+    "slug": "consultorio-veterinario-fernandez",
+    "category": "Veterinary Care",
+    "is_vehicle_related": false,
+    "address": "Gral. Paz 542, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 444-4777",
+    "opening_hours": {
+      "raw": "Monday: 10:30 AM – 12:30 PM, 5:00 – 8:30 PM | Tuesday: 10:30 AM – 12:30 PM, 5:00 – 8:30 PM | Wednesday: 10:30 AM – 12:30 PM, 5:00 – 8:30 PM | Thursday: 10:30 AM – 12:30 PM, 5:00 – 8:30 PM | Friday: 10:30 AM – 12:30 PM, 5:00 – 8:30 PM | Saturday: 10:30 AM – 2:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 165,
+      "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Siempre fuimos a esa veterinaria. Los conocemos hace años desde que estaban en Santamarina y Pinto. Me llamo la atención hoy, al comprar desparasitarlo para perro y gato, cobraron 30 mil cada uno. Ante la duda por el incremento, decidí verificar costos y su precio no supera los 10 mil en otros lugares. No les compro más, perdieron nuestra confianza 😞",
+        "author": "Lourdes Corrales",
+        "rating": 2,
+        "source_url": "https://www.google.com/maps/contrib/102376861759291273948/reviews"
+      },
+      {
+        "text": "La atención de Tati y Gisela es simplemente excelente. Siempre están ahí para resolver nuestras dudas y acompañarnos en los momentos más difíciles de ser tutores de nuestras mascotas. Se nota la pasión que ponen en su trabajo, su compromiso y la verdadera vocación que tienen por cuidar a nuestros peluditos.",
+        "author": "Simon Salagoity",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/112010736878632819337/reviews"
+      },
+      {
+        "text": "Son gente increible, mucha humanidad!!!\nExcelente atención de todo el grupo que alli trabaja... Mi gatita ya recuperandose y feliz de que ellos la tengan como paciente de ahora en mas!!! Super recomendable!!! Gracias infinitas!!!",
+        "author": "Lore Bértolo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106476604989495046452/reviews"
+      }
+    ],
+    "main_product_or_service": "veterinaria",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJk1ED8JMfkZUR4cft0k-WAYU/photos/AaVGc3nJNJkka6ylh0XtCB_9yCOLCW-zS5HrVA6Uj4Ie47ME7kh4qHksVPLeroV1kZdZgJ8WYm5fNoefic8QHYwSldJ4JmSj5znccjKnysliXVWaNSqwgyImqzODQjIehKvt5BRRdV6SP-c7c1U9z0j5OGl5Eb8QbB57xdCoIrCJARHV_5dsKkwzR74HTHX5tTrXoVKBtVebuoWwT6IuWNfJsyMiFF8MLsxA8eAwO_CYRfRzlaYLLJlcesc1J94IAF9H0zYDajC-WqTCjlSTl7gFZBL4Hfetu-tN2aAmTGA5Q47YW4UpkhsX-4qSYiSGEP2gwu0ghT9Q-VZ7sTOh5_rovep-OqWNcY-ALRre592hcskyB7b_h7ngxpDcFEJiue8ULhHLQwRZo1ejuFGmtDQfWQFsxbrv32bUuCJxPWaiaCpqHS0f/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJk1ED8JMfkZUR4cft0k-WAYU/photos/AaVGc3mGzqJau0mZDrbJBlgyPGqK7le6Xwp5xPKyqC3xJYrkLlY2RKdEkxkAmE9yWTGV3OkT5DXUdIqxv1ew6HCDqxJv-LhRni0kz6H8EYusF3wIqMOFI7tLjN3ol0ojwCMsdQJ03NILCNO7EsRe3YjXefetzj_IczQYMOsIqTVjvM2iwTIHwbFLXjI8Dx1bJ9QTdXZ9wteiCah9uvczZkfinJM2Q0B-g4O3JdCIeaiSmBu5q0L0zTXvAikHE0J3OPojWbcl8b8n6-shrjkTiNTy7ynfY8rR-R8sJqfuZtewQv1hEHdEZ9J2cdEIVfHdHgH3PGYIXiumf1hCyaENXh5iGIiEN86pUzYisJD5-TL4COuQlBucoPrUxSEGmeX88ZWKSzYJQSR9RPq930C362SmayfKIP3iqJpKiXGW47kIkWWVyaCzUHHL9ef2586hTeWj/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJk1ED8JMfkZUR4cft0k-WAYU/photos/AaVGc3mFnaZcLLjjfHjtLRFsP3gdnNA7ypCpe1hNM99M5jFV0qir_8VMPpO3mgu7yS-65cQowL4TRU--cT99_Z_plF3AwbEis-quhWyAvAart4PEddKvc1fg1WysoqgFzpDqxGsVvas3VmVqJE9hwJCi002FbAq2DYRgs2ZYWEcewVL3Mi2VsQXheMM4ug5SGCaVEZtfls7YN67YS0xLbypqWbQF7MJfih-CSUSmF8cDZNC6noGkMsOsEXoc0tZI6pEvC7MoHAHfikJZSu_Ayz4rcBWmu981OGdWP0SbaKdidZyqm2ubjrK0VsQw7Ow7IOCj_BkKVGh_BXAj1sscdPx9UL4mrGe7P2xL_oqWW51FfhbLw_IgLsUVoFO_lz-N7SQP1-VeuhsR2SD2_a6Y6uieDgcy-98ecrlR5H9fzOFEppQHSJkq/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:37:31.882Z",
+          "notes": "Resultado automatico para \"veterinaria\" en Tandil. Segmento: veterinaria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=9584106751606507489&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

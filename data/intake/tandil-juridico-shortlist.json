@@ -1,0 +1,141 @@
+[
+  {
+    "id": "google-ChIJrfGdiJsfkZURT-mTqsAYjKQ",
+    "name": "Estudio Bertucci Abogados",
+    "slug": "estudio-bertucci-abogados",
+    "category": "Consultant",
+    "is_vehicle_related": false,
+    "address": "Alberdi 828, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 411-6653",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 1:00 PM | Tuesday: 9:00 AM – 1:00 PM | Wednesday: 9:00 AM – 1:00 PM | Thursday: 9:00 AM – 1:00 PM | Friday: 9:00 AM – 1:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 14,
+      "source_url": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Excelente profecional. Responsabilidad y compromiso",
+        "author": "Martin Dick",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101859519265443198313/reviews"
+      },
+      {
+        "text": "Muy buenos profesionales!",
+        "author": "gabriel saez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/102852185853898586409/reviews"
+      },
+      {
+        "text": "Exelente atención por parte de Juan Pablo Bertuuci!",
+        "author": "Sergio Orsatti",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/110313846043424711669/reviews"
+      }
+    ],
+    "main_product_or_service": "abogado",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJrfGdiJsfkZURT-mTqsAYjKQ/photos/AaVGc3lIxuT1De4Q-Q003Kw-gm-DKYnZCoWZOykABnyrTlZFoS9jMc_9lG-5vgq3xzoQTpcl4Mn-4y98iRZj-4fAfbrlAfDv8lIo_EBZ7uxgX4Repsk-I48s9XaFsZs3CkpirwFtWaOiEFKmmdbpX5WgHSqQFz96jwtaPH_4lBwVh0b5_bFm-Rh1ISQD_eliY6hGIP2I6b6k8ys9qUtUBr1YxfYb-tpDc45zMJwUQErBbc1eACpUyd1htgpOCVz4liS35olFlRWqY3kTvdEkVrc_XAbm5oyZu5-gS9-9ITZzARCNiLh-vOdrs8JLu21rvFQ2I7kYWL6Bh8zywzRAnSJyekeJTCZ43uCDTvwaqVfdYdCZDgrnCK7VXIMqJ_kGna3gnCtRGPrP82UcJ_2fBK-l1xDvJ-HDfQEjy7ze1LK6LGEB9bY/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJrfGdiJsfkZURT-mTqsAYjKQ/photos/AaVGc3mM7r97mBdmZC747DbbXLuf19arU_uCWL2uVJAPCfYnnZA6u72meLV3bPpTKDC3zixT88tRTur3KBIDmK9ERr9Ye8Y8b_w0ex17sAJ1BpnXf7TJ66lE_MubfJg5Je2sN93K3p9FAmrat4d0abZ_O_R8PiQ-2yH9m71wFcrSLHA3Q0Dccr2jBDjnmgY5Ux_XtLpTh8jDGtK6HtDoK9xRlrx_FmyOkBpf7DYPUrmi9yU1ZqoyUBIZCL5JalvaB5_ghr7_utukskGFBGv3ihc6kVJ1Vs17ZECm9ZeWHakqGuz2xcKssNPkyE_gVaW1YkGcYDhTDqcr78EdV1g-P_Chb1iPY6HehqNxKv_MqWNQttrD6pUWs4DcmpjAo7TuPnbDi2j5FOq9qUNdRCXMj6xfubXwURYYvtfIEkn7F6xx4UW169o/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJrfGdiJsfkZURT-mTqsAYjKQ/photos/AaVGc3lr7cpPoAE2GC7HnrqqnfSssZsWfVooHAgWWKmM4pIcCLomPwVLntZn3DIsTXnDUi4nDnBF4Aw1edOjoh3GUshTg7pVFS0sgTJJeWIlKYZkrcYlxeq7HdsSTKSW0-Qz4o8KNyX4a2OQLLzkiiRo62-vLmSmpMFqtkEji5FfaFIfA26GHL8idScDSr7BHszjxDZEHMVyQ7tzS7D5MfDqdT3DE8zLlt7wewsgQZ-Wp-zH35NrIZ3Xb8DHwj8QUsFYg-eDPbKamWUFInqIJcw8JrVU_tvDtjZZPFAboQNcTuM9V3TR2zYkltixyKuBPkU5XhkFjZcezjQuUWQUFIbmCWXtRFD23nXmfU6oK_gfCVHNKdetMKohpKD4bG1VE60kdM4hZPDR0D59Pw_kKtvkdZUzqhwZuhK2aZH0rBlRG6rwcrY/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:39:30.356Z",
+          "notes": "Resultado automatico para \"abogado\" en Tandil. Segmento: estudio juridico."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=11856879134734281039&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

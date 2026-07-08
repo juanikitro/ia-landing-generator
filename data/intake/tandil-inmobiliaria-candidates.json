@@ -1,0 +1,239 @@
+[
+  {
+    "id": "google-ChIJ9RlqGLgfkZURRCp98Qb4jvU",
+    "name": "Alejandra Ferreiro Propiedades",
+    "slug": "alejandra-ferreiro-propiedades",
+    "category": "Real Estate Agency",
+    "is_vehicle_related": false,
+    "address": "Av. Avellaneda 512, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 463-0281",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 2:00 PM | Tuesday: 9:00 AM – 2:00 PM | Wednesday: 9:00 AM – 2:00 PM | Thursday: 9:00 AM – 2:00 PM | Friday: 9:00 AM – 2:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 22,
+      "source_url": "https://maps.google.com/?cid=17694352694690261572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Dejo esta reseña como garante del contrato de locación de mi madre. Al momento de ingresar al departamento, hace ya más de dos meses, la propiedad se entregó con múltiples desperfectos de mantenimiento.\n​Desde el primer día nos venimos comunicando de forma formal y reiterada para que se hagan cargo de las reparaciones que legal y contractualmente les corresponden. Sin embargo, la única respuesta es la indiferencia: se hacen los desentendidos, dilatan los tiempos y juegan con la paciencia y la salud de una inquilina mayor de edad. Si están buscando alquilar con tranquilidad y con el respaldo de profesionales serios, no recomiendo para nada esta inmobiliaria.",
+        "author": "Flavia Sacks",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/104469371848973621642/reviews"
+      },
+      {
+        "text": "Estoy más que agradecido con Alejandra y su equipo. Alquile por dos años un departamento que encontré por medio de ellos y siempre fueron muy atentos conmigo. Cualquier duda o problema que me surgia siempre pude contar con ellos. Han cumplido al pie de la letra el contrato y por eso le he recomendado la inmobiliaria a otras personas que se están por mudar y buscan departamentos o casas. 100% recomendados!",
+        "author": "Renzo De Leo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/113711400641424519603/reviews"
+      },
+      {
+        "text": "Super profesional.\nResolvieron nuestras inquietudes de una manera rápida y eficaz.\nSe nota su vocación y el amor con el que trabajan.\nPersonas dedicadas hace años a este rubro.\nMuchas gracias!",
+        "author": "Lorena Diaz",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/117875731152497044874/reviews"
+      }
+    ],
+    "main_product_or_service": "inmobiliaria",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ9RlqGLgfkZURRCp98Qb4jvU/photos/AaVGc3lN9_jkciDrClLNwmZo_VvA_g2qNZ5L51p9Qrx_C4Yyoa7_QhJAZ6cb3XJjYW9lc-trHCZIyJKcu475AKNex78tiJDsIv-Pw42twNresPvmGAFltES_UKmK1yGyQ0yFrAQYeGO-Nv2fE7R6H9Iem9gZ8AlGYuB9iNIm6cV578od856uOj7gSMTO7aZu288iY4_iUUyreTNj2cy3prQZD1Euni16IP2BoR6Nd99kAw0maRynztwaRe62ZDRcRxAM6clRctlf8e3fmrj5DHYF2N6YuHF0w1At_PuR12Q9AtJz7nT1OJEjILJgnTvR1oWfOI78WalqHckMnt3nHUeQ06l8tYG4eTprxfpc3GvGnd41b4_X6hEaD93Zl-13c7IuVflFGbzhTL5yLHudwLBmdVr7GPU0l4XaCnwOLBPX-k20C_jnIqlYbgYlXV2wdqX_/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=17694352694690261572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=17694352694690261572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=17694352694690261572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:55.755Z",
+          "notes": "Resultado automatico para \"inmobiliaria\" en Tandil. Segmento: inmobiliaria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=17694352694690261572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=17694352694690261572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=17694352694690261572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=17694352694690261572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=17694352694690261572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=17694352694690261572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=17694352694690261572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=17694352694690261572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=17694352694690261572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=17694352694690261572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJHVwBgCggkZURcy2-PXPCccc",
+    "name": "Propiedades Norte",
+    "slug": "propiedades-norte",
+    "category": "Real Estate Agency",
+    "is_vehicle_related": false,
+    "address": "Quintana 217, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 444-5504",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 1:30 PM | Tuesday: 9:00 AM – 1:30 PM | Wednesday: 9:00 AM – 1:30 PM | Thursday: 9:00 AM – 1:30 PM | Friday: 9:00 AM – 1:30 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.5,
+      "reviews_count": 15,
+      "source_url": "https://maps.google.com/?cid=14371481686128864627&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Muy buena atención, amabilidad, confianza",
+        "author": "Graciela Martinez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101568024503999433430/reviews"
+      },
+      {
+        "text": "Muy atentas en su atención y amabilidad",
+        "author": "Graciela Martinez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/110459381023893807471/reviews"
+      },
+      {
+        "text": "Muy buena la atención.cumplidoras con el trámite gracias.gracias.....",
+        "author": "dora cejas",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/113372668171584401773/reviews"
+      }
+    ],
+    "main_product_or_service": "inmobiliaria",
+    "photos": [],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=14371481686128864627&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.95,
+    "missing_data_reason": "fotos",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=14371481686128864627&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:55.756Z",
+          "notes": "Resultado automatico para \"inmobiliaria\" en Tandil. Segmento: inmobiliaria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=14371481686128864627&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=14371481686128864627&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=14371481686128864627&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=14371481686128864627&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=14371481686128864627&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=14371481686128864627&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=14371481686128864627&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=14371481686128864627&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=14371481686128864627&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

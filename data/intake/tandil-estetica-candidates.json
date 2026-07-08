@@ -1,0 +1,782 @@
+[
+  {
+    "id": "google-ChIJg_XNlEIfkZURMoi2__CA_Go",
+    "name": "Ana Paula Centro de estetica by Ro Parasuco",
+    "slug": "ana-paula-centro-de-estetica-by-ro-parasuco",
+    "category": "Beauty Salon",
+    "is_vehicle_related": false,
+    "address": "25 de Mayo 994, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 425-1926",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 6:00 PM | Tuesday: 9:00 AM – 6:00 PM | Wednesday: 9:00 AM – 6:00 PM | Thursday: 9:00 AM – 6:00 PM | Friday: 9:00 AM – 6:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 70,
+      "source_url": "https://maps.google.com/?cid=7709178434722105394&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Me encanta ir, el lugar es hermoso y la atencion muy buena tambien es divina ro! la mejor estetica de tandil te podes hacer de todo",
+        "author": "Victoria Reclusa",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106603526515306715008/reviews"
+      },
+      {
+        "text": "Amo este lugar! el lugar es super lindo, las chicas son lo mas y te tratan de diez. Ideal para darte un mimo y dedicarte un tiempo para vos. Super recomendable",
+        "author": "Ana Benavente",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/113106144563562282732/reviews"
+      },
+      {
+        "text": "Un lugar donde te cuidan, muy profesionales siempre en todos los aspectos, muy amables. Después de mucho buscar éste es el mejor lugar para verse y sentirse bien. Impecables!",
+        "author": "Mony Fede",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/112988431821485515267/reviews"
+      }
+    ],
+    "main_product_or_service": "centro de estetica",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJg_XNlEIfkZURMoi2__CA_Go/photos/AaVGc3n2o6Up5cNVL16jqn8yiUWpKKZhhcjMal4ZmqrR9R14nLSgtthCo2xN_U0piZm6ZVoI-KpWPOy4Vvfz-u1Yz2IXgrO3HDpccDD270AF1u4UQEYzm71K2cxEs-DZvrrUvEfwOiCn2QSAtbZy0DmfYrA7ATK0AcvzNEaug5OLiA-pCvLsA_Iz3LPWy9g4i9jFLf4kbxHyDFqdJuRLZ_ZPKppLh9f0wttQV0TOZoUVi6OliLnvVoD1Gsy-SztTw9w02nGKxtL51KhWchfId6RxtU3SdaYqLMlkKRBOqfjHTkHUO7GhVtDxMSrYg0oVcgdUo8LZnVbqGG3JY1AbYMbBd432oUStc1L_pzGB5-CS7DuAUTaE8Ft4LDw_WCI5Reop6AgD7vG7koltTG0AcE8xmWr-5Y2wJrks21sCflpiKiLQaCPZ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=7709178434722105394&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJg_XNlEIfkZURMoi2__CA_Go/photos/AaVGc3lnMM21HjjNGj3PyapiL5aDw3GGI0Xg7dceprwUE1_LoURCWI5YicXfJbJjGPKe8RxixKoB97-KVxCq3iVtD9vpQ_KnXHuB6m0fE6m0k36KGeFSbF7AjWlYwr4Lt7pJcqJxGeEdDpls62fRm-BSXeI_e2jFDSD2vXo9k9RHR9JbICs4fSYgdSjs6XOYw2OhFx7dJX5lYSQQRyMAsJ0UbhqnDR04qwtdod9oDDGechIQSQTFysUKb2i3bSiF_JOX4fMYeBtYi063b4FvC9UGCD2VlRUkMMrFovqlqbgWQ5PkdiZfTy62H7_U4AKu5Hnd05timXbW9k4HUwnxOrVb7_0b-wKxd4C1hbe6FxJLifC1PbBi5jt8lVPyI7_AXrPmjNPpn6jVViIE-EqHLyx5PpbuP2rlhfBwdtPYKrDVNbzb0Q/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=7709178434722105394&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJg_XNlEIfkZURMoi2__CA_Go/photos/AaVGc3llf48hJZFiSczVcH3r1IxVDiABsCWl7gRYYgQ3DV4xsJUbTF_WP2B06DoQjAuZnnXnnfHdh6ks5Wt-7USQtndLuKfdqwM2yffP9sDjdTmkXEJhC4QSFlWdspfJ29NZKw7xV7_Gdm_fYJ3iL9wW49Yck3MSk-DUWh8u15lFv7ZvDaAentPygpMrasvfW9-dtuAzH-gNTIzS6ZUMO1AV1RHeGV_akRpBG8KTCiX03BuLpQ7rX0hIOBBAVHC84scAZLuRO514u6rFEKmiDb3DDCjDMuBRjEY0x-Rkob79HTZGgNpAT68kbGvMoNHHvzunnJViwXJ24J6ZkBYyqMH1a8dJ34lvkYnAyOJEevIB-7cb8pw-d_EtR49kFT81sQvv9S3FQ-i0wuCmKQ16twaH8e7gEwLQn9x2iE7NAuJb4M_PHEA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=7709178434722105394&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=7709178434722105394&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=7709178434722105394&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:10.093Z",
+          "notes": "Resultado automatico para \"centro de estetica\" en Tandil. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=7709178434722105394&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=7709178434722105394&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=7709178434722105394&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=7709178434722105394&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=7709178434722105394&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=7709178434722105394&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=7709178434722105394&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=7709178434722105394&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=7709178434722105394&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=7709178434722105394&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJ0xPlavcfkZURPlVFKnFXVHw",
+    "name": "BILOBA CENTRO DE ESTÉTICA",
+    "slug": "biloba-centro-de-estetica",
+    "category": "Beauty Salon",
+    "is_vehicle_related": false,
+    "address": "4 de Abril 795, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 460-5835",
+    "opening_hours": {
+      "raw": "Monday: 8:30 AM – 8:30 PM | Tuesday: 8:30 AM – 8:30 PM | Wednesday: 8:30 AM – 8:30 PM | Thursday: 8:30 AM – 8:30 PM | Friday: 8:30 AM – 8:30 PM | Saturday: 9:00 AM – 6:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 63,
+      "source_url": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Natalia: un ser de luz, transmite en sus masajes una energía especial. Recomiendo la experiencia!!!!\nTuvo en cuenta todas mis inquietudes y necesidades.\nMuy profesional!!!! comienza la sesión con una entrevista completa que considera los aspectos particulares de cada uno.\nLa sensación de bienestar trasciende al día del masaje y se instala con el transcurrir de los días.\nConocí el espacio x el hermoso regalo de cumple de Gloria y Marcelo.(Gracias!) Seguiré asistiendo porque considero que ayuda a mí salud 😍\nGracias gracias gracias 🙏🏻",
+        "author": "Andrea Dicósimo",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/118278615627510069566/reviews"
+      },
+      {
+        "text": "Natalia es una profesional que te hace sentir totalmente relajada. En un lugar cálido y muy agradable. Super recomendable",
+        "author": "silvana bañuelo",
+        "rating": 4,
+        "source_url": "https://www.google.com/maps/contrib/105976127319622672975/reviews"
+      },
+      {
+        "text": "Es la primera vez que voy a un instituto de cosmética. Mi experiencia es muy buena, me siento muy cómodo y relajado. Creo que Natalia es muy buena profesional, ya que me explica lo que va haciendo y se lo toma muy en serio. Siempre comenta sobre las novedades, cursos y perfeccionamientos de los que participa. Está muy atenta a las novedades. Estoy muy satisfecho.",
+        "author": "Rodolfo Corradetti",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/113353069109065773919/reviews"
+      }
+    ],
+    "main_product_or_service": "centro de estetica",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ0xPlavcfkZURPlVFKnFXVHw/photos/AaVGc3kWkxEb3J3G_A9ZY619o8PJWvvb1Ugp65UUq3rBGGsn74AvNDwbbIObXQUUB6e5Py1YMiBVuygHDi8RPmsvcb07PT7tOK3WvGhb79tNfGkJxYBIBxtTF7MZZSXkI5OC4wCBAqqaAi6UvVwmM2PN3XGEiuY2AcueGF0O2A5zl3ZYFK9Jqa53gWuaISepRGfa-buOdcwhYOpeBYKroXV06fbrf0f8luP-dQ772UL4le-7qEa_pGSVpbqpb98WP0VdKuaeFfO1YvyAtJyNRpeazKlKpXd8hFp6L8jHkCtsCZpZDdZbtZWJ-y1LCMCX_wioZM1oZzXJV8gPA7SHAsaC_CP33oQQaZoYgFhT9gYiLAhFUUt5gRqrZYwT1QesnpRqOTFZ0Wy9v8gvABCwS5uMiDKuovqC1a_lCjBXmbFZGwN4Qi0v/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ0xPlavcfkZURPlVFKnFXVHw/photos/AaVGc3mj6y3bs0mPOWE8N86ffUUXetuaUoDyIdCz1X0DVgQoRWVKFCv0XBbkxPWFDAcS07QWl1Q0Puu0kZRS84ap-SFwxp1NoJgP0aLgUeR0NmV9sGmf6wUyjyt2bHl9Ym_KDTF0XLzATNRh0jfMB2VNyvQwfFcb2OyPeUPRLU6S0AwcxoIAF1c_nE8V8Ws7Bhdg_YMice8_09A-oPrD1D8WxFVDh1HNYkYHEXAIuCmyrFalCBuB5r3mJzwpokJuDk82jZGRCRNtai2Lh4OqoaEPh06sI1gOA9L0RphY4z7Pjs525wZ6nIByHFRPdYUTL3u3jonWfqodFDCrehAd-D4jXSX-cN-Jn20TOCOU-Rf1gSO4qzRqW1Qipjcu8Ibf27NwA3kwKsgkuU4Nja8qeBE3RAyP3fPM-B1IrVuOoTDbDyFlnw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ0xPlavcfkZURPlVFKnFXVHw/photos/AaVGc3kSTN4mCm0u4A24HGuc5GIrezes_jIzdXdNetfE7CI6d7bFIGGWRlMN951v3FWnFBbmBQC1ENbpc9nojenP2rkiP7mcLCFKSDL73gos0qtZn9-859Ayxc1IiOScnlgQMLUxNJDj7f5qqMWaDLm3ruGx4_4CUBeTJgZMPZgpIBkIv4KUIW-mZzlY0OWxoqY663xC7Q1YjpOeoYAFhWGyW0gFKQLFVFKosZs6MXjyOHtA186MXfGWgfipqAMaL9S1F0vvr2_wFcrjIgc0w3XR5EYYtWwTX1I4BL-SqFkhn0Sw9wnwjQIc6a4hmG4QYk67SME-Z445PLAAsNFnJ2Dr1q25VJKhlqsoAOzp0C9Zbdmc53ISv2sxt9jqJeqHEQz-QFnnYVZgRD-o9XcHRbnnmb08fO28haliXOas9SbGwYUSpA/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:10.094Z",
+          "notes": "Resultado automatico para \"centro de estetica\" en Tandil. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=8958881702298867006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJ2bq7X9chkZUR5pcLDG2BOgQ",
+    "name": "MR Estética",
+    "slug": "mr-estetica",
+    "category": "Beauty Salon",
+    "is_vehicle_related": false,
+    "address": "Laprida 1083, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 465-4273",
+    "opening_hours": {
+      "raw": "Monday: 2:00 – 9:00 PM | Tuesday: 2:00 – 9:00 PM | Wednesday: 2:00 – 9:00 PM | Thursday: 2:00 – 9:00 PM | Friday: 2:00 – 9:00 PM | Saturday: Closed | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 37,
+      "source_url": "https://maps.google.com/?cid=304698230154434534&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Genia total me encantó el trabajo muy buena atención",
+        "author": "Daniel Ambrocio Cantini",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109454590280344540373/reviews"
+      },
+      {
+        "text": "Muy buena atención, súper recomendable!",
+        "author": "Susana Juanenea",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/112567290107768627689/reviews"
+      },
+      {
+        "text": "Excelente atención y profesionalismo. Muy recomendada",
+        "author": "Jonathan Martín",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/103126570637330871874/reviews"
+      }
+    ],
+    "main_product_or_service": "centro de estetica",
+    "photos": [],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=304698230154434534&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.95,
+    "missing_data_reason": "fotos",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=304698230154434534&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:10.094Z",
+          "notes": "Resultado automatico para \"centro de estetica\" en Tandil. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=304698230154434534&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=304698230154434534&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=304698230154434534&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=304698230154434534&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=304698230154434534&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=304698230154434534&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=304698230154434534&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=304698230154434534&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=304698230154434534&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJ051rgrMfkZURB9mCyLm1iKI",
+    "name": "Etienne Centro de belleza",
+    "slug": "etienne-centro-de-belleza",
+    "category": "Beauty Salon",
+    "is_vehicle_related": false,
+    "address": "San Martín 154, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 454-1310",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 6:00 PM | Tuesday: 9:00 AM – 6:00 PM | Wednesday: 9:00 AM – 6:00 PM | Thursday: 9:00 AM – 6:00 PM | Friday: 9:00 AM – 6:00 PM | Saturday: 9:00 AM – 2:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 10,
+      "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Muy buena atención! Las chicas una divina, en especial Pamela que me hizo una limpieza facial. 10/10 super amorosas y delicadas. Un lugar perfecto para hacerse un mimo o regalar un vale",
+        "author": "Rocio Juaristi",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111667470396624529388/reviews"
+      },
+      {
+        "text": "Muy buena atención, las uñas me quedan perfectas, no se me saltan, me duran hasta que vuelvo a hacermelas. Muy buena predisposición con los turnos, las chicas excelentes!!! Super recomendado!",
+        "author": "Karina Cont",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/118313077333034323714/reviews"
+      },
+      {
+        "text": "Son muy buenas profesionales y muy amorosas todas!!!\nSuper recomendables",
+        "author": "Sara Peralta",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/106402540499591228464/reviews"
+      }
+    ],
+    "main_product_or_service": "centro de estetica",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ051rgrMfkZURB9mCyLm1iKI/photos/AaVGc3m_S7LPFxP-pA6q1pTMWlJW34oGck5cpaXLim8pBKDbIGCmFAEhDwNHio3B0cv9eQeNQ2-w9OXUT-v1QRF5wHC-9n4ef9f8knVavAasy2DH6r6CqjX2cJ8zByd4npHV3yZEn4VyFJA5DYRyzyGuZpoYpQ3Pq4b_6_n--q-35WGDAvo_M4DdPyNRUMDDN0qVz4J30RK4jlhC7j-NDaIBkeJHmgnQflwnxQQ2rXAep8NySm0rxjd-UT0-wLLocRuI6fewUaRUfEQ_jkzd2GmxGM625RqngCa43MT5smL_72ADQyZFzvuGjfiM4gqCPkrJiJEsjVryt6rr_iHzR4gKOgMrWviJkoubUtHgnGHIm9xljBO4xMkXayuGKpjb6ULImf8lqIGAGXqMiLWanZC6w5DJSNduY5R8Pa2L6L4R8wJtQQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ051rgrMfkZURB9mCyLm1iKI/photos/AaVGc3nislkUmMTdrJCMERZK6F1sxeKo-1ptAFV2skaDQlIjHcA20CMFkkuqWdB4RwIH05vlI7GuMQ5oopLO-KmzkRHaM5-NoNBlsMXPwbs8ITLttEdlslB0poGzkav-X6UgU_Q37ghqsGHNCZ4r7xGZz42gfaSjB2f7iwaOThfeDnbge6wZbo3zvxGBWBOl9tz92faujyjbO87cKY9EEjm1RUu0yONoPhU02QB_qv2LeoQiDEfFkO6Dcw-SrYGRsNc_K2ZH5h1FyOrbo2MuqXwnYjiZiandlOmikDnA6fMTmHEQoObK3DzZQEQB_vWcAG55YODuTVU1Yi0eReB9EUjeW7kmGs1oiwa26As4TDXcCShYLBIicMPqHvriZs1u2KmO2Yd7YikyQf2Le8FfBYpSQlsXNrAay44qGpYRkOf3TxQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJ051rgrMfkZURB9mCyLm1iKI/photos/AaVGc3mrMH9Xail9Wol3nCqwTmWm6e5cgrWYLwdTIc4AO9N6SMh4lPJe5k5L4u4OCnNIxTznHHn3INDEGk97dd0Cg0KOx8ZEnVk4JmFTsH5Rx596QisngisCRuFQk5ZRveiRLZwlMFYr57VZftN3X6Q1eY2fxucILtX2rKswhtQnRSndhmMGBAsLHhNHvsc6IpvtnlE4h1i39FyVTYWNqKCyfKK3vTT4ALgvUnN3BSIPPW1l9mVIuSwi-EcE-ETI_YtoGhhzFQsxZrEQv4vcRLM5PPk1WFnrjk_VUBc99a66ueOukov-OO9khLhtu3c6s3wRx73kqUuLGWaMs8YVOJSIqEOpj4TToRywyETWkhuKwQgIBTIotCo9A5WCrfzCIa9scUNTs-kOhiwx9gJ42V0Ui5Lw_3vzYjFBSSa34OgL1du_1p2Q/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:10.094Z",
+          "notes": "Resultado automatico para \"centro de estetica\" en Tandil. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=11711810640514570503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJ13TjdAcfkZURrAZlc2qA7eE",
+    "name": "Natividad.nails",
+    "slug": "natividad-nails",
+    "category": "Nail Salon",
+    "is_vehicle_related": false,
+    "address": "Maipú 734, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "011 3607-1935",
+    "opening_hours": {
+      "raw": "Monday: Open 24 hours | Tuesday: Open 24 hours | Wednesday: Open 24 hours | Thursday: Open 24 hours | Friday: Open 24 hours | Saturday: Open 24 hours | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 5,
+      "reviews_count": 11,
+      "source_url": "https://maps.google.com/?cid=16279809422705100460&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Una genia Nati!! Súper amorosa y profesional. Increíble además lo que han mejorado mis uñas naturales servicio a servicio ❤️ lo único que lamento es no tener más fotos de los trabajos!",
+        "author": "Sofía Zeme",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/117924567905045163011/reviews"
+      },
+      {
+        "text": "La mejor, sin dudas ❤️\nExcelentísimo servicio.",
+        "author": "Evelin Ruiz",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/107761131666692417441/reviews"
+      },
+      {
+        "text": "Excelente profesional me realizo unas uñas hermosas, muy buena atención y hermosos los diseños! Super recomendable al 100%!!!!!",
+        "author": "Sofia Conti",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/101803388568837420153/reviews"
+      }
+    ],
+    "main_product_or_service": "centro de estetica",
+    "photos": [],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=16279809422705100460&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 0.95,
+    "missing_data_reason": "fotos",
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=16279809422705100460&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:10.094Z",
+          "notes": "Resultado automatico para \"centro de estetica\" en Tandil. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=16279809422705100460&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=16279809422705100460&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=16279809422705100460&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=16279809422705100460&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=16279809422705100460&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=16279809422705100460&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=16279809422705100460&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=16279809422705100460&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=16279809422705100460&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  },
+  {
+    "id": "google-ChIJJdQRJpQfkZURqTM7MLNQaxM",
+    "name": "Laca_tandil_bysararamirez",
+    "slug": "laca-tandil-bysararamirez",
+    "category": "Make-up Artist",
+    "is_vehicle_related": false,
+    "address": "Av. Falucho 663, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 15-455-3429",
+    "opening_hours": {
+      "raw": "Monday: 9:00 AM – 5:00 PM | Tuesday: 9:00 AM – 5:00 PM | Wednesday: 9:00 AM – 5:00 PM | Thursday: 9:00 AM – 5:00 PM | Friday: 9:00 AM – 5:00 PM | Saturday: 9:00 AM – 1:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 66,
+      "source_url": "https://maps.google.com/?cid=1399300839767225257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Sara Ramírez fue quien me maquilló para mi casamiento y no puedo explicar lo feliz que quedé con su trabajo, impecable y con una dedicación única.\nEs una profesional increíble.\nTiempo después tuve la oportunidad de trabajar con ella, y el ambiente que se vive es súper cálido y agradable.\nLaca Tandil by Sara Ramírez es un lugar hermoso, donde te sentís cómoda y podés disfrutar de muchísimos servicios pensados para vos.",
+        "author": "priscila gonzalez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/111192931551110146848/reviews"
+      },
+      {
+        "text": "Espectacular servicio. Sus productos son de primera línea, la atencion de 1000 puntos!!!! Lo recontra recomiendo. Sacar turno con anticipación por que su agenda esta re llena.",
+        "author": "Denise Kravek",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/116701085037919546278/reviews"
+      },
+      {
+        "text": "Hermosa experiencia!! Súper profesionales amorosas y te dejan soñada , nos maquillamos para el casamiento de mi hermano.",
+        "author": "Damaris oliva",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/115448478390364914861/reviews"
+      }
+    ],
+    "main_product_or_service": "centro de estetica",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJJdQRJpQfkZURqTM7MLNQaxM/photos/AaVGc3ltxo5xi4PoLo3ZmINqkpGBo56MsjW05XbbG-mifU9xIZJ4TNoZb06zkUjyg4K-yLWTzRz3297YpMi6DmT6Z5wEIyTSehOGKrr8mt-CfJuzxLcVvsyYUWHLCoLvLtP7Zl4m3HxZvu3YssqGYFz70ymPNuumHOoAEqFLmNSwfpwhE2i_doc4sFdK0JIWkweSo5QHd_xREPMywVrofuh69LKEAnwb154d-fDmD0CeSKU0sn5OzyOwMyOUK8vypv8o69M8vtDLUDLJMa184jMJhyOPk4M8slsCNrgAXhd85qPK2uVDA5btI2vw9HRe4UYfATzWDJFuTjDy5fmazFsYCT4t91r7-S-oV-XaycwmDF5v0xU1mumybG5WdVo0ziTXCeD8YbXaLKIh-2WNE7Lu3L-n7JKcxyYEFS9R4nRvHmsJCBg/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1399300839767225257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJJdQRJpQfkZURqTM7MLNQaxM/photos/AaVGc3lr0eTnItMrQyz_8WSYJJVyLcQwYQrR3TCwc-qE1cEc9cSLSREHQsLyF6QuDO57ACnN3ownx1-Y58A_BKpNP-foQYi7xOHIGx5m9fNv27Pm14cVourK75iN-fWXBuQuFFpg8xfv-D6Ao7aiM6_0KTqkg5mp6kQGGoeMGZq5-U1nWwiRQJggGRNi6apE04wRnBGPhGlv6jlsM5nL44a9npFgpC3CJkBYw5prM5JiXt6EyAT-F3Z-2TJ2W5WGkslbF0VCna_Kbvzdx5PtTg-eKK0eQeZOw2JSvtjWXa5kGsdJMhoHdVJCFkBMOLb9RHaDj9YUvB0Ljs5kKr1oNggG7xieEA9W-PxLywuPpebrvVzIO6Qu03KCBUA4kh6eonz_o_XEZwFasCzZRuS_XrWDvhfYAUS4o-uFCB_aHCpFxTQ/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1399300839767225257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJJdQRJpQfkZURqTM7MLNQaxM/photos/AaVGc3l8QHQbpPKfFTDXs0IGpww8naTWdO8mzALzgXL66C45tWK-MqPPFo_ZaBi3yvzH8RRFZLOgU4sK6FJlCMiXXGj_MorHKBUD8x-95hmcYgo7VYJvOUE4jCQ9qAUmBcIYpj1sqcVyAHd2YoK0_ikM0qTBSAmuzvehEkyU76hB-7Zb607H33Pb-CcjOgQ1gPlUHx8kqlm_PnvzuomsTpZKjr63r22g9dj1X7zfB2ZxTNsyPX-R3x1NGVOzOLZSVF3QUi6nEdrFz6dsuYSowRmbpfC693_Jl_JAk8WGXLXT9zVSlX4zrzX1Wm3AKipmcPpcWS_F0EzWMudxJqbTP17WV8VD7_HCgHgZeb4TsFziJqtpIY3M-HggZF3AvVMwoWqyLA-haeOZpZTeYxp2nCw-IFwTTeoQDnvFgO3uW6W7fl5fYQHtYyY4l9bAhik1ZmQ5/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=1399300839767225257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=1399300839767225257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=1399300839767225257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:10.094Z",
+          "notes": "Resultado automatico para \"centro de estetica\" en Tandil. Segmento: estetica."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=1399300839767225257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=1399300839767225257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=1399300839767225257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=1399300839767225257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=1399300839767225257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=1399300839767225257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=1399300839767225257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=1399300839767225257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=1399300839767225257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=1399300839767225257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

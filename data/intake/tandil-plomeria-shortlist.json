@@ -1,0 +1,127 @@
+[
+  {
+    "id": "google-ChIJl5WDKCAgkZURkY5TjY0FtVI",
+    "name": "Destapes de Cañería con Máquina",
+    "slug": "destapes-de-caneria-con-maquina",
+    "category": "Plumber",
+    "is_vehicle_related": false,
+    "address": "Machado 1712, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0249 436-2860",
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 8:00 PM | Tuesday: 8:00 AM – 8:00 PM | Wednesday: 8:00 AM – 8:00 PM | Thursday: 8:00 AM – 8:00 PM | Friday: 8:00 AM – 8:00 PM | Saturday: 8:00 AM – 7:00 PM | Sunday: Closed",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.8,
+      "reviews_count": 60,
+      "source_url": "https://maps.google.com/?cid=5959675787414310545&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Muy buena atención y precios razonables.",
+        "author": "Fredis Cesar Martinez Vergara",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109890826550911637634/reviews"
+      },
+      {
+        "text": "Excelente y atención. Me resolvieron el problema en el día. Sin demoras, super agradables y todo quedó como si nada hubiese pasado. Los recomiendo",
+        "author": "ANA MARÍA POMAR",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/117438440899846945104/reviews"
+      },
+      {
+        "text": "Muy buena gente Cristian. Vinieron a tiempo como me comunicó el dueño. Muy educados y trabajadores. Super recomendables.",
+        "author": "Tomás S",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/109431746783373698597/reviews"
+      }
+    ],
+    "main_product_or_service": "plomero urgencias",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJl5WDKCAgkZURkY5TjY0FtVI/photos/AaVGc3l0wlwX4nLkTv3d5QbrHL16R7ws14SNqu3pWgYTrzzp-FGRynv1nYGhIugSfb1Lu7ipsvj7RN-LFujYM4qnT5JQqjd5u-EhqJEVfwFYR06YZMDcrPxUogHyqedyE0CmG9ZeaSYElo_CLlOGxepAzf6Zzu8r7a-lOuKZ8u1HMuTTC3XPNO-X5et_5e_oEcFpvjTGWPWFgiKX4WaN0ZLLWWhrwYQGJVIi92Rm9zszqDvhFkhu4kOyXOZLbfXjustJpQzeJTREDVedqtXctGepC2JDAueAESfoyvqHqwDqKO5zAZXRLTqbQY_Z1RvFXwUdpAdQmCNU3xcVGtaWs8xlxuuR7YYaWJEFDSSH3GBVNzWfqSTSHsj93e5Reu5xkPG7jvrf5D0yXJ2RyJ1J1GHXKFXUuWIQBld9yjV5lwt5Hjdi9kM/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5959675787414310545&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=5959675787414310545&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=5959675787414310545&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:36:50.504Z",
+          "notes": "Resultado automatico para \"plomero urgencias\" en Tandil. Segmento: plomeria."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=5959675787414310545&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=5959675787414310545&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=5959675787414310545&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=5959675787414310545&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=5959675787414310545&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=5959675787414310545&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=5959675787414310545&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=5959675787414310545&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=5959675787414310545&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=5959675787414310545&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]

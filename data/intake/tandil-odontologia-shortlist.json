@@ -1,0 +1,141 @@
+[
+  {
+    "id": "google-ChIJJcTyYAAfkZURhaa710LAnkU",
+    "name": "Odontología Tandil urgencias endodoncia implantes odontólogo dentista",
+    "slug": "odontologia-tandil-urgencias-endodoncia-implantes-odontologo-dentista",
+    "category": "Dentist",
+    "is_vehicle_related": false,
+    "address": "Pinto 1690, B7000 Tandil, Provincia de Buenos Aires, Argentina",
+    "neighborhood_or_area": null,
+    "phone": "0221 318-3710",
+    "opening_hours": {
+      "raw": "Monday: 8:00 AM – 12:00 PM, 2:00 – 8:00 PM | Tuesday: 8:00 AM – 12:00 PM, 2:00 – 8:00 PM | Wednesday: 8:00 AM – 12:00 PM, 2:00 – 8:00 PM | Thursday: 8:00 AM – 12:00 PM, 2:00 – 8:00 PM | Friday: 8:00 AM – 12:00 PM, 2:00 – 8:00 PM | Saturday: 9:00 AM – 12:00 PM | Sunday: 9:00 AM – 12:00 PM",
+      "structured": {}
+    },
+    "rating": {
+      "value": 4.9,
+      "reviews_count": 40,
+      "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    "reviews": [
+      {
+        "text": "Exclente atencion por parte de Nicolas en Tandil\nFue muy atento me explico todo lo que necesitaba antes y despues de mi tratamiento.\nTuve Resiltados en 7 dias, ya vi cambios en la salud de mis encias .\nTiene mucha tecnologia que no conocia y no me hizo doler.\nRecomiendo",
+        "author": "Guillermo Prata Dias",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/118234650633502530021/reviews"
+      },
+      {
+        "text": "Un Diez Nico!! Atendió a mi nena que había tenido muy mala experiencia con otra profesional la cual no pudo sacarle la muela y el con toda la paciencia del mundo hizo que tomara confianza de nuevo! Realmente para recomendar a niños miedosos! Es un GENIO!!!!",
+        "author": "Celeste Vasquez",
+        "rating": 5,
+        "source_url": "https://www.google.com/maps/contrib/107685167444224621574/reviews"
+      },
+      {
+        "text": "mi pareja fue a hacerse un chequeo después de que le sacaron una muela del juicio, tenían que ver si había que sacarle los puntos nomas. Sin avisarle le hicieron una limpieza de sarro completa (que obviamente no pidió) y le cobraron mas de 200 lucas a la salida, cuidado que donde pueden te arrancan la cabeza.",
+        "author": "Estanislao Marugo",
+        "rating": 1,
+        "source_url": "https://www.google.com/maps/contrib/108650329317424238460/reviews"
+      }
+    ],
+    "main_product_or_service": "clinica odontologica",
+    "photos": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJJcTyYAAfkZURhaa710LAnkU/photos/AaVGc3ljdBqb34sIZZetVvHzUcZQsrUE2t4EDCsfc4mCTCslcVp-hdaiQ09IHhCSSPK6kKZ_v1beC8O2X2PgxIuiO5K9p48bUO6Pzo41gF69n5X4u9Q_bFHIOsstQ7fCDJHx58DBQgcS-RMAKDILS2cbnenOxMdEeyxpj6oVjWSkcsJ8oE8D4WJbzqgKhmxmU-MRCSBHuZylEEiOAYGcc2J-_6Yqw5192-d2FfLYGFHz4okc1qXAi0avMZvXIoplsTD69O8UmJJ93wd2Kr0Bo1Z9dEElXY6EyiSilllfTn4wbwG4GM9o3Adb9JiTTLa23sR40OEQW6tB7M7JSHcA03NX-wdqL2spL_E6qPoLoV5ho5RKd8xWlqPMmk0JTHyHGXv0hKLLpv4RIXc7xIV4nz9MHia5a_i-jHaGr9Ut2Sz8hQ3e4AIDuQHAWD_LsWMAnxNz/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJJcTyYAAfkZURhaa710LAnkU/photos/AaVGc3k7FmJ_2jWEjX0yg4o8Wmv7RTfAqjmZ_s2E3lPUJf3a5YTEkhQWfUiPuhREyariQzeUXWMx37KtbFztArXJPp17LQXVxZKBl4T0A5lTg3Xzw3AqclrsrDHAKyEyY2a_yP5YA9-eIHozSI0bt9i6AK6PzHbe-I1FuyjcRmOKpa-mWn-ZzLDty8HiDcEXMYOr-1NYchW_5tNeSSS_ufApo9oQSYCNWb0tZ24WffCsXw3cQwx3n_p7p_XQSAlJRjfABQBvRAvrbQ5qC7v--o4PCf1x5RpPmOl0O7G8Xsjb3bE69b6YxFN5DFiTfMPCM__RGAc-sHgCHjc1u2EsxDuxUwiMv6Oa55O_eenLRRa9WixEE6EHXvG5ZieMf81kmLKiJDY9Emrq67-J0y75AA-Z3KI0Ni1TRSYWMa4J8nWdP-VKnKEJi3_hPjg1ukHkCdeX/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJJcTyYAAfkZURhaa710LAnkU/photos/AaVGc3ltWuk63G_Rwv5pQb2DuyhQiqoCpOBqGRAsDpXBhM7VUmiJTdrQzhpWsWi9btYMgCFHAYMQ3TpbZJixGBuTVaa7pA9TAACgFQfFLluc9MtdZn7T9u3t33WOLwe47XY2vu9BstOO_zv9uF4eoBMyl21JKYx4O9Itly2JHEOzeGbQOTmkhdCChBuhk37TM38EJmWjCOzbcbrSZa9Nh0XLzWsHLQoIx78kuVoOVKI7isQ9n6P5ORC0fAYW4d-GRS6P37s6_c5U_eTpGHWg3dRcsviDmbxa0MDknjMpIYumbB6114zVcHC0zgaCFJ8XyidP4za3H_ZLMF21Kh1c1ABY3VF-uNB0_1qBuOlbbAqsUT3h8_ugsBH9cmD7d7aSHWP_1Lr_NX7X4wzM5UTiGAZB5nXhOHSq16qYwZSb-zu55eP4yw/media?maxWidthPx=1600",
+        "type": "other",
+        "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "usage_status": "allowed",
+        "permission_notes": "Marked allowed by local pipeline configuration. Source remains Google Places API photo metadata."
+      }
+    ],
+    "has_own_website": false,
+    "website_check": {
+      "checked_sources": [
+        "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      ],
+      "evidence": [
+        "Google Places no devolvio websiteUri para este Place ID."
+      ],
+      "notes": "Candidato sin websiteUri en Google Places. Requiere verificacion secundaria antes de aprobacion final."
+    },
+    "data_quality_score": 1,
+    "missing_data_reason": null,
+    "approved_for_generation": false,
+    "is_mock": false,
+    "verification": {
+      "source_records": [
+        {
+          "label": "Google Places API",
+          "url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "captured_at": "2026-07-08T02:38:28.310Z",
+          "notes": "Resultado automatico para \"clinica odontologica\" en Tandil. Segmento: odontologia."
+        }
+      ],
+      "field_evidence": [
+        {
+          "field": "name",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API displayName."
+        },
+        {
+          "field": "address",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API formattedAddress."
+        },
+        {
+          "field": "category",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API primary type."
+        },
+        {
+          "field": "rating",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API rating and userRatingCount."
+        },
+        {
+          "field": "website_check",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API websiteUri checked."
+        },
+        {
+          "field": "phone",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API phone field."
+        },
+        {
+          "field": "opening_hours",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API regularOpeningHours."
+        },
+        {
+          "field": "reviews",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API reviews. Preserve attribution before publishing."
+        },
+        {
+          "field": "photos",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Google Places API photos metadata. Permission review required."
+        },
+        {
+          "field": "main_product_or_service",
+          "source_url": "https://maps.google.com/?cid=5016658428257085061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "notes": "Derived conservatively from category/query, must be manually verified."
+        }
+      ]
+    }
+  }
+]
