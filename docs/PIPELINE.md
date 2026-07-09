@@ -224,8 +224,7 @@ El estudio final cruza `generated/<sesion>/manifest.json`, el dataset de negocio
 - razon y confianza de esa eleccion
 - lead score con prioridad, probabilidad de contacto, oportunidad, motivos y riesgos
 - mini auditoria comercial con problema que resuelve, señales publicas, datos a pedirle al dueño y mejoras vendibles
-- paquete de outreach con mensaje corto, mensaje formal, follow-ups, cierre directo y objeciones
-- mensaje de propuesta para mostrar lo hecho y ofrecer mejoras por el precio indicado
+- mensaje de propuesta personalizado para mostrar lo hecho y ofrecer mejoras por el precio indicado
 
 El reporte tambien incluye un resumen ejecutivo con top 3 para contactar primero, contactos mas fuertes, mejores oportunidades, negocios que requieren validar canal y desglose de canales.
 

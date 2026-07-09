@@ -56,20 +56,6 @@ type CommercialAudit = {
   offer_angle: string;
 };
 
-type ObjectionReply = {
-  objection: string;
-  reply: string;
-};
-
-type OutreachPack = {
-  whatsapp_short: string;
-  formal_message: string;
-  follow_up_24h: string;
-  follow_up_48h: string;
-  direct_close: string;
-  objection_replies: ObjectionReply[];
-};
-
 type StudyEntry = {
   slug: string;
   business_name: string;
@@ -80,7 +66,6 @@ type StudyEntry = {
   preferred_contact: ContactChoice;
   lead_score: LeadScore;
   commercial_audit: CommercialAudit;
-  outreach: OutreachPack;
   proposal_message: string;
 };
 
@@ -505,7 +490,7 @@ function commercialAudit(business: Business, service: string, contact: ContactCh
   };
 }
 
-type BaseEntry = Omit<StudyEntry, "proposal_message" | "outreach">;
+type BaseEntry = Omit<StudyEntry, "proposal_message">;
 
 function stripTrailingPeriod(value: string): string {
   return value.trim().replace(/[.。]+$/u, "");
@@ -517,7 +502,11 @@ function lowerFirst(value: string): string {
 
 function sentenceFragment(value: string): string {
   const stripped = stripTrailingPeriod(value);
-  return /^[A-Z]{2,}\b/u.test(stripped) ? stripped : lowerFirst(stripped);
+  return /^[A-Z]{2,}\b/u.test(stripped) || /^[A-Z][a-z]+[A-Z]/u.test(stripped) ? stripped : lowerFirst(stripped);
+}
+
+function joinFragments(items: string[], limit: number): string {
+  return items.slice(0, limit).map(sentenceFragment).join("; ");
 }
 
 function proposalMessage(entry: BaseEntry, price: string): string {
@@ -527,45 +516,30 @@ function proposalMessage(entry: BaseEntry, price: string): string {
       : entry.preferred_contact.medium === "whatsapp" || entry.preferred_contact.medium === "whatsapp_probable"
         ? "Te lo mando por este medio porque es el canal mas practico para verlo rapido desde el telefono."
         : "Te escribo al contacto publicado porque no encontre un Instagram o WhatsApp verificado.";
+  const publicSignals = joinFragments(entry.commercial_audit.public_signals_used, 3) || "rating, direccion y contacto publicados";
+  const leadReasons = joinFragments(entry.lead_score.reasons, 2) || sentenceFragment(entry.commercial_audit.problem_solved);
+  const suggestedImprovements = joinFragments(entry.commercial_audit.suggested_improvements, 3) || "boton de contacto, fotos propias y revision final";
+  const ownerRequests = joinFragments(entry.commercial_audit.owner_data_to_request, 2) || "WhatsApp confirmado y fotos propias";
+  const riskSentence =
+    entry.lead_score.risks.length > 0
+      ? `Antes de publicarla, validaria con ustedes este punto: ${sentenceFragment(entry.lead_score.risks[0])}.`
+      : "Con los datos actuales, la demo podria pasar a una version publicable despues de una revision final con ustedes.";
 
-  return `Hola, como va? Soy Juan. Prepare una muestra de landing para ${entry.business_name}: ${entry.landing_url}
+  return `Hola, soy Juani, un gusto!
 
-La pense para que una persona vea rapido el rubro (${entry.service}), las resenas, direccion, horario y un llamado claro para consultar. No invente precios, servicios ni promociones: use la informacion publica disponible y deje la estructura lista para ajustar con fotos/textos propios del negocio.
+Te escribo porque estoy empezando un emprendimiento de soluciones digitales llamado Mayofy, enfocado en ayudar a negocios, emprendedores y profesionales a tener una presencia online mas clara, confiable y orientada a generar consultas.
+
+Estuve viendo ${entry.business_name} y arme una pagina web demo como ejemplo de como podria verse una landing para mostrar sus servicios, generar confianza y facilitar que mas personas los contacten. Para esta primera version use datos publicos concretos: ${publicSignals}. La oportunidad aparece por estas senales: ${leadReasons}.
 
 ${contactSentence}
 
-Si les interesa, por ${price} puedo dejarla lista para publicar y mejorarla con dominio/hosting, boton de contacto, ajustes de copy, cambios de fotos, medicion basica de consultas y una revision final con ustedes. Queres que te mande el link para verla?`;
-}
+La idea es que esto sea solo una primera version y que se pueda personalizar bastante: textos, imagenes, colores, secciones, servicios, botones, integracion con WhatsApp, formularios, automatizaciones o cualquier otra cosa que tenga sentido para ${entry.business_name}. Tambien se puede adaptar el tono, sumar fotos propias, cambiar el orden de la pagina y dejarla mas enfocada en ${entry.service}.
 
-function outreachPack(entry: BaseEntry, price: string): OutreachPack {
-  const coreValue = `prepare una muestra de landing para ${entry.business_name} con la informacion publica disponible: rubro, reseñas, direccion, horario y contacto`;
-  const improvements = entry.commercial_audit.suggested_improvements.slice(0, 3).map(sentenceFragment).join(", ");
+No invente precios, servicios ni promociones. Si les interesa avanzar, por ${price} puedo dejarla lista para publicar y enfocarme primero en ${suggestedImprovements}. Para personalizarla bien les pediria ${ownerRequests}. ${riskSentence}
 
-  return {
-    whatsapp_short: `Hola, como va? Soy Juan. ${coreValue.charAt(0).toUpperCase() + coreValue.slice(1)}. No es una plantilla generica; esta pensada para que alguien consulte mas rapido. Si te sirve, por ${price} la dejo lista para publicar con ${improvements}. Te paso el link? ${entry.landing_url}`,
-    formal_message: proposalMessage(entry, price),
-    follow_up_24h: `Hola, te escribo de nuevo por la muestra de ${entry.business_name}. La idea no es venderte algo abstracto: ya hay una landing armada para revisar. Si queres, te mando el link y me decis si tiene sentido ajustarla con fotos y WhatsApp real.`,
-    follow_up_48h: `Cierro por aca para no insistir. Si en algun momento quieren una pagina simple para convertir consultas de ${entry.service}, ya deje una base hecha y se puede publicar rapido por ${price}.`,
-    direct_close: `Si te gusta la muestra, el siguiente paso es simple: me confirmas WhatsApp, fotos, servicios reales y dominio/nombre. Con eso la dejo lista para publicar por ${price}.`,
-    objection_replies: [
-      {
-        objection: "Ya tengo Instagram",
-        reply: "Perfecto. La landing no reemplaza Instagram: sirve para mandar a una persona interesada a un lugar con servicios, reseñas, ubicacion y boton de consulta sin que tenga que revisar publicaciones.",
-      },
-      {
-        objection: "No necesito web",
-        reply: "Puede ser. La idea no es una web grande, sino una pagina corta para convertir mejor a quien ya te busca o te pide informacion por mensaje.",
-      },
-      {
-        objection: "Cuanto sale",
-        reply: `La version lista para publicar queda en ${price}. Incluye ajustes de texto, fotos, boton de contacto, dominio/hosting basico si hace falta y revision final con ustedes.`,
-      },
-      {
-        objection: "Lo veo despues",
-        reply: "Dale. Te dejo el link para que lo veas cuando puedas; si te cierra, lo ajustamos con tus fotos y datos reales antes de publicarlo.",
-      },
-    ],
-  };
+Te agradezco mucho por tu tiempo. Te dejo aca el link para que puedas verla:
+
+${entry.landing_url}`;
 }
 
 function firstReason(entry: StudyEntry): string {
@@ -624,44 +598,6 @@ function executiveSummary(entries: StudyEntry[], args: Args): ExecutiveSummary {
 
 function mdList(items: string[]): string[] {
   return items.map((item) => `- ${item}`);
-}
-
-function renderOutreach(entry: StudyEntry): string[] {
-  return [
-    "#### Mensaje corto WhatsApp",
-    "",
-    "```text",
-    entry.outreach.whatsapp_short,
-    "```",
-    "",
-    "#### Mensaje formal Instagram/email",
-    "",
-    "```text",
-    entry.outreach.formal_message,
-    "```",
-    "",
-    "#### Follow-up 24 hs",
-    "",
-    "```text",
-    entry.outreach.follow_up_24h,
-    "```",
-    "",
-    "#### Follow-up 48 hs",
-    "",
-    "```text",
-    entry.outreach.follow_up_48h,
-    "```",
-    "",
-    "#### Cierre directo",
-    "",
-    "```text",
-    entry.outreach.direct_close,
-    "```",
-    "",
-    "#### Objeciones",
-    "",
-    ...entry.outreach.objection_replies.flatMap((reply) => [`- ${reply.objection}: ${reply.reply}`]),
-  ];
 }
 
 function renderMarkdown(entries: StudyEntry[], args: Args, summary: ExecutiveSummary): string {
@@ -752,8 +688,6 @@ function renderMarkdown(entries: StudyEntry[], args: Args, summary: ExecutiveSum
     lines.push(entry.proposal_message);
     lines.push("```");
     lines.push("");
-    lines.push(...renderOutreach(entry));
-    lines.push("");
   }
 
   return `${lines.join("\n").trimEnd()}\n`;
@@ -800,7 +734,6 @@ async function main(): Promise<void> {
 
     entries.push({
       ...baseEntry,
-      outreach: outreachPack(baseEntry, args.price),
       proposal_message: proposalMessage(baseEntry, args.price),
     });
   }

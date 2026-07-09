@@ -149,8 +149,7 @@ El estudio final debe incluir, por cada negocio:
 - nivel de confianza y razon del contacto elegido
 - lead score con prioridad, probabilidad de contacto, oportunidad, motivos y riesgos
 - mini auditoria comercial con problema que resuelve, señales publicas usadas, datos a pedirle al dueño y mejoras vendibles
-- paquete de outreach: mensaje corto, mensaje formal, follow-ups, cierre directo y respuestas a objeciones
-- mensaje de propuesta listo para enviar
+- mensaje de propuesta personalizado y listo para enviar
 
 Tambien debe incluir un resumen ejecutivo con top 3 para contactar primero, contactos mas fuertes, mejores oportunidades, negocios que requieren validar canal y desglose de canales.
 

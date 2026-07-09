@@ -78,7 +78,7 @@ Si la tanda queda `CLIENT_READY`, generar el estudio final antes de cerrar:
 npm run study:final -- --price "[PRECIO]"
 ```
 
-Esto escribe `generated/<sesion>/final-study.md` y `generated/<sesion>/final-study.json` con landing, contacto recomendado, lead score, mini auditoria comercial, paquete de outreach, objeciones y mensaje de propuesta por negocio. El contacto se elige solo con datos disponibles: Instagram verificado, WhatsApp verificado/probable o telefono publicado.
+Esto escribe `generated/<sesion>/final-study.md` y `generated/<sesion>/final-study.json` con landing, contacto recomendado, lead score, mini auditoria comercial y mensaje de propuesta personalizado por negocio. El contacto se elige solo con datos disponibles: Instagram verificado, WhatsApp verificado/probable o telefono publicado.
 
 ## Golden sample
 
