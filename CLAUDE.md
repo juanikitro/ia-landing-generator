@@ -17,7 +17,7 @@ El output de la fase de diseño es un brief de implementación por landing, list
 - Estructura de secciones con jerarquía, composición del hero y motivos gráficos del oficio (SVG/CSS inline).
 - Copy completo en español argentino con datos verificados: titulares, CTAs, reseñas literales con autor, horarios, teléfonos y links (tel:/wa.me/Maps).
 - Contrato QA que el código debe cumplir (footer exacto `Creado por JuaniKitro`, palabras prohibidas, imágenes locales, sin datos inventados — ver `docs/DESIGN_STANDARDS.md` punto 10 y `docs/DATA_RULES.md`).
-- Plan de motion (reveals, reduced-motion) y requisitos mobile (barra sticky de llamada, CTA arriba del fold).
+- Plan de motion (reveals, reduced-motion) y requisitos mobile-first por defecto: barra sticky de llamada, CTA arriba del fold, prueba/contacto visible en celular y una conversión fuerte a desktop que recomponga hero, prueba social, oferta y assets en vez de solo estirar el stack mobile. Preferir, sin obligarlo, diseños que jueguen con profundidad, capas, efectos, microinteracciones y animaciones cuando sumen identidad y conversión, siempre con `prefers-reduced-motion` y sin distraer del CTA.
 
 ## Gate del diseño
 

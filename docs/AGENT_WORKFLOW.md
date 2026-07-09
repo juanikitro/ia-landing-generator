@@ -70,12 +70,14 @@ El agente debe producir una landing real por negocio:
 - `design_brief` completo: posicionamiento, tesis visual, voz de copy, firma de layout, plan de assets, plan de IA segura, anti-patrones y objetivos de remake
 - estructura comercial completa: hero, confianza, servicios, por que elegir, paquetes editables, galeria/antes-despues, proceso, resenas/contacto y CTA final
 - direcciones visuales diferentes entre negocios
+- diseño mobile-first por defecto, con primer viewport de celular orientado a CTA/prueba/contacto y una versión desktop recompuesta para mayor conversión, no solo una grilla estirada
+- preferencia no obligatoria por profundidad, capas, efectos visuales, microinteracciones y animaciones que hagan la página más diseñada, siempre que no bajen performance, accesibilidad ni foco en el CTA
 - recursos alineados al rubro
 - proof points basados en datos reales
 - copy, secciones e imagenes genericas seguras generadas por IA cuando faltan datos de venta o las fotos sean pobres
 - campos internos a confirmar en el spec cuando falten datos de venta; la version cliente no debe mostrar corchetes, `placeholder`, `demo`, `editable`, `template`, `landing` ni texto meta de IA
 - CTAs concretos
-- HTML/CSS propio, framework o librerias de frontend, animaciones e iconos cuando aporten calidad real
+- HTML/CSS propio, framework o librerias de frontend, animaciones, efectos, profundidad visual e iconos cuando aporten calidad real
 - composicion, tipografia, ritmo visual y assets pensados para ese negocio
 - `agent_frontend` configurado para que el final no use el fallback
 - sin claims inventados
@@ -97,7 +99,7 @@ Para servicios vehiculares, no alcanza con listar direccion, horario y resenas. 
 
 El bloque `commercial` del `SiteSpec` existe para transportar esa estructura al brief y al renderer fallback. El frontend de agente puede reorganizarlo, pero no deberia bajar la densidad comercial.
 
-El bloque `design_brief` es la barra de calidad visual y de remake. Debe explicar que vende la pagina, que tesis visual sigue, que puede poblar la IA con seguridad y que debe evitar. Si una landing anterior se rehace, `rewrite_targets` tiene que atacar los problemas visibles de esa version, no solo repetir el spec.
+El bloque `design_brief` es la barra de calidad visual y de remake. Debe explicar que vende la pagina, que tesis visual sigue, como resuelve el flujo mobile-first y como escala a una composición desktop de alta conversión, que puede poblar la IA con seguridad y que debe evitar. Si una landing anterior se rehace, `rewrite_targets` tiene que atacar los problemas visibles de esa version, no solo repetir el spec.
 
 ## Gate de cliente
 

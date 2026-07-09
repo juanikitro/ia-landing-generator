@@ -151,6 +151,7 @@ Before writing the replacement, critique the existing page against these remake 
 3. Does the copy speak to a customer action instead of explaining the generator?
 4. Are weak photos compensated with safe AI-generated generic imagery or texture?
 5. Does mobile have rhythm, not only stacked cards?
+6. Does desktop become a stronger conversion composition, not just a stretched mobile stack?
 
 Current HTML excerpt:
 
@@ -241,6 +242,9 @@ ${remakeBlock}
 - Quality matters more than cheap or fast generation.
 - Choose one proven conversion template: \`hero-proof-offer\`, \`editorial-local-story\`, \`visual-menu\`, \`service-diagnostic\`, \`catalog-counter\`, or \`urgent-call-first\`.
 - Build a real landing structure: strong hero, trust bar, services, why choose, offer/options, before/after or gallery, process, reviews/contact, final CTA.
+- Design mobile-first by default: the phone first viewport must sell the next action with CTA, proof, contact path, and visual rhythm above the fold.
+- Convert strongly to desktop: use the extra width to recompose hero, social proof, offers, contact, and assets into a higher-conversion layout. Do not merely stretch a mobile stack into columns.
+- Prefer, without making it mandatory, designs that use effects, depth, layers, expressive shadows, overlays, micro-interactions, and animation when they make the landing more memorable and higher-converting. Avoid decorative motion that distracts from the CTA, feels heavy, or ignores \`prefers-reduced-motion\`.
 - Make sparse data look intentional: use AI-generated generic imagery and crafted microcopy where the source data is thin. Do not leave empty generic cards.
 - Automotive references to emulate structurally: strong claim + numbers + services + CTA to booking; urban/aggressive wrapping/custom style; detailing service taxonomy; emotional hero; packages; before/after; reviews.
 - You may use plain HTML/CSS or a framework/library if it materially improves the final UI. You have broad discretion to use frontend/UI, animation, and icon libraries such as Aceternity UI (https://ui.aceternity.com/components), shadcn/ui (https://ui.shadcn.com/docs/components), Magic UI (https://magicui.design/), Framer Motion, GSAP, Motion One, lucide-react, React Icons, or similar component/motion kits when they raise product quality.
@@ -279,7 +283,7 @@ Return one object with:
   - \`market_position\`: what this page sells and for whom
   - \`visual_thesis\`: concrete art direction tied to the business/rubro
   - \`copy_voice\`: how the copy should sound and what it must avoid
-  - \`layout_signature\`: what makes this page structurally specific
+  - \`layout_signature\`: what makes this page structurally specific, including the mobile-first structure, desktop conversion layout, and any effects/depth/motion choices when they fit
   - \`asset_plan\`: how real photos and safe AI generic imagery are used
   - \`ai_fill_plan.copy\`: how AI enriches thin data without false claims
   - \`ai_fill_plan.imagery\`: what non-specific images/textures can be generated

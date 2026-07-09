@@ -18,9 +18,9 @@ Escribe en el `SiteSpec` de cada negocio:
 2. `design_brief` completo:
    - `designed_by`: `"claude-code"` (sello de autoría de esta etapa; sin esto el gate `qa:design` falla).
    - `market_position`: qué vende esta página y a quién, en una frase.
-   - `visual_thesis`: dirección de arte con nombre propio, derivada de las fotos reales del negocio (ej.: "Cartel de cerrajería porteña"). Debe nombrar par tipográfico y paleta concretos.
+   - `visual_thesis`: dirección de arte con nombre propio, derivada de las fotos reales del negocio (ej.: "Cartel de cerrajería porteña"). Debe nombrar par tipográfico y paleta concretos. Preferir, sin hacerlo obligatorio, recursos de profundidad, capas, efectos visuales, microinteracciones y motion cuando refuercen la identidad y la conversión.
    - `copy_voice`: registro del copy (español argentino, vos).
-   - `layout_signature`: estructura real del template de conversión elegido, hero y ritmo de secciones.
+   - `layout_signature`: estructura real del template de conversión elegido, hero y ritmo de secciones. Debe explicitar el diseño mobile-first y su conversión fuerte a desktop.
    - `asset_plan`: qué fotos reales se usan y cómo; qué se resuelve con SVG/CSS inline.
    - `ai_fill_plan.copy` / `.imagery` / `.boundaries`: qué puede poblar la IA sin inventar datos comerciales, y los límites duros (nada de precios, stock, marcas, años, premios, garantías, servicios ni reseñas no verificadas).
    - `anti_patterns`: qué evitar (fuentes genéricas, gradiente violeta, layout SaaS, etc.).
@@ -30,6 +30,8 @@ Escribe en el `SiteSpec` de cada negocio:
 
 - Una dirección de arte por negocio, comprometida y distinta de las demás de la tanda (paleta, par tipográfico y composición de hero no se repiten).
 - La identidad sale del negocio real, nunca de un template. El CTA de contacto es el elemento visual más caliente.
+- Por defecto, las landings se diseñan mobile-first: el primer viewport en celular debe vender la acción principal con CTA, prueba y contacto visibles. Desktop no es un estiramiento del stack mobile: debe recomponer hero, prueba social, oferta y assets para aprovechar el ancho, sostener jerarquía comercial y aumentar conversión.
+- La preferencia visual es diseñar con más oficio que una página plana: capas, profundidad, sombras expresivas, overlays, parallax suave, reveals, hover states y transiciones pueden usarse cuando elevan el rubro. No son obligatorios y nunca justifican peso excesivo, distracción del CTA, problemas de accesibilidad ni ignorar `prefers-reduced-motion`.
 - No inventar datos: el `design_brief` transporta la intención visual y el copy nace de datos verificados.
 - El entregable es el brief que Codex implementa al pie de la letra. El design-director no escribe el HTML/CSS final: define la dirección; Codex la ejecuta.
 

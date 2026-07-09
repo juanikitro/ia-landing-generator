@@ -10,6 +10,8 @@ Hace desde la busqueda hasta los sitios generados.
 Usa datos verificados, evita cadenas/franquicias y negocios con web propia.
 No uses OpenAI API; usa esta sesion de agente para la composicion.
 Prioriza calidad visual sobre velocidad/costo. Podes usar framework o librerias de frontend, animaciones e iconos con bastante libertad si mejora la UI final, incluyendo Aceternity UI (https://ui.aceternity.com/components), shadcn/ui (https://ui.shadcn.com/docs/components), Magic UI (https://magicui.design/), Framer Motion, GSAP, Motion One, lucide-react o React Icons.
+Diseñá mobile-first por defecto: el primer viewport en celular debe vender la acción principal con CTA, prueba y contacto visibles. En desktop, recomponé la landing para conversión fuerte aprovechando ancho, assets, prueba social y oferta; no alcanza con estirar el stack mobile.
+No es obligatorio, pero preferí diseños que jueguen con efectos, profundidad, capas, sombras, overlays, microinteracciones y animaciones cuando eso haga la landing más memorable y vendible. Evitá motion decorativo que distraiga del CTA, pese demasiado o ignore `prefers-reduced-motion`.
 Si los datos o fotos publicas son pobres, poblá la página con copy comercial e imágenes genéricas seguras generadas por IA: escenas del rubro, texturas, proceso, producto sin marca, herramientas, mostrador o contexto local. No inventes precios, stock, marcas, años, premios, garantías, servicios ni reseñas.
 ```
 
@@ -81,7 +83,7 @@ Cada spec final debe incluir `agent_frontend`, por ejemplo:
 Cada spec final tambien debe incluir:
 
 - `conversion_template`: estructura de alta conversion elegida deliberadamente.
-- `design_brief`: posicionamiento, tesis visual, voz de copy, firma de layout, plan de assets, plan de IA segura, anti-patrones y objetivos de remake.
+- `design_brief`: posicionamiento, tesis visual, voz de copy, firma de layout mobile-first, conversión desktop fuerte, criterio de efectos/profundidad/motion si aplica, plan de assets, plan de IA segura, anti-patrones y objetivos de remake.
 
 Si una pagina termina pareciendo template, el criterio no es "evitar templates a toda costa"; el criterio es usar un template de conversion muy bueno: promesa clara, prueba visible, foto dominante, objeciones resueltas, oferta/opciones, proceso y CTA repetido.
 
@@ -129,6 +131,8 @@ La salida final de la sesion queda concentrada en `generated/chivilcoy-ropa/`: u
 - Revisar el shortlist report antes de promover si el rubro trae falsos positivos.
 - Editar los `site-specs` usando criterio visual y copy natural.
 - Elegir `conversion_template` y completar `design_brief` antes de escribir HTML/CSS.
+- Diseñar mobile-first por defecto y convertir con fuerza a desktop; desktop debe mejorar la jerarquía comercial, no solo agrandar el layout móvil.
+- Preferir, sin hacerlo obligatorio, profundidad visual, capas, efectos, microinteracciones y animaciones cuando mejoren la identidad y la conversión.
 - Usar IA para poblar copy, nombres de secciones, prompts e imagenes genericas seguras cuando los datos/fotos reales no alcancen.
 - Crear frontends authored por negocio; el renderer interno solo sirve como fallback de preview.
 - Usar framework o librerias cuando aporten calidad real; puede apoyarse con bastante libertad en librerias de UI, animaciones e iconos como Aceternity UI, shadcn/ui, Magic UI, Framer Motion, GSAP, Motion One, lucide-react o React Icons si eso mejora la landing final.
