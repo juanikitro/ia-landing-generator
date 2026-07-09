@@ -81,6 +81,7 @@ function runCommand(command, args, options = {}) {
 async function validateAndGenerate(runName, options) {
   const businessesPath = path.join("data", `${runName}-businesses.json`);
   const specsPath = path.join("data", "site-specs", `${runName}-site-specs.json`);
+  const briefsPath = path.join("data", "agent-briefs", runName);
   const count = await expectedCount(runName);
 
   await runCommand("npx", [
@@ -117,15 +118,29 @@ async function validateAndGenerate(runName, options) {
 
   if (options.clientReadiness === "skip") {
     console.log("Skipping client readiness audit for catalog deploy.");
-    return;
+  } else {
+    const passed = await runCommand("npx", ["tsx", "src/validators/validate-client-readiness.ts", "--session", runName, "--min-score", "85"], {
+      allowFailure: options.clientReadiness === "warn",
+    });
+    if (!passed) {
+      console.warn(`${runName}: client readiness audit failed; catalog deploy will continue. Fix this before selling the affected landing.`);
+    }
   }
 
-  const passed = await runCommand("npx", ["tsx", "src/validators/validate-client-readiness.ts", "--session", runName, "--min-score", "85"], {
-    allowFailure: options.clientReadiness === "warn",
-  });
-  if (!passed) {
-    console.warn(`${runName}: client readiness audit failed; catalog deploy will continue. Fix this before selling the affected landing.`);
-  }
+  await runCommand("npx", [
+    "tsx",
+    "src/delivery/create-final-study.ts",
+    "--businesses",
+    businessesPath,
+    "--specs",
+    specsPath,
+    "--briefs",
+    briefsPath,
+    "--session",
+    runName,
+    "--price",
+    "[PRECIO]",
+  ]);
 }
 
 async function main() {

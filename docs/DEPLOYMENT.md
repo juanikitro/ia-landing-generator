@@ -11,6 +11,7 @@ El sitio publicado contiene:
 - `/` - login hardcodeado simple para el catalogo.
 - `/catalog/` - catalogo de sesiones.
 - `/catalog/<run>/` - landings de una sesion.
+- `/catalog/<run>/<slug>/estudio/` - estudio comercial de una landing.
 - `/<run>/<slug>/` - URL publica directa para enviar al negocio.
 
 El login solo protege la navegacion del catalogo en cliente. No es autenticacion real: las landings directas son publicas.
@@ -37,6 +38,7 @@ En pushes normales, si detecta un cambio deployable, el workflow regenera todas 
    - `generate-sites` con fotos reales, frontends de agente y design brief requerido
    - `validate-generated-sites`
    - `validate-client-readiness` en modo warning para que una tanda historica no bloquee el catalogo completo
+   - `create-final-study` para que el catalogo tenga una pagina de estudio por landing
 3. `scripts/build-vercel-catalog.mjs` arma `dist/vercel-catalog/` con el login, catalogo y landings publicas.
 4. `scripts/deploy-generated.mjs` vincula/despliega `dist/vercel-catalog/` al proyecto Vercel unico.
 
