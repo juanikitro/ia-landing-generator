@@ -3,14 +3,13 @@
   --panel: #17171b;
   --panel-deep: #101013;
   --cement: #202126;
-  --line: rgba(199, 201, 205, 0.18);
-  --line-strong: rgba(199, 201, 205, 0.38);
+  --line: rgba(241, 242, 244, 0.18);
+  --line-strong: rgba(241, 242, 244, 0.38);
   --silver: #c7c9cd;
   --silver-bright: #f1f2f4;
   --muted: #a2a5ab;
   --king-red: #e01e26;
   --red-dark: #8b1117;
-  --red-glow: rgba(224, 30, 38, 0.36);
   --shadow: rgba(0, 0, 0, 0.72);
   --font-display: "Chakra Petch", sans-serif;
   --font-body: "Saira", sans-serif;
@@ -31,11 +30,11 @@ body {
   font-family: var(--font-body);
   font-size: 16px;
   line-height: 1.6;
-  color: var(--silver);
+  color: var(--silver-bright);
   background-color: var(--box-black);
   background-image:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.025) 25%, transparent 25%),
-    linear-gradient(225deg, rgba(255, 255, 255, 0.025) 25%, transparent 25%),
+    linear-gradient(135deg, rgba(32, 33, 38, 0.28) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(32, 33, 38, 0.28) 25%, transparent 25%),
     linear-gradient(45deg, rgba(0, 0, 0, 0.22) 25%, transparent 25%),
     linear-gradient(315deg, rgba(0, 0, 0, 0.22) 25%, var(--box-black) 25%);
   background-position: 12px 0, 12px 0, 0 0, 0 0;
@@ -86,7 +85,7 @@ h4 {
   font-style: italic;
   letter-spacing: 0;
   line-height: 0.96;
-  color: var(--silver-bright);
+  color: var(--silver);
 }
 
 h2 {
@@ -109,8 +108,8 @@ h4 {
   transform: translateY(-150%);
   padding: 0.75rem 1rem;
   border-radius: var(--radius);
-  background: var(--silver-bright);
-  color: var(--box-black);
+  background: var(--red-dark);
+  color: #ffffff;
   font-weight: 800;
   text-decoration: none;
 }
@@ -134,7 +133,7 @@ h4 {
   line-height: 1;
   text-decoration: none;
   color: var(--silver-bright);
-  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease, background 180ms ease;
+  transition: transform 180ms ease, border-color 180ms ease, background-color 180ms ease;
 }
 
 .button:hover {
@@ -142,19 +141,18 @@ h4 {
 }
 
 .button--red {
-  background: linear-gradient(180deg, var(--king-red), var(--red-dark));
+  background: var(--red-dark);
   color: #ffffff;
-  box-shadow: 0 16px 38px -18px var(--red-glow), inset 0 1px 0 rgba(255, 255, 255, 0.32);
 }
 
 .button--red:hover {
-  box-shadow: 0 20px 46px -16px var(--red-glow), inset 0 1px 0 rgba(255, 255, 255, 0.32);
+  background: #741015;
 }
 
 .button--silver {
-  background: linear-gradient(180deg, #f0f1f3, #aeb1b7);
-  color: #101013;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75);
+  border-color: var(--line-strong);
+  background: var(--panel);
+  color: #ffffff;
 }
 
 .button--outline {
@@ -164,7 +162,7 @@ h4 {
 }
 
 .button--outline:hover {
-  border-color: rgba(199, 201, 205, 0.72);
+  border-color: rgba(241, 242, 244, 0.72);
   background: rgba(31, 31, 36, 0.92);
 }
 
@@ -207,7 +205,7 @@ h4 {
 }
 
 .link-quiet {
-  color: var(--silver);
+  color: var(--silver-bright);
   font-weight: 800;
   text-decoration: none;
 }
@@ -251,12 +249,9 @@ h4 {
   top: 0;
   bottom: 0;
   z-index: -1;
-  width: 58px;
-  opacity: 0.62;
-  background:
-    linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent),
-    linear-gradient(180deg, transparent 0%, rgba(199, 201, 205, 0.34) 22%, transparent 44%, rgba(199, 201, 205, 0.24) 68%, transparent 100%);
-  filter: blur(0.2px);
+  width: 1px;
+  opacity: 0.7;
+  background: rgba(241, 242, 244, 0.34);
 }
 
 .led-rail--left {
@@ -293,7 +288,7 @@ h4 {
   font-weight: 700;
   font-style: italic;
   letter-spacing: 0;
-  color: var(--silver);
+  color: var(--silver-bright);
 }
 
 .eyebrow {
@@ -303,7 +298,7 @@ h4 {
 .hero__title {
   max-width: 680px;
   font-size: 3.75rem;
-  color: var(--silver-bright);
+  color: var(--silver);
   text-shadow: 0 8px 34px var(--shadow);
 }
 
@@ -355,7 +350,7 @@ h4 {
   display: grid;
   gap: 1px;
   border: 1px solid var(--line);
-  background: rgba(199, 201, 205, 0.12);
+  background: #292a2f;
 }
 
 .hero__service-strip span {
@@ -380,7 +375,7 @@ h4 {
 
 .speed-separator path {
   fill: none;
-  stroke: var(--silver);
+  stroke: rgba(241, 242, 244, 0.58);
   stroke-width: 2;
   opacity: 0.55;
   vector-effect: non-scaling-stroke;
@@ -399,7 +394,7 @@ h4 {
   position: relative;
   width: var(--shell);
   margin: 0 auto;
-  padding: 4rem 0;
+  padding: 4rem 16px;
 }
 
 .section__head {
@@ -430,7 +425,7 @@ h4 {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.035), transparent 38%),
+    linear-gradient(180deg, rgba(32, 33, 38, 0.42), transparent 38%),
     linear-gradient(135deg, var(--panel), var(--panel-deep));
   box-shadow: 0 24px 60px -34px var(--shadow);
   overflow: hidden;
@@ -441,32 +436,13 @@ h4 {
   content: "";
   display: block;
   height: 4px;
-  background: linear-gradient(90deg, var(--king-red) 0 18%, transparent 18% 22%, var(--silver) 22% 100%);
+  background: linear-gradient(90deg, var(--king-red) 0 18%, transparent 18% 22%, #4c4d52 22% 100%);
   opacity: 0.82;
 }
 
 .board-head {
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-  gap: 1rem;
   padding: 1.1rem 1rem;
   border-bottom: 1px solid var(--line);
-}
-
-.board-head span,
-.treatment span,
-.booking-steps span {
-  font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 700;
-  color: transparent;
-  -webkit-text-stroke: 1px rgba(199, 201, 205, 0.64);
-}
-
-.board-head span {
-  font-size: 2.6rem;
-  line-height: 0.9;
 }
 
 .service-card {
@@ -481,7 +457,8 @@ h4 {
 }
 
 .service-card--featured {
-  background: linear-gradient(90deg, rgba(224, 30, 38, 0.1), transparent);
+  border: 1px solid var(--line-strong);
+  background: var(--panel-deep);
 }
 
 .service-card h4 {
@@ -501,7 +478,7 @@ h4 {
 
 .service-card dl div {
   padding: 0.65rem;
-  border: 1px solid rgba(199, 201, 205, 0.14);
+  border: 1px solid rgba(241, 242, 244, 0.14);
   border-radius: 6px;
   background: rgba(11, 11, 13, 0.54);
 }
@@ -536,7 +513,7 @@ h4 {
 .price-note {
   margin: 1rem;
   padding: 0.82rem 0.95rem;
-  border-left: 4px solid var(--king-red);
+  border: 1px solid var(--king-red);
   background: rgba(11, 11, 13, 0.62);
   color: var(--silver-bright);
   font-weight: 700;
@@ -547,8 +524,7 @@ h4 {
   padding-inline: max(16px, calc((100% - 1180px) / 2));
   background:
     linear-gradient(180deg, rgba(23, 23, 27, 0.86), rgba(11, 11, 13, 0.96)),
-    linear-gradient(90deg, rgba(199, 201, 205, 0.05) 1px, transparent 1px);
-  background-size: auto, 42px 42px;
+    var(--box-black);
   border-block: 1px solid var(--line);
 }
 
@@ -587,12 +563,6 @@ h4 {
   right: 1rem;
   bottom: 1rem;
   z-index: 1;
-}
-
-.treatment span {
-  display: block;
-  margin-bottom: 0.25rem;
-  font-size: 2.25rem;
 }
 
 .treatment h3 {
@@ -660,23 +630,21 @@ h4 {
   padding: 1.25rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background:
-    linear-gradient(180deg, rgba(199, 201, 205, 0.08), transparent),
-    var(--panel);
+  background: var(--panel);
 }
 
 .review-card::before {
   content: "";
   position: absolute;
-  top: 0.9rem;
-  bottom: 0.9rem;
-  left: 0;
-  width: 4px;
+  top: 1rem;
+  left: 1.25rem;
+  width: 3rem;
+  height: 2px;
   background: var(--king-red);
 }
 
 .stars {
-  color: var(--silver-bright);
+  color: #ffffff;
   font-size: 1rem;
 }
 
@@ -690,7 +658,7 @@ h4 {
   font-style: italic;
   font-weight: 700;
   line-height: 1.1;
-  color: var(--silver-bright);
+  color: var(--silver);
 }
 
 .review-card footer {
@@ -718,20 +686,47 @@ h4 {
   margin: 0;
   padding: 0;
   list-style: none;
-  counter-reset: booking;
 }
 
 .booking-steps li {
+  position: relative;
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  align-items: start;
+  gap: 0.85rem;
   padding: 1.1rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: linear-gradient(180deg, var(--panel), var(--panel-deep));
 }
 
-.booking-steps span {
-  display: block;
-  margin-bottom: 0.7rem;
-  font-size: 2.45rem;
+.booking-steps li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 32px;
+  bottom: -1rem;
+  width: 1px;
+  height: 1rem;
+  background: var(--king-red);
+}
+
+.step-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: #ffffff;
+}
+
+.step-icon svg {
+  width: 28px;
+  height: 28px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .booking-steps h3 {
@@ -768,8 +763,7 @@ h4 {
   padding: 1.25rem 16px 4rem;
   background:
     linear-gradient(180deg, rgba(23, 23, 27, 0.98), rgba(11, 11, 13, 0.98)),
-    linear-gradient(90deg, rgba(199, 201, 205, 0.05) 1px, transparent 1px);
-  background-size: auto, 36px 36px;
+    var(--box-black);
 }
 
 .closing__content::before {
@@ -889,7 +883,7 @@ h4 {
 }
 
 .mobile-sticky a:first-child {
-  background: linear-gradient(180deg, var(--king-red), var(--red-dark));
+  background: var(--red-dark);
   color: #ffffff;
 }
 
@@ -965,8 +959,7 @@ html.js .reveal.d6 { transition-delay: 480ms; }
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
 
-  .review-grid,
-  .booking-steps {
+  .review-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1063,6 +1056,15 @@ html.js .reveal.d6 { transition-delay: 480ms; }
 
   .booking-steps {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .booking-steps li:not(:last-child)::after {
+    top: 32px;
+    right: -1rem;
+    bottom: auto;
+    left: auto;
+    width: 1rem;
+    height: 1px;
   }
 
   .closing {

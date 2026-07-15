@@ -71,6 +71,15 @@
         "Subir el slogan real 'Un servicio, mil detalles.' y el 5,0 de Google al hero como identidad y prueba",
         "Tratar la turnera ShineApp como producto propio del negocio: cada card de servicio y el CTA secundario llevan a reservar",
         "Hacer del WhatsApp real (wa.me/542345522167 con el texto precargado verificado) el elemento más caliente de la página"
+      ],
+      "impeccable_contract": [
+        "Contraste AA real en todo texto: cuerpo >=4.5:1, display >=3:1. El plata #c7c9cd es color de TITULAR sobre fondo oscuro, nunca fondo de texto ni texto sobre plata.",
+        "Nada de superficies blancas/claras en el tema midnight: si existe un panel claro, su texto es tinta oscura, no #f1f2f4.",
+        "CTA rojo: texto blanco puro sobre un rojo suficientemente oscuro para >=4.5:1 (oscurecer el rojo de botones con texto; el #e01e26 brillante queda solo para líneas/acentos sin texto). Nunca gris apagado sobre rojo.",
+        "Prohibido side-tab: sin border-left/right >1px como acento; usar borde completo, tinte de fondo o ícono/numero al frente.",
+        "Prohibido dark-glow: el motivo LED se resuelve con líneas sólidas finas o highlights sutiles, no con box-shadow de color difuso sobre fondo oscuro.",
+        "Sin marcadores de sección numerados 01/02/03: los pasos de la turnera se ordenan con íconos y una línea conectora, sin eyebrow numérico.",
+        "Sin cramped-padding: toda sección con inset horizontal (padding-inline) para que el contenido no quede pegado al borde."
       ]
     },
     "agent_frontend": {
