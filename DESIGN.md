@@ -44,7 +44,7 @@ vanilla mínimo. `prefers-reduced-motion` siempre respetado. Sin JS pesado ni CD
 
 - Estático: HTML/CSS + `script.js` vanilla liviano. **Única dependencia externa permitida: Google Fonts.**
 - Imágenes locales reales (o SVG/CSS inline); nunca imágenes remotas ni rutas a archivos inexistentes.
-- Footer con el texto exacto `Creado por JuaniKitro`.
+- Footer con el texto exacto `Creado por Mayofy`, enlazado a `https://www.instagram.com/mayofy.web/`.
 - Nada de datos inventados (precios, stock, promos, años, premios, garantías, reseñas no verificadas).
   Ver `docs/DATA_RULES.md`.
 - Toda decisión visual queda subordinada a `docs/DESIGN_STANDARDS.md` y `docs/DATA_RULES.md`.

@@ -1,6 +1,6 @@
 # Prompt To Agent
 
-El disparador recomendado es una sesion de agente. El usuario pide una ciudad y un rubro; el agente ejecuta busqueda, shortlist, promocion, briefs, specs, generacion y QA. El diseno de cada landing lo hace Claude Code y la implementacion la hace Codex (ver `CLAUDE.md`, `AGENTS.md` y `docs/DESIGN_STANDARDS.md`).
+El disparador recomendado es una sesion de agente. El usuario pide una ciudad y un rubro; el agente ejecuta busqueda, shortlist, promocion, briefs, specs, generacion y QA. El diseno de cada landing lo hace, con la skill IMPECCABLE, el agente que corre la sesion (Claude cuando orquesta Claude; Codex cuando la sesion corre en Codex) y la implementacion del codigo la hace Codex (ver `CLAUDE.md`, `AGENTS.md` y `docs/DESIGN_STANDARDS.md`).
 
 ## Prompt ejemplo
 

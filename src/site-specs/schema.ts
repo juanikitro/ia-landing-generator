@@ -144,9 +144,11 @@ export const creativeSpecSchema = z.object({
 });
 
 // `designed_by` marca la etapa del design-director (ver agents/design-director.md).
-// Debe ser "claude-code": el diseno de landings lo hace Claude, no Codex (ver CLAUDE.md / AGENTS.md).
+// El diseno usa la skill IMPECCABLE como motor: en sesion de Claude lo firma "claude-code";
+// en sesion de Codex (sin Claude orquestando) lo firma "codex". No es un dato tecnico de quien
+// escribio, sino el sello de que la etapa de diseno se cumplio. Ver CLAUDE.md / AGENTS.md.
 // Es opcional en el schema para no romper el parseo de corridas viejas; el gate `qa:design` lo exige.
-export const designedBySchema = z.enum(["claude-code"]);
+export const designedBySchema = z.enum(["claude-code", "codex"]);
 
 export const designBriefSchema = z.object({
   designed_by: designedBySchema.optional(),

@@ -6,7 +6,8 @@ import { buildBusinessProfile } from "../content/local-copy.js";
 import type { ResolvedDesign } from "../design/palette.js";
 import type { CommercialSpec, CreativeSpec, SiteSpec } from "../site-specs/schema.js";
 
-const footerText = "Creado por JuaniKitro";
+const footerText =
+  '<a href="https://www.instagram.com/mayofy.web/" target="_blank" rel="noopener" style="color:inherit">Creado por Mayofy</a>';
 
 type BusinessProfile = ReturnType<typeof buildBusinessProfile>;
 type CreativeBlock = CreativeSpec["sections"][number];

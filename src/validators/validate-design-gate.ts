@@ -68,10 +68,10 @@ async function main(): Promise<void> {
       continue;
     }
 
-    if (spec.design_brief.designed_by !== "claude-code") {
+    if (spec.design_brief.designed_by !== "claude-code" && spec.design_brief.designed_by !== "codex") {
       issues.push({
-        code: "design_not_claude",
-        message: `${spec.slug}: design_brief.designed_by must be "claude-code"; landing design belongs to Claude/design-director, not Codex.`,
+        code: "design_not_signed",
+        message: `${spec.slug}: design_brief.designed_by must be "claude-code" (Claude session) or "codex" (Codex session); the design stage uses the IMPECCABLE engine.`,
       });
     }
 

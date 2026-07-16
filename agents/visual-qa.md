@@ -9,4 +9,4 @@ Debe controlar:
 - datos no cruzados entre negocios
 - responsive
 - imagenes cargadas
-- footer exacto `Creado por JuaniKitro`
+- footer exacto `Creado por Mayofy`, enlazado a `https://www.instagram.com/mayofy.web/`

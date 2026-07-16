@@ -2,7 +2,7 @@
 
 Etapa de diseño. Va **entre `site-planner` y `copywriter`/`visual-qa`**. Es la dueña de la dirección visual de cada landing.
 
-**Este rol lo hace Claude Code, no Codex.** Ver `CLAUDE.md` y `AGENTS.md` en la raíz. Codex implementa después, a partir de lo que produce esta etapa.
+**Este rol lo hace el agente que corre la sesión, con IMPECCABLE como motor.** En una sesión de Claude, lo hace Claude y NO lo delega a Codex; Codex implementa después a partir del brief (`designed_by: "claude-code"`). Si la sesión corre directamente en Codex (sin Claude orquestando), Codex hace esta etapa él mismo con IMPECCABLE y firma `designed_by: "codex"`. Ver `CLAUDE.md` y `AGENTS.md` en la raíz.
 
 ## Motor de diseño obligatorio: IMPECCABLE
 
@@ -16,7 +16,7 @@ Flujo de diseño con IMPECCABLE, por landing:
 2. `critique` — revisión crítica de la dirección propuesta contra el anti-slop y la barra de los golden samples.
 3. Volcar el resultado al `design_brief` del `SiteSpec` (contrato de salida, abajo). IMPECCABLE se usa para **decidir la dirección y firmar el brief**, no para que un agente escriba el HTML final salteando el gate.
 
-Todo lo que sugiera IMPECCABLE (copy, assets, paleta) queda subordinado a `docs/DATA_RULES.md` (nada inventado, footer `Creado por JuaniKitro`, imágenes locales) y a `docs/DESIGN_STANDARDS.md`. El sello `designed_by: "claude-code"` y el contrato de salida no cambian.
+Todo lo que sugiera IMPECCABLE (copy, assets, paleta) queda subordinado a `docs/DATA_RULES.md` (nada inventado, footer `Creado por Mayofy` enlazado a `https://www.instagram.com/mayofy.web/`, imágenes locales) y a `docs/DESIGN_STANDARDS.md`. El sello `designed_by` (`"claude-code"` o `"codex"` según la sesión) y el contrato de salida no cambian.
 
 ## Entrada
 
@@ -30,7 +30,7 @@ Escribe en el `SiteSpec` de cada negocio:
 
 1. `conversion_template`: uno de los arquetipos de conversión, elegido de forma deliberada según el rubro y la intención de búsqueda.
 2. `design_brief` completo:
-   - `designed_by`: `"claude-code"` (sello de autoría de esta etapa; sin esto el gate `qa:design` falla).
+   - `designed_by`: `"claude-code"` (sesión de Claude) o `"codex"` (sesión de Codex) — sello de que esta etapa se cumplió; sin uno de los dos el gate `qa:design` falla.
    - `market_position`: qué vende esta página y a quién, en una frase.
    - `visual_thesis`: dirección de arte con nombre propio, derivada de las fotos reales del negocio (ej.: "Cartel de cerrajería porteña"). Debe nombrar par tipográfico y paleta concretos.
    - `copy_voice`: registro del copy (español argentino, vos).
@@ -45,10 +45,10 @@ Escribe en el `SiteSpec` de cada negocio:
 - Una dirección de arte por negocio, comprometida y distinta de las demás de la tanda (paleta, par tipográfico y composición de hero no se repiten).
 - La identidad sale del negocio real, nunca de un template. El CTA de contacto es el elemento visual más caliente.
 - No inventar datos: el `design_brief` transporta la intención visual y el copy nace de datos verificados.
-- El entregable es el brief que Codex implementa al pie de la letra. El design-director no escribe el HTML/CSS final: define la dirección; Codex la ejecuta.
+- El entregable es el brief que se implementa al pie de la letra. El design-director no escribe el HTML/CSS final: define la dirección. En sesión de Claude, Codex ejecuta esa implementación; en sesión de Codex, el mismo Codex implementa después de firmar el brief.
 
 ## Gate
 
-`npm run qa:design` valida esta etapa: falla si algún spec no tiene `conversion_template`, `design_brief` completo o `designed_by: "claude-code"`. `npm run generate` con `--require-design-brief` también rechaza generar sin brief de diseño firmado. La barra de calidad de la salida son los golden samples de `docs/DESIGN_STANDARDS.md`.
+`npm run qa:design` valida esta etapa: falla si algún spec no tiene `conversion_template`, `design_brief` completo o `designed_by` (`"claude-code"` o `"codex"`). `npm run generate` con `--require-design-brief` también rechaza generar sin brief de diseño firmado. La barra de calidad de la salida son los golden samples de `docs/DESIGN_STANDARDS.md`.
 
 Además, `npm run qa:impeccable` corre el detector determinístico de IMPECCABLE sobre las landings generadas y falla ante slop. Es una capa de calidad **adicional** a `qa:design`/`qa`/`qa:client`, no un reemplazo. Los 3 golden samples de `amba-alta-conversion` están excepcionados por archivo en `.impeccable/config.json` (output aprobado); toda landing nueva se scanea completa.

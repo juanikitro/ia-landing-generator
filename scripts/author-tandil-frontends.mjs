@@ -681,7 +681,7 @@ function html(site) {
     </main>
     <footer>
       <span>${escapeHtml(site.name)}</span>
-      <span>Creado por JuaniKitro</span>
+      <span><a href="https://www.instagram.com/mayofy.web/" target="_blank" rel="noopener" style="color:inherit">Creado por Mayofy</a></span>
     </footer>
   </body>
 </html>`;

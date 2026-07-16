@@ -38,7 +38,7 @@ Los validadores finales rechazan mocks, fuentes `mock://`, negocios con sitio pr
 
 ## Generacion visual
 
-Cada sitio usa un solo negocio. La pagina incluye marca, servicio principal, direccion, horario, telefono, resenas, foto principal si esta permitida y footer exacto: `Creado por JuaniKitro`.
+Cada sitio usa un solo negocio. La pagina incluye marca, servicio principal, direccion, horario, telefono, resenas, foto principal si esta permitida y footer exacto: `Creado por Mayofy`.
 
 Los arquetipos iniciales son:
 

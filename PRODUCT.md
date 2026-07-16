@@ -14,7 +14,7 @@ Dueños y dueñas de PyMEs y comercios locales de Argentina (cerrajerías, centr
 
 ## Product Purpose
 
-Generar, negocio por negocio, una landing de alta conversión que parezca hecha a medida del comercio real —no una plantilla— y que sirva como pieza de venta del servicio de MAYOFY/JuaniKitro. El éxito es una página que el dueño sienta propia y que empuje al visitante a contactar. Cada landing nace de datos verificados del negocio (rating, reseñas literales, horarios, teléfono, dirección, fotos reales) y de una dirección de arte extraída de esas fotos.
+Generar, negocio por negocio, una landing de alta conversión que parezca hecha a medida del comercio real —no una plantilla— y que sirva como pieza de venta del servicio de Mayofy. El éxito es una página que el dueño sienta propia y que empuje al visitante a contactar. Cada landing nace de datos verificados del negocio (rating, reseñas literales, horarios, teléfono, dirección, fotos reales) y de una dirección de arte extraída de esas fotos.
 
 ## Positioning
 

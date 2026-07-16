@@ -6,8 +6,8 @@ La prioridad actual es calidad visual, no costo ni velocidad. El camino final es
 
 ## Division de roles (preferencia explicita del usuario)
 
-- **Claude Code disena.** Direccion de arte, tipografias, paleta, estructura, motion y copy con datos verificados se definen en una sesion de Claude con la skill **IMPECCABLE** (motor de diseño por defecto; `frontend-design` como fallback). Ver `CLAUDE.md` y `agents/design-director.md`.
-- **Codex implementa.** El codigo (HTML/CSS/JS) lo escribe Codex a partir del brief de diseno de Claude, sin reinterpretar la direccion de arte. Ver `AGENTS.md` en la raiz.
+- **El agente de la sesion disena, con la skill IMPECCABLE** (motor de diseño por defecto; `frontend-design` como fallback). Direccion de arte, tipografias, paleta, estructura, motion y copy con datos verificados se definen en la etapa `design-director`: en sesion de Claude lo hace Claude (no lo delega a Codex); en sesion de Codex lo hace Codex. Ver `CLAUDE.md` y `agents/design-director.md`.
+- **Codex implementa el codigo.** El HTML/CSS/JS lo escribe Codex a partir del brief de diseno, sin reinterpretar la direccion de arte. Ver `AGENTS.md` en la raiz.
 - **Claude revisa** el resultado contra `docs/DESIGN_STANDARDS.md` antes de generar y correr QA.
 
 ## Flujo principal
@@ -30,7 +30,7 @@ Luego el agente debe leer:
 - los briefs individuales relevantes
 - `data/site-specs/<run>-site-specs.json` si ya existe
 
-Claude (etapa `design-director`, ver `agents/design-director.md`) escribe, por cada landing, `conversion_template` y un `design_brief` completo con `designed_by: "claude-code"` en
+El agente de la sesión (Claude, o Codex si corre en Codex; etapa `design-director`, ver `agents/design-director.md`) escribe, por cada landing, `conversion_template` y un `design_brief` completo con `designed_by: "claude-code" o "codex"` en
 
 ```text
 data/site-specs/<run>-site-specs.json
@@ -57,7 +57,7 @@ npm run qa:client -- --session <run>
 npm run qa:impeccable -- generated/<run>
 ```
 
-`npm run qa:design` es el gate de la etapa `design-director`: falla si algun spec no tiene `conversion_template`, `design_brief` completo o `designed_by: "claude-code"`. Para corridas nuevas, generar con `--require-design-brief` para que el propio `generate` rechace landings sin brief de diseno firmado. `npm run qa:impeccable` corre el detector anti-slop de IMPECCABLE sobre las landings generadas (capa adicional; excepciones en `.impeccable/config.json`, ver `docs/DESIGN_STANDARDS.md`).
+`npm run qa:design` es el gate de la etapa `design-director`: falla si algun spec no tiene `conversion_template`, `design_brief` completo o `designed_by: "claude-code" o "codex"`. Para corridas nuevas, generar con `--require-design-brief` para que el propio `generate` rechace landings sin brief de diseno firmado. `npm run qa:impeccable` corre el detector anti-slop de IMPECCABLE sobre las landings generadas (capa adicional; excepciones en `.impeccable/config.json`, ver `docs/DESIGN_STANDARDS.md`).
 
 Para ciudades/rubros nuevos, usar paths parametrizados en vez de los archivos de Tandil. Ver `docs/PROMPT_TO_AGENT.md`.
 

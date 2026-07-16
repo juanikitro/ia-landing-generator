@@ -261,8 +261,8 @@ function designGateFailureDetails(spec: SiteSpec | undefined): string[] {
     return details;
   }
 
-  if (spec.design_brief.designed_by !== "claude-code") {
-    details.push('design_brief.designed_by must be "claude-code" from Claude/design-director');
+  if (spec.design_brief.designed_by !== "claude-code" && spec.design_brief.designed_by !== "codex") {
+    details.push('design_brief.designed_by must be "claude-code" or "codex" (IMPECCABLE design stage)');
   }
 
   for (const issue of designBriefIssues(spec)) {

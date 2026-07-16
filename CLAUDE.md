@@ -4,7 +4,7 @@ Preferencias explícitas del usuario para este repositorio. Tienen prioridad sob
 
 ## División de roles: Claude diseña, Codex programa
 
-- **Diseño de landings: Claude Code, siempre.** El diseño se hace en la sesión de Claude con la skill **IMPECCABLE** cargada como motor de diseño por defecto (`frontend-design` queda como fallback compatible). El usuario comparó resultados y prefiere el diseño de Claude. Claude NO delega el diseño a Codex ni a subagentes. Ver `agents/design-director.md` para el flujo IMPECCABLE (`shape`/`critique`, register `brand`) y la integración.
+- **Diseño de landings: lo hace el agente que corre la sesión, con la skill **IMPECCABLE** como motor de diseño obligatorio** (`frontend-design` queda como fallback compatible). **En una sesión de Claude (este archivo), el diseño lo hace Claude y NO lo delega a Codex ni a subagentes** — el usuario comparó resultados y prefiere el diseño de Claude cuando Claude orquesta. **Si la sesión corre directamente en Codex** (sin Claude orquestando), Codex hace el diseño con IMPECCABLE él mismo (ver `AGENTS.md`), sin quedar bloqueado esperando a Claude. IMPECCABLE es obligatorio en ambos casos. Ver `agents/design-director.md` para el flujo (`shape`/`critique`, register `brand`).
 - **Programación/implementación: Codex, siempre que esté disponible.** El usuario tiene más tokens en la suscripción de Codex. Una vez definido el diseño, Claude delega la escritura del código a Codex vía `/codex:rescue`.
 - **Revisión: Claude.** Claude revisa el código que devuelve Codex contra el brief de diseño y `docs/DESIGN_STANDARDS.md` antes de generar y correr QA.
 
@@ -16,14 +16,14 @@ El output de la fase de diseño es un brief de implementación por landing, list
 - Par tipográfico exacto (Google Fonts) y paleta en CSS variables (dominante + acento para CTA).
 - Estructura de secciones con jerarquía, composición del hero y motivos gráficos del oficio (SVG/CSS inline).
 - Copy completo en español argentino con datos verificados: titulares, CTAs, reseñas literales con autor, horarios, teléfonos y links (tel:/wa.me/Maps).
-- Contrato QA que el código debe cumplir (footer exacto `Creado por JuaniKitro`, palabras prohibidas, imágenes locales, sin datos inventados — ver `docs/DESIGN_STANDARDS.md` punto 10 y `docs/DATA_RULES.md`).
+- Contrato QA que el código debe cumplir (footer exacto `Creado por Mayofy` enlazado a `https://www.instagram.com/mayofy.web/`, palabras prohibidas, imágenes locales, sin datos inventados — ver `docs/DESIGN_STANDARDS.md` punto 10 y `docs/DATA_RULES.md`).
 - Plan de motion (reveals, reduced-motion) y requisitos mobile (barra sticky de llamada, CTA arriba del fold).
 
 ## Gate del diseño
 
-La etapa de diseño está formalizada como el agente `design-director` (`agents/design-director.md`), entre `site-planner` y `copywriter`. Su entregable —`conversion_template` + `design_brief` con `designed_by: "claude-code"`— es un dato requerido y validado, no solo una convención:
+La etapa de diseño está formalizada como el agente `design-director` (`agents/design-director.md`), entre `site-planner` y `copywriter`. Su entregable —`conversion_template` + `design_brief` con `designed_by` (`"claude-code"` si diseñó Claude, `"codex"` si la sesión corrió en Codex)— es un dato requerido y validado, no solo una convención:
 
-- `npm run qa:design` falla si algún spec no tiene `conversion_template`, `design_brief` completo o el sello `designed_by: "claude-code"`.
+- `npm run qa:design` falla si algún spec no tiene `conversion_template`, `design_brief` completo o el sello `designed_by` (`"claude-code"` o `"codex"`).
 - `npm run generate ... --require-design-brief` rechaza generar el sitio final sin ese brief firmado.
 - `npm run qa:impeccable` corre el detector determinístico de IMPECCABLE sobre las landings generadas y falla ante "AI slop" (side-tab, dark-glow, gradiente violeta, eyebrow chips, etc.). Es una capa **adicional** a `qa:design`/`qa`/`qa:client`. Los golden samples de `amba-alta-conversion` están excepcionados por archivo en `.impeccable/config.json`; toda landing nueva se scanea completa.
 

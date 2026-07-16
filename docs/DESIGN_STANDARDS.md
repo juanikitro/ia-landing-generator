@@ -36,7 +36,7 @@ Estos principios salen de las 3 landings y son la definición operativa de "cali
 7. **Texturas y motivos del oficio en CSS/SVG inline.** Franjas de obra, mariposa de línea, grid técnico de chapa: atmósfera sin assets externos. Única dependencia externa permitida: Google Fonts.
 8. **Motion sobrio y progresivo.** Reveals escalonados en carga + IntersectionObserver en scroll con `script.js` vanilla mínimo; `prefers-reduced-motion` siempre respetado; sin JS pesado ni CDNs.
 9. **Accesibilidad y SEO base.** `alt` descriptivos reales, contraste AA, semántica correcta, `lang="es-AR"`, `<title>` y meta description con servicio + barrio.
-10. **Contrato QA del repo cumplido.** Footer con el texto exacto `Creado por JuaniKitro`, sin texto meta de IA ni palabras prohibidas, imágenes locales existentes, sin datos inventados (nada de precios, promos, años, zonas de cobertura ni claims médicos/técnicos sin evidencia).
+10. **Contrato QA del repo cumplido.** Footer con el texto exacto `Creado por Mayofy` enlazado a `https://www.instagram.com/mayofy.web/`, sin texto meta de IA ni palabras prohibidas, imágenes locales existentes, sin datos inventados (nada de precios, promos, años, zonas de cobertura ni claims médicos/técnicos sin evidencia).
 
 ## Cómo usarlos
 
@@ -50,9 +50,9 @@ node scripts/capture-golden-screenshots.mjs --base-url http://localhost:4173 --o
 
 ## Gate del diseño
 
-La etapa `design-director` (`agents/design-director.md`) produce, por landing, un `conversion_template` y un `design_brief` firmado con `designed_by: "claude-code"`. Ese entregable está validado:
+La etapa `design-director` (`agents/design-director.md`) produce, por landing, un `conversion_template` y un `design_brief` firmado con `designed_by: "claude-code" o "codex"`. Ese entregable está validado:
 
-- `npm run qa:design` falla si algún spec no tiene `conversion_template`, `design_brief` completo o el sello `designed_by: "claude-code"`.
+- `npm run qa:design` falla si algún spec no tiene `conversion_template`, `design_brief` completo o el sello `designed_by: "claude-code" o "codex"`.
 - `npm run generate ... --require-design-brief` no genera el sitio final sin ese brief.
 - `npm run qa:impeccable -- generated/<run>` corre el detector determinístico de IMPECCABLE sobre las landings generadas y falla ante slop. Capa adicional, no reemplaza `qa:design`/`qa`/`qa:client`. Configuración y excepciones en `.impeccable/config.json`.
 
@@ -60,7 +60,7 @@ Es la forma dura del split Claude-diseña / Codex-programa: sin la etapa de dise
 
 ## Cómo se aprueba un golden sample nuevo
 
-1. Claude Code diseña la landing en la etapa `design-director` (ver división de roles en `CLAUDE.md` / `AGENTS.md` de la raíz) y corre `npm run qa:design`.
+1. El agente de la sesión (Claude, o Codex si corre en Codex) diseña la landing con IMPECCABLE en la etapa `design-director` (ver división de roles en `CLAUDE.md` / `AGENTS.md` de la raíz) y corre `npm run qa:design`.
 2. Codex la implementa a partir del `design_brief`.
 3. Pasa `npm run qa`, `npm run qa:client` y `npm run qa:impeccable -- generated/<run>` (sin slop, salvo excepciones justificadas en `.impeccable/config.json`), más revisión visual desktop/mobile.
 4. El usuario la aprueba explícitamente como golden sample.

@@ -125,8 +125,11 @@ async function validateSites(args: Args): Promise<ValidationIssue[]> {
       }
     }
 
-    if (!html.includes("Creado por JuaniKitro")) {
-      issues.push({ code: "footer", message: `${site.slug}: footer must contain exact text.` });
+    if (!html.includes("Creado por Mayofy")) {
+      issues.push({ code: "footer", message: `${site.slug}: footer must contain exact text "Creado por Mayofy".` });
+    }
+    if (!html.includes("instagram.com/mayofy.web")) {
+      issues.push({ code: "footer_link", message: `${site.slug}: footer must link to https://www.instagram.com/mayofy.web/.` });
     }
 
     for (const pattern of forbiddenPatterns) {

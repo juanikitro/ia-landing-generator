@@ -2,16 +2,22 @@
 
 Reglas para sesiones de Codex en este repositorio. Complementan `~/.codex/AGENTS.md` y los docs de `docs/`.
 
-## Rol de Codex: implementar, no diseñar
+## Rol de Codex según cómo corra la sesión
 
-En este repo el diseño de las landings lo hace Claude Code (preferencia explícita del usuario, ver `CLAUDE.md`) usando la skill **IMPECCABLE** como motor de diseño. La dirección visual se decide en la etapa `design-director` (`agents/design-director.md`) y llega a Codex como un `design_brief` por landing. Codex **no** corre los comandos de diseño de IMPECCABLE; su trabajo es **ejecutar el brief al pie de la letra**:
+El motor de diseño es la skill **IMPECCABLE** (register `brand`). Quién hace el diseño depende de quién orquesta la sesión:
+
+**Caso A — Claude orquesta la sesión (lo habitual).** El diseño lo hace Claude en la etapa `design-director` (`agents/design-director.md`) y llega a Codex como un `design_brief` firmado `designed_by: "claude-code"`. Acá Codex **no** corre los comandos de diseño de IMPECCABLE; **ejecuta el brief al pie de la letra**:
 
 - No reinterpretar ni "mejorar" la dirección de arte, el par tipográfico, la paleta ni la estructura de secciones definidas en el brief.
 - No cambiar el copy: los textos vienen escritos con datos verificados; cualquier hueco se devuelve como pregunta, no se rellena inventando.
-- No escribir ni editar el `design_brief` ni marcar `designed_by`: ese campo es de la etapa `design-director` (Claude). Codex implementa a partir de él.
+- No escribir ni editar el `design_brief` ni marcar `designed_by`: ese campo lo puso Claude. Codex implementa a partir de él.
 - Sí aportar calidad de implementación: CSS prolijo con variables, responsive impecable, motion con `prefers-reduced-motion`, accesibilidad, performance.
 
-El gate `npm run qa:design` y el flag `npm run generate ... --require-design-brief` bloquean la generación si falta el `design_brief` firmado. Codex no debe sortear ese gate marcando `designed_by` por su cuenta.
+**Caso B — la sesión corre directamente en Codex (sin Claude orquestando).** No hay que bloquearse esperando a Claude: Codex **hace el diseño él mismo con IMPECCABLE** (setup `node .agents/skills/impeccable/scripts/context.mjs`, luego `shape`/`critique`, register `brand`, ver `reference/brand.md`), escribe el `design_brief` completo y lo firma `designed_by: "codex"`, y recién después implementa el frontend. Mismo contrato de salida y mismos gates que en el Caso A.
+
+En ambos casos rigen las reglas de datos (`docs/DATA_RULES.md`) y la barra de `docs/DESIGN_STANDARDS.md`.
+
+El gate `npm run qa:design` y el flag `npm run generate ... --require-design-brief` bloquean la generación si falta el `design_brief` firmado (`designed_by` = `"claude-code"` o `"codex"`). En el Caso A, Codex no debe sortear ese gate marcando `designed_by` por su cuenta.
 
 ## Barra de calidad
 
@@ -19,7 +25,7 @@ El gate `npm run qa:design` y el flag `npm run generate ... --require-design-bri
 
 ## Contrato duro por landing (lo valida `npm run qa`)
 
-- Footer con el texto exacto: `Creado por JuaniKitro`.
+- Footer con el texto exacto `Creado por Mayofy`, enlazado a `https://www.instagram.com/mayofy.web/` (el gate `qa` exige ambos: el texto y el link a Instagram).
 - Prohibido en texto visible: `IA`, `AI`, cualquier forma de `generad(o/a/os/as)`, "hecho/creado con ia", nombres de otros negocios de la tanda.
 - Al menos un `<img>` con `src` local existente; nunca referenciar archivos locales que no existan (ni en CSS).
 - Datos exactos del dataset: teléfono, horarios, dirección, rating y cantidad de reseñas. Reseñas citadas literales con autor.

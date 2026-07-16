@@ -77,7 +77,7 @@ Componer direccion visual y preparar el trabajo del agente:
 npm run agent:briefs -- --input data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --out data/agent-briefs/<run> --city "<Ciudad>" --segment "<Rubro>"
 ```
 
-Luego los agentes (Claude disena con la skill **IMPECCABLE** como motor de diseño, Codex implementa) deben:
+Luego los agentes (el diseño con la skill **IMPECCABLE** lo hace el agente de la sesión — Claude, o Codex si corre en Codex —, y Codex implementa el código) deben:
 
 - disenar una landing real por negocio (etapa `design-director`, flujo IMPECCABLE `shape`/`critique`, register `brand`; ver `agents/design-director.md`)
 - elegir un `conversion_template` de alta conversion: promesa + prueba + CTA, historia local editorial, menu visual, diagnostico de servicio, mostrador/catalogo o llamada urgente

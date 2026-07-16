@@ -14,7 +14,7 @@ El repositorio empieza sin datos reales finales. `data/tandil-businesses.json` e
 
 La prioridad es calidad visual, no velocidad ni costo. El agente tiene libertad para usar frameworks, librerias, composiciones propias y CSS dedicado, siempre que el resultado final exporte archivos estaticos y respete los datos verificados.
 
-Division de roles (preferencia explicita): **Claude Code disena** las landings con la skill **IMPECCABLE** como motor de diseño (`frontend-design` como fallback; ver `CLAUDE.md` y `agents/design-director.md`) y **Codex las programa** a partir del brief de diseno (ver `AGENTS.md`). La barra de calidad son los golden samples de `docs/DESIGN_STANDARDS.md`, reforzada por el detector `npm run qa:impeccable`.
+Division de roles (preferencia explicita): el diseno lo hace, con la skill **IMPECCABLE** como motor (`frontend-design` como fallback), el agente que corre la sesion — **Claude** cuando orquesta Claude (no lo delega a Codex), o **Codex** cuando la sesion corre en Codex — y **Codex programa** el codigo a partir del brief de diseno (ver `CLAUDE.md`, `AGENTS.md` y `agents/design-director.md`). La barra de calidad son los golden samples de `docs/DESIGN_STANDARDS.md`, reforzada por el detector `npm run qa:impeccable`.
 Cada landing debe nacer de un `conversion_template` y un `design_brief`: que vende, tesis visual, voz de copy, firma de layout, plan de assets, plan de IA segura, anti-patrones y objetivos de remake. Si los datos o fotos son pobres, la IA puede poblar copy, secciones e imagenes genericas del rubro sin inventar datos comerciales.
 
 ## Comandos
@@ -104,7 +104,7 @@ npm run qa -- --session <run> --expected-count 10
 2. Generar shortlist con `npm run shortlist -- --input data/intake/<run>-candidates.json --out data/intake/<run>-shortlist.json`.
 3. Promover 10 negocios con `npm run promote -- --input data/intake/<run>-shortlist.json --out data/<run>-businesses.json`.
 4. Preparar briefs con `npm run agent:briefs -- --input data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json --out data/agent-briefs/<run> --city "<Ciudad>" --segment "<Rubro>"`.
-5. Etapa `design-director` (Claude, skill IMPECCABLE `shape`/`critique`, register `brand`): elige `conversion_template`, completa `design_brief` con `designed_by: "claude-code"` y define la dirección visual de cada landing; Codex implementa el frontend a partir de ese brief.
+5. Etapa `design-director` (el agente de la sesión — Claude, o Codex si corre en Codex — con la skill IMPECCABLE `shape`/`critique`, register `brand`): elige `conversion_template`, completa `design_brief` con `designed_by: "claude-code" o "codex"` y define la dirección visual de cada landing; Codex implementa el frontend a partir de ese brief.
 6. El agente agrega `agent_frontend` en `data/site-specs/<run>-site-specs.json`.
 7. Validar specs con `npm run validate:specs -- --businesses data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json` y el gate de diseño con `npm run qa:design -- --businesses data/<run>-businesses.json --specs data/site-specs/<run>-site-specs.json`.
 8. Validar que no haya datos inventados ni negocios con sitio propio.
