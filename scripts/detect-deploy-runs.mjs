@@ -82,6 +82,7 @@ function shouldDeployAllFromPath(filePath) {
     normalized === ".github/workflows/deploy-vercel.yml" ||
     normalized === "package.json" ||
     normalized === "package-lock.json" ||
+    normalized === "src/delivery/create-final-study.ts" ||
     /^scripts\/(?:detect-deploy-runs|generate-deploy-runs|build-vercel-catalog|deploy-generated)\.mjs$/u.test(normalized)
   );
 }
