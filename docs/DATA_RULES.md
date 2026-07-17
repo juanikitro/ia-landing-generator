@@ -21,6 +21,12 @@ Cada negocio debe incluir `verification.field_evidence` para los campos principa
 
 Si existen telefono u horario, tambien deben tener evidencia.
 
+## Nombre de marca para comunicar
+
+`name` conserva el texto exacto de la fuente (por ejemplo, el `displayName` de Google Places). Si ese texto agrega rubro, servicios u otro ruido que no forma parte de la marca, agregar `brand_name` con el nombre comercial limpio. Las landings, briefs y mensajes de outreach usan `brand_name`; la evidencia y trazabilidad siguen usando `name`.
+
+No inferir esta limpieza con una regla automática: confirmar el nombre comercial con fuentes públicas antes de cargarlo.
+
 ## Fotos
 
 Cada foto debe guardar:

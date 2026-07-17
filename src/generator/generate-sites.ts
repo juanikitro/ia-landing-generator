@@ -2,6 +2,7 @@ import { mkdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { resolveArchetype } from "../archetypes/index.js";
 import { approvedBusinesses, loadBusinesses } from "../content/load-businesses.js";
+import { businessDisplayName } from "../content/business-name.js";
 import { resolveDesign } from "../design/palette.js";
 import { flagValue, resolveGeneratedDir } from "../generated-output.js";
 import { designBriefIssues } from "../site-specs/design-brief-rules.js";
@@ -333,7 +334,7 @@ async function main(): Promise<void> {
       `${JSON.stringify(
         {
           id: business.id,
-          name: business.name,
+          name: businessDisplayName(business),
           slug: business.slug,
           archetype: archetype.id,
           palette: {
@@ -357,7 +358,7 @@ async function main(): Promise<void> {
     manifest.push({
       slug: business.slug,
       business_id: business.id,
-      name: business.name,
+      name: businessDisplayName(business),
       archetype: archetype.id,
       dominant_color: design.dominant,
       primary_font: design.primaryFont,

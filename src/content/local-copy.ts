@@ -1,4 +1,5 @@
 import type { Business } from "./business-schema.js";
+import { businessDisplayName } from "./business-name.js";
 import { summarizeOpeningHours } from "./hours.js";
 import { businessAreaLabel, businessCityLabel } from "./location.js";
 
@@ -191,7 +192,7 @@ function commonGallery(rubro: string): CommercialCard[] {
 
 function finalCta(business: Business, cta: string, rubro: string): FinalCta {
   return {
-    title: `${business.name}: el proximo paso es simple`,
+    title: `${businessDisplayName(business)}: el proximo paso es simple`,
     body: business.phone
       ? `Llama, confirma disponibilidad y lleva el auto con el dato clave ya resuelto: ${rubro.toLowerCase()}, direccion y horario.`
       : `Carga el telefono o WhatsApp para convertir esta landing en una via directa de consulta por ${rubro.toLowerCase()}.`,
@@ -288,7 +289,7 @@ export function buildBusinessProfile(business: Business): BusinessProfile {
         "La pagina separa proyecto, alcance y datos aun no confirmados.",
         `Horario registrado: ${hours}.`,
       ],
-      lead: `${business.name} puede convertir consultas de customizacion vehicular en ${placeArea} con una propuesta visual fuerte y pasos concretos.`,
+      lead: `${businessDisplayName(business)} puede convertir consultas de customizacion vehicular en ${placeArea} con una propuesta visual fuerte y pasos concretos.`,
       body: "La pagina debe vender deseo visual sin inventar laminas, marcas, garantia ni precios.",
       cta: "Consultar proyecto",
     });
@@ -369,7 +370,7 @@ export function buildBusinessProfile(business: Business): BusinessProfile {
         "Paquetes demo editables para subir el valor percibido sin falsear precios.",
         `Horario registrado: ${hours}.`,
       ],
-      lead: `${business.name} se presenta como una opcion para cuidar estetica, limpieza y terminacion del vehiculo en ${placeArea}.`,
+      lead: `${businessDisplayName(business)} se presenta como una opcion para cuidar estetica, limpieza y terminacion del vehiculo en ${placeArea}.`,
       body: "La landing debe vender resultado visual y reserva de turno, apoyada en datos reales y placeholders editables.",
       cta: "Reservar turno",
     });
@@ -450,7 +451,7 @@ export function buildBusinessProfile(business: Business): BusinessProfile {
         "Paquetes demo editables para no dejar la landing vacia.",
         `Horario registrado: ${hours}.`,
       ],
-      lead: `${business.name} facilita consultar lavado y cuidado del auto en ${placeArea}, con contacto y horario visibles desde el inicio.`,
+      lead: `${businessDisplayName(business)} facilita consultar lavado y cuidado del auto en ${placeArea}, con contacto y horario visibles desde el inicio.`,
       body: "La pagina convierte un servicio cotidiano en una decision rapida: que incluye, cuando consultar y como llegar.",
       cta: "Consultar lavado",
     });
@@ -531,7 +532,7 @@ export function buildBusinessProfile(business: Business): BusinessProfile {
         "No se inventan marcas, stock, garantia ni precios.",
         `Horario registrado: ${hours}.`,
       ],
-      lead: `${business.name} ofrece una referencia directa para mantenimiento, lubricantes y consultas del auto en ${placeArea}.`,
+      lead: `${businessDisplayName(business)} ofrece una referencia directa para mantenimiento, lubricantes y consultas del auto en ${placeArea}.`,
       body: "El contenido se centra en convertir la primera consulta en algo concreto: datos del vehiculo, horario, direccion y telefono.",
       cta: "Consultar mantenimiento",
     });
@@ -616,7 +617,7 @@ export function buildBusinessProfile(business: Business): BusinessProfile {
         hasAuxilio ? "Contacto util para urgencias y auxilios." : "Telefono o bloque editable para consultar antes de ir.",
         `Horario registrado: ${hours}.`,
       ],
-      lead: `${business.name} concentra lo importante para resolver cubiertas, pinchaduras y consultas de gomeria en ${placeArea}.`,
+      lead: `${businessDisplayName(business)} concentra lo importante para resolver cubiertas, pinchaduras y consultas de gomeria en ${placeArea}.`,
       body: "La pagina prioriza accion rapida, datos utiles y ausencia de stock inventado.",
       cta: hasAuxilio ? "Consultar auxilio" : "Consultar disponibilidad",
     });
@@ -696,7 +697,7 @@ export function buildBusinessProfile(business: Business): BusinessProfile {
         "Resenas publicas para revisar referencias de terminacion y atencion.",
         `Horario registrado: ${hours}.`,
       ],
-      lead: `${business.name} ayuda a convertir consultas de chapa, pintura o reparacion de carroceria en ${placeArea} en pedidos con fotos y alcance claro.`,
+      lead: `${businessDisplayName(business)} ayuda a convertir consultas de chapa, pintura o reparacion de carroceria en ${placeArea} en pedidos con fotos y alcance claro.`,
       body: "La pagina ordena la consulta sin prometer presupuesto, plazo ni resultado no verificado.",
       cta: "Consultar reparacion",
     });
@@ -777,7 +778,7 @@ export function buildBusinessProfile(business: Business): BusinessProfile {
         "Resenas visibles para evaluar atencion y disponibilidad.",
         `Horario registrado: ${hours}.`,
       ],
-      lead: `${business.name} presenta datos practicos para consultar repuestos, accesorios o disponibilidad en ${placeArea}.`,
+      lead: `${businessDisplayName(business)} presenta datos practicos para consultar repuestos, accesorios o disponibilidad en ${placeArea}.`,
       body: "El sitio evita inventar stock, marcas o precios y orienta la consulta hacia datos concretos del vehiculo.",
       cta: "Consultar repuesto",
     });
@@ -858,7 +859,7 @@ export function buildBusinessProfile(business: Business): BusinessProfile {
         "Resenas visibles para evaluar la atencion.",
         `Horario registrado: ${hours}.`,
       ],
-      lead: `${business.name} aparece como opcion de taller y mantenimiento automotor en ${placeArea}, con datos de contacto a mano.`,
+      lead: `${businessDisplayName(business)} aparece como opcion de taller y mantenimiento automotor en ${placeArea}, con datos de contacto a mano.`,
       body: "La propuesta hace que la primera consulta sea mas precisa sin prometer diagnosticos no verificados.",
       cta: "Consultar turno",
     });
@@ -922,7 +923,7 @@ export function buildBusinessProfile(business: Business): BusinessProfile {
         "Resenas publicas para evaluar atencion y experiencia.",
         `Horario registrado: ${hours}.`,
       ],
-      lead: `${business.name} reune datos utiles para consultar indumentaria, coordinar una visita y ubicar el local en ${placeArea}.`,
+      lead: `${businessDisplayName(business)} reune datos utiles para consultar indumentaria, coordinar una visita y ubicar el local en ${placeArea}.`,
       body: "La pagina evita inventar marcas, precios o stock. Ordena contacto, horario, ubicacion y referencias publicas.",
       cta: "Consultar disponibilidad",
     });
@@ -984,7 +985,7 @@ export function buildBusinessProfile(business: Business): BusinessProfile {
       `Resenas: ${reviewSignal(business)}.`,
       `Horario registrado: ${hours}.`,
     ],
-    lead: `${business.name} presenta informacion concreta para contactar el local y conocer su servicio principal en ${placeArea}.`,
+    lead: `${businessDisplayName(business)} presenta informacion concreta para contactar el local y conocer su servicio principal en ${placeArea}.`,
     body: "El sitio ordena datos publicos relevantes y deja como editable cualquier dato comercial no verificado.",
     cta: "Consultar",
   });

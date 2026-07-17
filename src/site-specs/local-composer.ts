@@ -1,4 +1,5 @@
 import type { Business } from "../content/business-schema.js";
+import { businessDisplayName } from "../content/business-name.js";
 import { summarizeOpeningHours } from "../content/hours.js";
 import { businessCityLabel } from "../content/location.js";
 import { buildBusinessProfile } from "../content/local-copy.js";
@@ -214,7 +215,7 @@ function designBriefFromProfile(profile: ReturnType<typeof buildBusinessProfile>
   const hasThinReviews = business.reviews.length < 2 || business.rating.reviews_count < 15;
 
   return {
-    market_position: `${business.name} debe vender una consulta concreta de ${profile.rubro.toLowerCase()} para personas que ya estan cerca de decidir, no una presentacion institucional.`,
+    market_position: `${businessDisplayName(business)} debe vender una consulta concreta de ${profile.rubro.toLowerCase()} para personas que ya estan cerca de decidir, no una presentacion institucional.`,
     visual_thesis: visualThesisFor(profile, business),
     copy_voice:
       "Español argentino claro, comercial y local. Frases cortas, verbos de accion y beneficios visibles. Hablarle a alguien que esta por llamar, pedir presupuesto o acercarse.",
@@ -357,7 +358,7 @@ export function composeLocalSiteSpec(business: Business, index: number): SiteSpe
     slug: business.slug,
     visual_mood: mood,
     composition,
-    headline: business.name,
+    headline: businessDisplayName(business),
     subheadline: publicText(`${profile.heroClaim} ${profile.rubro} en ${city} con contacto, horarios, ubicacion y referencias publicas arriba del pliegue.`),
     primary_cta: publicText(profile.cta),
     secondary_cta: "Ver ubicacion",

@@ -3,6 +3,7 @@ import path from "node:path";
 import { approvedBusinesses, loadBusinesses } from "../src/content/load-businesses.js";
 import { summarizeOpeningHours } from "../src/content/hours.js";
 import { buildBusinessProfile } from "../src/content/local-copy.js";
+import { businessDisplayName } from "../src/content/business-name.js";
 import { siteSpecDatasetSchema } from "../src/site-specs/schema.js";
 
 type Args = {
@@ -166,7 +167,9 @@ ${remakeContext.cssExcerpt ?? "No CSS excerpt available."}
 `
       : "";
 
-  return `# Site Brief ${index + 1}: ${business.name}
+  const displayName = businessDisplayName(business);
+
+  return `# Site Brief ${index + 1}: ${displayName}
 
 ## Goal
 
@@ -188,7 +191,8 @@ Write or refine one \`SiteSpec\` for this business and create its real frontend 
 
 - id: \`${business.id}\`
 - slug: \`${business.slug}\`
-- name: ${business.name}
+- name: ${displayName}
+- source name: ${business.name}
 - category: ${business.category}
 - inferred profile: ${profile.rubro}
 - requested segment: ${args.segment}
@@ -358,7 +362,7 @@ Each remake brief includes current HTML/CSS excerpts and screenshot paths when a
 
 Businesses:
 
-${businesses.map((business, index) => `${index + 1}. [${business.name}](./${business.slug}.md)`).join("\n")}
+${businesses.map((business, index) => `${index + 1}. [${businessDisplayName(business)}](./${business.slug}.md)`).join("\n")}
 `;
 }
 

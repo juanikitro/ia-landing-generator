@@ -1,5 +1,6 @@
 import type { Archetype } from "../archetypes/index.js";
 import type { Business } from "../content/business-schema.js";
+import { businessDisplayName } from "../content/business-name.js";
 import { parseOpeningHours, summarizeOpeningHours } from "../content/hours.js";
 import { businessAreaLabel } from "../content/location.js";
 import { buildBusinessProfile } from "../content/local-copy.js";
@@ -84,7 +85,7 @@ function renderReviews(business: Business): string {
 }
 
 function renderPhoto(business: Business, heroSrc: string, className = "hero-photo"): string {
-  return `<img class="${className}" src="${escapeHtml(heroSrc)}" alt="${escapeHtml(`Imagen principal de ${business.name}`)}" loading="eager">`;
+  return `<img class="${className}" src="${escapeHtml(heroSrc)}" alt="${escapeHtml(`Imagen principal de ${businessDisplayName(business)}`)}" loading="eager">`;
 }
 
 function renderServicePills(services: string[], className = "service-pills"): string {
@@ -416,9 +417,9 @@ function renderDocument(ctx: PageContext, content: string): string {
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>${escapeHtml(ctx.business.name)} | ${escapeHtml(ctx.profile.rubro)} en ${escapeHtml(ctx.area)}</title>
+    <title>${escapeHtml(businessDisplayName(ctx.business))} | ${escapeHtml(ctx.profile.rubro)} en ${escapeHtml(ctx.area)}</title>
     <meta name="description" content="${escapeHtml(
-      `${ctx.business.name}: ${ctx.profile.rubro} en ${ctx.area}. Contacto, horarios, reseñas y ubicación.`,
+      `${businessDisplayName(ctx.business)}: ${ctx.profile.rubro} en ${ctx.area}. Contacto, horarios, reseñas y ubicación.`,
     )}">
     <link rel="stylesheet" href="./styles.css">
   </head>
@@ -807,7 +808,7 @@ export function renderBusinessPage(business: Business, archetype: Archetype, des
     slug: business.slug,
     visual_mood: "workshop-trust",
     composition: "split-command",
-    headline: business.name,
+    headline: businessDisplayName(business),
     subheadline: profile.lead,
     primary_cta: profile.cta,
     secondary_cta: "Ver ubicacion",

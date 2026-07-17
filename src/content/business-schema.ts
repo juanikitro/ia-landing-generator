@@ -66,7 +66,10 @@ const sourceRecordSchema = z.object({
 
 export const businessSchema = z.object({
   id: z.string().min(1),
+  // Raw source name, kept for traceability against Google Places and other evidence.
   name: z.string().min(1),
+  // Curated public-facing name. Use this when source listings append descriptive text.
+  brand_name: z.string().min(1).optional(),
   slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
   category: z.string().min(1),
   is_vehicle_related: z.boolean(),

@@ -2,6 +2,7 @@ import { mkdir, readFile, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { approvedBusinesses, loadBusinesses } from "../content/load-businesses.js";
 import type { Business } from "../content/business-schema.js";
+import { businessDisplayName } from "../content/business-name.js";
 import { flagValue, resolveGeneratedDir } from "../generated-output.js";
 
 type Args = {
@@ -540,7 +541,7 @@ function commercialAudit(business: Business, service: string, contact: ContactCh
     public_signals_used: publicSignals(business),
     owner_data_to_request: ownerDataToRequest(service, contact),
     suggested_improvements: suggestedImprovements(service),
-    offer_angle: `La muestra ya ordena la informacion publica; la venta es dejarla lista para publicar con datos propios, canal confirmado y medicion de consultas por ${business.name}.`,
+    offer_angle: `La muestra ya ordena la informacion publica; la venta es dejarla lista para publicar con datos propios, canal confirmado y medicion de consultas por ${businessDisplayName(business)}.`,
   };
 }
 
@@ -822,7 +823,7 @@ async function main(): Promise<void> {
 
     const baseEntry = {
       slug: business.slug,
-      business_name: business.name,
+      business_name: businessDisplayName(business),
       landing_url: landingUrl(args, site),
       landing_path,
       service,

@@ -2,6 +2,7 @@
   {
     "id": "google-ChIJaUSB-G17GpYRB7RJDo88-1M",
     "name": "Sandrik - Alquiler ropa nieve",
+    "brand_name": "Sandrik",
     "slug": "sandrik-alquiler-ropa-nieve",
     "category": "Clothing Store",
     "is_vehicle_related": false,
@@ -168,6 +169,7 @@
   {
     "id": "google-ChIJf4qhOgx7GpYREEzF6DsyzHk",
     "name": "SRN.Rental Alquiler de Ropa de nieve - Ski & snowboard",
+    "brand_name": "SRN Rental",
     "slug": "srn-rental-alquiler-de-ropa-de-nieve-ski-snowboard",
     "category": "Services",
     "is_vehicle_related": false,
