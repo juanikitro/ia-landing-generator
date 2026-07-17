@@ -176,6 +176,7 @@ function page(title, body, { guarded = false } = {}) {
         cursor: pointer;
       }
       .button.secondary { background: transparent; color: var(--ink); border-color: var(--line); }
+      .message-actions { margin: 8px 0 10px; }
       .section {
         margin-top: 18px;
         padding: 20px;
@@ -324,8 +325,22 @@ function listItems(items) {
   return values.length ? `<ul>${values.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : "<p>No informado.</p>";
 }
 
-function messageBlock(label, value) {
-  return `<h3>${escapeHtml(label)}</h3><pre>${escapeHtml(value || "No informado.")}</pre>`;
+function whatsappMessageUrl(contacts, message) {
+  const values = Array.isArray(contacts) ? contacts : [];
+  const whatsapp = values.find((contact) => ["whatsapp", "whatsapp_probable"].includes(contact?.medium) && typeof contact?.href === "string");
+  const baseUrl = whatsapp?.href?.replace(/\?.*$/u, "") || "https://wa.me/";
+  return `${baseUrl}?text=${encodeURIComponent(message || "")}`;
+}
+
+function messageBlock(label, value, contacts) {
+  const message = value || "No informado.";
+  const encodedMessage = encodeURIComponent(message);
+  return `<h3>${escapeHtml(label)}</h3>
+    <div class="links message-actions">
+      <button class="button secondary" type="button" data-message="${encodedMessage}" onclick="const text=decodeURIComponent(this.dataset.message);if(navigator.clipboard){navigator.clipboard.writeText(text).then(()=>{this.textContent='Copiado'}).catch(()=>window.prompt('Copiá el mensaje:',text));}else{window.prompt('Copiá el mensaje:',text);}">Copiar</button>
+      <a class="button" href="${escapeHtml(whatsappMessageUrl(contacts, message))}" target="_blank" rel="noopener">Abrir WhatsApp</a>
+    </div>
+    <pre>${escapeHtml(message)}</pre>`;
 }
 
 function safeContactHref(value) {
@@ -403,9 +418,9 @@ function studyPage(sessionName, slug, entry) {
       </section>
       <section class="section">
         <h2>Mensajes de outreach</h2>
-        ${messageBlock("Mensaje inicial", outreach.initial_message)}
-        ${messageBlock("Follow-up 24h", outreach.follow_up_24h)}
-        ${messageBlock("Follow-up 28h", outreach.follow_up_28h)}
+        ${messageBlock("Mensaje inicial", outreach.initial_message, contacts)}
+        ${messageBlock("Follow-up 24h", outreach.follow_up_24h, contacts)}
+        ${messageBlock("Follow-up 48h", outreach.follow_up_48h, contacts)}
         <h3>Objeciones</h3>
         ${objections.length ? objections.map((item) => `<p><strong>${escapeHtml(item.objection)}</strong><br>${escapeHtml(item.reply)}</p>`).join("") : "<p>No informado.</p>"}
       </section>

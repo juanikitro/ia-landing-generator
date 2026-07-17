@@ -45,6 +45,9 @@ function htmlPage(title, body) {
       .card { background: #fff; border: 1px solid #dfddd5; border-radius: 8px; padding: 16px; box-shadow: 0 1px 2px rgb(0 0 0 / 5%); }
       .meta { color: #66645d; font-size: 14px; margin: 6px 0 12px; }
       .links { display: flex; gap: 12px; flex-wrap: wrap; }
+      .button { appearance: none; border: 1px solid #174f8a; border-radius: 999px; background: #174f8a; color: #fff; padding: 8px 12px; font: inherit; font-weight: 700; text-decoration: none; cursor: pointer; }
+      .button.secondary { background: transparent; color: #174f8a; }
+      .message-actions { margin: 8px 0 10px; }
       .section { background: #fff; border: 1px solid #dfddd5; border-radius: 8px; padding: 18px; margin: 14px 0; }
       ul { padding-left: 22px; }
       li { margin: 6px 0; }
@@ -168,8 +171,22 @@ function contactList(contacts) {
     .join("")}</ul>`;
 }
 
-function messageBlock(label, value) {
-  return `<h3>${escapeHtml(label)}</h3><pre>${escapeHtml(value || "No informado.")}</pre>`;
+function whatsappMessageUrl(contacts, message) {
+  const values = Array.isArray(contacts) ? contacts : [];
+  const whatsapp = values.find((contact) => ["whatsapp", "whatsapp_probable"].includes(contact?.medium) && typeof contact?.href === "string");
+  const baseUrl = whatsapp?.href?.replace(/\?.*$/u, "") || "https://wa.me/";
+  return `${baseUrl}?text=${encodeURIComponent(message || "")}`;
+}
+
+function messageBlock(label, value, contacts) {
+  const message = value || "No informado.";
+  const encodedMessage = encodeURIComponent(message);
+  return `<h3>${escapeHtml(label)}</h3>
+    <div class="links message-actions">
+      <button class="button secondary" type="button" data-message="${encodedMessage}" onclick="const text=decodeURIComponent(this.dataset.message);if(navigator.clipboard){navigator.clipboard.writeText(text).then(()=>{this.textContent='Copiado'}).catch(()=>window.prompt('Copiá el mensaje:',text));}else{window.prompt('Copiá el mensaje:',text);}">Copiar</button>
+      <a class="button" href="${escapeHtml(whatsappMessageUrl(contacts, message))}" target="_blank" rel="noopener">Abrir WhatsApp</a>
+    </div>
+    <pre>${escapeHtml(message)}</pre>`;
 }
 
 async function renderStudy(res, sessionName, slug) {
@@ -221,9 +238,9 @@ async function renderStudy(res, sessionName, slug) {
     </section>
     <section class="section">
       <h2>Mensajes de outreach</h2>
-      ${messageBlock("Mensaje inicial", outreach.initial_message)}
-      ${messageBlock("Follow-up 24h", outreach.follow_up_24h)}
-      ${messageBlock("Follow-up 28h", outreach.follow_up_28h)}
+      ${messageBlock("Mensaje inicial", outreach.initial_message, contacts)}
+      ${messageBlock("Follow-up 24h", outreach.follow_up_24h, contacts)}
+      ${messageBlock("Follow-up 48h", outreach.follow_up_48h, contacts)}
       <h3>Objeciones</h3>
       ${objections.length ? objections.map((item) => `<p><strong>${escapeHtml(item.objection)}</strong><br>${escapeHtml(item.reply)}</p>`).join("") : "<p>No informado.</p>"}
     </section>`;

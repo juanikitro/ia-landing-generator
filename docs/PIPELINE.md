@@ -227,7 +227,7 @@ El estudio final cruza `generated/<sesion>/manifest.json`, el dataset de negocio
 - razon y confianza de la prioridad interna elegida para el lead score
 - lead score con prioridad, probabilidad de contacto, oportunidad, motivos y riesgos
 - mini auditoria comercial con problema que resuelve, señales publicas, datos a pedirle al dueño y mejoras vendibles
-- paquete de outreach con mensaje inicial personalizado a partir de una señal pública concreta, follow-ups de 24 y 28 horas y objeciones
+- paquete de outreach con mensaje inicial personalizado a partir de una señal pública concreta, follow-ups de 24 y 48 horas y objeciones
 
 El reporte tambien incluye un resumen ejecutivo con top 3 para contactar primero, contactos mas fuertes, mejores oportunidades, negocios que requieren validar canal y desglose de canales.
 

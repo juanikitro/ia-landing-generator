@@ -65,7 +65,7 @@ type ObjectionReply = {
 type OutreachPack = {
   initial_message: string;
   follow_up_24h: string;
-  follow_up_28h: string;
+  follow_up_48h: string;
   objection_replies: ObjectionReply[];
 };
 
@@ -532,11 +532,8 @@ ${entry.landing_url}
 La demo es sin compromiso. Si les interesa la idea, podemos coordinar una llamada breve para revisar qué cambiarían y contarles cómo sería adaptarla y dejarla publicada.
 
 Desde ya gracias por su tiempo y quedo a disposición por cualquier duda. Abrazo!`,
-    follow_up_24h: `Hola, espero que estés muy bien. Te escribo para retomar la demo que preparé para ${entry.business_name}. La armé a partir de la información pública que encontré, incluyendo ${entry.outreach_detail}. Si pudiste verla, me encantaría saber qué te pareció; si no, te dejo el link nuevamente:
-${entry.landing_url}`,
-    follow_up_28h: `Hola, ¿cómo estás? Paso una última vez por la demo de ${entry.business_name}. Entiendo que estos temas llevan tiempo, así que no hay ningún compromiso. Si la idea les interesa, podemos coordinar una llamada breve para revisar qué cambiarían y cómo adaptarla al negocio.
-
-${entry.landing_url}`,
+    follow_up_24h: `Hola, ¿cómo están? Les escribo por la demo que les envié ayer para ${entry.business_name}. ¿Pudieron verla? Me interesa saber qué les pareció.`,
+    follow_up_48h: `Hola, cierro por acá para no insistir. La demo queda disponible en ${entry.landing_url}. Si más adelante les interesa adaptarla y publicarla, quedo a disposición. Saludos, Juani.`,
     objection_replies: [
       {
         objection: "Ya tengo Instagram",
@@ -663,10 +660,10 @@ function renderOutreach(entry: StudyEntry): string[] {
     entry.outreach.follow_up_24h,
     "```",
     "",
-    "#### Follow-up 28 hs",
+    "#### Follow-up 48 hs",
     "",
     "```text",
-    entry.outreach.follow_up_28h,
+    entry.outreach.follow_up_48h,
     "```",
     "",
     "#### Objeciones",
