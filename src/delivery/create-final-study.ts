@@ -558,16 +558,23 @@ ${entry.landing_url}`,
   };
 }
 
-function concreteOutreachDetail(business: Business, service: string): string {
-  const review = business.reviews.find((item) => item.text.trim());
-  if (review?.author) {
-    const excerpt = review.text.trim().replace(/\s+/gu, " ").slice(0, 140).replace(/[.。]+$/u, "");
-    return `la reseña de ${review.author}, que destaca “${excerpt}”`;
+function concreteOutreachDetail(service: string): string {
+  switch (serviceFamily(service)) {
+    case "detailing":
+      return "la propuesta de estética vehicular que ofrecen";
+    case "wash":
+      return "el servicio de lavadero que ofrecen";
+    case "tire":
+      return "la propuesta que tienen para cubiertas y auxilio";
+    case "bodyshop":
+      return "el trabajo que hacen en chapa y pintura";
+    case "parts":
+      return "la propuesta que tienen para quienes buscan repuestos";
+    case "mechanic":
+      return "el servicio de taller y mantenimiento que ofrecen";
+    default:
+      return service.trim() ? `la propuesta de ${service.trim()} que ofrecen` : "la propuesta que tienen como negocio local";
   }
-  if (business.rating.reviews_count > 0) {
-    return `sus ${business.rating.reviews_count} reseñas con una calificación de ${business.rating.value.toFixed(1)} estrellas`;
-  }
-  return `la variedad de servicios que ofrecen en ${service}`;
 }
 
 function publicInfoSource(contacts: ContactChoice[]): string {
@@ -797,7 +804,7 @@ async function main(): Promise<void> {
       contacts,
       lead_score,
       commercial_audit,
-      outreach_detail: concreteOutreachDetail(business, service),
+      outreach_detail: concreteOutreachDetail(service),
       public_info_source: publicInfoSource(contacts),
     };
 
